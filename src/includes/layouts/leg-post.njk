@@ -1,0 +1,103 @@
+---
+permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug }}{% endif %}/index.html"
+---
+
+{% extends 'page.njk' %}
+
+{% block body %}
+  <h2>{{ title }}</h2>
+  {% if excerpt %}
+    <p class="excerpt italic my-4">{{ excerpt }}</p>
+  {% endif %}
+  <div class="flex flex-wrap">
+    <div class="w-full lg:w-4/12 order-last lg:order-first pr-4 pb-4">
+      {% for pic in pics[name] %}
+
+        <div class="leg-pic">
+          <img src="../../images/{{ pic.src }}" class="m-auto {% if pic.portrait %}leg-pic-portrait{% endif %}" alt="{{ pic.alt }}"/>
+          <p class="caption">{{ pic.caption }}</p>
+        </div>
+
+      {% endfor %}
+    </div>
+    <div class="w-full lg:w-5/12 pr-4 pb-4">
+      <div class="content">
+        {{ content | safe }}
+      </div>
+      {%- set nextPost = collections['post'] | getNextCollectionItem(page) %}
+      {%- if nextPost %}
+        <p class="uppercase text-xs mt-6">Next</p>
+        <p class="font-bold mb-2">
+          <a href="{{ nextPost.url | url }}">
+            <h4>{{ nextPost.data.title }}</h4>
+          </a>
+        </p>
+      {% endif %}
+      {%- set previousPost = collections['post'] | getPreviousCollectionItem(page) %}
+      {%- if previousPost %}
+        <p class="uppercase text-xs mt-6">Previous</p>
+        <p class="font-bold">
+          <a href="{{ previousPost.url | url }}">
+            <h4>{{ previousPost.data.title }}</h4>
+          </a>
+        </p>
+      {% endif %}
+    </div>
+    <div class="w-full lg:w-3/12 order-first lg:order-last bg-gray-800 p-4 mb-4">
+      <p>
+        <span class="text-white">Date:
+        </span>{{ date | dateDisplay }}</p>
+      <p>
+        <span class="text-white">Distance:
+        </span>{{ legs[name].distance }}km</p>
+      <p>
+        <span class="text-white">Climb:
+        </span>{{ legs[name].climb }}m</p>
+      <p>
+        <span class="text-white">Time:
+        </span>{{ legs[name].time | formatMins }}</p>
+      <div class="my-2">
+        <p class="my-1">
+          <span class="text-white">From:
+          </span>{{ legs[name].from }}
+        </p>
+        <p class="my-1">
+          <span class="text-white">To:
+          </span>{{ legs[name].to }}
+        </p>
+        <p class="my-1">
+          <span class="text-white">Snack:
+          </span>{{ legs[name].snack }}
+        </p>
+      </div>
+      {% LegMap name %}
+      {% if tags %}
+        <div class="m-2">
+          {% for tag in tags %}
+            {%- if tag !== "post" -%}
+              <a class="tag {{ tag | replace('.', '') }}" href="{{ site.baseUrl }}tag/{{ tag }}">{{ tag }}</a>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+      {% endif %}
+      {%- set nextPost = collections['post'] | getNextCollectionItem(page) %}
+      {%- if nextPost %}
+        <p class="uppercase text-xs mt-6">Next</p>
+        <p class="font-bold mb-2">
+          <a href="{{ nextPost.url | url }}">
+            <h4>{{ nextPost.data.title }}</h4>
+          </a>
+        </p>
+      {% endif %}
+      {%- set previousPost = collections['post'] | getPreviousCollectionItem(page) %}
+      {%- if previousPost %}
+        <p class="uppercase text-xs mt-6">Previous</p>
+        <p class="font-bold">
+          <a href="{{ previousPost.url | url }}">
+            <h4>{{ previousPost.data.title }}</h4>
+          </a>
+        </p>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}

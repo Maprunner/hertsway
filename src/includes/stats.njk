@@ -1,0 +1,19 @@
+<h2>Running totals</h2>
+<div class="container m-auto flex flex-wrap items-start pb-2">
+  <div class="mx-8">
+    <p class="stat-title">Legs</p>
+    <p class="stat">{{ stats.totalLegs }}</p>
+  </div>
+  <div class="mx-8">
+    <p class="stat-title">Distance</p>
+    <p class="stat">{{ stats.totalDistance }}km</p>
+  </div>
+  <div class="mx-8">
+    <p class="stat-title">Climb</p>
+    <p class="stat">{{ stats.totalClimb }}m</p>
+  </div>
+  <div class="mx-8">
+    <p class="stat-title">Time</p>
+    <p class="stat">{{ stats.totalTime | formatMins }}</p>
+  </div>
+</div>

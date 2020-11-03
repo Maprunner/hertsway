@@ -1,0 +1,15 @@
+{
+  "main": [
+    {
+      "label": "Posts",
+      "url": "post/"
+    },    {
+      "label": "Map",
+      "url": "map/"
+    },
+    {
+      "label": "About",
+      "url": "about/"
+    }
+  ]
+}
