@@ -73,23 +73,25 @@ if (DEV_MODE && document.getElementById('devGPX')) {
       const minDist = 10
 
       // second pass through gets limits of track and deletes trkpoints where we haven't moved much
-      for (let i = 0; i < lines.length; i = i + 1) {
-        // if we have a full tr
+      for (let i = 0; i < newlines.length; i = i + 1) {
+        // if we are processing a trkpt
         if (inTrk) {
-          if (lines[i].indexOf('</trkpt') > -1) {
+          if (newlines[i].indexOf('</trkpt') > -1) {
+            // found the end so decide if we need to keep it
             inTrk = false
             const dist = getLatLonDistance(currentLat, currentLon, lat, lon)
             for (let j = startTrk; j <= i; j = j + 1) {
               useLines[j] = dist > minDist ? true : false
             }
             if (dist > minDist) {
-              console.log(dist)
+              //console.log(dist)
               currentLat = lat
               currentLon = lon
             }
           }
         } else {
-          if (lines[i].indexOf('<trkpt') > -1) {
+          // check for start of new trkpt
+          if (newlines[i].indexOf('<trkpt') > -1) {
             inTrk = true
             startTrk = i
             const bits = lines[i].split('"')
@@ -177,6 +179,7 @@ const legsLonLat = [
   [-0.26, 51.9],
   [-0.27, 51.85],
   [-0.29, 51.81],
+  [-0.32, 51.76],
 ]
 
 // overview map

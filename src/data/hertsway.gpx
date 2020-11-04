@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1"
-creator="OCAD 2020.5.4.3190" version="1.1"
+creator="OCAD 2020.5.5.3227" version="1.1"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.topografix.com/GPX/1/1 
 http://www.topografix.com/GPX/1/1/gpx.xsd">
 
   <metadata>
-    <name>hertsway-overview.gpx</name>
+    <name>hertsway.gpx</name>
     <desc>Hertsway</desc>
     <author><name>Maprunner</name></author>
     <link href="http://www.ocad.com">
       <text>OCAD AG</text>
     </link>
-    <time>2020-11-01T14:06:07</time>
+    <time>2020-11-04T14:50:14</time>
     <bounds maxlat="52.04463844" maxlon="0.18176027" minlat="51.67240224" minlon="-0.62438806"/>
   </metadata>
 
@@ -42,6 +42,10 @@ http://www.topografix.com/GPX/1/1/gpx.xsd">
   </wpt>
   <wpt lat="51.78102461" lon="-0.30523995" >
     <name>wpt8</name>
+    <cmt>Mill</cmt>
+  </wpt>
+  <wpt lat="51.75284860" lon="-0.35514289" >
+    <name>wpt9</name>
     <cmt>Mill</cmt>
   </wpt>
   <trk>
@@ -1197,25 +1201,16 @@ http://www.topografix.com/GPX/1/1/gpx.xsd">
       <trkpt lat="51.75635849" lon="-0.36285012" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.75372853" lon="-0.35707669" >
+      <trkpt lat="51.75358631" lon="-0.35675171" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.75215337" lon="-0.35222752" >
+      <trkpt lat="51.75297108" lon="-0.35499083" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.74836033" lon="-0.35113094" >
+      <trkpt lat="51.75389481" lon="-0.35647286" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.74908571" lon="-0.34581438" >
-        <name>trk1</name>
-      </trkpt>
-      <trkpt lat="51.75163571" lon="-0.34602706" >
-        <name>trk1</name>
-      </trkpt>
-      <trkpt lat="51.75418702" lon="-0.35107966" >
-        <name>trk1</name>
-      </trkpt>
-      <trkpt lat="51.75434492" lon="-0.35569303" >
+      <trkpt lat="51.75701211" lon="-0.35352278" >
         <name>trk1</name>
       </trkpt>
       <trkpt lat="51.75841278" lon="-0.35302056" >
@@ -1230,7 +1225,7 @@ http://www.topografix.com/GPX/1/1/gpx.xsd">
       <trkpt lat="51.77054310" lon="-0.35732622" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.77459710" lon="-0.35443624" >
+      <trkpt lat="51.77456947" lon="-0.35520622" >
         <name>trk1</name>
       </trkpt>
       <trkpt lat="51.77874458" lon="-0.35210570" >
@@ -1239,10 +1234,13 @@ http://www.topografix.com/GPX/1/1/gpx.xsd">
       <trkpt lat="51.78257193" lon="-0.34834348" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.78439333" lon="-0.34536550" >
+      <trkpt lat="51.78408224" lon="-0.34552878" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.78269970" lon="-0.34205745" >
+      <trkpt lat="51.78267547" lon="-0.34376989" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.78315828" lon="-0.34245099" >
         <name>trk1</name>
       </trkpt>
       <trkpt lat="51.78100507" lon="-0.33950368" >
@@ -1254,10 +1252,10 @@ http://www.topografix.com/GPX/1/1/gpx.xsd">
       <trkpt lat="51.78337357" lon="-0.33131658" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.78319917" lon="-0.32443924" >
+      <trkpt lat="51.78315649" lon="-0.32138221" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.78227693" lon="-0.31751932" >
+      <trkpt lat="51.78222281" lon="-0.31672504" >
         <name>trk1</name>
       </trkpt>
       <trkpt lat="51.78101759" lon="-0.31121422" >
@@ -1290,7 +1288,10 @@ http://www.topografix.com/GPX/1/1/gpx.xsd">
       <trkpt lat="51.79673964" lon="-0.27224713" >
         <name>trk1</name>
       </trkpt>
-      <trkpt lat="51.79909906" lon="-0.27664489" >
+      <trkpt lat="51.79878573" lon="-0.27670729" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.79919047" lon="-0.27632025" >
         <name>trk1</name>
       </trkpt>
       <trkpt lat="51.80139558" lon="-0.28183022" >

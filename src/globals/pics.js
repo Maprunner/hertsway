@@ -273,7 +273,7 @@ module.exports = {
     {
       src: 'leg6-gate-sign.jpg',
       alt: "Entrance to Devil's Dyke",
-      caption: " Left gate post at entrance to Devil's Dyke",
+      caption: "Left gate post at entrance to Devil's Dyke",
       portrait: true,
     },
     {
@@ -347,6 +347,23 @@ module.exports = {
       src: 'leg6-stones.jpg',
       alt: 'Field full of stones',
       caption: 'Fields full of stones',
+    },
+  ],
+  leg7: [
+    {
+      src: 'leg7-museum.jpg',
+      alt: 'Verulamium museum',
+      caption: 'Verulamium museum',
+    },
+    {
+      src: 'leg7-holy-well.jpg',
+      alt: 'Holy well in St Albans',
+      caption: 'Holy well on Holywell Hill',
+    },
+    {
+      src: 'leg7-sopwell.jpg',
+      alt: 'Ruins at Sopwell',
+      caption: 'Sopwell Nunnery',
     },
   ],
 }
