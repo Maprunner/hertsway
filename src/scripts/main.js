@@ -80,13 +80,16 @@ if (DEV_MODE && document.getElementById('devGPX')) {
             // found the end so decide if we need to keep it
             inTrk = false
             const dist = getLatLonDistance(currentLat, currentLon, lat, lon)
-            for (let j = startTrk; j <= i; j = j + 1) {
-              useLines[j] = dist > minDist ? true : false
-            }
             if (dist > minDist) {
-              //console.log(dist)
+              if (dist > 20) {
+                console.log(dist)
+              }
               currentLat = lat
               currentLon = lon
+            } else {
+              for (let j = startTrk; j <= i; j = j + 1) {
+                useLines[j] = false
+              }
             }
           }
         } else {
@@ -94,9 +97,12 @@ if (DEV_MODE && document.getElementById('devGPX')) {
           if (newlines[i].indexOf('<trkpt') > -1) {
             inTrk = true
             startTrk = i
-            const bits = lines[i].split('"')
+            const bits = newlines[i].split('"')
             lat = parseFloat(bits[1])
             lon = parseFloat(bits[3])
+            if (isNaN(lat) || isNaN(lon)) {
+              console.log('Lat/Lon error: ', newlines[i])
+            }
             maxLat = Math.max(maxLat, lat)
             minLat = Math.min(minLat, lat)
             maxLon = Math.max(maxLon, lon)

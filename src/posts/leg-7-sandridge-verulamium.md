@@ -28,29 +28,21 @@ From the top of the hill we could see down into Sandridge with the church spire 
 
 The south western edge of Heartwood is marked by the Midland Main Line and we crossed it over a brick bridge leading into a farmyard. The highlight of the local bird life appeared to be the collared dove on the barn roof until I spotted two rheas in an enclosed courtyard. Alpacas and rheas: Hertfordshire wildlife at its best. A short stretch on a farm track through ploughed fields and past the St Albans School playing fields, and we reached the Harpenden Road.
 
-The next section took us through Childwickbury. Gatehouse. Church Big houses. Trespassing signs
+The next section took us through the [Childwickbury Estate](http://www.harpenden-history.org.uk/page_id__396.aspx). The Gatehouse on the Harpenden Road is built in Scottish baronial style complete with turrets and an intricate carved stone sign showing the date of 1897. Childwick Green consists of several large and impressive houses with the small Church of St Mary hiding behind neatly sculpted hedges. And then it was down the main drive towards A road of to the left offers glimpses of what anywhere else would be the main house and grounds. But that is just the outbuildings: Childwickbury Manor itself is behind high walls and hedges further down the drive, and you never really get a good view. Famously this is where Stanley Kubrick lived in the days when he was inventing the Hertfordshire film industry, and the Manor
 
 Heron
 
 Cows and water tower.
 
-After getting a bit behind whilst I took photos, I caught up with Helen to find her deep in discussion with a walker going the opposite way.This turned out to be a member of Chigwell Orienteering Club who was walking the Hertfordshire Way clockwise and so was getting quite close to the end at Royston. He recognised Helen from the top she was wearing. It turned out that he had entered the event scheduled for Stanborough onSaturday which was one of the first casualties of Lockdown 2.0. 
+After getting a bit behind whilst I took photos, I caught up with Helen to find her deep in discussion with a walker going the opposite way.This turned out to be a member of Chigwell Orienteering Club who was walking the Hertfordshire Way clockwise and so was getting quite close to the end at Royston. He recognised Helen from the top she was wearing. It turned out that he had entered the event scheduled for Stanborough on Saturday which was one of the first casualties of Lockdown 2.0.
 
-Batchwood
-
-Golf
-
-Snacks
-
-Views of Ver valley towards Gorhambury.
+Batchwood was now in view to the left with the golf course behind it. We passed the entrance to the goat farm and walked along the edge of the pine plantation before emerging into the open fields with views across the Ver valley to Gorhambury and beyond. Just round the corner we got the first view of St Albans Abbey emerging above the trees on the skyline, and decided this was as good a place as any for a snack break. We could see Verulamium down to the left as well and then the River Ver and the Redbourn road running very close below us. Gorhambury House was visible on the far hillside and we were perfectly lined up with the avenue of trees leading up to it.
 
 Cross Ver. We checked out the start of the road into Gorhambury to try to find out if it would be open at the weekend for the start of the leg to Redbourn. It had been closed permanently during the first lockdown, but the women in the ticket office still didn't know what was going to be happening.
 
-All that was left was to take the standard photos in St Michael's Church and then we emerged into the museum car park at Verulamium and the end of today's section of the Hertfordshire Way. Now we just had to make our way home via whatever tourist attractions we felt like visiting. Helen was also keen to go into the city to do a couple of things before everything close down again. So we set off towards the lakes.
+All that was left was to take the standard photos in St Michael's Church and then we went out through the side gate in the churchyard into the museum car park at Verulamium. This is the start of the [St Albans parkrun](https://www.parkrun.org.uk/stalbans/) and the end of today's section of the Hertfordshire Way. Now we just had to make our way home via whatever tourist attractions we felt like visiting. Helen was also keen to go into the city to do a couple of things before everything closed down again. So we set off towards the lakes. I mentally noted that the new play area that has replaced the tennis courts will need to be added to the [orienteering map](https://www.happyherts.routegadget.co.uk/rg2/#347), but probably not before the Saturday Series planned for December which is another lockdown victim.
 
-Verulamium museum. parkrun.
-
-Birds on lake.
+I managed a few photos of the bird life on the lake even though it was no more than the standard selection of coot, moorhen, mute swan, canada goose, black-headed gull and another camera-shy heron that stayed safely in the trees on the island.
 
 Roman wall
 
@@ -61,7 +53,6 @@ Abbey Orchard.
 Blue sky, The recent restoration work was now complete and all the scaffolding had been removed so you could appreciate quite how big a building this is. We headed between the West entrance and Abbey Gateway which is no part of St Albans School. The school was the start and finish for the [St Albans City Race](https://www.happyherts.routegadget.co.uk/rg2/#122) in 2014.
 
 Gateway and school. Steven Hawking.
-
 
 Closed roads.
 
@@ -79,4 +70,4 @@ Alban Way. Watercress Beds shut.
 
 We settled for a steady run home along the [Alban Way](https://www.hertfordshire.gov.uk/media-library/documents/environment-and-planning/countryside-management-service/walking-and-cycling-routes/alban-way-cycle.pdf), which follows the route of the former railway between St Albans and Hatfield. Two huge brick arches take it under the London Road and the Midland Main Line railway. Then we crossed the path that I used to take when walking to and from the station for the train into London. I had averaged two or three trips a week into London for the past 20 years, but that all stopped in March. I haven't been at all since then and may never do it again, at least for work.
 
-We pass Fleetville School and Morrisons. We got to know this route first when walking the boys to and from school. And then a final detour to the Spar shop to get the newspaper before reaching the car which was still there on the drive where it had been all day. Helen described it as a "weird" day, which indeed it was. But the good news is that it is done, we have made from Royston to St Albans and we can now press on west to Redbourn and beyond. Although we do of course come back this way later when we pass through Shenley, five kilometres south of home, which should hopefully be somewhen early next year. 
+We pass Fleetville School and Morrisons. We got to know this route first when walking the boys to and from school. And then a final detour to the Spar shop to get the newspaper before reaching the car which was still there on the drive where it had been all day. Helen described it as a "weird" day, which indeed it was. But the good news is that it is done, we have done the south western section from Royston to St Albans and we can now press on north west to Redbourn and beyond. Although we do of course come back this way when we pass through Shenley, five kilometres south of home, which should hopefully be early next year.

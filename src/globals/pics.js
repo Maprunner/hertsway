@@ -356,9 +356,14 @@ module.exports = {
       caption: 'Autumn colours near Sandridge',
     },
     {
+      src: 'leg7-red-kite.jpg',
+      alt: 'Red kite',
+      caption: 'Red kite - Blue sky',
+    },
+    {
       src: 'leg7-ivy.jpg',
       alt: 'Ivy',
-      caption: 'Ivy',
+      caption: 'Ivy in Heartwood',
       portrait: true,
     },
     {
@@ -368,8 +373,8 @@ module.exports = {
     },
     {
       src: 'leg7-spire.jpg',
-      alt: 'Spire on Church of St Mary',
-      caption: 'Spire on Church of St Mary',
+      alt: 'Bell tower on Church of St Mary',
+      caption: 'Bell tower on Church of St Mary',
       portrait: true,
     },
     {
