@@ -351,9 +351,72 @@ module.exports = {
   ],
   leg7: [
     {
+      src: 'leg7-leaves.jpg',
+      alt: 'Autumn colours near Sandridge',
+      caption: 'Autumn colours near Sandridge',
+    },
+    {
+      src: 'leg7-ivy.jpg',
+      alt: 'Ivy',
+      caption: 'Ivy',
+      portrait: true,
+    },
+    {
+      src: 'leg7-st-mary.jpg',
+      alt: 'Church of St Mary at Childwickbury',
+      caption: 'Church of St Mary at Childwickbury',
+    },
+    {
+      src: 'leg7-spire.jpg',
+      alt: 'Spire on Church of St Mary',
+      caption: 'Spire on Church of St Mary',
+      portrait: true,
+    },
+    {
+      src: 'leg7-cows.jpg',
+      alt: 'Cows near Childwickbury',
+      caption: 'Cows and ruined water tower at Childwickbury',
+    },
+    {
+      src: 'leg7-gorhambury.jpg',
+      alt: 'Gorhambury House',
+      caption: 'Gorhambury House across the Ver valley',
+    },
+    {
+      src: 'leg7-st-michaels.jpg',
+      alt: "St Michael's Church",
+      caption: "St Michael's Church",
+      portrait: true,
+    },
+    {
       src: 'leg7-museum.jpg',
       alt: 'Verulamium museum',
       caption: 'Verulamium museum',
+    },
+    {
+      src: 'leg7-abbey.jpg',
+      alt: 'St Albans Abbey',
+      caption: 'St Albans Abbey',
+    },
+    {
+      src: 'leg7-abbey-big.jpg',
+      alt: 'St Albans Abbey',
+      caption: 'The full length of St Albans Abbey',
+    },
+    {
+      src: 'leg7-romeland.jpg',
+      alt: 'Rome Land sign',
+      caption: 'Rome Land Hill sign',
+    },
+    {
+      src: 'leg7-clock-tower.jpg',
+      alt: 'Sign on clock tower',
+      caption: 'Sign on Clock Tower',
+    },
+    {
+      src: 'leg7-abbey-east-end.jpg',
+      alt: 'St Albans Abbey',
+      caption: 'East end of St Albans Abbey',
     },
     {
       src: 'leg7-holy-well.jpg',
