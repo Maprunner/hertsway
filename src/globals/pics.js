@@ -351,20 +351,30 @@ module.exports = {
   ],
   leg7: [
     {
-      src: 'leg7-leaves.jpg',
-      alt: 'Autumn colours near Sandridge',
-      caption: 'Autumn colours near Sandridge',
+      src: 'leg7-alpaca.jpg',
+      alt: 'Alpaca at Oaklands College',
+      caption: 'Alpaca at Oaklands College',
     },
     {
       src: 'leg7-red-kite.jpg',
       alt: 'Red kite',
-      caption: 'Red kite - Blue sky',
+      caption: 'Red kite in a blue sky',
+    },
+    {
+      src: 'leg7-leaves.jpg',
+      alt: 'Autumn colours near Sandridge',
+      caption: 'Autumn colours near Sandridge',
     },
     {
       src: 'leg7-ivy.jpg',
       alt: 'Ivy',
       caption: 'Ivy in Heartwood',
       portrait: true,
+    },
+    {
+      src: 'leg7-gate-date.jpg',
+      alt: 'Date on gatehouse at Childwickbury',
+      caption: 'Date on gatehouse at Childwickbury',
     },
     {
       src: 'leg7-st-mary.jpg',
@@ -388,6 +398,11 @@ module.exports = {
       caption: 'Gorhambury House across the Ver valley',
     },
     {
+      src: 'leg7-tree.jpg',
+      alt: 'Autumn colour',
+      caption: 'View from the snack stop',
+    },
+    {
       src: 'leg7-st-michaels.jpg',
       alt: "St Michael's Church",
       caption: "St Michael's Church",
@@ -399,6 +414,16 @@ module.exports = {
       caption: 'Verulamium museum',
     },
     {
+      src: 'leg7-canada-goose.jpg',
+      alt: 'Canada goose',
+      caption: 'Canada goose on the lake in Verulamium',
+    },
+    {
+      src: 'leg7-fighting-cocks-sign.jpg',
+      alt: 'Sign on Ye Olde Fighting Cocks',
+      caption: 'Sign on Ye Olde Fighting Cocks',
+    },
+    {
       src: 'leg7-abbey.jpg',
       alt: 'St Albans Abbey',
       caption: 'St Albans Abbey',
@@ -406,7 +431,12 @@ module.exports = {
     {
       src: 'leg7-abbey-big.jpg',
       alt: 'St Albans Abbey',
-      caption: 'The full length of St Albans Abbey',
+      caption: 'All 65m of the nave of St Albans Abbey',
+    },
+    {
+      src: 'leg7-gateway.jpg',
+      alt: 'Abbey Gateway',
+      caption: 'Abbey Gateway',
     },
     {
       src: 'leg7-romeland.jpg',
