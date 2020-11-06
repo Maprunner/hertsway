@@ -144,15 +144,18 @@ var style = {
       }),
     }),
   }),
-  LineString: new Style({
+  MultiLineString: new Style({
     stroke: new Stroke({
       color: '#f00',
       width: 3,
     }),
   }),
+}
+
+var backStyle = {
   MultiLineString: new Style({
     stroke: new Stroke({
-      color: '#f00',
+      color: '#00f',
       width: 3,
     }),
   }),
@@ -189,7 +192,7 @@ const legsLonLat = [
 ]
 
 // overview map
-const ovGPXLayer = new VectorLayer({
+const thereGPXLayer = new VectorLayer({
   source: new VectorSource({
     url: '../data/hertsway.gpx',
     format: new GPX(),
@@ -199,13 +202,24 @@ const ovGPXLayer = new VectorLayer({
   },
 })
 
-let layers = [
+const backGPXLayer = new VectorLayer({
+  source: new VectorSource({
+    url: '../data/hertsway-back.gpx',
+    format: new GPX(),
+  }),
+  style: function (feature) {
+    return backStyle[feature.getGeometry().getType()]
+  },
+})
+
+let ovLayers = [
   new TileLayer({
     source: new XYZ({
       url: 'https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png',
     }),
   }),
-  ovGPXLayer,
+  backGPXLayer,
+  thereGPXLayer,
 ]
 
 // individual leg maps
@@ -240,7 +254,7 @@ for (let i = 0; i < legsLonLat.length; i = i + 1) {
 // overview map
 new Map({
   target: 'map',
-  layers: layers,
+  layers: ovLayers,
   view: new View({
     center: fromLonLat(hertsLonLat),
     zoom: 10,
