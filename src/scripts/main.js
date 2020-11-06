@@ -73,28 +73,36 @@ if (DEV_MODE && document.getElementById('devGPX')) {
       const minDist = 10
 
       // second pass through gets limits of track and deletes trkpoints where we haven't moved much
-      for (let i = 0; i < lines.length; i = i + 1) {
-        // if we have a full tr
+      for (let i = 0; i < newlines.length; i = i + 1) {
+        // if we are processing a trkpt
         if (inTrk) {
-          if (lines[i].indexOf('</trkpt') > -1) {
+          if (newlines[i].indexOf('</trkpt') > -1) {
+            // found the end so decide if we need to keep it
             inTrk = false
             const dist = getLatLonDistance(currentLat, currentLon, lat, lon)
-            for (let j = startTrk; j <= i; j = j + 1) {
-              useLines[j] = dist > minDist ? true : false
-            }
             if (dist > minDist) {
-              console.log(dist)
+              if (dist > 20) {
+                console.log(dist)
+              }
               currentLat = lat
               currentLon = lon
+            } else {
+              for (let j = startTrk; j <= i; j = j + 1) {
+                useLines[j] = false
+              }
             }
           }
         } else {
-          if (lines[i].indexOf('<trkpt') > -1) {
+          // check for start of new trkpt
+          if (newlines[i].indexOf('<trkpt') > -1) {
             inTrk = true
             startTrk = i
-            const bits = lines[i].split('"')
+            const bits = newlines[i].split('"')
             lat = parseFloat(bits[1])
             lon = parseFloat(bits[3])
+            if (isNaN(lat) || isNaN(lon)) {
+              console.log('Lat/Lon error: ', newlines[i])
+            }
             maxLat = Math.max(maxLat, lat)
             minLat = Math.min(minLat, lat)
             maxLon = Math.max(maxLon, lon)
@@ -177,6 +185,7 @@ const legsLonLat = [
   [-0.26, 51.9],
   [-0.27, 51.85],
   [-0.29, 51.81],
+  [-0.32, 51.76],
 ]
 
 // overview map

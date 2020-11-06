@@ -273,7 +273,7 @@ module.exports = {
     {
       src: 'leg6-gate-sign.jpg',
       alt: "Entrance to Devil's Dyke",
-      caption: " Left gate post at entrance to Devil's Dyke",
+      caption: "Left gate post at entrance to Devil's Dyke",
       portrait: true,
     },
     {
@@ -347,6 +347,116 @@ module.exports = {
       src: 'leg6-stones.jpg',
       alt: 'Field full of stones',
       caption: 'Fields full of stones',
+    },
+  ],
+  leg7: [
+    {
+      src: 'leg7-alpaca.jpg',
+      alt: 'Alpaca at Oaklands College',
+      caption: 'Alpaca  and jackdaw at Oaklands College',
+    },
+    {
+      src: 'leg7-red-kite.jpg',
+      alt: 'Red kite',
+      caption: 'Red kite in a blue sky',
+    },
+    {
+      src: 'leg7-leaves.jpg',
+      alt: 'Autumn colours near Sandridge',
+      caption: 'Autumn colours near Sandridge',
+    },
+    {
+      src: 'leg7-ivy.jpg',
+      alt: 'Ivy',
+      caption: 'Ivy in Heartwood',
+      portrait: true,
+    },
+    {
+      src: 'leg7-st-mary.jpg',
+      alt: 'Church of St Mary at Childwickbury',
+      caption: 'Church of St Mary at Childwickbury',
+    },
+    {
+      src: 'leg7-spire.jpg',
+      alt: 'Bell tower on Church of St Mary',
+      caption: 'Bell tower on Church of St Mary',
+      portrait: true,
+    },
+    {
+      src: 'leg7-cows.jpg',
+      alt: 'Cows near Childwickbury',
+      caption: 'Cows and ruined water tower at Childwickbury',
+    },
+    {
+      src: 'leg7-gorhambury.jpg',
+      alt: 'Gorhambury House',
+      caption: 'Gorhambury House across the Ver valley',
+    },
+    {
+      src: 'leg7-tree.jpg',
+      alt: 'Autumn colour',
+      caption: 'View from the snack stop',
+    },
+    {
+      src: 'leg7-st-michaels.jpg',
+      alt: "St Michael's Church",
+      caption: "St Michael's Church",
+      portrait: true,
+    },
+    {
+      src: 'leg7-museum.jpg',
+      alt: 'Verulamium museum',
+      caption: 'Verulamium museum',
+    },
+    {
+      src: 'leg7-canada-goose.jpg',
+      alt: 'Canada goose',
+      caption: 'Canada goose on the lake in Verulamium',
+    },
+    {
+      src: 'leg7-fighting-cocks.jpg',
+      alt: 'Sign on Ye Olde Fighting Cocks',
+      caption: 'Sign on Ye Olde Fighting Cocks',
+    },
+    {
+      src: 'leg7-abbey.jpg',
+      alt: 'St Albans Abbey',
+      caption: 'St Albans Abbey',
+    },
+    {
+      src: 'leg7-abbey-big.jpg',
+      alt: 'St Albans Abbey',
+      caption: 'All 65m of the nave of St Albans Abbey',
+    },
+    {
+      src: 'leg7-gateway.jpg',
+      alt: 'Abbey Gateway',
+      caption: 'Abbey Gateway',
+    },
+    {
+      src: 'leg7-romeland.jpg',
+      alt: 'Rome Land sign',
+      caption: 'Rome Land Hill sign',
+    },
+    {
+      src: 'leg7-clock-tower.jpg',
+      alt: 'Sign on clock tower',
+      caption: 'Sign on Clock Tower',
+    },
+    {
+      src: 'leg7-abbey-east-end.jpg',
+      alt: 'St Albans Abbey',
+      caption: 'East end of St Albans Abbey',
+    },
+    {
+      src: 'leg7-holy-well.jpg',
+      alt: 'Holy well in St Albans',
+      caption: 'Holy well on Holywell Hill',
+    },
+    {
+      src: 'leg7-sopwell.jpg',
+      alt: 'Ruins at Sopwell',
+      caption: 'Sopwell Nunnery',
     },
   ],
 }

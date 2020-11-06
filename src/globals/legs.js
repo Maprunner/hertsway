@@ -47,4 +47,12 @@ module.exports = {
     to: 'The Green Man, Sandridge',
     time: 180,
   },
+  leg7: {
+    distance: 20.7,
+    snack: 'Mince pies',
+    climb: 163,
+    from: 'The Green Man, Sandridge',
+    to: 'Verulamium Museum',
+    time: 215,
+  },
 }
