@@ -17,19 +17,19 @@ h6 {
 }
 
 h1 {
-  @apply text-5xl;
-}
-
-h2 {
-  @apply text-3xl;
-}
-
-h3 {
   @apply text-2xl;
 }
 
-h4 {
+h2 {
   @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+h4 {
+  @apply text-base;
 }
 
 a {
@@ -110,7 +110,7 @@ hr {
 }
 
 #hway-sign {
-  background-image: url(../images/leg1-hway-sign.jpg);
+  background-image: url(../images/leg1/leg1-hway-sign.jpg);
 }
 
 #devGPX {

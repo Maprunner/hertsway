@@ -1,15 +1,15 @@
-<h2>Latest posts</h2>
+<h1>Latest posts</h1>
 <div class="mt-4 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
     {% for post in collections.frontposts %}
         <div class="flex flex-col flex-1 px-4 py-4 bg-gray-800 rounded-lg shadow-lg">
             <div class="flex-1">
                 <div class="relative pb-5/6">
-                    <img class="h-auto w-full object-cover rounded-lg shadow-md" src="./images/{{ post.data.image }}" alt="">
+                    <img class="h-auto w-full object-cover rounded-lg shadow-md" src="./images/{{ post.data.name }}/{{ post.data.image }}" alt="">
                 </div>
                 <div class="p-3">
-                    <h4>
+                    <h2>
                         <a class="block" href="{{ post.url | url }}">{{ post.data.title }}</a>
-                    </h4>
+                    </h2>
                     {% if post.data.excerpt %}
                         <p class="italic my-2">{{ post.data.excerpt }}</p>
                     {% endif %}
