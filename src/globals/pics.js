@@ -353,7 +353,7 @@ module.exports = {
     {
       src: 'leg7-alpaca.jpg',
       alt: 'Alpaca at Oaklands College',
-      caption: 'Alpaca at Oaklands College',
+      caption: 'Alpaca  and jackdaw at Oaklands College',
     },
     {
       src: 'leg7-red-kite.jpg',
@@ -370,11 +370,6 @@ module.exports = {
       alt: 'Ivy',
       caption: 'Ivy in Heartwood',
       portrait: true,
-    },
-    {
-      src: 'leg7-gate-date.jpg',
-      alt: 'Date on gatehouse at Childwickbury',
-      caption: 'Date on gatehouse at Childwickbury',
     },
     {
       src: 'leg7-st-mary.jpg',
@@ -419,7 +414,7 @@ module.exports = {
       caption: 'Canada goose on the lake in Verulamium',
     },
     {
-      src: 'leg7-fighting-cocks-sign.jpg',
+      src: 'leg7-fighting-cocks.jpg',
       alt: 'Sign on Ye Olde Fighting Cocks',
       caption: 'Sign on Ye Olde Fighting Cocks',
     },
