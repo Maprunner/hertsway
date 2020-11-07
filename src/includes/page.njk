@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    {# Google Schema #}
-    <meta itemprop="name" content="{% if metaTitle %}{{ metaTitle }}{{ ' | '}}{% endif %}{% if title %}{{ title }}{{ ' | '}}{% endif %}{% if site.name %}{{ site.name }}{% endif %}">
-    <meta itemprop="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="title" content="{{ site.name }}">
+    <meta name="description" content="{{ site.description }}. {% if title %}{{ title }}{% endif %} {% if excerpt %}{{ excerpt }}{% endif %}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseUrl }}apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseUrl }}favicon-32x32.png">

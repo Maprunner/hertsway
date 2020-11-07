@@ -353,7 +353,7 @@ module.exports = {
     {
       src: 'leg7-alpaca.jpg',
       alt: 'Alpaca at Oaklands College',
-      caption: 'Alpaca  and jackdaw at Oaklands College',
+      caption: 'Alpaca and jackdaw at Oaklands College',
     },
     {
       src: 'leg7-red-kite.jpg',
@@ -457,6 +457,13 @@ module.exports = {
       src: 'leg7-sopwell.jpg',
       alt: 'Ruins at Sopwell',
       caption: 'Sopwell Nunnery',
+    },
+  ],
+  leg8: [
+    {
+      src: 'leg8-stonechat.jpg',
+      alt: 'Stonechat',
+      caption: 'Stonechat',
     },
   ],
 }

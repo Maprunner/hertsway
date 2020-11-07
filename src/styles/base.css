@@ -3,7 +3,7 @@
 
 html,
 body {
-  @apply antialiased text-gray-600 bg-gray-900;
+  @apply antialiased text-gray-500 bg-gray-900;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -126,7 +126,7 @@ hr {
 }
 
 .stat-title {
-  @apply text-base;
+  @apply text-lg;
 }
 
 .leg-pic {
