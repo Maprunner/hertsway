@@ -60,7 +60,7 @@ module.exports = {
     snack: 'Mince pies',
     climb: 195,
     from: 'Verulamium Museum',
-    to: "St Leonard's Chucrh, Flamstead",
+    to: "St Leonard's Church, Flamstead",
     time: 255,
   },
 }

@@ -14,7 +14,7 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
       {% for pic in pics[name] %}
 
         <div class="leg-pic">
-          <img src="../../images/{{ name }}/{{ pic.src }}" class="m-auto {% if pic.portrait %}leg-pic-portrait{% endif %}" alt="{{ pic.alt }}"/>
+          <img src="../../images/{{ name }}/{{ pic.src }}" class="m-auto {% if pic.portrait %}leg-pic-portrait{% endif %}" alt="{{ pic.caption }}"/>
           <p class="caption">{{ pic.caption }}</p>
         </div>
 
