@@ -176,11 +176,11 @@ module.exports = {
     },
     {
       src: 'leg5-bridge.jpg',
-        caption: 'Crossing the bridge in Hoo Park',
+      caption: 'Crossing the bridge in Hoo Park',
     },
     {
       src: 'leg5-codicote-sign.jpg',
-       caption: 'Village sign in Codicote',
+      caption: 'Village sign in Codicote',
     },
     {
       src: 'leg5-cars.jpg',
@@ -381,11 +381,11 @@ module.exports = {
     },
     {
       src: 'leg8-ford.jpg',
-      caption: "Ford at Redbournbury",
+      caption: 'Ford at Redbournbury',
     },
     {
       src: 'leg8-st-marys.jpg',
-      caption: "St Mary's Church at Redbourn",
+      caption: 'Church of St Mary at Redbourn',
     },
     {
       src: 'leg8-trowley.jpg',
