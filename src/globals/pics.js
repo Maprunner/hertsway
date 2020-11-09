@@ -384,8 +384,21 @@ module.exports = {
       caption: 'Ford at Redbournbury',
     },
     {
+      src: 'leg8-ver-redbournbury.jpg',
+      caption: 'River Ver at Redbournbury',
+    },
+    {
       src: 'leg8-st-marys.jpg',
       caption: 'Church of St Mary at Redbourn',
+    },
+    {
+      src: 'leg8-redbourn-spire.jpg',
+      caption: 'Sunlit spire on Church of St Mary at Redbourn',
+      portrait: true,
+    },
+    {
+      src: 'leg8-solar-panels.jpg',
+      caption: 'Solar panels next to the M1',
     },
     {
       src: 'leg8-trowley.jpg',
@@ -397,12 +410,40 @@ module.exports = {
       caption: "St Leonard's Church at Flamstead",
     },
     {
+      src: 'leg8-weathercock.jpg',
+      caption: 'Weathercock with starlings',
+    },
+    {
+      src: 'leg8-brick.jpg',
+      caption: "Brick and flint detail on St Leonard's Church",
+    },
+    {
       src: 'leg8-pumpkins.jpg',
-      caption: 'Pop-up pumpkin farm',
+      caption: 'Pop-up pumpkin farm by the M1',
+    },
+    {
+      src: 'leg8-pumpkin-pile.jpg',
+      caption: 'Pumpkins',
+    },
+    {
+      src: 'leg8-m1-j9.jpg',
+      caption: 'Teasels at Junction 9 on the M1',
     },
     {
       src: 'leg8-stonechat.jpg',
-      caption: 'Stonechat',
+      caption: 'Stonechat by River Ver',
+    },
+    {
+      src: 'leg8-stonechat-back.jpg',
+      caption: 'Stonechat from behind',
+    },
+    {
+      src: 'leg8-gantry.jpg',
+      caption: 'Agricultural research at Rothamsted',
+    },
+    {
+      src: 'leg8-heartwood.jpg',
+      caption: 'Midland Main Line and Heartwood Forest',
     },
     {
       src: 'leg8-puddingstone.jpg',
