@@ -119,6 +119,19 @@ hr {
 
 .read-more {
   @apply bg-teal-600 text-white text-lg font-bold py-2 px-4 rounded;
+  border: 1px solid transparent;
+}
+
+@keyframes read-more {
+  100% {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+}
+
+.read-more:hover {
+  animation: tag-hover 500ms both;
 }
 
 .stat {
