@@ -2,461 +2,456 @@ module.exports = {
   leg1: [
     {
       src: 'leg1-royston.jpg',
-      alt: 'Roy stone',
       caption: 'Helen at the Roy Stone',
     },
     {
       src: 'leg1-helen.jpg',
-      alt: 'Helen',
       caption: 'Helen on Therfield Heath',
     },
     {
       src: 'leg1-deer.jpg',
-      alt: 'Deer',
       caption: 'Deer near Therfield',
     },
     {
       src: 'leg1-walking.jpg',
-      alt: 'Walking',
       caption: 'Approaching Therfield',
     },
     {
       src: 'leg1-scenery.jpg',
-      alt: 'Clouds and scenery',
       caption: 'Blue sky and green fields',
       portrait: true,
     },
     {
       src: 'leg1-hill.jpg',
-      alt: 'Climbing up to Therfield',
       caption: 'Climbing up to Therfield',
     },
     {
       src: 'leg1-sandon.jpg',
-      alt: 'Sandon',
       caption: 'Church and village sign at Sandon',
     },
     {
       src: 'leg1-therfield-village.jpg',
-      alt: 'House in Therfield',
       caption: 'House in Therfield',
     },
     {
       src: 'leg1-icknield-way.jpg',
-      alt: 'Icknield Way',
       caption: 'Icknield Way sign',
     },
   ],
   leg2: [
     {
       src: 'leg2-hedgerow.jpg',
-      alt: 'Hedgerow',
       caption: 'Rose hip hedgerow',
     },
     {
       src: 'leg2-black-bryony.jpg',
-      alt: 'Black bryony',
       caption: 'Red berries of black bryony',
       portrait: true,
     },
     {
       src: 'leg2-red-kite.jpg',
-      alt: 'Red kite',
       caption: 'Red kite',
       portrait: true,
     },
     {
       src: 'leg2-helen-weston.jpg',
-      alt: "Jack O'Legs grave",
       caption: "Jack O'Legs grave at Weston church",
     },
     {
       src: 'leg2-scenery.jpg',
-      alt: 'Clothall',
       caption: 'Looking back towards Clothall',
       portrait: true,
     },
     {
       src: 'leg2-wallington-church.jpg',
-      alt: 'Wallington church',
       caption: 'Church of St Mary at Wallington',
     },
     {
       src: 'leg2-weather-vane.jpg',
-      alt: 'Weather vane',
       caption: 'Golden cockerel weather vane on the church at Wallington',
       portrait: true,
     },
     {
       src: 'leg2-beech.jpg',
-      alt: 'Autumn leaves',
       caption: 'Autumn beech leaves',
     },
   ],
   leg3: [
     {
       src: 'leg3-helen-a1m.jpg',
-      alt: 'Helen by the A1(M)',
       caption: 'Heading towards Letchworth parallel to the A1(M)',
     },
     {
       src: 'leg3-Chesfield.jpg',
-      alt: 'Chesfield',
       caption: 'Ruined church at Chesfield',
     },
     {
       src: 'leg3-graveley.jpg',
-      alt: 'Church at Graveley',
       caption: 'Church at Graveley',
     },
     {
       src: 'leg3-a1(m).jpg',
-      alt: 'Under the A1(M)',
       caption: 'Heading west under the A1(M) at Graveley',
     },
     {
       src: 'leg3-great-wymondley.jpg',
-      alt: 'Great Wymondley',
       caption: 'Church at Great Wymondley',
       portrait: true,
     },
     {
       src: 'leg3-ecml.jpg',
-      alt: 'ECML',
       caption: 'Going under the East Coast Main Line at Little Wymondley',
     },
     {
       src: 'leg3-plume-of-feathers.jpg',
-      alt: 'Plume of Feathers',
       caption: 'The Plume of Feathers in Little Wymondley',
     },
     {
       src: 'leg3-little-wymondley-church.jpg',
-      alt: 'Little Wymondley church',
       caption: 'Church at Little Wymondley',
     },
     {
       src: 'leg3-gothic-house.jpg',
-      alt: 'Gothic House',
       caption: 'Gothic House in Gravely',
     },
   ],
   leg4: [
     {
       src: 'leg4-team.jpg',
-      alt: 'Helen and James at Little Wymondley',
       caption: 'Helen and James at Little Wymondley',
       portrait: true,
     },
     {
       src: 'leg4-stagenhoe.jpg',
-      alt: 'Gates to Stagenhoe',
       caption: 'The gates to Stagenhoe',
     },
     {
       src: 'leg4-stag.jpg',
-      alt: 'Stag at Stagenhoe',
       caption: 'Stag on the gates at Stagenhoe',
     },
     {
       src: 'leg4-st-pauls-walden.jpg',
-      alt: "St Paul's Walden",
       caption: "Church at St Paul's Walden",
     },
     {
       src: 'leg4-queen-mother-memorial.jpg',
-      alt: "Queen Mother memorial at St Paul's Walden",
       caption: "Queen Mother memorial at St Paul's Walden",
       portrait: true,
     },
     {
       src: 'leg4-stained-glass.jpg',
-      alt: "Stained glass at St Paul's Walden",
       caption: "Stained glass at St Paul's Walden",
       portrait: true,
     },
     {
       src: 'leg4-mimram.jpg',
-      alt: 'River Mimran at Whitwell',
       caption: 'River Mimran at Whitwell',
     },
     {
       src: 'leg4-watercress.jpg',
-      alt: 'Watercress beds',
       caption:
         'Nine Wells watercress beds on the River Mimram complete with railway',
     },
     {
       src: 'leg4-st-albans-highway.jpg',
-      alt: 'St Albans Highway',
       caption: 'A minor road with a big name',
     },
     {
       src: 'leg4-snacks.jpg',
-      alt: 'Lunch stop',
       caption: 'Snack stop with views of the Lister Hospital',
     },
   ],
   leg5: [
     {
       src: 'leg5-helen.jpg',
-      alt: 'Helen in a field of sugar beet',
       caption: 'Helen in a field of sugar beet at Whitwell',
     },
     {
       src: 'leg5-sugar-beet.jpg',
-      alt: 'Sugar beet',
       caption: 'Sugar beet',
     },
     {
       src: 'leg5-beet-heap.jpg',
-      alt: 'Heap of sugar beet',
       caption: 'Large heap of sugar beet and a loading machine',
     },
     {
       src: 'leg5-bridge.jpg',
-      alt: 'Bridge in Hoo Park',
       caption: 'Crossing the bridge in Hoo Park',
     },
     {
       src: 'leg5-codicote-sign.jpg',
-      alt: 'Village sign in Codicote',
       caption: 'Village sign in Codicote',
     },
     {
       src: 'leg5-cars.jpg',
-      alt: 'Car collection',
       caption: 'Car collection on the way to Ayot St Lawrence',
     },
     {
       src: 'leg5-holly.jpg',
-      alt: 'Holly berries',
       caption: 'Holly berries',
     },
     {
       src: 'leg5-old-church.jpg',
-      alt: 'Old St Lawrence church',
       caption: 'Old St Lawrence church in Ayot St Lawrence',
     },
     {
       src: 'leg5-new-st-lawrence.jpg',
-      alt: 'New St Lawrence church',
       caption: 'Approaching New St Lawrence church in Ayot St Lawrence',
     },
     {
       src: 'leg5-new-church-back.jpg',
-      alt: 'New St Lawrence church',
       caption: 'The other side of New St Lawrence church',
     },
     {
       src: 'leg5-lamer-park.jpg',
-      alt: 'Lamer Park sign',
       caption: 'Lamer Park Farm sign: no llamas in sight',
     },
     {
       src: 'leg5-kimpton.jpg',
-      alt: 'Church in Kimpton',
       caption: 'Church in Kimpton',
     },
     {
       src: 'leg5-water-tower.jpg',
-      alt: 'Water Tower at Whitwell',
       caption: 'Water Tower at Whitwell',
     },
     {
       src: 'leg5-beet-harvest.jpg',
-      alt: 'Sugar beet harvesting',
       caption: 'Sugar beet harvesting',
     },
   ],
   leg6: [
     {
       src: 'leg6-gate-sign.jpg',
-      alt: "Entrance to Devil's Dyke",
       caption: "Left gate post at entrance to Devil's Dyke",
       portrait: true,
     },
     {
       src: 'leg6-memorial.jpg',
-      alt: "Entrance to Devil's Dyke",
       caption: "Right gate post at entrance to Devil's Dyke",
       portrait: true,
     },
     {
       src: 'leg6-helen-ditches.jpg',
-      alt: 'Helen',
       caption: "Helen running through the Devil's Dyke",
     },
     {
       src: 'leg6-chimney.jpg',
-      alt: "John Bunyan's cottage",
       caption: "John Bunyan's cottage (or at least a chimney)",
     },
     {
       src: 'leg6-sandridge-church.jpg',
-      alt: 'Church at Sandridge',
       caption: "St Leonard's Church, Sandridge",
     },
     {
       src: 'leg6-green-man.jpg',
-      alt: 'Green Man pub sign',
       caption: 'The Green Man at Sandridge',
       portrait: true,
     },
     {
       src: 'leg6-frog.jpg',
-      alt: 'Carved frog at Heartwood',
       caption: 'Carved wooden frog at Heartwood',
     },
     {
       src: 'leg6-tree-planting.jpg',
-      alt: 'Tree planting',
       caption: 'James planting trees in October 2012',
     },
     {
       src: 'leg6-grown-trees.jpg',
-      alt: 'Trees at Heartwood',
       caption: 'The same site eight years later',
     },
     {
       src: 'leg6-helen-heartwood.jpg',
-      alt: 'Running through Heartwood',
       caption: 'Running through the new trees',
     },
     {
       src: 'leg6-twisted-oak.jpg',
-      alt: 'Twisted oak',
       caption: 'Twisted oak on Nomansland Common',
     },
     {
       src: 'leg6-school.jpg',
-      alt: 'Old school at Wheathampstead',
       caption: 'Old Church School at Wheathampstead',
     },
     {
       src: 'leg6-pattern.jpg',
-      alt: 'Brick and flint zig-zags',
       caption: 'Brick and flint decoration on the Old Church School',
     },
     {
       src: 'leg6-wheathampstead-church.jpg',
-      alt: 'Church at Wheathampstead',
       caption: "St Helen's Church at Wheathampstead",
     },
     {
       src: 'leg6-stones.jpg',
-      alt: 'Field full of stones',
       caption: 'Fields full of stones',
     },
   ],
   leg7: [
     {
       src: 'leg7-alpaca.jpg',
-      alt: 'Alpaca at Oaklands College',
-      caption: 'Alpaca  and jackdaw at Oaklands College',
+      caption: 'Alpaca and jackdaw at Oaklands College',
     },
     {
       src: 'leg7-red-kite.jpg',
-      alt: 'Red kite',
       caption: 'Red kite in a blue sky',
     },
     {
       src: 'leg7-leaves.jpg',
-      alt: 'Autumn colours near Sandridge',
       caption: 'Autumn colours near Sandridge',
     },
     {
       src: 'leg7-ivy.jpg',
-      alt: 'Ivy',
       caption: 'Ivy in Heartwood',
       portrait: true,
     },
     {
       src: 'leg7-st-mary.jpg',
-      alt: 'Church of St Mary at Childwickbury',
       caption: 'Church of St Mary at Childwickbury',
     },
     {
       src: 'leg7-spire.jpg',
-      alt: 'Bell tower on Church of St Mary',
       caption: 'Bell tower on Church of St Mary',
       portrait: true,
     },
     {
       src: 'leg7-cows.jpg',
-      alt: 'Cows near Childwickbury',
       caption: 'Cows and ruined water tower at Childwickbury',
     },
     {
       src: 'leg7-gorhambury.jpg',
-      alt: 'Gorhambury House',
       caption: 'Gorhambury House across the Ver valley',
     },
     {
       src: 'leg7-tree.jpg',
-      alt: 'Autumn colour',
       caption: 'View from the snack stop',
     },
     {
       src: 'leg7-st-michaels.jpg',
-      alt: "St Michael's Church",
       caption: "St Michael's Church",
       portrait: true,
     },
     {
       src: 'leg7-museum.jpg',
-      alt: 'Verulamium museum',
       caption: 'Verulamium museum',
     },
     {
       src: 'leg7-canada-goose.jpg',
-      alt: 'Canada goose',
       caption: 'Canada goose on the lake in Verulamium',
     },
     {
       src: 'leg7-fighting-cocks.jpg',
-      alt: 'Sign on Ye Olde Fighting Cocks',
       caption: 'Sign on Ye Olde Fighting Cocks',
     },
     {
       src: 'leg7-abbey.jpg',
-      alt: 'St Albans Abbey',
       caption: 'St Albans Abbey',
     },
     {
       src: 'leg7-abbey-big.jpg',
-      alt: 'St Albans Abbey',
       caption: 'All 65m of the nave of St Albans Abbey',
     },
     {
       src: 'leg7-gateway.jpg',
-      alt: 'Abbey Gateway',
       caption: 'Abbey Gateway',
     },
     {
       src: 'leg7-romeland.jpg',
-      alt: 'Rome Land sign',
       caption: 'Rome Land Hill sign',
     },
     {
       src: 'leg7-clock-tower.jpg',
-      alt: 'Sign on clock tower',
       caption: 'Sign on Clock Tower',
     },
     {
       src: 'leg7-abbey-east-end.jpg',
-      alt: 'St Albans Abbey',
       caption: 'East end of St Albans Abbey',
     },
     {
       src: 'leg7-holy-well.jpg',
-      alt: 'Holy well in St Albans',
       caption: 'Holy well on Holywell Hill',
     },
     {
       src: 'leg7-sopwell.jpg',
-      alt: 'Ruins at Sopwell',
       caption: 'Sopwell Nunnery',
+    },
+  ],
+  leg8: [
+    {
+      src: 'leg8-shafford.jpg',
+      caption: 'Reflections at Shafford Mill',
+      portrait: true,
+    },
+    {
+      src: 'leg8-ford.jpg',
+      caption: 'Ford at Redbournbury',
+    },
+    {
+      src: 'leg8-ver-redbournbury.jpg',
+      caption: 'River Ver at Redbournbury',
+    },
+    {
+      src: 'leg8-st-marys.jpg',
+      caption: 'Church of St Mary at Redbourn',
+    },
+    {
+      src: 'leg8-redbourn-spire.jpg',
+      caption: 'Sunlit spire on Church of St Mary at Redbourn',
+      portrait: true,
+    },
+    {
+      src: 'leg8-solar-panels.jpg',
+      caption: 'Solar panels next to the M1',
+    },
+    {
+      src: 'leg8-trowley.jpg',
+      caption: 'Trowley Bottom',
+      portrait: true,
+    },
+    {
+      src: 'leg8-st-leonards.jpg',
+      caption: "St Leonard's Church at Flamstead",
+    },
+    {
+      src: 'leg8-weathercock.jpg',
+      caption: 'Weathercock with starlings',
+    },
+    {
+      src: 'leg8-brick.jpg',
+      caption: "Brick and flint detail on St Leonard's Church",
+    },
+    {
+      src: 'leg8-pumpkins.jpg',
+      caption: 'Pop-up pumpkin farm by the M1',
+    },
+    {
+      src: 'leg8-pumpkin-pile.jpg',
+      caption: 'Pumpkins',
+    },
+    {
+      src: 'leg8-m1-j9.jpg',
+      caption: 'Teasels at Junction 9 on the M1',
+    },
+    {
+      src: 'leg8-stonechat.jpg',
+      caption: 'Stonechat by River Ver',
+    },
+    {
+      src: 'leg8-stonechat-back.jpg',
+      caption: 'Stonechat from behind',
+    },
+    {
+      src: 'leg8-gantry.jpg',
+      caption: 'Agricultural research at Rothamsted',
+    },
+    {
+      src: 'leg8-heartwood.jpg',
+      caption: 'Midland Main Line and Heartwood Forest',
+    },
+    {
+      src: 'leg8-puddingstone.jpg',
+      caption: 'Puddingstone at Kingsbury Water Mill',
+    },
+    {
+      src: 'leg8-ver.jpg',
+      caption: 'River Ver at Kingsbury Water Mill',
     },
   ],
 }

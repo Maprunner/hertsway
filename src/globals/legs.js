@@ -55,4 +55,12 @@ module.exports = {
     to: 'Verulamium Museum',
     time: 215,
   },
+  leg8: {
+    distance: 27.6,
+    snack: 'Mince pies',
+    climb: 195,
+    from: 'Verulamium Museum',
+    to: "St Leonard's Church, Flamstead",
+    time: 255,
+  },
 }

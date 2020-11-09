@@ -3,7 +3,7 @@
 
 html,
 body {
-  @apply antialiased text-gray-600 bg-gray-900;
+  @apply antialiased text-gray-500 bg-gray-900;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -17,19 +17,19 @@ h6 {
 }
 
 h1 {
-  @apply text-5xl;
-}
-
-h2 {
-  @apply text-3xl;
-}
-
-h3 {
   @apply text-2xl;
 }
 
-h4 {
+h2 {
   @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+h4 {
+  @apply text-base;
 }
 
 a {
@@ -91,7 +91,7 @@ hr {
 
 .fullMap {
   width: 100%;
-  height: 500px;
+  height: 750px;
   margin-top: 2rem;
 }
 
@@ -110,7 +110,7 @@ hr {
 }
 
 #hway-sign {
-  background-image: url(../images/leg1-hway-sign.jpg);
+  background-image: url(../images/leg1/leg1-hway-sign.jpg);
 }
 
 #devGPX {
@@ -118,7 +118,7 @@ hr {
 }
 
 .read-more {
-  @apply bg-teal-600 text-white font-bold py-2 px-4 rounded;
+  @apply bg-teal-600 text-white text-lg font-bold py-2 px-4 rounded;
 }
 
 .stat {
@@ -126,7 +126,7 @@ hr {
 }
 
 .stat-title {
-  @apply text-base;
+  @apply text-lg;
 }
 
 .leg-pic {

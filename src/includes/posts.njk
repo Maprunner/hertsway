@@ -1,9 +1,9 @@
 <div>
   {% for post in posts %}
     <div class="mb-8 border-dotted border-b pb-8 border-gray-600">
-      <h2>
+      <h1>
         <a class="block" href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </h2>
+      </h1>
 
       <p class="italic">{{ post.data.excerpt }}</p>
 

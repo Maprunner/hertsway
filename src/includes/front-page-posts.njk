@@ -1,49 +1,51 @@
-<h2>Latest posts</h2>
+<h1>Latest posts</h1>
 <div class="mt-4 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-    {% for post in collections.frontposts %}
-        <div class="flex flex-col flex-1 px-4 py-4 bg-gray-800 rounded-lg shadow-lg">
-            <div class="flex-1">
-                <div class="relative pb-5/6">
-                    <img class="h-auto w-full object-cover rounded-lg shadow-md" src="./images/{{ post.data.image }}" alt="">
-                </div>
-                <div class="p-3">
-                    <h4>
-                        <a class="block" href="{{ post.url | url }}">{{ post.data.title }}</a>
-                    </h4>
-                    {% if post.data.excerpt %}
-                        <p class="italic my-2">{{ post.data.excerpt }}</p>
-                    {% endif %}
-                    <p>{{ legs[post.data.name].distance }}
-                        km,
-                        {{ legs[post.data.name].climb }}
-                        m,
-                        {{ legs[post.data.name].time | formatMins }}</p>
-                    <div class="my-2">
-                        <p class="my-1">
-                            <span class="text-white">From:
-                            </span>{{ legs[post.data.name].from }}
-                        </p>
-                        <p class="my-1">
-                            <span class="text-white">To:
-                            </span>{{ legs[post.data.name].to }}
-                        </p>
-                        <p class="my-1">
-                            <span class="text-white">Snack:
-                            </span>{{ legs[post.data.name].snack }}
-                        </p>
-                    </div>
-
-                    <span class="block my-2 text-sm italic">
-                        {{ post.data.date | dateDisplay }}
-                    </span>
-                </div>
-            </div>
-            <div>
-                <a href="{{ post.url | url }}" class="read-more hover:bg-teal-800">
-                    Read more
-                </a>
-            </div>
+  {% for post in collections.frontposts %}
+    <div class="flex flex-col flex-1 px-4 py-4 bg-gray-800 rounded-lg shadow-lg">
+      <div class="flex-1">
+        <div class="relative pb-5/6">
+          <img class="h-auto w-full object-cover rounded-lg shadow-md" src="./images/{{ post.data.name }}/{{ post.data.image }}" alt="">
         </div>
-    {% endfor %}
+        <div class="p-3">
+          <h2>
+            <a class="block" href="{{ post.url | url }}">{{ post.data.title }}</a>
+          </h2>
+          {% if post.data.excerpt %}
+            <p class="italic my-2">{{ post.data.excerpt }}</p>
+          {% endif %}
+          <p>{{ legs[post.data.name].distance }}
+            km,
+            {{ legs[post.data.name].climb }}
+            m,
+            {{ legs[post.data.name].time | formatMins }}</p>
+          <div class="my-2">
+            <p class="my-1">
+              <span class="text-white">From:
+              </span>{{ legs[post.data.name].from }}
+            </p>
+            <p class="my-1">
+              <span class="text-white">To:
+              </span>{{ legs[post.data.name].to }}
+            </p>
+            <p class="my-1">
+              <span class="text-white">Snack:
+              </span>{{ legs[post.data.name].snack }}
+            </p>
+          </div>
+
+          <span class="block my-2 text-base italic">
+            {{ post.data.date | dateDisplay }}
+          </span>
+        </div>
+      </div>
+      <div>
+        <a href="{{ post.url | url }}" class="read-more hover:bg-teal-800">
+          Read full
+          {{ post.data.name | formatLegX }}
+          post
+        </a>
+      </div>
+    </div>
+  {% endfor %}
 
 </div>
