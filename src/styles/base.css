@@ -85,7 +85,7 @@ hr {
 
 .banner {
   height: 200px;
-  background-image: url('../images/panorama-1.jpg');
+  background-image: url('../images/pan1-1280x200.jpg');
   background-position: center;
 }
 
@@ -110,7 +110,7 @@ hr {
 }
 
 #hway-sign {
-  background-image: url(../images/leg1/leg1-hway-sign.jpg);
+  background-image: url(../images/hway-sign.jpg);
 }
 
 #devGPX {
@@ -119,6 +119,19 @@ hr {
 
 .read-more {
   @apply bg-teal-600 text-white text-lg font-bold py-2 px-4 rounded;
+  border: 1px solid transparent;
+}
+
+@keyframes read-more {
+  100% {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+}
+
+.read-more:hover {
+  animation: tag-hover 500ms both;
 }
 
 .stat {

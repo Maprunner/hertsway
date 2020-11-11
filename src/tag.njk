@@ -7,6 +7,7 @@ pagination:
   filter:
     - all
     - post
+    - frontposts
 eleventyComputed:
   title: "{{ tag }}"
 permalink: /tag/{{ tag }}/
@@ -15,12 +16,9 @@ permalink: /tag/{{ tag }}/
 {% extends 'page.njk' %}
 
 {% block body %}
-  <p class="text-center text-sm italic mb-6">(Posts filtered by
-    <strong>{{tag}}</strong>)</p>
-
-  {% set posts = collections[tag] | reverse %}
-
-  {% include "posts.njk" %}
-
-  {# {% include "tags.njk" %} #}
+  <p class="text-center text-lg italic m-6">Posts filtered by
+    <strong>{{tag}}</strong>
+  </p>
+  {% set tags = collections[tag] | reverse %}
+  {% include "tag-list.njk" %}
 {% endblock %}

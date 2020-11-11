@@ -28,7 +28,7 @@ permalink: "post/"
               km,
               {{ legs[post.data.name].climb }}
               m,
-              {{ legs[post.data.name].time | formatMins }}</p>
+              {{ legs[post.data.name].time | prettifyMinutes }}</p>
             <div class="my-2">
               <p class="my-1">
                 <span class="text-white">From:
@@ -50,8 +50,10 @@ permalink: "post/"
           </div>
         </div>
         <div>
-          <a href="{{ post.url | url }}" class="read-more hover:bg-teal-800">
-            Read more
+          <a href="{{ post.url | url }}" class="read-more">
+            Read full
+            {{ post.data.name | formatLegX }}
+            post
           </a>
         </div>
       </div>
