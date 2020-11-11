@@ -78,10 +78,6 @@ module.exports = {
   ],
   leg3: [
     {
-      src: 'leg3-helen-a1m.jpg',
-      caption: 'Heading towards Letchworth parallel to the A1(M)',
-    },
-    {
       src: 'leg3-Chesfield.jpg',
       caption: 'Ruined church at Chesfield',
     },
@@ -92,6 +88,10 @@ module.exports = {
     {
       src: 'leg3-a1(m).jpg',
       caption: 'Heading west under the A1(M) at Graveley',
+    },
+    {
+      src: 'leg3-helen-a1m.jpg',
+      caption: 'Heading towards Letchworth parallel to the A1(M)',
     },
     {
       src: 'leg3-great-wymondley.jpg',
@@ -452,6 +452,36 @@ module.exports = {
     {
       src: 'leg8-ver.jpg',
       caption: 'River Ver at Kingsbury Water Mill',
+    },
+  ],
+  leg9: [
+    {
+      src: 'leg9-flamstead-mud.jpg',
+      caption: 'Muddy field leaving Flamstead',
+    },
+    {
+      src: 'leg9-school.jpg',
+      caption: 'Beechwood Park school',
+    },
+    {
+      src: 'leg9-helen-downhill.jpg',
+      caption: 'Leaving Beechwood Park',
+    },
+    {
+      src: 'leg9-turnips.jpg',
+      caption: 'Turnips',
+    },
+    {
+      src: 'leg9-helen-sheep.jpg',
+      caption: 'Sheep in the turnip field',
+    },
+    {
+      src: 'leg9-guide-hut.jpg',
+      caption: 'Guide Hut at Gaddesden Row',
+    },
+    {
+      src: 'leg9-back-to-flamstead.jpg',
+      caption: 'Muddy field entering Flamstead',
     },
   ],
 }

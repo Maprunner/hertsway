@@ -63,4 +63,12 @@ module.exports = {
     to: "St Leonard's Church, Flamstead",
     time: 255,
   },
+  leg9: {
+    distance: 20.5,
+    snack: 'Cinnamon whirls',
+    climb: 253,
+    from: "St Leonard's Church, Flamstead",
+    to: 'St John the Baptist Church, Great Gaddesden',
+    time: 185,
+  },
 }
