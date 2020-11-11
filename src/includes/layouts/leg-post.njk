@@ -55,7 +55,7 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
         </span>{{ legs[name].climb }}m</p>
       <p>
         <span class="text-white">Time:
-        </span>{{ legs[name].time | formatMins }}</p>
+        </span>{{ legs[name].time | prettifyMinutes }}</p>
       <div class="my-2">
         <p class="my-1">
           <span class="text-white">From:

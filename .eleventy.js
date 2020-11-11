@@ -4,6 +4,8 @@ module.exports = (config) => {
   const pluginSafeExternalLinks = require('eleventy-plugin-safe-external-links')
 
   config.addFilter('dateDisplay', require('./filters/date-display.js'))
+  config.addFilter('prettifyMinutes', require('./filters/prettify-minutes.js'))
+
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSafeExternalLinks, {
     pattern: 'https{0,1}://', // RegExp pattern for external links
@@ -35,11 +37,11 @@ module.exports = (config) => {
     images: {
       resize: {
         // assuming photos are 600x400
-        min: 600, // Minimum width to resize an image to
-        max: 1500, // Maximum width to resize an image to
-        step: 200, // Width difference between each resized image
+        min: 370, // Minimum width to resize an image to
+        max: 600, // Maximum width to resize an image to
+        step: 230, // Width difference between each resized image
       },
-      sizes: '(min-width: 1024px) 400px, 100vw', // Default image `sizes` attribute
+      sizes: '(min-width: 1024px) 370px, 100vw', // Default image `sizes` attribute
       lazy: true, // Include `loading="lazy"` attribute for images
       additional: [
         // Globs of additional images to optimize (won't be resized)
@@ -60,16 +62,6 @@ module.exports = (config) => {
   })
 
   config.setDataDeepMerge(true)
-
-  config.addFilter('formatMins', function (mins) {
-    const minutes = mins % 60
-    return (
-      Math.floor(mins / 60) +
-      ' hours ' +
-      minutes.toString().padStart(2, '0') +
-      ' minutes'
-    )
-  })
 
   // convert "legx" to "Leg X"
   config.addFilter('formatLegX', function (legx) {

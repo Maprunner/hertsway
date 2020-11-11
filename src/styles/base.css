@@ -85,7 +85,7 @@ hr {
 
 .banner {
   height: 200px;
-  background-image: url('../images/panorama-1.jpg');
+  background-image: url('../images/pan1-1280x200.jpg');
   background-position: center;
 }
 
@@ -110,7 +110,7 @@ hr {
 }
 
 #hway-sign {
-  background-image: url(../images/leg1/leg1-hway-sign.jpg);
+  background-image: url(../images/hway-sign.jpg);
 }
 
 #devGPX {
