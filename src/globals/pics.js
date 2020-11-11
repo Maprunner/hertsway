@@ -464,16 +464,32 @@ module.exports = {
       caption: 'Beechwood Park school',
     },
     {
+      src: 'leg9-control.jpg',
+      caption: 'Orienteering control at Beechwood Park school',
+    },
+    {
       src: 'leg9-helen-downhill.jpg',
       caption: 'Leaving Beechwood Park',
     },
     {
+      src: 'leg9-coyote.jpg',
+      caption: 'Wile E Coyote at Jockey End',
+    },
+    {
       src: 'leg9-turnips.jpg',
-      caption: 'Turnips',
+      caption: 'Sheep-nibbled turnips',
     },
     {
       src: 'leg9-helen-sheep.jpg',
       caption: 'Sheep in the turnip field',
+    },
+    {
+      src: 'leg9-gargoyle.jpg',
+      caption: 'Gargoyle at Great Gaddesden',
+    },
+    {
+      src: 'leg9-john-the-baptist.jpg',
+      caption: 'Snacks at John the Baptist Church,Great Gaddesden',
     },
     {
       src: 'leg9-guide-hut.jpg',
