@@ -78,10 +78,6 @@ module.exports = {
   ],
   leg3: [
     {
-      src: 'leg3-helen-a1m.jpg',
-      caption: 'Heading towards Letchworth parallel to the A1(M)',
-    },
-    {
       src: 'leg3-Chesfield.jpg',
       caption: 'Ruined church at Chesfield',
     },
@@ -92,6 +88,10 @@ module.exports = {
     {
       src: 'leg3-a1(m).jpg',
       caption: 'Heading west under the A1(M) at Graveley',
+    },
+    {
+      src: 'leg3-helen-a1m.jpg',
+      caption: 'Heading towards Letchworth parallel to the A1(M)',
     },
     {
       src: 'leg3-great-wymondley.jpg',
@@ -452,6 +452,70 @@ module.exports = {
     {
       src: 'leg8-ver.jpg',
       caption: 'River Ver at Kingsbury Water Mill',
+    },
+  ],
+  leg9: [
+    {
+      src: 'leg9-flamstead-mud.jpg',
+      caption: 'Muddy field leaving Flamstead',
+    },
+    {
+      src: 'leg9-school.jpg',
+      caption: 'Beechwood Park school',
+    },
+    {
+      src: 'leg9-control.jpg',
+      caption: 'Orienteering control at Beechwood Park school',
+    },
+    {
+      src: 'leg9-helen-downhill.jpg',
+      caption: 'Leaving Beechwood Park',
+    },
+    {
+      src: 'leg9-coyote.jpg',
+      caption: 'Wile E Coyote at Jockey End',
+    },
+    {
+      src: 'leg9-turnips.jpg',
+      caption: 'Sheep-nibbled turnips',
+    },
+    {
+      src: 'leg9-helen-sheep.jpg',
+      caption: 'Sheep in the turnip field',
+    },
+    {
+      src: 'leg9-john-the-baptist.jpg',
+      caption: 'St John the Baptist Church,Great Gaddesden',
+    },
+    {
+      src: 'leg9-gargoyle.jpg',
+      caption: 'Carving on church at Great Gaddesden',
+    },
+
+    {
+      src: 'leg9-gg-church-distant.jpg',
+      caption: 'Looking back towards Great Gaddesden',
+      portrait: true,
+    },
+    {
+      src: 'leg9-park-ride.jpg',
+      caption: 'Park and ride scheme at Gaddesden Estate',
+    },
+    {
+      src: 'leg9-guide-hut.jpg',
+      caption: 'Guide Hut at Gaddesden Row',
+    },
+    {
+      src: 'leg9-sloes.jpg',
+      caption: 'Sloes',
+    },
+    {
+      src: 'leg9-balanced-tree.jpg',
+      caption: 'Levitating beech tree',
+    },
+    {
+      src: 'leg9-back-to-flamstead.jpg',
+      caption: 'Muddy field entering Flamstead',
     },
   ],
 }

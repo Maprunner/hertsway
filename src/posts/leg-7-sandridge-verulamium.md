@@ -14,6 +14,7 @@ tags:
   - Childwickbury
   - St Albans
   - parkrun
+  - alpaca
 ---
 
 The American election was yesterday, with results beginning to emerge as we set out. The second lockdown starts tomorrow. But today it was time for a slight change to the routine. Out of the front door, turn left but leave the car behind. We had worked out that we could cover the section between Sandridge and Verulamium starting and ending at home. This was to be a leg where we really didn't need a map or guidebook. The good news was that the weather was perfect. There was light frost overnight but now there was a vivid blue cloudless sky with bright sunshine.

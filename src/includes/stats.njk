@@ -1,4 +1,4 @@
-<h1>Running totals</h1>
+<h1>Running totals (averages)</h1>
 <div class="container m-auto flex flex-wrap items-start pb-2">
   <div class="mx-8">
     <p class="stat-title">Legs</p>
@@ -6,14 +6,15 @@
   </div>
   <div class="mx-8">
     <p class="stat-title">Distance</p>
-    <p class="stat">{{ stats.totalDistance }}km</p>
+    <p class="stat">{{ stats.totalDistance }}km ({{ stats.averageDistance }}km)</p>
   </div>
   <div class="mx-8">
     <p class="stat-title">Climb</p>
-    <p class="stat">{{ stats.totalClimb }}m</p>
+    <p class="stat">{{ stats.totalClimb }}m ({{ stats.averageClimb }}m)</p>
   </div>
   <div class="mx-8">
     <p class="stat-title">Time</p>
-    <p class="stat">{{ stats.totalTime | prettifyMinutes }}</p>
+    <p class="stat">{{ stats.totalTime | prettifyMinutes }}
+      ({{ stats.averageTime  | prettifyMinutes}})</p>
   </div>
 </div>
