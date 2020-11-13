@@ -484,16 +484,34 @@ module.exports = {
       caption: 'Sheep in the turnip field',
     },
     {
-      src: 'leg9-gargoyle.jpg',
-      caption: 'Gargoyle at Great Gaddesden',
+      src: 'leg9-john-the-baptist.jpg',
+      caption: 'St John the Baptist Church,Great Gaddesden',
     },
     {
-      src: 'leg9-john-the-baptist.jpg',
-      caption: 'Snacks at John the Baptist Church,Great Gaddesden',
+      src: 'leg9-gargoyle.jpg',
+      caption: 'Carving on church at Great Gaddesden',
+    },
+
+    {
+      src: 'leg9-gg-church-distant.jpg',
+      caption: 'Looking back towards Great Gaddesden',
+      portrait: true,
+    },
+    {
+      src: 'leg9-park-ride.jpg',
+      caption: 'Park and ride scheme at Gaddesden Estate',
     },
     {
       src: 'leg9-guide-hut.jpg',
       caption: 'Guide Hut at Gaddesden Row',
+    },
+    {
+      src: 'leg9-sloes.jpg',
+      caption: 'Sloes',
+    },
+    {
+      src: 'leg9-balanced-tree.jpg',
+      caption: 'Levitating beech tree',
     },
     {
       src: 'leg9-back-to-flamstead.jpg',
