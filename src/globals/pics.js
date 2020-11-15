@@ -518,4 +518,10 @@ module.exports = {
       caption: 'Muddy field entering Flamstead',
     },
   ],
+  leg10: [
+    {
+      src: 'leg10-monument-closeup.jpg',
+      caption: 'Monument',
+    },
+  ],
 }

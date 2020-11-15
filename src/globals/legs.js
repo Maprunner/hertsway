@@ -71,4 +71,12 @@ module.exports = {
     to: 'St John the Baptist Church, Great Gaddesden',
     time: 185,
   },
+  leg10: {
+    distance: 22.9,
+    snack: 'Chocolate mini rolls and mince pies',
+    climb: 396,
+    from: 'St John the Baptist Church, Great Gaddesden',
+    to: 'Well Farm, Berkhamsted',
+    time: 220,
+  },
 }
