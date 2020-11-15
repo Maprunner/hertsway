@@ -520,8 +520,46 @@ module.exports = {
   ],
   leg10: [
     {
+      src: 'leg10-muddy-field.jpg',
+      caption: 'Another muddy field',
+    },
+    {
+      src: 'leg10-college.jpg',
+      caption: 'Ashridge Management College',
+    },
+    {
+      src: 'leg10-filming.jpg',
+      caption: 'Film crew in Ashridge',
+    },
+    {
       src: 'leg10-monument-closeup.jpg',
       caption: 'Monument',
+    },
+    {
+      src: 'leg10-aldbury-church-tower.jpg',
+      caption: 'Aldbury Church tower',
+      portrait: true,
+    },
+    {
+      src: 'leg10-tring.jpg',
+      caption: 'Tring station',
+    },
+    {
+      src: 'leg10-ashridge-beech.jpg',
+      caption: 'Beech trees in Ashridge South',
+      portrait: true,
+    },
+    {
+      src: 'leg10-golf-course.jpg',
+      caption: 'Old Berkhamsted Golf Course',
+    },
+    {
+      src: 'leg10-trenches.jpg',
+      caption: 'World War I training trenches',
+    },
+    {
+      src: 'leg10-muddy-feet.jpg',
+      caption: 'Muddy feet at the end of the day',
     },
   ],
 }
