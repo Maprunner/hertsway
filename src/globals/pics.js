@@ -518,4 +518,79 @@ module.exports = {
       caption: 'Muddy field entering Flamstead',
     },
   ],
+  leg10: [
+    {
+      src: 'leg10-muddy-field.jpg',
+      caption: 'Another muddy field',
+    },
+    {
+      src: 'leg10-college-park.jpg',
+      caption: 'Golden Valley',
+    },
+    {
+      src: 'leg10-college.jpg',
+      caption: 'Passing Ashridge House',
+    },
+    {
+      src: 'leg10-filming.jpg',
+      caption: 'Film crew in Ashridge',
+    },
+    {
+      src: 'leg10-monument.jpg',
+      caption: 'Bridgewater Monument',
+      portrait: true,
+    },
+    {
+      src: 'leg10-monument-closeup.jpg',
+      caption: 'Funerary Urn on the Bridgewater Monument',
+    },
+    {
+      src: 'leg10-church-monument.jpg',
+      caption: 'Aldbury Church and Bridgewater Monument',
+      portrait: true,
+    },
+    {
+      src: 'leg10-aldbury-church-tower.jpg',
+      caption: 'Aldbury Church tower',
+      portrait: true,
+    },
+    {
+      src: 'leg10-tring.jpg',
+      caption: 'Tring station',
+    },
+    {
+      src: 'leg10-ashridge-beech.jpg',
+      caption: 'Beech trees in Ashridge South',
+      portrait: true,
+    },
+    {
+      src: 'leg10-golf-course.jpg',
+      caption: 'Berkhamsted Common',
+    },
+    {
+      src: 'leg10-trenches.jpg',
+      caption: 'World War I training trenches',
+    },
+    {
+      src: 'leg10-trench-sign.jpg',
+      caption: 'Sign board at training trenches',
+    },
+    {
+      src: 'leg10-war-memorial.jpg',
+      caption: 'War Memorial on Berkhamsted Common',
+    },
+
+    {
+      src: 'leg10-cutting.jpg',
+      caption: 'Approaching Nettleden',
+    },
+    {
+      src: 'leg10-monastery.jpg',
+      caption: 'Buddhist Monastery at Great Gaddesden',
+    },
+    {
+      src: 'leg10-muddy-feet.jpg',
+      caption: 'Muddy feet at the end of the day',
+    },
+  ],
 }
