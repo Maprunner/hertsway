@@ -2,7 +2,7 @@
 title: Leg 11 Berkhamsted Common to Bovingdon
 excerpt: 'In which the bird life ups its game and the sun illuminates the canal'
 name: leg11
-image: leg11-.jpg
+image: leg11-egret.jpg
 date: 2020-11-18
 tags:
   - Berkhamsted

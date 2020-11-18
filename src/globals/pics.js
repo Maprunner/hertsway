@@ -593,4 +593,9 @@ module.exports = {
       caption: 'Muddy feet at the end of the day',
     },
   ],
+  leg11: [
+    {
+      src: 'leg11-egret.jpg',
+      caption: 'Little egret',
+    },
 }
