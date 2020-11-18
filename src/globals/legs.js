@@ -79,4 +79,12 @@ module.exports = {
     to: 'Well Farm, Berkhamsted',
     time: 220,
   },
+  leg11: {
+    distance: 20.0,
+    snack: 'Mince pies',
+    climb: 251,
+    from: 'Well Farm, Berkhamsted',
+    to: 'St Lawrence Church, Bovingdon',
+    time: 190,
+  },
 }
