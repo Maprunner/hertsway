@@ -607,6 +607,10 @@ module.exports = {
       caption: 'Berkhamsted Castle and moat',
     },
     {
+      src: 'leg11-canal-duke.jpg',
+      caption: 'Celebrating the Canal Duke',
+    },
+    {
       src: 'leg11-port.jpg',
       caption: 'Port of Berkhamsted',
     },
@@ -625,7 +629,7 @@ module.exports = {
     },
     {
       src: 'leg11-egret.jpg',
-      caption: 'Little egret',
+      caption: 'Little egret GY02522',
     },
     {
       src: 'leg11-low-bat.jpg',
