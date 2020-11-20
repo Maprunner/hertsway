@@ -2,21 +2,30 @@
 // calculates min and max values needed to create map
 // filters it down to a point every minDist metres to save a lot of space
 const minDist = 10
-
 const fs = require('fs')
+const heightProfile = require('./heightProfile')
 
 // argument expected to be the raw "leg11.gpx" already in src/data directory
 if (process.argv.length < 3) {
-  console.error('Missing file name argument')
+  console.error('Missing leg number argument')
   process.exit(1)
 }
+const leg = process.argv[2]
 
-const file = './src/data/' + process.argv[2]
+const file = './src/data/leg' + leg + '.gpx'
+const svgFile = './src/data/leg' + leg + '.svg'
 
 try {
-  const data = fs.readFileSync(file, 'utf8')
-  const newfile = processFile(data)
+  const olddata = fs.readFileSync(file, 'utf8')
+  const { newfile, height, distance } = processFile(olddata)
   fs.writeFileSync(file, newfile)
+
+  const data = {
+    title: 'Leg ' + leg + ' profile',
+    labels: distance,
+    series: [height],
+  }
+  heightProfile(data).then((svg) => fs.writeFileSync(svgFile, svg))
 } catch (err) {
   console.error(err)
 }
@@ -41,6 +50,7 @@ function getLatLonDistance(lat1, lon1, lat2, lon2) {
 }
 
 function processFile(data) {
+  // could have parsed the XML but didn't..
   const lines = data.split(/[\r\n]+/g)
   let maxLat = -180
   let minLat = 180
@@ -48,6 +58,8 @@ function processFile(data) {
   let minLon = 180
   let newlines = []
   let useLines = []
+  let height = []
+  let distance = []
   let keep = true
   //  <trkpt lat="52.0467280" lon="-0.0301510">
   // first pass through deletes extension details
@@ -71,21 +83,31 @@ function processFile(data) {
   let currentLon = 0
   let lat = 0
   let lon = 0
-
+  let savedHeight = 0
+  let savedDistance = 0
   // second pass through gets limits of track and deletes trkpoints where we haven't moved much
   for (let i = 0; i < newlines.length; i = i + 1) {
     // if we are processing a trkpt
     if (inTrk) {
+      if (newlines[i].indexOf('<ele>') > -1) {
+        savedHeight = newlines[i]
+          .replace('<ele>', '')
+          .replace('</ele>', '')
+          .trim()
+      }
       if (newlines[i].indexOf('</trkpt') > -1) {
         // found the end so decide if we need to keep it
         inTrk = false
         const dist = getLatLonDistance(currentLat, currentLon, lat, lon)
         if (dist > minDist) {
-          if (dist > 20) {
-            console.log(dist)
-          }
           currentLat = lat
           currentLon = lon
+          // don't add first distance since it is from (0, 0) to the start point
+          if (distance.length > 0) {
+            savedDistance = savedDistance + dist
+          }
+          distance.push(savedDistance)
+          height.push(savedHeight)
         } else {
           for (let j = startTrk; j <= i; j = j + 1) {
             useLines[j] = false
@@ -113,8 +135,22 @@ function processFile(data) {
     }
   }
 
-  console.log('Lat:  ' + maxLat + ', ' + minLat + ', ' + (minLat + maxLat) / 2)
-  console.log('Lon:  ' + maxLon + ', ' + minLon + ', ' + (minLon + maxLon) / 2)
+  console.log(
+    'Lat:  ' +
+      maxLat +
+      ', ' +
+      minLat +
+      ', ' +
+      ((minLat + maxLat) / 2).toFixed(2)
+  )
+  console.log(
+    'Lon:  ' +
+      maxLon +
+      ', ' +
+      minLon +
+      ', ' +
+      ((minLon + maxLon) / 2).toFixed(2)
+  )
   let newfile = ''
   for (let i = 0; i < newlines.length; i = i + 1) {
     if (useLines[i]) {
@@ -122,5 +158,5 @@ function processFile(data) {
     }
   }
 
-  return newfile
+  return { newfile: newfile, height: height, distance: distance }
 }
