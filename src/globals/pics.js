@@ -593,4 +593,80 @@ module.exports = {
       caption: 'Muddy feet at the end of the day',
     },
   ],
+  leg11: [
+    {
+      src: 'leg11-kestrel1.jpg',
+      caption: 'Kestrel',
+    },
+    {
+      src: 'leg11-stonechat.jpg',
+      caption: 'Stonechat',
+    },
+    {
+      src: 'leg11-castle1.jpg',
+      caption: 'Berkhamsted Castle and moat',
+    },
+    {
+      src: 'leg11-canal-duke.jpg',
+      caption: 'Celebrating the Canal Duke',
+    },
+    {
+      src: 'leg11-port.jpg',
+      caption: 'Port of Berkhamsted',
+    },
+    {
+      src: 'leg11-lock.jpg',
+      caption: 'Lock gates',
+    },
+    {
+      src: 'leg11-hippo.jpg',
+      caption: 'Hippopotamus by the canal',
+    },
+    {
+      src: 'leg11-canal-sunshine.jpg',
+      caption: 'Sunshine on the canal',
+    },
+    {
+      src: 'leg11-chainsaw.jpg',
+      caption: 'Tree felling in progress',
+    },
+    {
+      src: 'leg11-kestrel2.jpg',
+      caption: 'Another kestrel',
+      portrait: true,
+    },
+    {
+      src: 'leg11-egret.jpg',
+      caption: 'Little egret GY02522',
+    },
+    {
+      src: 'leg11-low-bat.jpg',
+      caption: 'Unwell speed monitor',
+    },
+    {
+      src: 'leg11-bovingdon-church.jpg',
+      caption: 'St Lawrence Church at Bovingdon',
+    },
+    {
+      src: 'leg11-puddingstone.jpg',
+      caption: 'Puddingstone in the church wall',
+    },
+    {
+      src: 'leg11-well.jpg',
+      caption: 'Wooden well in the road at Bovingdon',
+      portrait: true,
+    },
+    {
+      src: 'leg11-prison.jpg',
+      caption: 'Rainbow over HMP The Mount',
+    },
+    {
+      src: 'leg11-vor.jpg',
+      caption: 'Bovingdon VOR with sheep',
+    },
+    {
+      src: 'leg11-above-berko.jpg',
+      caption: 'Dropping down into Berkhamsted',
+    },
+  ],
 }
