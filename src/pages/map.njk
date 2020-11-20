@@ -3,11 +3,7 @@ permalink: "map/"
 ---
 {% extends 'page.njk' %}
 {% block body %}
-  <div id="devGPX">
-    <span>Load GPX file:
-      <input type='file' accept='.gpx' id='loadGPX' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"/></span>
-  </div>
-
+  {% include "stats.njk" %}
   <h1>Map</h1>
   <div id="map" class="fullMap"></div>
 {% endblock %}
