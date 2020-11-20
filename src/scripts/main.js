@@ -7,6 +7,7 @@ import GPX from 'ol/format/GPX'
 import VectorSource from 'ol/source/Vector'
 import { Circle as CircleStyle, Fill, Stroke, Style } from 'ol/style'
 import { Vector as VectorLayer } from 'ol/layer'
+import { hertsLonLat, legsLonLat } from './mapLatLon.js'
 
 if (DEV_MODE) console.log('Dev mode is currently enabled.')
 
@@ -175,25 +176,6 @@ const getLatLonDistance = (lat1, lon1, lat2, lon2) => {
   // multiply by IUUG earth mean radius (http://en.wikipedia.org/wiki/Earth_radius) in metres
   return 6371009 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
-
-// centre for overview map
-const hertsLonLat = [-0.2, 51.85]
-
-// centres for leg maps
-// add new entry for each new leg GPX file
-const legsLonLat = [
-  [-0.05, 52.02],
-  [-0.12, 51.97],
-  [-0.2, 51.94],
-  [-0.26, 51.9],
-  [-0.27, 51.85],
-  [-0.29, 51.81],
-  [-0.32, 51.76],
-  [-0.39, 51.79],
-  [-0.47, 51.81],
-  [-0.57, 51.79],
-  [-0.55, 51.75],
-]
 
 // overview map
 const thereGPXLayer = new VectorLayer({
