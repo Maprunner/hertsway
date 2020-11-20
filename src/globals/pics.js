@@ -616,11 +616,19 @@ module.exports = {
     },
     {
       src: 'leg11-lock.jpg',
+      caption: 'Lock gates',
+    },
+    {
+      src: 'leg11-hippo.jpg',
+      caption: 'Hippopotamus by the canal',
+    },
+    {
+      src: 'leg11-canal-sunshine.jpg',
       caption: 'Sunshine on the canal',
     },
     {
       src: 'leg11-chainsaw.jpg',
-      caption: 'Tree felling by the canal',
+      caption: 'Tree felling in progress',
     },
     {
       src: 'leg11-kestrel2.jpg',
@@ -641,7 +649,12 @@ module.exports = {
     },
     {
       src: 'leg11-puddingstone.jpg',
-      caption: 'Puddingstone in the church at Bovingdon',
+      caption: 'Puddingstone in the church wall',
+    },
+    {
+      src: 'leg11-well.jpg',
+      caption: 'Wooden well in the road at Bovingdon',
+      portrait: true,
     },
     {
       src: 'leg11-prison.jpg',
@@ -649,11 +662,11 @@ module.exports = {
     },
     {
       src: 'leg11-vor.jpg',
-      caption: 'Bovingdon VOR',
+      caption: 'Bovingdon VOR with sheep',
     },
     {
       src: 'leg11-above-berko.jpg',
-      caption: 'Looking over Berkhamsted',
+      caption: 'Dropping down into Berkhamsted',
     },
   ],
 }
