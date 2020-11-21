@@ -10,7 +10,8 @@
     "clean": "rimraf dist",
     "dev": "npm-run-all clean build:* -p dev:*",
     "dev:11ty": "eleventy --serve",
-    "dev:rollup": "rollup -c -w"
+    "dev:rollup": "rollup -c -w",
+    "gpx": "node ./transforms/rewriteGPX.js"
   },
   "dependencies": {},
   "devDependencies": {
@@ -18,9 +19,11 @@
     "@11ty/eleventy-plugin-rss": "^1.0.9",
     "@rollup/plugin-replace": "^2.3.4",
     "autoprefixer": "^9.8.6",
+    "chartist": "^0.11.4",
     "cross-env": "^7.0.2",
     "eleventy-plugin-local-respimg": "^0.3.1",
     "eleventy-plugin-safe-external-links": "^0.1.5",
+    "node-svg2img": "^1.1.0",
     "npm-run-all": "^4.1.5",
     "ol": "^6.4.3",
     "postcss-import": "^12.0.1",
@@ -33,6 +36,7 @@
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-svg": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2",
+    "svgdom-css": "^0.1.5",
     "tailwindcss": "^1.9.6"
   }
 }
