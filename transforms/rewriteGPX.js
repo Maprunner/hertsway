@@ -19,11 +19,10 @@ try {
   const olddata = fs.readFileSync(file, 'utf8')
   const { newfile, height, distance } = processFile(olddata)
   fs.writeFileSync(file, newfile)
-
+  const series = filterHeight(height, distance)
   const data = {
     title: 'Leg ' + leg + ' profile',
-    labels: distance,
-    series: [height],
+    series: [series],
   }
   heightProfile(data).then((svg) => fs.writeFileSync(svgFile, svg))
 } catch (err) {
@@ -47,6 +46,29 @@ function getLatLonDistance(lat1, lon1, lat2, lon2) {
       Math.sin(dLon / 2)
   // multiply by IUUG earth mean radius (http://en.wikipedia.org/wiki/Earth_radius) in metres
   return 6371009 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+}
+
+function filterHeight(height, distance) {
+  let series = []
+  const delta = 0.24
+
+  let currentHeight = height[0]
+  series[0] = { x: 0, y: height[0] }
+
+  // smooth heights to changes of greater than delta metres
+  for (let i = 1; i < height.length; i = i + 1) {
+    if (Math.abs(parseFloat(height[i]) - parseFloat(currentHeight)) > delta) {
+      series.push({ x: distance[i] / 1000, y: height[i] })
+      currentHeight = parseFloat(height[i])
+    } else {
+      // make sure we use the last point
+      if (i === height.length) {
+        series.push({ x: distance[i] / 1000, y: height[i] })
+      }
+    }
+  }
+
+  return series
 }
 
 function processFile(data) {
@@ -85,6 +107,7 @@ function processFile(data) {
   let lon = 0
   let savedHeight = 0
   let savedDistance = 0
+  let realDistance = 0
   // second pass through gets limits of track and deletes trkpoints where we haven't moved much
   for (let i = 0; i < newlines.length; i = i + 1) {
     // if we are processing a trkpt
