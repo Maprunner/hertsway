@@ -71,6 +71,9 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
         </p>
       </div>
       {% LegMap name %}
+      <div class="rounded-lg shadow-lg my-4">
+        <img src="../../images/{{ name }}/{{ name }}.png"/>
+      </div>
       {% if tags %}
         <div class="m-2">
           {% for tag in tags %}

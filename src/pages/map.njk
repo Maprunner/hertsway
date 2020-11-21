@@ -7,7 +7,18 @@ permalink: "map/"
   <h1>Map</h1>
   <div id="map" class="fullMap mb-6"></div>
   <h1>Profiles</h1>
-  <div class="bg-gray-800 rounded-lg shadow-lg ct-chart ct-double-octave">
-    {% include "../data/leg11.svg" %}
+  <div class="max-w-screen-xl mt-4 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+    {% for leg, detail in legs %}
+      <div class="flex flex-col flex-1 px-2 py-2 bg-gray-800 rounded-lg shadow-lg">
+        <div class="rounded-lg shadow-lg p-4 my-4">
+          <img src="../images/{{ detail.name }}/{{ detail.name }}.png"/>
+        </div>
+        <p class="text-sm text-center">{{ detail.name | formatLegX }}
+          {{ detail.title }}:
+          {{ detail.climb}}m</p>
+      </div>
+    {% endfor %}
   </div>
+
+</div>
 {% endblock %}

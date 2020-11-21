@@ -6,6 +6,8 @@ module.exports = {
     from: 'Roy Stone, Royston',
     to: 'Sandon village sign',
     time: 205,
+    name: 'leg1',
+    title: 'Royston to Sandon',
   },
   leg2: {
     distance: 24.3,
@@ -14,6 +16,8 @@ module.exports = {
     from: 'Sandon village sign',
     to: 'Holy Trinity Church, Weston',
     time: 240,
+    name: 'leg2',
+    title: 'Sandon to Weston',
   },
   leg3: {
     distance: 19.6,
@@ -22,6 +26,8 @@ module.exports = {
     from: 'Holy Trinity Church, Weston',
     to: 'The Plume of Feathers, Little Wymondley',
     time: 170,
+    name: 'leg3',
+    title: 'Weston to Little Wymondley',
   },
   leg4: {
     distance: 20.2,
@@ -30,6 +36,8 @@ module.exports = {
     from: 'The Plume of Feathers, Little Wymondley',
     to: 'Field on south edge of Whitwell',
     time: 185,
+    name: 'leg4',
+    title: 'Little Wymondley to Whitwell',
   },
   leg5: {
     distance: 20.8,
@@ -38,6 +46,8 @@ module.exports = {
     from: 'Field on south edge of Whitwell',
     to: 'Lamer Park',
     time: 190,
+    name: 'leg5',
+    title: 'Whitwell to Lamer Park',
   },
   leg6: {
     distance: 19.0,
@@ -46,6 +56,8 @@ module.exports = {
     from: 'Lamer Park',
     to: 'The Green Man, Sandridge',
     time: 180,
+    name: 'leg6',
+    title: 'Lamer Park to Sandridge',
   },
   leg7: {
     distance: 20.7,
@@ -54,6 +66,8 @@ module.exports = {
     from: 'The Green Man, Sandridge',
     to: 'Verulamium Museum',
     time: 215,
+    name: 'leg7',
+    title: 'Sandridge to Verulamium',
   },
   leg8: {
     distance: 27.6,
@@ -62,6 +76,8 @@ module.exports = {
     from: 'Verulamium Museum',
     to: "St Leonard's Church, Flamstead",
     time: 255,
+    name: 'leg8',
+    title: 'Verulamium to Flamstead',
   },
   leg9: {
     distance: 20.5,
@@ -70,21 +86,27 @@ module.exports = {
     from: "St Leonard's Church, Flamstead",
     to: 'St John the Baptist Church, Great Gaddesden',
     time: 185,
+    name: 'leg9',
+    title: 'Flamstead to Great Gaddesden',
   },
   leg10: {
     distance: 22.9,
     snack: 'Chocolate mini rolls and mince pies',
     climb: 396,
     from: 'St John the Baptist Church, Great Gaddesden',
-    to: 'Well Farm, Berkhamsted',
+    to: 'Well Farm, Berkhamsted Common',
     time: 220,
+    name: 'leg10',
+    title: 'Great Gaddesden to Berkhamsted Common',
   },
   leg11: {
     distance: 20.0,
     snack: 'Mince pies',
     climb: 251,
-    from: 'Well Farm, Berkhamsted',
+    from: 'Well Farm, Berkhamsted Common',
     to: 'St Lawrence Church, Bovingdon',
     time: 190,
+    name: 'leg11',
+    title: 'Berkhamsted Common to Bovingdon',
   },
 }

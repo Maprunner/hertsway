@@ -12,10 +12,10 @@ if (process.argv.length < 3) {
   process.exit(1)
 }
 const leg = process.argv[2]
+//for (let leg = 1; leg < 12; leg = leg + 1) {
 
 const file = './src/data/leg' + leg + '.gpx'
-const svgFile = './src/data/leg' + leg + '.svg'
-const pngFile = './src/data/leg' + leg + '.png'
+const pngFile = './src/images/leg' + leg + '/leg' + leg + '.png'
 
 try {
   const olddata = fs.readFileSync(file, 'utf8')
@@ -27,7 +27,6 @@ try {
     series: [series],
   }
   heightProfile(data).then((svg) => {
-    fs.writeFileSync(svgFile, svg)
     svg2img(svg, function (error, buffer) {
       if (error) {
         console.log(error)
@@ -39,7 +38,7 @@ try {
 } catch (err) {
   console.error(err)
 }
-
+//}
 function toRad(degrees) {
   return (degrees * Math.PI) / 180
 }
