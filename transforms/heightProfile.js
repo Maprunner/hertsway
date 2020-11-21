@@ -7,36 +7,34 @@ const styles = fs.readFileSync(cssPath, 'utf8')
 css(styles)
 
 const opt = {
-  width: '1000px',
-  height: '300px',
-  chartPadding: { left: 20, right: 100 },
+  width: '1000',
+  height: '200',
+  //chartPadding: { left: 20, right: 200 },
   showArea: true,
+  showLine: false,
   showPoint: false,
-  high: 225,
   low: 0,
-  axisY: {
-    scaleMinSpace: 25,
-  },
+  high: 225,
   axisX: {
     type: chartist.AutoScaleAxis,
     onlyInteger: true,
-    scaleMinSpace: 5,
   },
 }
 
 function heightProfile(data) {
-  var div = document.createElement('div')
+  let div = document.createElement('div')
   document.querySelector('svg').appendChild(div)
-  var chart = new chartist.Line(div, data, opt)
-  return new Promise((fres) => {
+  let chart = new chartist.Line(div, data, opt)
+  return new Promise((resolve) => {
     chart.on('created', () => {
-      var svg = div.querySelector('svg')
-      svg.setAttribute('height', 1.2 * opt.height)
-      svg.setAttribute('style', '')
+      let svg = div.querySelector('svg')
+      //svg.setAttribute('height', opt.height)
+      svg.setAttribute('viewbox', '0 0 1000 200')
+      svg.setAttribute('style', 'background-color: #fff')
       window.setComputedStyle(div)
-      var txt = div.innerHTML
+      let txt = div.innerHTML
       div.parentNode.removeChild(div)
-      fres(txt)
+      resolve(txt)
     })
   })
 }

@@ -23,6 +23,7 @@
     "cross-env": "^7.0.2",
     "eleventy-plugin-local-respimg": "^0.3.1",
     "eleventy-plugin-safe-external-links": "^0.1.5",
+    "node-svg2img": "^1.1.0",
     "npm-run-all": "^4.1.5",
     "ol": "^6.4.3",
     "postcss-import": "^12.0.1",

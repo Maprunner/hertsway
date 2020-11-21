@@ -3,6 +3,7 @@
 // filters it down to a point every minDist metres to save a lot of space
 const minDist = 10
 const fs = require('fs')
+const svg2img = require('node-svg2img')
 const heightProfile = require('./heightProfile')
 
 // argument expected to be the raw "leg11.gpx" already in src/data directory
@@ -14,6 +15,7 @@ const leg = process.argv[2]
 
 const file = './src/data/leg' + leg + '.gpx'
 const svgFile = './src/data/leg' + leg + '.svg'
+const pngFile = './src/data/leg' + leg + '.png'
 
 try {
   const olddata = fs.readFileSync(file, 'utf8')
@@ -24,7 +26,16 @@ try {
     title: 'Leg ' + leg + ' profile',
     series: [series],
   }
-  heightProfile(data).then((svg) => fs.writeFileSync(svgFile, svg))
+  heightProfile(data).then((svg) => {
+    fs.writeFileSync(svgFile, svg)
+    svg2img(svg, function (error, buffer) {
+      if (error) {
+        console.log(error)
+      } else {
+        fs.writeFileSync(pngFile, buffer)
+      }
+    })
+  })
 } catch (err) {
   console.error(err)
 }
