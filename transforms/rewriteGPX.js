@@ -62,11 +62,15 @@ function filterHeight(height, distance) {
   let series = []
   const delta = 0.24
 
+  let maxHeight = 0
+  let minHeight = 1000
   let currentHeight = height[0]
   series[0] = { x: 0, y: height[0] }
 
   // smooth heights to changes of greater than delta metres
   for (let i = 1; i < height.length; i = i + 1) {
+    maxHeight = Math.max(maxHeight, height[i])
+    minHeight = Math.min(minHeight, height[i])
     if (Math.abs(parseFloat(height[i]) - parseFloat(currentHeight)) > delta) {
       series.push({ x: distance[i] / 1000, y: height[i] })
       currentHeight = parseFloat(height[i])
@@ -77,6 +81,8 @@ function filterHeight(height, distance) {
       }
     }
   }
+  console.log('Max height: ', maxHeight)
+  console.log('Min height: ', minHeight)
 
   return series
 }
