@@ -109,4 +109,14 @@ module.exports = {
     name: 'leg11',
     title: 'Berkhamsted Common to Bovingdon',
   },
+  leg12: {
+    distance: 19.3,
+    snack: 'Apple and custard slices',
+    climb: 223,
+    from: 'St Lawrence Church, Bovingdon',
+    to: 'Grand Union Canal, Kings Langley',
+    time: 170,
+    name: 'leg12',
+    title: 'Bovingdon to Kings Langley',
+  },
 }
