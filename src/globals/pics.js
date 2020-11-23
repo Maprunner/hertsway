@@ -672,7 +672,7 @@ module.exports = {
   leg12: [
     {
       src: 'leg12-greenhouses.jpg',
-      caption: 'Greenhouses',
+      caption: 'Greenhouses with radar dome',
     },
     {
       src: 'leg12-holly-hedges.jpg',
@@ -695,17 +695,13 @@ module.exports = {
       caption: 'Grand Union Canal passing under the M25',
     },
     {
-      src: 'leg12-depth-marker.jpg',
-      caption: 'Flood gauge',
-      portrait: true,
-    },
-    {
       src: 'leg12-swan.jpg',
       caption: 'Mute swan 4BED from Tring',
     },
     {
-      src: 'leg12-gorilla.jpg',
-      caption: 'Gorilla',
+      src: 'leg12-depth-marker.jpg',
+      caption: 'Flood gauge',
+      portrait: true,
     },
     {
       src: 'leg12-wcml.jpg',
@@ -716,12 +712,16 @@ module.exports = {
       caption: 'Crossing a lock',
     },
     {
+      src: 'leg12-apsley-marina.jpg',
+      caption: 'Apsley Marina',
+    },
+    {
       src: 'leg12-paper-mill.jpg',
       caption: 'Paper mill',
     },
     {
-      src: 'leg12-apsley-marina.jpg',
-      caption: 'Apsley Marina',
+      src: 'leg12-gorilla.jpg',
+      caption: 'Gorilla',
     },
     {
       src: 'leg12-boxmoor.jpg',
@@ -729,7 +729,7 @@ module.exports = {
     },
     {
       src: 'leg12-donkeys.jpg',
-      caption: 'Donkeys',
+      caption: 'Welcoming party at Bovingdon',
     },
   ],
 }
