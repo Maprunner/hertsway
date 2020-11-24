@@ -683,12 +683,8 @@ module.exports = {
       caption: 'Apostles Pond, Chipperfield',
     },
     {
-      src: 'leg12-pheasant.jpg',
-      caption: 'Pheasant',
-    },
-    {
       src: 'leg12-m25.jpg',
-      caption: 'M25 viaduct on the way down to Kings Langley',
+      caption: 'M25 viaduct across the Gade Valley',
     },
     {
       src: 'leg12-canal-m25.jpg',
@@ -725,7 +721,7 @@ module.exports = {
     },
     {
       src: 'leg12-boxmoor.jpg',
-      caption: 'River Misbourne at Boxmoor',
+      caption: 'Grand Union Canal at Boxmoor',
     },
     {
       src: 'leg12-donkeys.jpg',
