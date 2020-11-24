@@ -1,6 +1,6 @@
 ---
 title: Leg 12 Bovingdon to Kings Langley
-excerpt: 'In which we '
+excerpt: 'In which we misplace a pond and find a marina'
 name: leg12
 image: leg12-canal-m25.jpg
 date: 2020-11-22
@@ -33,7 +33,7 @@ The canal was quite busy and we spent the time dodging walkers, cyclists and fis
 
 We passed a lot of nice houses backing onto the canal, a suit of armour standing in a back garden, three canoeists (average age 70+?), a mountain bike track set up amongst concrete ruins in an area of small hills, the council offices where Helen has had meetings and which now had a drive-through Covid test site in the car park, and lots of locks and bridges including one under the West Coast Main Line.
 
-All this brought us to [Apsley Waterside and Marina](https://www.aquavista.com/find-a-marina/apsley-waterside-marina) which wasn't at all what I was expecting in Hemel Hempstead. The shiny apartment blocks set around a large basin full of canal boats proved a good place for a quick snack break. Just around the corner we came to "The Paper Mill" pub next to the [Frogmore paper mill](https://www.frogmorepapermill.org.uk/). This is one of seven paper mills that used to exist along this stretch of the Gade Valley, and was the location of the first mechanised papermaking machine in the world in 1803.
+All this brought us to [Apsley Waterside and Marina](https://www.aquavista.com/find-a-marina/apsley-waterside-marina) which wasn't at all what I was expecting in Hemel Hempstead. The shiny apartment blocks set around a large basin full of canal boats proved a good place for a quick snack break. Just around the corner we came to "The Paper Mill" pub next to what used to be Apsley paper mill. This is one of seven paper mills that used to exist along this stretch of the Gade Valley. The [Frogmore mill](https://www.frogmorepapermill.org.uk/) was the location of the first mechanised papermaking machine in the world in 1803.
 
 We ticked off a few more locks and bridges, a gorilla statue peering from a hedge at the bottom of a garden, and various Canal and River Trust maintenance vessels including one named "Pride of Slough" and reached Boxmoor. Passing under the A414 we were now on the [Boxmoor East](https://www.happyherts.routegadget.co.uk/rg2/#60) map and I completely missed the opportunity to take a photo of a key location. The clue is that this area is known as Two Rivers and that the A414 at this point is also known as Two Rivers Road since this is where the River Gade joins the Grand Union Canal and the River Bulbourne. From Kings Langley we had been running up the Gade Valley. This now heads north through Hemel and up towards Great Gaddesden where we crossed it on leg 8. We were now heading west along the canal and River Bulbourne back towards Berkhamsted and Tring.
 

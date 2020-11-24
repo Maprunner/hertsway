@@ -183,10 +183,12 @@ function respimgSetup(userConfig = {}) {
                   length: guessLength(sizes, type.mime),
                 }
               }
-
+              // don't optimize if we have already done it: avoid endless regenerations
+              // 600 for landscape, 400 for portrait
+              const path400 = '.\\src\\' + src.slice(0, -3) + '400.jpg'
               const path600 = '.\\src\\' + src.slice(0, -3) + '600.jpg'
               try {
-                if (fs.existsSync(path600)) {
+                if (fs.existsSync(path600) || fs.existsSync(path400)) {
                   optimize = false
                 }
               } catch (err) {

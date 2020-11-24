@@ -10,7 +10,7 @@ tags:
 image: leg1-helen.jpg
 ---
 
-It all starts from the car park at the rugby club on Therfield Heath. This already has a place in family folklore since Therfield Heath was the scene of Helen's last orienteering race before James was born. This was a night event on 8th November 1997, and given James was born on 3rd December you can imagine that she didn't go round too fast. And then we returned for an urban race around Royston in 2019 and she felt so ill she went home without running.
+It all starts from the car park at the rugby club on Therfield Heath. This already has a place in family folklore since [Therfield Heath](https://www.waoc.routegadget.co.uk/rg2/#55) was the scene of Helen's last orienteering race before James was born. This was a night event on 8th November 1997, and given James was born on 3rd December you can imagine that she didn't go round too fast. And then we returned for an urban race around [Royston](https://www.waoc.routegadget.co.uk/rg2/#83&course=1) in 2019 and she felt so ill she went home without running.
 
 But today she was OK so we jogged into Royston in search of the Roy Stone that neither of us even knew existed before this point, even though I had a control next to it at the race in 2019. After the mandatory photos, much to the amusement of the workers relaying the adjacent pavement, we set off up the hill back the way we had come.
 
