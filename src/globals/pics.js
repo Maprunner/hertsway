@@ -669,4 +669,63 @@ module.exports = {
       caption: 'Dropping down into Berkhamsted',
     },
   ],
+  leg12: [
+    {
+      src: 'leg12-greenhouses.jpg',
+      caption: 'Greenhouses with radar dome',
+    },
+    {
+      src: 'leg12-holly-hedges.jpg',
+      caption: 'Holly hedges in Holly Hedges Lane',
+    },
+    {
+      src: 'leg12-apostles-pond.jpg',
+      caption: 'Apostles Pond, Chipperfield',
+    },
+    {
+      src: 'leg12-m25.jpg',
+      caption: 'M25 viaduct across the Gade Valley',
+    },
+    {
+      src: 'leg12-canal-m25.jpg',
+      caption: 'Grand Union Canal passing under the M25',
+    },
+    {
+      src: 'leg12-swan.jpg',
+      caption: 'Mute swan 4BED from Tring',
+    },
+    {
+      src: 'leg12-depth-marker.jpg',
+      caption: 'Flood gauge',
+      portrait: true,
+    },
+    {
+      src: 'leg12-wcml.jpg',
+      caption: 'Canal passing under the West Coast Main Line',
+    },
+    {
+      src: 'leg12-lock.jpg',
+      caption: 'Crossing a lock',
+    },
+    {
+      src: 'leg12-apsley-marina.jpg',
+      caption: 'Apsley Marina',
+    },
+    {
+      src: 'leg12-paper-mill.jpg',
+      caption: 'Paper mill',
+    },
+    {
+      src: 'leg12-gorilla.jpg',
+      caption: 'Gorilla',
+    },
+    {
+      src: 'leg12-boxmoor.jpg',
+      caption: 'Grand Union Canal at Boxmoor',
+    },
+    {
+      src: 'leg12-donkeys.jpg',
+      caption: 'Welcoming party at Bovingdon',
+    },
+  ],
 }
