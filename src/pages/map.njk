@@ -11,7 +11,7 @@ permalink: "map/"
     {% for leg, detail in legs %}
       <div class="flex flex-col flex-1 px-2 py-2 bg-gray-800 rounded-lg shadow-lg">
         <div class="rounded-lg shadow-lg p-4 my-4">
-          <img src="../images/{{ detail.name }}/{{ detail.name }}.png"/>
+          <img src="../images/{{ detail.name }}/{{ detail.name }}.png" loading="lazy"/>
         </div>
         <p class="text-sm text-center">{{ detail.name | formatLegX }}
           {{ detail.title }}:
