@@ -1,6 +1,6 @@
 ---
 title: Leg 3 Weston to Little Wymondley
-excerpt: 'In which it rains quite a lot and we encounter a yeti.'
+excerpt: 'In which it rains quite a lot and we encounter a yeti'
 name: 'leg3'
 image: leg3-helen-a1m.jpg
 date: 2020-10-14
@@ -30,7 +30,7 @@ This is Forster Country and there are various signs around to prove it. [E M For
 
 The rather smart farm on the edge of Gravely was busy with horsy people doing horsy things. Next door was St Mary's Church which was equally well looked after with neat lawns, topiary and trimmed hedges. Round the corner we found out how it was done. One man drove the tractor with a large bucket on the front. The other man stood in the digger bucket with an enormous hedge trimmer and was lifted up to attack the hedge.
 
-The airstrip on the map turned out to be little more than some poorly mown grass and a faded wind sock but just up the hill was a fruit farm with neat rows of apple trees and around the corner it became a caravan park. Quite who comes to Stevenage for a caravan holiday is not immediately obvious, but there were a few people there so obviously there is a demand. It's probably marketed as "convenient for the A1(M)", which was just a few hundred metres further on once we had managed the a rather dodgy road crossing that involved steep steps down to a blind bend. And then it was under the A1(M) and we could really feel we were getting somewhere.
+The airstrip on the map turned out to be little more than some poorly mown grass and a faded wind sock but just up the hill was a fruit farm with neat rows of apple trees and around the corner it became a caravan park. Quite who comes to Stevenage for a caravan holiday is not immediately obvious, but there were a few people there so obviously there is a demand. It's probably marketed as "convenient for the A1(M)", which was just a few hundred metres further on once we had managed the rather dodgy road crossing that involved steep steps down to a blind bend. And then it was under the A1(M) and we could really feel we were getting somewhere.
 
 The route looped north towards Letchworth and then back south. We checked the road heading for Great Wymondley but it looked a bit narrow and fast, so we returned to the parallel path through the fields that led into the recreation ground. We passed a man having an animated discussion on his mobile phone, with a large metal detector and spade propped up next to him. It wasn't obvious he had found anything, but the field did have an excellent crop of stones to search through, as do so many that we have passed through (and indeed as does Helen's allotment).
 
@@ -40,7 +40,7 @@ A bridge under the East Coast Main Line brought us into Little Wymondley. I took
 
 It was now lunchtime so it must be time for a church. We took the opportunity to shelter from the wind in the porch of St Mary's Church. The notice board was mainly memorable for the schedule of charges for various things you might decide the church could provide you with: weddings, baptisms, parish records extracts, burials with and without church services, and that sort of thing.
 
-There was a short detour when we took the wrong exit from the churchyard, and a slightly longer detour trying to find the path around the fields next to the A1(M). Our excuse was that the path was overgrown, and hidden by a parked van when we first investigated it. The footbridge over the railway wobbled more that you might have liked as a train went under: it was a Hitachi IEP so I can claim a minor involvement. We did a tour of A1(M) Junction 8 and then picked up the cycle path to Graveley. This brought us into a part of the village we had missed earlier, including the duck pond with the impressive Gothic House behind it.
+There was a short detour when we took the wrong exit from the churchyard, and a slightly longer detour trying to find the path around the fields next to the A1(M). Our excuse was that the path was overgrown, and hidden by a parked van when we first investigated it. The footbridge over the railway wobbled more than you might have liked as a train went under: it was a Hitachi IEP so I can claim a minor involvement. We did a tour of A1(M) Junction 8 and then picked up the cycle path to Graveley. This brought us into a part of the village we had missed earlier, including the duck pond with the impressive Gothic House behind it.
 
 We picked up Church Road and which helpfully took us back towards the church. I spotted two grey pigeons in the top of a tree some way ahead. One flew off as I approached and turned out to be a kestrel rather than a pigeon. I was mentally debating why a kestrel and pigeon would be sitting so close together in a tree when the second pigeon flew off and turned out to be a kestrel as well.
 

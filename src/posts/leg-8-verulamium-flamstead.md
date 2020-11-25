@@ -1,6 +1,6 @@
 ---
 title: Leg 8 Verulamium to Flamstead
-excerpt: "In which the River Ver leads us to a Cetti's warbler and a stonechat."
+excerpt: "In which the River Ver leads us to a Cetti's warbler and a stonechat"
 name: 'leg8'
 image: leg8-stonechat.jpg
 date: 2020-11-07

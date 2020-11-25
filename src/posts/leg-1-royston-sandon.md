@@ -1,6 +1,6 @@
 ---
 title: Leg 1 Royston to Sandon
-excerpt: 'In which it all begins.'
+excerpt: 'In which it all begins'
 name: 'leg1'
 date: 2020-10-07
 tags:
@@ -18,7 +18,7 @@ I checked my watch as we turned left off the main road and found I had forgotten
 
 A brief section through woods led to an open grassy spur that provided good photo opportunities. The golf course gave way to race horse gallops and Helen set a brisk pace. Soon we reached the end of the Heath and turned south through a farmyard and out into open countryside. This provided a first real opportunity to play with my new camera in an attempt to take impressive photographs without just setting it to auto and pressing the shutter button at random. A herd of deer on the distant hill was a good start, and then there were various views of ploughed fields with interesting cloud formations. The results turned out to be OK, but several shots which should have been good were ruined by me failing to spot that I had somehow knocked the exposure compensation dial so everything was a bit overexposed.
 
-The first real climb of the trip was up through a wooded valley and then we emerged into the village of Therfield. The signs were adamant that you turned left through an area of overgrown earthworks, so we did. The path then led into the back garden of a large house and down their front drove, but apparently this was correct. We got a first look at the rather nice village green and surrounding houses, and then doubled back very sharply to reach the church of St Mary the Virgin, soon followed by St Faith in Kelshall. It turns out there are a lot of churches in this part of Hertfordshire.
+The first real climb of the trip was up through a wooded valley and then we emerged into the village of Therfield. The signs were adamant that you turned left through an area of overgrown earthworks, so we did. The path then led into the back garden of a large house and down their front drive, but apparently this was correct. We got a first look at the rather nice village green and surrounding houses, and then doubled back very sharply to reach the church of St Mary the Virgin, soon followed by St Faith in Kelshall. It turns out there are a lot of churches in this part of Hertfordshire.
 
 There are even more horses and the path headed through yet another area of stables, fenced paddocks and dressage arenas before emerging at a field edge. The map reckoned you needed to go diagonally across the field. We both reckoned this was a pretty stupid idea since we didn't want to be the first people heading into the deep mud on the newly ploughed field. So instead we followed the field edge and finally found a muddy track that seemed to be going in the correct direction. At this point Helen retrieved a large horseshoe from the mud and decided this was what was needed as a memento of the day, especially as her sherpa could carry it in his rucksack. The end was now in sight with Sandon Church appearing across the field, or at least the end of the first half of the first leg.
 

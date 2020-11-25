@@ -1,6 +1,6 @@
 ---
 title: Leg 4 Little Wymondley to Whitwell
-excerpt: 'In which we are joined by a guest runner.'
+excerpt: 'In which we are joined by a guest runner'
 name: 'leg4'
 image: leg4-helen-james.jpg
 date: 2020-10-18
@@ -19,7 +19,7 @@ James decided to have a weekend at home whilst that was still an option so this 
 
 We started with photos at the Little Wymondley village sign that I had failed to notice the previous time we were here, despite it being only about five metres from the Plume of Feathers pub sign where I had taken a photo. Then it was up the hill to the water tower and football pitch. James commented that it seemed strange that the shortest player on pitch was in goal. That's exactly what I had been thinking.
 
-We dropped down and crossed the familiar bypass. The guide book offers a one mile extension via a bridge to avoid having to throw yourself in front of the bypass traffic, but for those of us used to crossing the A414 when running to and from the Gravel Pits this was no problem. Today was to be a pub day rather than a church day. We have already passed The Plume of Feathers and The Bucks Head, and now we came to The Hermit of Redcoats.
+We dropped down and crossed the familiar bypass. The guide book offers a one mile extension via a bridge to avoid having to throw yourself in front of the bypass traffic, but for those of us used to crossing the A414 when running to and from the Gravel Pits this was no problem. Today was to be a pub day rather than a church day. We had already passed The Plume of Feathers and The Bucks Head, and now we came to The Hermit of Redcoats.
 
 On the way up to Almshoe Bury on top of the far hill we came across another newly ploughed field with a path that had gone missing. We had a short debate with local dogwalkers about where the path was meant to go and how to get round the field and finally set off to run round three sides of it. The farm complex at the top of the hill was littered with ruined cars, old army trucks and a burger van scattered around the various outbuildings and enjoyed panoramic views, including back down to the Lister Hospital.
 
