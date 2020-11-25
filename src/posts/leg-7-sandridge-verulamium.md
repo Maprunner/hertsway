@@ -1,6 +1,6 @@
 ---
 title: Leg 7 Sandridge to Verulamium
-excerpt: 'In which we leave the car behind and fit in a few chores.'
+excerpt: 'In which we leave the car behind and fit in a few chores'
 name: 'leg7'
 image: leg7-museum.jpg
 date: 2020-11-04

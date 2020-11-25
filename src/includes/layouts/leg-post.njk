@@ -75,6 +75,10 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
           <span class="text-white">Snack:
           </span>{{ legs[name].snack }}
         </p>
+        <p class="my-1">
+          <span class="text-white">Orienteering maps:
+          </span>{{ legs[name].omaps }}
+        </p>
       </div>
       {% LegMap name %}
       <div class="rounded-lg shadow-lg my-4">

@@ -10,6 +10,7 @@ module.exports = {
     time: 205,
     name: 'leg1',
     title: 'Royston to Sandon',
+    omaps: 'Therfield Heath, Royston',
   },
   leg2: {
     distance: 24.3,
@@ -22,6 +23,7 @@ module.exports = {
     time: 240,
     name: 'leg2',
     title: 'Sandon to Weston',
+    omaps: 'None',
   },
   leg3: {
     distance: 19.6,
@@ -34,6 +36,7 @@ module.exports = {
     time: 170,
     name: 'leg3',
     title: 'Weston to Little Wymondley',
+    omaps: 'None',
   },
   leg4: {
     distance: 20.2,
@@ -46,6 +49,7 @@ module.exports = {
     time: 185,
     name: 'leg4',
     title: 'Little Wymondley to Whitwell',
+    omaps: 'None',
   },
   leg5: {
     distance: 20.8,
@@ -58,6 +62,7 @@ module.exports = {
     time: 190,
     name: 'leg5',
     title: 'Whitwell to Lamer Park',
+    omaps: 'None',
   },
   leg6: {
     distance: 19.0,
@@ -70,6 +75,7 @@ module.exports = {
     time: 180,
     name: 'leg6',
     title: 'Lamer Park to Sandridge',
+    omaps: 'Heartwood, Nomansland Common',
   },
   leg7: {
     distance: 20.7,
@@ -82,6 +88,8 @@ module.exports = {
     time: 215,
     name: 'leg7',
     title: 'Sandridge to Verulamium',
+    omaps:
+      'Highfield Park, Oaklands College, Jersey Farm, Heartwood, Verulamium, St Albans',
   },
   leg8: {
     distance: 27.6,
@@ -94,6 +102,7 @@ module.exports = {
     time: 255,
     name: 'leg8',
     title: 'Verulamium to Flamstead',
+    omaps: 'Verulamium',
   },
   leg9: {
     distance: 20.5,
@@ -106,6 +115,7 @@ module.exports = {
     time: 185,
     name: 'leg9',
     title: 'Flamstead to Great Gaddesden',
+    omaps: 'None',
   },
   leg10: {
     distance: 22.9,
@@ -118,6 +128,8 @@ module.exports = {
     time: 220,
     name: 'leg10',
     title: 'Great Gaddesden to Berkhamsted Common',
+    omaps:
+      'Ashridge East, Ashridge North, Ashridge South, Frithsden Beeches, Frithsden East',
   },
   leg11: {
     distance: 20.0,
@@ -130,6 +142,7 @@ module.exports = {
     time: 190,
     name: 'leg11',
     title: 'Berkhamsted Common to Bovingdon',
+    omaps: 'None',
   },
   leg12: {
     distance: 19.3,
@@ -142,5 +155,6 @@ module.exports = {
     time: 170,
     name: 'leg12',
     title: 'Bovingdon to Kings Langley',
+    omaps: 'Chipperfield Common',
   },
 }
