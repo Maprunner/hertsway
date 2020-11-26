@@ -728,4 +728,10 @@ module.exports = {
       caption: 'Welcoming party at Bovingdon',
     },
   ],
+  leg13: [
+    {
+      src: 'leg13-windmill1.jpg',
+      caption: 'RES wind turbine',
+    },
+  ],
 }
