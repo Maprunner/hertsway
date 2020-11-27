@@ -730,8 +730,52 @@ module.exports = {
   ],
   leg13: [
     {
+      src: 'leg13-egg-farm.jpg',
+      caption: 'Egg Farm Lane',
+    },
+    {
       src: 'leg13-windmill1.jpg',
       caption: 'RES wind turbine',
+    },
+    {
+      src: 'leg13-shadow.jpg',
+      caption: 'Looking towards Hemel Hempstead',
+    },
+    {
+      src: 'leg13-ovaltine.jpg',
+      caption: 'Ovaltine factory',
+    },
+    {
+      src: 'leg13-m25.jpg',
+      caption: 'Fields by the M25',
+    },
+    {
+      src: 'leg13-bricket-common.jpg',
+      caption: 'Bricket Wood Common',
+    },
+    {
+      src: 'leg13-abbey-line.jpg',
+      caption: 'Abbey Line through Bricket Wood Common',
+    },
+    {
+      src: 'leg13-aldenham-church.jpg',
+      caption: 'St John the Baptist Church, Aldenham',
+    },
+    {
+      src: 'leg13-watford.jpg',
+      caption: 'Helen in Watford',
+    },
+    {
+      src: 'leg13-grove-mill.jpg',
+      caption: 'Grove Mill',
+    },
+    {
+      src: 'leg13-little-grebe.jpg',
+      caption: 'Little Grebe',
+    },
+    {
+      src: 'leg13-m25-viaduct.jpg',
+      caption: 'M25 viaduct over the Gade Valley',
     },
   ],
 }

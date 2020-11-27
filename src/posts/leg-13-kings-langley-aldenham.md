@@ -10,9 +10,14 @@ tags:
   - Kings Langley
   - M25
   - River Gade
+  - River Colne
+  - Watford
+  - Aldenham
 ---
 
-Egg Farm Lane
+It was an early start since we knew we had a long leg ahead and I needed to be back for a meeting. 3ºC when we left home had crept up to 5ºC as we set out, but it was still cold enough for each of us to put an extra layer on. But the sun was shining from a blue sky, at least over Kings Langley, and we were soon running up Egg Farm Lane to reach the wind turbine first spotted n the previous leg.
+
+The headquarters of Renewable Energy Systems are at [Beaufort Court](http://www.beaufortcourt.com/) in what used to be the Ovaltine Egg Farm. The site now has a 36m tall 225kW wind turbine visible, along with fields full of some rather better hidden solar panels.
 
 RES
 
@@ -66,7 +71,7 @@ Jays
 
 Open heathland
 
-Abbey Flyer
+[Abbey Flyer](https://abbeyline.org.uk/)
 
 Path being relayed
 
