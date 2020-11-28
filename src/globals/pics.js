@@ -758,16 +758,41 @@ module.exports = {
       caption: 'Abbey Line through Bricket Wood Common',
     },
     {
+      src: 'leg13-munden.jpg',
+      caption: 'Crossing Munden Estate towards the Colne Valley',
+    },
+    {
+      src: 'leg13-sheep.jpg',
+      caption: 'Beware of the sheep',
+    },
+
+    {
+      src: 'leg13-wall-hall.jpg',
+      caption: 'Wall Hall Mansion',
+    },
+    {
+      src: 'leg13-barn.jpg',
+      caption: 'Barn at Wall Hall',
+    },
+    {
       src: 'leg13-aldenham-church.jpg',
       caption: 'St John the Baptist Church, Aldenham',
+    },
+    {
+      src: 'leg13-kingfisher1.jpg',
+      caption: 'Where the first kingfisher was',
+    },
+    {
+      src: 'leg13-watford-colne.jpg',
+      caption: 'Helen looking for kingfishers',
     },
     {
       src: 'leg13-watford.jpg',
       caption: 'Helen in Watford',
     },
     {
-      src: 'leg13-grove-mill.jpg',
-      caption: 'Grove Mill',
+      src: 'leg13-helen-grove-mill.jpg',
+      caption: 'Helen passing Grove Mill',
     },
     {
       src: 'leg13-little-grebe.jpg',
@@ -776,6 +801,11 @@ module.exports = {
     {
       src: 'leg13-m25-viaduct.jpg',
       caption: 'M25 viaduct over the Gade Valley',
+    },
+    {
+      src: 'leg13-windmill2.jpg',
+      caption: 'Wind turbine viewed from the canal',
+      portrait: true,
     },
   ],
 }
