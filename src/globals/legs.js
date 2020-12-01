@@ -170,4 +170,17 @@ module.exports = {
     title: 'Kings Langley to Aldenham',
     omaps: 'Cassiobury Park',
   },
+  leg14: {
+    distance: 20.5,
+    snack: 'Mince pies',
+    climb: 211,
+    high: 128,
+    low: 59,
+    from: 'St John the Baptist Church, Aldenham',
+    to: 'Porters Park, Shenley',
+    time: 180,
+    name: 'leg14',
+    title: 'Aldenham to Shenley',
+    omaps: 'None',
+  },
 }

@@ -808,4 +808,30 @@ module.exports = {
       portrait: true,
     },
   ],
+  leg14: [
+    {
+      src: 'leg14-buzzard.jpg',
+      caption: 'Buzzard',
+    },
+    {
+      src: 'leg14-porters-park.jpg',
+      caption: 'Approaching Porters Park',
+    },
+    {
+      src: 'leg14-home.jpg',
+      caption: '24 Fielders Way',
+    },
+    {
+      src: 'leg14-ver-colne.jpg',
+      caption: 'Junction of River Ver and River Colne',
+    },
+    {
+      src: 'leg14-horse.jpg',
+      caption: 'Horse with sewage works',
+    },
+    {
+      src: 'leg14-sheep.jpg',
+      caption: 'More sheep, more turnips',
+    },
+  ],
 }
