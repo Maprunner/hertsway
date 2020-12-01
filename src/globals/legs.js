@@ -177,7 +177,7 @@ module.exports = {
     high: 128,
     low: 59,
     from: 'St John the Baptist Church, Aldenham',
-    to: 'Porters Park, Shenley',
+    to: 'Shenley Park Tea Rooms, Shenley',
     time: 180,
     name: 'leg14',
     title: 'Aldenham to Shenley',
