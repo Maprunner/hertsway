@@ -808,4 +808,54 @@ module.exports = {
       portrait: true,
     },
   ],
+  leg14: [
+    {
+      src: 'leg14-letchmore.jpg',
+      caption: 'Letchmore Heath war memorial',
+    },
+    {
+      src: 'leg14-buzzard.jpg',
+      caption: 'Buzzard',
+    },
+    {
+      src: 'leg14-shenley-view.jpg',
+      caption: 'Approaching Shenley Park',
+    },
+    {
+      src: 'leg14-chapel.jpg',
+      caption: 'Shenley Chapel',
+    },
+    {
+      src: 'leg14-shenley-manor.jpg',
+      caption: 'Shenley Manor',
+    },
+    {
+      src: 'leg14-home.jpg',
+      caption: '24 Fielders Way',
+    },
+    {
+      src: 'leg14-water-tower.jpg',
+      caption: 'Shenley water tower',
+    },
+    {
+      src: 'leg14-manor-sky.jpg',
+      caption: 'Clouds above Shenley Manor',
+    },
+    {
+      src: 'leg14-watford-fc.jpg',
+      caption: 'Watford FC training ground bubble',
+    },
+    {
+      src: 'leg14-ver-colne.jpg',
+      caption: 'Junction of River Ver and River Colne',
+    },
+    {
+      src: 'leg14-horse.jpg',
+      caption: 'Horse with sewage works',
+    },
+    {
+      src: 'leg14-sheep.jpg',
+      caption: 'More sheep, more turnips',
+    },
+  ],
 }
