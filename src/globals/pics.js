@@ -818,7 +818,7 @@ module.exports = {
       caption: 'Buzzard',
     },
     {
-      src: 'leg14-porters-park.jpg',
+      src: 'leg14-shenley-view.jpg',
       caption: 'Approaching Shenley Park',
     },
     {
@@ -834,7 +834,7 @@ module.exports = {
       caption: '24 Fielders Way',
     },
     {
-      src: 'leg14-home.jpg',
+      src: 'leg14-water-tower.jpg',
       caption: 'Shenley water tower',
     },
     {
@@ -842,10 +842,9 @@ module.exports = {
       caption: 'Clouds above Shenley Manor',
     },
     {
-      src: 'leg14-st-albans.jpg',
-      caption: 'St Albans Abbey',
+      src: 'leg14-watford-fc.jpg',
+      caption: 'Watford FC training ground bubble',
     },
-
     {
       src: 'leg14-ver-colne.jpg',
       caption: 'Junction of River Ver and River Colne',
