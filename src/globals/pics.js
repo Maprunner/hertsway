@@ -810,17 +810,42 @@ module.exports = {
   ],
   leg14: [
     {
+      src: 'leg14-letchmore.jpg',
+      caption: 'Letchmore Heath war memorial',
+    },
+    {
       src: 'leg14-buzzard.jpg',
       caption: 'Buzzard',
     },
     {
       src: 'leg14-porters-park.jpg',
-      caption: 'Approaching Porters Park',
+      caption: 'Approaching Shenley Park',
+    },
+    {
+      src: 'leg14-chapel.jpg',
+      caption: 'Shenley Chapel',
+    },
+    {
+      src: 'leg14-shenley-manor.jpg',
+      caption: 'Shenley Manor',
     },
     {
       src: 'leg14-home.jpg',
       caption: '24 Fielders Way',
     },
+    {
+      src: 'leg14-home.jpg',
+      caption: 'Shenley water tower',
+    },
+    {
+      src: 'leg14-manor-sky.jpg',
+      caption: 'Clouds above Shenley Manor',
+    },
+    {
+      src: 'leg14-st-albans.jpg',
+      caption: 'St Albans Abbey',
+    },
+
     {
       src: 'leg14-ver-colne.jpg',
       caption: 'Junction of River Ver and River Colne',
