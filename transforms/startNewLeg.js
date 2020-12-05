@@ -3,8 +3,8 @@
 // filters it down to a point every minDist metres to save a lot of space
 const minDist = 10
 const fs = require('fs')
-const legs = require('./../src/globals/legs.js')
-const legsLonLat = require('./../src/scripts/legsLonLat.js')
+let legs = require('../src/globals/legs.js')
+let legsLonLat = require('../src/scripts/legsLonLat.js')
 const svg2img = require('node-svg2img')
 const heightProfile = require('./heightProfile')
 
@@ -22,34 +22,48 @@ const emptyLegData = {
   omaps: 'None',
 }
 
-// argument expected to be the raw "leg11.gpx" already in src/data directory
+// arguments: leg number, from, to
 if (process.argv.length < 3) {
   console.error('Missing leg number argument')
   process.exit(1)
 }
+if (process.argv.length < 4) {
+  console.error('Missing "From" argument')
+  process.exit(1)
+}
+if (process.argv.length < 5) {
+  console.error('Missing "To" argument')
+  process.exit(1)
+}
+
 const leg = parseInt(process.argv[2], 10)
+const from = process.argv[3]
+const to = process.argv[4]
 const legName = 'leg' + leg
 
 const gpxFile = './src/data/' + legName + '.gpx'
 const pngFile = './src/images/' + legName + '/' + legName + '.png'
 const legsFile = './src/globals/legs.js'
-const lonLatFile = './src/script/legsLonLat.js'
+const lonLatFile = './src/scripts/legsLonLat.js'
+const imageDir = './src/images/' + legName
 
 try {
+  // create image directory if needed
+  if (!fs.existsSync(imageDir)) {
+    fs.mkdirSync(imageDir)
+  }
+
   // read original GPX file
   const olddata = fs.readFileSync(gpxFile, 'utf8')
 
   // filter it down and extract stats
-  const { newfile, height, distance, top, bottom } = processFile(olddata)
+  const { newfile, height, distance, lon, lat } = processFile(olddata)
 
   // save filtered version of file
-  fs.writeFileSync(file, newfile)
+  fs.writeFileSync(gpxFile, newfile)
 
   // extract profile data
-  const { series, maxHeight, minHeight, lon, lat } = filterHeight(
-    height,
-    distance
-  )
+  const { series, maxHeight, minHeight } = filterHeight(height, distance)
   const data = {
     title: 'Leg ' + leg + ' profile',
     series: [series],
@@ -67,13 +81,14 @@ try {
   })
 
   // create new leg array if needed
-  if (!legName in legs) {
+  if (!(legName in legs)) {
     legs[legName] = emptyLegData
   }
-  // update leg details from gpx file
+  // update leg details
   legs[legName].name = legName
-  legs[legName].high = maxHeight
-  legs[legName].low = minHeight
+  legs[legName].title = from + ' to ' + to
+  legs[legName].high = parseInt(maxHeight + 0.5, 10)
+  legs[legName].low = parseInt(minHeight + 0.5, 10)
   if (leg > 1) {
     legs[legName].from = legs['leg' + (leg - 1)].to
   }
@@ -83,14 +98,48 @@ try {
 
   // save updated legsLonLat.js
   const lonLat = []
-  lonLat.push(lon)
-  lonLat.push(lat)
+  lonLat.push(parseFloat(lon.toFixed(2)))
+  lonLat.push(parseFloat(lat.toFixed(2)))
   legsLonLat[leg - 1] = lonLat
   fs.writeFileSync(lonLatFile, 'module.exports = ' + JSON.stringify(legsLonLat))
+
+  // create new post if needed
+  const postFile =
+    './src/posts/leg-' +
+    leg +
+    '-' +
+    from.toLowerCase() +
+    '-' +
+    to.toLowerCase() +
+    '.md'
+  if (!fs.existsSync(postFile)) {
+    let newPost = fs.readFileSync('./src/globals/leg-empty.md', 'utf8')
+    const now = new Date(Date.now())
+
+    newPost = newPost
+      .replace('<title>', 'Leg ' + leg + ' ' + from + ' to ' + to)
+      .replace('<name>', legName)
+      .replace('<image>', legName + '.png')
+      .replace(
+        '<date>',
+        now.getFullYear() +
+          '-' +
+          pad(now.getMonth() + 1) +
+          '-' +
+          pad(now.getDate())
+      )
+    fs.writeFileSync(postFile, newPost)
+  }
 } catch (err) {
   console.error(err)
 }
 
+function pad(value) {
+  if (value < 10) {
+    return '0' + value
+  }
+  return value
+}
 function toRad(degrees) {
   return (degrees * Math.PI) / 180
 }
@@ -136,7 +185,7 @@ function filterHeight(height, distance) {
   console.log('Max height: ', maxHeight)
   console.log('Min height: ', minHeight)
 
-  return { series: series, max: maxHeight, min: minHeight }
+  return { series: series, maxHeight: maxHeight, minHeight: minHeight }
 }
 
 function processFile(data) {
@@ -252,7 +301,7 @@ function processFile(data) {
     newfile: newfile,
     height: height,
     distance: distance,
-    lon: ((minLon + maxLon) / 2).toFixed(2),
-    lat: ((minLat + maxLat) / 2).toFixed(2),
+    lon: (minLon + maxLon) / 2,
+    lat: (minLat + maxLat) / 2,
   }
 }
