@@ -3,29 +3,59 @@
 // filters it down to a point every minDist metres to save a lot of space
 const minDist = 10
 const fs = require('fs')
+const legs = require('./../src/globals/legs.js')
+const legsLonLat = require('./../src/scripts/legsLonLat.js')
 const svg2img = require('node-svg2img')
 const heightProfile = require('./heightProfile')
+
+const emptyLegData = {
+  distance: 0,
+  snack: 'Mince pies',
+  climb: 0,
+  high: 0,
+  low: 0,
+  from: '',
+  to: '',
+  time: 0,
+  name: '',
+  title: '',
+  omaps: 'None',
+}
 
 // argument expected to be the raw "leg11.gpx" already in src/data directory
 if (process.argv.length < 3) {
   console.error('Missing leg number argument')
   process.exit(1)
 }
-const leg = process.argv[2]
-//for (let leg = 1; leg < 12; leg = leg + 1) {
+const leg = parseInt(process.argv[2], 10)
+const legName = 'leg' + leg
 
-const file = './src/data/leg' + leg + '.gpx'
-const pngFile = './src/images/leg' + leg + '/leg' + leg + '.png'
+const gpxFile = './src/data/' + legName + '.gpx'
+const pngFile = './src/images/' + legName + '/' + legName + '.png'
+const legsFile = './src/globals/legs.js'
+const lonLatFile = './src/script/legsLonLat.js'
 
 try {
-  const olddata = fs.readFileSync(file, 'utf8')
-  const { newfile, height, distance } = processFile(olddata)
+  // read original GPX file
+  const olddata = fs.readFileSync(gpxFile, 'utf8')
+
+  // filter it down and extract stats
+  const { newfile, height, distance, top, bottom } = processFile(olddata)
+
+  // save filtered version of file
   fs.writeFileSync(file, newfile)
-  const series = filterHeight(height, distance)
+
+  // extract profile data
+  const { series, maxHeight, minHeight, lon, lat } = filterHeight(
+    height,
+    distance
+  )
   const data = {
     title: 'Leg ' + leg + ' profile',
     series: [series],
   }
+
+  // create profile png
   heightProfile(data).then((svg) => {
     svg2img(svg, function (error, buffer) {
       if (error) {
@@ -35,10 +65,32 @@ try {
       }
     })
   })
+
+  // create new leg array if needed
+  if (!legName in legs) {
+    legs[legName] = emptyLegData
+  }
+  // update leg details from gpx file
+  legs[legName].name = legName
+  legs[legName].high = maxHeight
+  legs[legName].low = minHeight
+  if (leg > 1) {
+    legs[legName].from = legs['leg' + (leg - 1)].to
+  }
+
+  // save updated legs.js
+  fs.writeFileSync(legsFile, 'module.exports = ' + JSON.stringify(legs))
+
+  // save updated legsLonLat.js
+  const lonLat = []
+  lonLat.push(lon)
+  lonLat.push(lat)
+  legsLonLat[leg - 1] = lonLat
+  fs.writeFileSync(lonLatFile, 'module.exports = ' + JSON.stringify(legsLonLat))
 } catch (err) {
   console.error(err)
 }
-//}
+
 function toRad(degrees) {
   return (degrees * Math.PI) / 180
 }
@@ -84,7 +136,7 @@ function filterHeight(height, distance) {
   console.log('Max height: ', maxHeight)
   console.log('Min height: ', minHeight)
 
-  return series
+  return { series: series, max: maxHeight, min: minHeight }
 }
 
 function processFile(data) {
@@ -123,7 +175,6 @@ function processFile(data) {
   let lon = 0
   let savedHeight = 0
   let savedDistance = 0
-  let realDistance = 0
   // second pass through gets limits of track and deletes trkpoints where we haven't moved much
   for (let i = 0; i < newlines.length; i = i + 1) {
     // if we are processing a trkpt
@@ -197,5 +248,11 @@ function processFile(data) {
     }
   }
 
-  return { newfile: newfile, height: height, distance: distance }
+  return {
+    newfile: newfile,
+    height: height,
+    distance: distance,
+    lon: ((minLon + maxLon) / 2).toFixed(2),
+    lat: ((minLat + maxLat) / 2).toFixed(2),
+  }
 }

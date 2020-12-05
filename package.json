@@ -11,7 +11,8 @@
     "dev": "npm-run-all clean build:* -p dev:*",
     "dev:11ty": "eleventy --serve",
     "dev:rollup": "rollup -c -w",
-    "gpx": "node ./transforms/rewriteGPX.js"
+    "gpx": "node ./transforms/rewriteGPX.js",
+    "auto": "node ./transforms/automate.js"
   },
   "dependencies": {},
   "devDependencies": {

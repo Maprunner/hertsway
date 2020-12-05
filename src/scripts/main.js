@@ -7,7 +7,10 @@ import GPX from 'ol/format/GPX'
 import VectorSource from 'ol/source/Vector'
 import { Circle as CircleStyle, Fill, Stroke, Style } from 'ol/style'
 import { Vector as VectorLayer } from 'ol/layer'
-import { hertsLonLat, legsLonLat } from './mapLatLon.js'
+import legsLonLat from './legsLonLat.js'
+
+// centre for overview map
+const hertsLonLat = [-0.2, 51.85],
 
 if (DEV_MODE) console.log('Dev mode is currently enabled.')
 
