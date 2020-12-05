@@ -8,15 +8,13 @@ Built with [11ty](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.
 
 ## Adding a new leg
 
-- Create new post in src/posts
-- Add details to globals/legs.js
+- Save gpx file in src/data as legx.gpx
+- npm run new <x> <from> <to>
+- Edit post
 - Add picture details to globals/pics.js
 - Add pictures (600x400 jpg) to src/images
-- Save gpx file in src/data as legx.gpx
-- npm gpx legx.gpx
-- extract details from console output and add new map centre entry to src/scripts/mapLonLat.js
 - npm run dev to test
-- copy dist/images files to src/images to avoid resizing again
+- copy dist/images to src/images to avoid resizing again
 
 ## Deploying
 

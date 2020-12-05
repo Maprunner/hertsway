@@ -3,29 +3,73 @@
 // filters it down to a point every minDist metres to save a lot of space
 const minDist = 10
 const fs = require('fs')
+let legs = require('../src/globals/legs.js')
+let legsLonLat = require('../src/scripts/legsLonLat.js')
 const svg2img = require('node-svg2img')
 const heightProfile = require('./heightProfile')
 
-// argument expected to be the raw "leg11.gpx" already in src/data directory
+const emptyLegData = {
+  distance: 0,
+  snack: 'Mince pies',
+  climb: 0,
+  high: 0,
+  low: 0,
+  from: '',
+  to: '',
+  time: 0,
+  name: '',
+  title: '',
+  omaps: 'None',
+}
+
+// arguments: leg number, from, to
 if (process.argv.length < 3) {
   console.error('Missing leg number argument')
   process.exit(1)
 }
-const leg = process.argv[2]
-//for (let leg = 1; leg < 12; leg = leg + 1) {
+if (process.argv.length < 4) {
+  console.error('Missing "From" argument')
+  process.exit(1)
+}
+if (process.argv.length < 5) {
+  console.error('Missing "To" argument')
+  process.exit(1)
+}
 
-const file = './src/data/leg' + leg + '.gpx'
-const pngFile = './src/images/leg' + leg + '/leg' + leg + '.png'
+const leg = parseInt(process.argv[2], 10)
+const from = process.argv[3]
+const to = process.argv[4]
+const legName = 'leg' + leg
+
+const gpxFile = './src/data/' + legName + '.gpx'
+const pngFile = './src/images/' + legName + '/' + legName + '.png'
+const legsFile = './src/globals/legs.js'
+const lonLatFile = './src/scripts/legsLonLat.js'
+const imageDir = './src/images/' + legName
 
 try {
-  const olddata = fs.readFileSync(file, 'utf8')
-  const { newfile, height, distance } = processFile(olddata)
-  fs.writeFileSync(file, newfile)
-  const series = filterHeight(height, distance)
+  // create image directory if needed
+  if (!fs.existsSync(imageDir)) {
+    fs.mkdirSync(imageDir)
+  }
+
+  // read original GPX file
+  const olddata = fs.readFileSync(gpxFile, 'utf8')
+
+  // filter it down and extract stats
+  const { newfile, height, distance, lon, lat } = processFile(olddata)
+
+  // save filtered version of file
+  fs.writeFileSync(gpxFile, newfile)
+
+  // extract profile data
+  const { series, maxHeight, minHeight } = filterHeight(height, distance)
   const data = {
     title: 'Leg ' + leg + ' profile',
     series: [series],
   }
+
+  // create profile png
   heightProfile(data).then((svg) => {
     svg2img(svg, function (error, buffer) {
       if (error) {
@@ -35,10 +79,67 @@ try {
       }
     })
   })
+
+  // create new leg array if needed
+  if (!(legName in legs)) {
+    legs[legName] = emptyLegData
+  }
+  // update leg details
+  legs[legName].name = legName
+  legs[legName].title = from + ' to ' + to
+  legs[legName].high = parseInt(maxHeight + 0.5, 10)
+  legs[legName].low = parseInt(minHeight + 0.5, 10)
+  if (leg > 1) {
+    legs[legName].from = legs['leg' + (leg - 1)].to
+  }
+
+  // save updated legs.js
+  fs.writeFileSync(legsFile, 'module.exports = ' + JSON.stringify(legs))
+
+  // save updated legsLonLat.js
+  const lonLat = []
+  lonLat.push(parseFloat(lon.toFixed(2)))
+  lonLat.push(parseFloat(lat.toFixed(2)))
+  legsLonLat[leg - 1] = lonLat
+  fs.writeFileSync(lonLatFile, 'module.exports = ' + JSON.stringify(legsLonLat))
+
+  // create new post if needed
+  const postFile =
+    './src/posts/leg-' +
+    leg +
+    '-' +
+    from.toLowerCase() +
+    '-' +
+    to.toLowerCase() +
+    '.md'
+  if (!fs.existsSync(postFile)) {
+    let newPost = fs.readFileSync('./src/globals/leg-empty.md', 'utf8')
+    const now = new Date(Date.now())
+
+    newPost = newPost
+      .replace('<title>', 'Leg ' + leg + ' ' + from + ' to ' + to)
+      .replace('<name>', legName)
+      .replace('<image>', legName + '.png')
+      .replace(
+        '<date>',
+        now.getFullYear() +
+          '-' +
+          pad(now.getMonth() + 1) +
+          '-' +
+          pad(now.getDate())
+      )
+    fs.writeFileSync(postFile, newPost)
+  }
 } catch (err) {
   console.error(err)
 }
-//}
+
+function pad(value) {
+  if (value < 10) {
+    return '0' + value
+  }
+  return value
+}
 function toRad(degrees) {
   return (degrees * Math.PI) / 180
 }
@@ -84,7 +185,7 @@ function filterHeight(height, distance) {
   console.log('Max height: ', maxHeight)
   console.log('Min height: ', minHeight)
 
-  return series
+  return { series: series, maxHeight: maxHeight, minHeight: minHeight }
 }
 
 function processFile(data) {
@@ -123,7 +224,6 @@ function processFile(data) {
   let lon = 0
   let savedHeight = 0
   let savedDistance = 0
-  let realDistance = 0
   // second pass through gets limits of track and deletes trkpoints where we haven't moved much
   for (let i = 0; i < newlines.length; i = i + 1) {
     // if we are processing a trkpt
@@ -197,5 +297,11 @@ function processFile(data) {
     }
   }
 
-  return { newfile: newfile, height: height, distance: distance }
+  return {
+    newfile: newfile,
+    height: height,
+    distance: distance,
+    lon: (minLon + maxLon) / 2,
+    lat: (minLat + maxLat) / 2,
+  }
 }
