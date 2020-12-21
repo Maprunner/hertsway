@@ -65,7 +65,7 @@ module.exports = {
     omaps: 'None',
   },
   leg6: {
-    distance: 19.0,
+    distance: 19,
     snack: 'Parkin',
     climb: 223,
     high: 126,
@@ -132,7 +132,7 @@ module.exports = {
       'Ashridge East, Ashridge North, Ashridge South, Frithsden Beeches, Frithsden East',
   },
   leg11: {
-    distance: 20.0,
+    distance: 20,
     snack: 'Mince pies',
     climb: 251,
     high: 168,
@@ -158,7 +158,7 @@ module.exports = {
     omaps: 'Chipperfield Common',
   },
   leg13: {
-    distance: 25.0,
+    distance: 25,
     snack: 'Mince pies',
     climb: 172,
     high: 130,
@@ -181,6 +181,19 @@ module.exports = {
     time: 180,
     name: 'leg14',
     title: 'Aldenham to Shenley',
+    omaps: 'None',
+  },
+  leg15: {
+    distance: 13.1,
+    snack: 'Mince pies',
+    climb: 136,
+    high: 133,
+    low: 83,
+    from: 'Shenley Park Tea Rooms, Shenley',
+    to: 'Black Horse, South Mimms',
+    time: 130,
+    name: 'leg15',
+    title: 'Shenley to South Mimms',
     omaps: 'None',
   },
 }

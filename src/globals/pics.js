@@ -858,4 +858,31 @@ module.exports = {
       caption: 'More sheep, more turnips',
     },
   ],
+  leg15: [
+    {
+      src: 'leg15-football.jpg',
+      caption: 'Passing the Arsenal and Watford training grounds',
+    },
+    {
+      src: 'leg15-nelson-monument.jpg',
+      caption: 'Nelson Monument at Rabley Park',
+    },
+    {
+      src: 'leg15-nelson-stone.jpg',
+      caption: 'Memorial stone on Nelson Monument',
+    },
+    {
+      src: 'leg15-james-and-helen.jpg',
+      caption: 'Fields approaching Shenley',
+    },
+    {
+      src: 'leg15-mud.jpg',
+      caption: 'Mud',
+    },
+    {
+      src: 'leg15-pound.jpg',
+      caption: 'Shenley Pound and Pond',
+      portrait: true,
+    },
+  ],
 }
