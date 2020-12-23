@@ -872,12 +872,32 @@ module.exports = {
       caption: 'Memorial stone on Nelson Monument',
     },
     {
-      src: 'leg15-james-and-helen.jpg',
-      caption: 'Fields approaching Shenley',
+      src: 'leg15-ford.jpg',
+      caption: 'Ford in Catherine Bourne',
+    },
+    {
+      src: 'leg15-south-mimms-church.jpg',
+      caption: 'St Giles Church at South Mimms',
+    },
+    {
+      src: 'leg15-lichen.jpg',
+      caption: 'Lichen',
+    },
+    {
+      src: 'leg15-ridge-church.jpg',
+      caption: 'St Margarets Church at South Mimms',
     },
     {
       src: 'leg15-mud.jpg',
       caption: 'Mud',
+    },
+    {
+      src: 'leg15-abbey.jpg',
+      caption: 'St Albans Abbey in the distance',
+    },
+    {
+      src: 'leg15-james-and-helen.jpg',
+      caption: 'Fields approaching Shenley',
     },
     {
       src: 'leg15-pound.jpg',
