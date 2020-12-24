@@ -190,7 +190,7 @@ module.exports = {
     high: 133,
     low: 83,
     from: 'Shenley Park Tea Rooms, Shenley',
-    to: 'Black Horse, South Mimms',
+    to: 'The Black Horse, South Mimms',
     time: 130,
     name: 'leg15',
     title: 'Shenley to South Mimms',

@@ -901,7 +901,7 @@ module.exports = {
     },
     {
       src: 'leg15-pound.jpg',
-      caption: 'Shenley Pound and Pond',
+      caption: 'Shenley Cage and Pond',
       portrait: true,
     },
   ],
