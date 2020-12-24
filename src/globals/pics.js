@@ -905,4 +905,5 @@ module.exports = {
       portrait: true,
     },
   ],
+  leg16: [],
 }
