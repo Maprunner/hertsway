@@ -905,5 +905,34 @@ module.exports = {
       portrait: true,
     },
   ],
-  leg16: [],
+  leg16: [
+    {
+      src: 'leg16-flooding.jpg',
+      caption: 'Flooding by the A1(M)',
+    },
+    {
+      src: 'leg16-pill-box.jpg',
+      caption: 'Pill box on Potters Bar golf course',
+    },
+    {
+      src: 'leg16-folly.jpg',
+      caption: 'Folly',
+    },
+    {
+      src: 'leg16-abbey.jpg',
+      caption: 'Another distant view of St Albans Abbey',
+    },
+    {
+      src: 'leg16-mud.jpg',
+      caption: 'Mud entering Gobions Wood',
+    },
+    {
+      src: 'leg16-gobions-floods.jpg',
+      caption: 'Flooding in Gobions Wood',
+    },
+    {
+      src: 'leg16-north-mymms-church.jpg',
+      caption: "St Mary's Church, North Mymms",
+    },
+  ],
 }
