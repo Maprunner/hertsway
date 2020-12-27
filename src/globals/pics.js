@@ -911,12 +911,24 @@ module.exports = {
       caption: 'Flooding by the A1(M)',
     },
     {
+      src: 'leg16-ford.jpg',
+      caption: 'Ford in Mimshall Brook',
+    },
+    {
+      src: 'leg16-solar-panels.jpg',
+      caption: 'Solar panels in the sunshine near Potters Bar',
+    },
+    {
       src: 'leg16-pill-box.jpg',
       caption: 'Pill box on Potters Bar golf course',
     },
     {
+      src: 'leg16-morven.jpg',
+      caption: 'Crossing Morven',
+    },
+    {
       src: 'leg16-folly.jpg',
-      caption: 'Folly',
+      caption: 'Folly Arch',
     },
     {
       src: 'leg16-abbey.jpg',
@@ -931,8 +943,20 @@ module.exports = {
       caption: 'Flooding in Gobions Wood',
     },
     {
+      src: 'leg16-sewage-works.jpg',
+      caption: 'Remains of the sewage works in Gobions Wood',
+    },
+    {
       src: 'leg16-north-mymms-church.jpg',
       caption: "St Mary's Church, North Mymms",
+    },
+    {
+      src: 'leg16-churchyard.jpg',
+      caption: "Corner of the churchyard at St Mary's",
+    },
+    {
+      src: 'leg16-north-mymms-woods.jpg',
+      caption: 'Running water on the paths in Potwells Valley',
     },
   ],
 }
