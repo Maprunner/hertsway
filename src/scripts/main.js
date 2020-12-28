@@ -49,6 +49,16 @@ var backStyle = {
   }),
 }
 
+var hertsStyle = {
+  MultiLineString: new Style({
+    stroke: new Stroke({
+      color: 'rgba(121, 7, 242, 0.75)',
+      width: 3,
+      lineDash: [0.5, 10],
+    }),
+  }),
+}
+
 // overview map
 const thereGPXLayer = new VectorLayer({
   source: new VectorSource({
@@ -70,6 +80,16 @@ const backGPXLayer = new VectorLayer({
   },
 })
 
+const hertsGPXLayer = new VectorLayer({
+  source: new VectorSource({
+    url: '../data/hertfordshire.gpx',
+    format: new GPX(),
+  }),
+  style: function (feature) {
+    return hertsStyle[feature.getGeometry().getType()]
+  },
+})
+
 let ovLayers = [
   new TileLayer({
     source: new XYZ({
@@ -78,6 +98,7 @@ let ovLayers = [
   }),
   backGPXLayer,
   thereGPXLayer,
+  hertsGPXLayer,
 ]
 
 // individual leg maps
