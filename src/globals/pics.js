@@ -959,4 +959,42 @@ module.exports = {
       caption: 'Running water on the paths in Potwells Valley',
     },
   ],
+  leg17: [
+    {
+      src: 'leg17-frost.jpg',
+      caption: 'Running through the frost',
+    },
+    {
+      src: 'leg17-puddle.jpg',
+      caption: 'Puddles',
+    },
+    {
+      src: 'leg17-northaw.jpg',
+      caption: 'St Thomas a Becket Church, Northaw in the fog',
+    },
+    {
+      src: 'leg17-partridge.jpg',
+      caption: 'Red-legged partridge in the fog',
+    },
+    {
+      src: 'leg17-tolmers.jpg',
+      caption: 'Tolmers Scout Camp',
+    },
+    {
+      src: 'leg17-newgate-street-church.jpg',
+      caption: "St Mary's Church, Newgate Street",
+    },
+    {
+      src: 'leg17-spigot.jpg',
+      caption: 'Spigot mortar emplacement',
+    },
+    {
+      src: 'leg17-dishes.jpg',
+      caption: 'Satellite dishes at Brookmans Park',
+    },
+    {
+      src: 'leg17-gobions-canal.jpg',
+      caption: 'The Canal in Gobions Wood',
+    },
+  ],
 }

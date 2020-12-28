@@ -209,4 +209,17 @@ module.exports = {
     title: 'South Mimms to Potters Bar',
     omaps: 'Morven',
   },
+  leg17: {
+    distance: 21.1,
+    snack: 'Chocolate Mini Rolls',
+    climb: 228,
+    high: 129,
+    low: 48,
+    from: 'Northaw Place, Potters Bar',
+    to: "St Mary's Church, Newgate Street",
+    time: 180,
+    name: 'leg17',
+    title: 'Potters Bar to Newgate Street',
+    omaps: 'Morven, Northaw',
+  },
 }
