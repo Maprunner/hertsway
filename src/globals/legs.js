@@ -196,4 +196,17 @@ module.exports = {
     title: 'Shenley to South Mimms',
     omaps: 'None',
   },
+  leg16: {
+    distance: 16.9,
+    snack: 'Chocolate Mini Rolls',
+    climb: 180,
+    high: 130,
+    low: 75,
+    from: 'The Black Horse, South Mimms',
+    to: 'Northaw Place, Potters Bar',
+    time: 145,
+    name: 'leg16',
+    title: 'South Mimms to Potters Bar',
+    omaps: 'Morven',
+  },
 }
