@@ -1,9 +1,14 @@
 {
   "main": [
     {
+      "label": "Progress",
+      "url": "progress/"
+    },
+    {
       "label": "Posts",
       "url": "post/"
-    },    {
+    },
+    {
       "label": "Map",
       "url": "map/"
     },

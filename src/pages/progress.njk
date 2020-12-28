@@ -1,0 +1,35 @@
+---
+permalink: "progress/"
+---
+{% extends 'page.njk' %}
+{% block body %}
+  <h1>Progress</h1>
+  <table class="table-auto">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Leg</th>
+        <th>Length</th>
+        <th>Time</th>
+        <th>Climb</th>
+        <th>Total length</th>
+        <th>Total time</th>
+        <th>Total climb</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for leg, detail in legs %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ detail.title }}</td>
+          <td>{{ detail.distance }}</td>
+          <td>{{ detail.time | prettifyMinutes }}</td>
+          <td>{{ detail.climb}}</td>
+          <td>{{ stats.legTable[loop.index0].totDistance }}</td>
+          <td>{{ stats.legTable[loop.index0].totTime | prettifyMinutes }}</td>
+          <td>{{ stats.legTable[loop.index0].totClimb }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
