@@ -2,6 +2,7 @@
   "name": "There and Back on the Hertfordshire Way",
   "description": "Tales from Helen and Simon Errington as they run the Hertfordshire Way",
   "url": "https://www.maprunner.co.uk",
+  "devUrl": "http://localhost:8080",
   "baseUrl": "/hertsway/",
   "author": {
     "name": "Simon Errington"
