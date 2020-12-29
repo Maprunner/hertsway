@@ -83,6 +83,24 @@ hr {
   content: ' |';
 }
 
+.progress-table {
+  table {
+    @apply table-auto shadow-lg;
+  }
+  thead {
+    @apply bg-gray-800;
+  }
+  tbody tr:nth-child(even) {
+    @apply bg-gray-800 bg-opacity-50;
+  }
+  th {
+    @apply px-2 py-2 border-2 border-gray-700;
+  }
+  td {
+    @apply px-2 py-2 border-2 border-gray-700;
+  }
+}
+
 .banner {
   height: 200px;
   background-image: url('../images/pan1-1280x200.jpg');
