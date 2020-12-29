@@ -5,6 +5,10 @@ module.exports = (config) => {
 
   config.addFilter('dateDisplay', require('./filters/date-display.js'))
   config.addFilter('prettifyMinutes', require('./filters/prettify-minutes.js'))
+  config.addFilter(
+    'prettifyAbbrevMinutes',
+    require('./filters/prettify-abbrev-minutes.js')
+  )
 
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSafeExternalLinks, {
