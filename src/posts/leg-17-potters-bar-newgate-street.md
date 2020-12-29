@@ -11,6 +11,7 @@ tags:
   - Northaw
   - Cuffley
   - Newgate Street
+  - James
 ---
 
 Street parking
@@ -78,4 +79,4 @@ Final road section.
 
 Extra little bit by car to get to 21 km.
 
-Red kite on way hone
+Red kite on way home
