@@ -5,6 +5,10 @@ module.exports = (config) => {
 
   config.addFilter('dateDisplay', require('./filters/date-display.js'))
   config.addFilter('prettifyMinutes', require('./filters/prettify-minutes.js'))
+  config.addFilter(
+    'prettifyAbbrevMinutes',
+    require('./filters/prettify-abbrev-minutes.js')
+  )
 
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSafeExternalLinks, {
@@ -78,8 +82,22 @@ module.exports = (config) => {
       .slice(0, 6)
   })
 
+  config.addShortcode('FixedDP', function (value, dp) {
+    return value.toFixed(dp)
+  })
+
   config.addShortcode('LegMap', function (name) {
     return `<div id="${name}" class="legMap"></div>`
+  })
+
+  config.addShortcode('LegLink', function (leg, title) {
+    return (
+      'https://www.maprunner.co.uk/hertsway/post/' +
+      leg +
+      '-' +
+      title.toLowerCase().replace(' to ', ' ').replace(' ', '-') +
+      '/'
+    )
   })
 
   return {
