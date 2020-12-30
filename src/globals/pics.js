@@ -977,12 +977,24 @@ module.exports = {
       caption: 'Red-legged partridge in the fog',
     },
     {
+      src: 'leg17-railway.jpg',
+      caption: 'Crossing under the Hertford Loop',
+    },
+    {
       src: 'leg17-tolmers.jpg',
       caption: 'Tolmers Scout Camp',
     },
     {
+      src: 'leg17-pill-box.jpg',
+      caption: 'Pill box near Tolmers',
+    },
+    {
       src: 'leg17-newgate-street-church.jpg',
       caption: "St Mary's Church, Newgate Street",
+    },
+    {
+      src: 'leg17-fog.jpg',
+      caption: 'Panoramic views over Northaw Great Wood',
     },
     {
       src: 'leg17-spigot.jpg',
@@ -993,8 +1005,20 @@ module.exports = {
       caption: 'Satellite dishes at Brookmans Park',
     },
     {
+      src: 'leg17-cormorant.jpg',
+      caption: 'Cormorant in Gobions Pond',
+    },
+    {
+      src: 'leg17-gobions-bridge.jpg',
+      caption: 'Brick bridge in Gobions Wood',
+    },
+    {
       src: 'leg17-gobions-canal.jpg',
       caption: 'The Canal in Gobions Wood',
+    },
+    {
+      src: 'leg17-not-the-abbey.jpg',
+      caption: 'St Albans Abbey not visible in the distance',
     },
   ],
 }
