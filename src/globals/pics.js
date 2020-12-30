@@ -959,4 +959,66 @@ module.exports = {
       caption: 'Running water on the paths in Potwells Valley',
     },
   ],
+  leg17: [
+    {
+      src: 'leg17-frost.jpg',
+      caption: 'Frost and fog leaving Morven',
+    },
+    {
+      src: 'leg17-puddle.jpg',
+      caption: 'Puddles',
+    },
+    {
+      src: 'leg17-northaw.jpg',
+      caption: 'St Thomas a Becket Church, Northaw in the fog',
+    },
+    {
+      src: 'leg17-partridge.jpg',
+      caption: 'Red-legged partridge in the fog',
+    },
+    {
+      src: 'leg17-railway.jpg',
+      caption: 'Crossing under the Hertford Loop',
+    },
+    {
+      src: 'leg17-tolmers.jpg',
+      caption: 'Tolmers Scout Camp',
+    },
+    {
+      src: 'leg17-pill-box.jpg',
+      caption: 'Pill box near Tolmers',
+    },
+    {
+      src: 'leg17-newgate-street-church.jpg',
+      caption: "St Mary's Church, Newgate Street",
+    },
+    {
+      src: 'leg17-fog.jpg',
+      caption: 'Panoramic views over Northaw Great Wood',
+    },
+    {
+      src: 'leg17-spigot.jpg',
+      caption: 'Spigot mortar emplacement',
+    },
+    {
+      src: 'leg17-dishes.jpg',
+      caption: 'Satellite dishes at Brookmans Park',
+    },
+    {
+      src: 'leg17-cormorant.jpg',
+      caption: 'Cormorant in Gobions Pond',
+    },
+    {
+      src: 'leg17-gobions-bridge.jpg',
+      caption: 'Brick bridge in Gobions Wood',
+    },
+    {
+      src: 'leg17-gobions-canal.jpg',
+      caption: 'The Canal in Gobions Wood',
+    },
+    {
+      src: 'leg17-not-the-abbey.jpg',
+      caption: 'St Albans Abbey not visible in the distance',
+    },
+  ],
 }

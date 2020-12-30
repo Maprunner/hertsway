@@ -91,11 +91,17 @@ module.exports = (config) => {
   })
 
   config.addShortcode('LegLink', function (leg, title) {
+    const url =
+      process.env.NODE_ENV === 'production'
+        ? siteSettings.url
+        : siteSettings.devUrl
     return (
-      'https://www.maprunner.co.uk/hertsway/post/' +
-      leg +
+      url +
+      siteSettings.baseUrl +
+      'post/' +
+      leg.replace('leg', 'leg-') +
       '-' +
-      title.toLowerCase().replace(' to ', ' ').replace(' ', '-') +
+      title.toLowerCase().replace(/ /g, '-') +
       '/'
     )
   })
