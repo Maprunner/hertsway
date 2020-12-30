@@ -88,7 +88,7 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
         <div class="m-2">
           {% for tag in tags %}
             {%- if tag !== "post" -%}
-              <a class="tag {{ tag | replace('.', '') }}" href="{{ site.baseUrl }}tag/{{ tag }}">{{ tag }}</a>
+              <a class="tag {{ tag | replace('.', '') }}" href="{{ site.baseUrl }}tags/{{ tag }}">{{ tag }}</a>
             {%- endif -%}
           {% endfor %}
         </div>
