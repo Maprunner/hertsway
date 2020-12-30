@@ -962,7 +962,7 @@ module.exports = {
   leg17: [
     {
       src: 'leg17-frost.jpg',
-      caption: 'Running through the frost',
+      caption: 'Frost and fog leaving Morven',
     },
     {
       src: 'leg17-puddle.jpg',
