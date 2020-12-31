@@ -222,4 +222,17 @@ module.exports = {
     title: 'Potters Bar to Newgate Street',
     omaps: 'Morven, Northaw',
   },
+  leg18: {
+    distance: 17.5,
+    snack: 'Mince pies',
+    climb: 286,
+    high: 127,
+    low: 65,
+    from: "St Mary's Church, Newgate Street",
+    to: 'Village sign, Bayford',
+    time: 155,
+    name: 'leg18',
+    title: 'Newgate Street to Bayford',
+    omaps: 'None',
+  },
 }

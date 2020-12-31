@@ -1021,4 +1021,39 @@ module.exports = {
       caption: 'St Albans Abbey not visible in the distance',
     },
   ],
+  leg18: [
+    {
+      src: 'leg18-poachers.jpg',
+      caption: 'A higher class of criminal',
+    },
+    {
+      src: 'leg18-wallaby.jpg',
+      caption: 'UN-sponsored white wallaby',
+    },
+    {
+      src: 'leg18-redwing.jpg',
+      caption: 'Flock of redwing',
+    },
+    {
+      src: 'leg18-little-berkhamsted-church.jpg',
+      caption: "St Andrew's Church, Little Berkhamsted",
+    },
+    {
+      src: 'leg18-tower-in-mist.jpg',
+      caption: "Stratton's Tower emerges from the mist",
+    },
+    {
+      src: 'leg18-stratton-tower.jpg',
+      caption: "Stratton's Tower",
+      portrait: true,
+    },
+    {
+      src: 'leg18-vor.jpg',
+      caption: 'Brookmans Park VOR',
+    },
+    {
+      src: 'leg18-muntjac.jpg',
+      caption: 'Distant muntjac in the mist',
+    },
+  ],
 }
