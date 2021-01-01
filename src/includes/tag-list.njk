@@ -10,9 +10,11 @@
         </span>
         <p class="italic">{{ tag.data.excerpt }}</p>
         {% for tag in tag.data.tags %}
-          {%- if tag !== "tag" -%}
-            <a class="tag" href="{{ site.baseUrl }}tags/{{ tag }}">{{ tag }}</a>
-          {%- endif -%}
+          {% if tag !== "tag" %}
+            {% if tag !== "post" %}
+              <a class="tag" href="{{ site.baseUrl }}tags/{{ tag | slugifyTag }}">{{ tag }}</a>
+            {% endif %}
+          {% endif %}
         {% endfor %}
       </div>
     </div>

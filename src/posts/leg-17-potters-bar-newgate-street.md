@@ -12,6 +12,7 @@ tags:
   - Cuffley
   - Newgate Street
   - James
+  - kestrel
 ---
 
 For some reason Helen had decided that it would be entertaining to run a leg in snow, and the weather forecast the day before showed that this might well be the case. As it turned out the snow didn't appear, but we got a light frost and thick fog instead and the temperature never got much above freezing all day.

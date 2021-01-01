@@ -4,6 +4,7 @@ module.exports = (config) => {
   const pluginSafeExternalLinks = require('eleventy-plugin-safe-external-links')
 
   config.addFilter('dateDisplay', require('./filters/date-display.js'))
+  config.addFilter('slugifyTag', require('./filters/slugify-tag.js'))
   config.addFilter('prettifyMinutes', require('./filters/prettify-minutes.js'))
   config.addFilter(
     'prettifyAbbrevMinutes',

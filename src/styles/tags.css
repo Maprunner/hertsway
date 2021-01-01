@@ -22,70 +22,34 @@
 .tagscloud {
   list-style-type: none;
   padding: 0;
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
 
   a {
-    &:link,
-    &:visited {
-      display: inline-block;
-      margin: 0.2em 0.3em;
-      padding: 0.1em 0.3em;
-
-      text-decoration: none;
-      white-space: nowrap;
-
-      background-color: var(--color-primary-lighter-2);
-      color: #319795;
-      border-radius: 0.5em;
-    }
+    @apply bg-gray-900 text-teal-600 no-underline;
+    display: inline-block;
+    margin: 0.2em 0.3em;
+    padding: 0.1em 0.3em;
+    white-space: nowrap;
+    border-radius: 0.5em;
+  }
+  a:hover {
+    @apply bg-transparent underline text-white;
+  }
+  a.tag2 {
+    @apply bg-gray-900 bg-opacity-50;
   }
 
-  a {
-    &.tag2 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary-lighter-1);
-      }
-    }
+  a.tag3 {
+    @apply bg-gray-800;
+  }
 
-    &.tag3 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary);
-      }
-    }
-
-    &.tag4 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary-darker-1);
-      }
-    }
-
-    &.tag5 {
-      &:link,
-      &:visited {
-        background-color: var(--color-primary-darker-2);
-      }
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: var(--color-secondary);
-      outline: none;
-      text-decoration: underline;
-
-      &.tag2,
-      &.tag3,
-      &.tag4,
-      &.tag5 {
-        background-color: var(--color-secondary);
-      }
-    }
+  a.tag4 {
+    @apply bg-gray-800 bg-opacity-50;
+  }
+  a.tag5 {
+    @apply bg-gray-700;
   }
 }
