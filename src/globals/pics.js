@@ -1023,8 +1023,16 @@ module.exports = {
   ],
   leg18: [
     {
+      src: 'leg18-cucumber.jpg',
+      caption: 'Cucumber Lane',
+    },
+    {
       src: 'leg18-poachers.jpg',
       caption: 'A higher class of criminal',
+    },
+    {
+      src: 'leg18-behind-you.jpg',
+      caption: "It's behind you: wallabies hiding",
     },
     {
       src: 'leg18-wallaby.jpg',

@@ -28,7 +28,7 @@ One of these was still being built and was a large stone building. It obviously 
 
 Getting back to almost where we had been ten minutes earlier we turned left and headed down the edge of a field, across Essendon Brook and up into what the map shows as Backhouse Wood. A large fence ran alongside the path and at the top corner we found a notice saying this was a "United Nations Global Compact" project with "5 Year Wildlife and Woodland Restoration in Progress". This seemed odd but one photo was enough so I set off up hill. At that point James yelled quietly and I turned round to see James and Helen staring at something inside the fence.
 
-What they were staring at was a white wallaby. I spent ages taking bad photos from a long distance trying not to disturb it. Eventually I just started to walk closer and eventually got right up the fence. It just sat there and stared back at me. The James spotted another one some way further back in the enclosure.
+What they were staring at was a white wallaby. I spent ages taking bad photos from a long distance trying not to disturb it. Eventually I just started to walk closer and soon got right up the fence. It just sat there and stared back at me. Then James spotted another one some way further back in the enclosure. Quite what they were doing inside a UN-sponsored fence in a Hertfordshire wood was not clear. It still isn't after some extensive Google searching. There does not appear to be a single mention of them anywhere we can find. Until I publish this of course.
 
 Essendon. Distant view of St Mary the Virgin Church. Down School Lane to Golf Club. People playing golf. Big queue at snack van.
 
@@ -54,7 +54,7 @@ White Stubbs Lane. Route to Wormley.
 
 Fenced wood full of rubbish.
 
-Muntjac in far corner of field.
+A dark shape in the far corner of a field turned out to be the muntjac that I had been expecting to see ever since we left Royston.
 
 Ponsbourne Park. Tennis courts.
 
