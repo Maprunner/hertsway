@@ -10,12 +10,15 @@ tags:
   - WCML
   - A41
   - Bovingdon
+  - red kite
   - kestrel
   - stonechat
   - little egret
   - prison
   - castle
   - airfield
+  - golf course
+  - VOR
 ---
 
 This was a bit of an unplanned day, but a combination of an early finish to my meeting and a lot more sunshine than predicted meant that we decided to set off. The car park by the war memorial was almost full with dog and child walkers but we found a space and headed down the path we had come up on Sunday. Driving there we had agreed that this was yet another strange leg, with a downhill stretch into Berkhamsted, a long straight section along a canal and then another long straight section uphill at right angles to the canal to get to Bovingdon. It didn't seem particularly inspiring.

@@ -8,6 +8,10 @@ tags:
   - Weston
   - Icknield Way
   - Clothall
+  - kestrel
+  - red kite
+  - black bryony
+  - buzzard
 image: leg2-helen-weston.jpg
 ---
 

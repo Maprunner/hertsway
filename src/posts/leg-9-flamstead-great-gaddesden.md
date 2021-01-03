@@ -9,7 +9,8 @@ tags:
   - Great Gaddesden
   - Markyate
   - River Gade
-  - Red kite
+  - red kite
+  - buzzard
   - Beechwood School
   - coyote
   - alpaca

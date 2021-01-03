@@ -10,6 +10,10 @@ tags:
   - Little Berkhamsted
   - Bayford
   - wallaby
+  - VOR
+  - golf course
+  - red kite
+  - Stratton's Tower
 ---
 
 Time for one last leg this year. Newgate Street was less foggy then when we were last here but still very cold. We set off down the long muddy path we had already done and found that it was now slightly less muddy, mainly because all the mud and puddles had frozen. Northaw Great Wood was still down there in the valley somewhere but we were left imagining it since there was still enough mist to keep it hidden.
@@ -26,7 +30,7 @@ There was now a strange loop around West End. We got within 10 metres of the pat
 
 One of these was still being built and was a large stone building. It obviously isn't going down well with the locals and the couple we talked to as we were passing said that it was known locally as the "Town Hall". The other enormous house came with an even more enormous garden complete with everything you would expect: topiary, rock garden, tennis court, stone balustrade, lake, scattered statuary, small temple at bottom of garden. Yours for under £5 million it turns out.
 
-Getting back to almost where we had been ten minutes earlier we turned left and headed down the edge of a field, across Essendon Brook and up into what the map shows as Backhouse Wood. A large fence ran alongside the path and at the top corner we found a notice saying this was a "United Nations Global Compact" project with "5 Year Wildlife and Woodland Restoration in Progress". This seemed odd but one photo was enough so I set off up hill. At that point James yelled quietly and I turned round to see James and Helen staring at something inside the fence.
+Getting back to almost where we had been ten minutes earlier we turned left and headed down the edge of a field, across Essendon Brook and up into what the map shows as Backhouse Wood. Today's red kite was just about visible in the distance. A large fence ran alongside the path in the wood and at the top corner we found a notice saying this was a "United Nations Global Compact" project with "5 Year Wildlife and Woodland Restoration in Progress". This seemed odd but one photo was enough so I set off up hill. At that point James yelled quietly and I turned round to see James and Helen staring at something inside the fence.
 
 What they were staring at was a white wallaby. I spent ages taking bad photos from a long distance trying not to disturb it. Eventually I just started to walk closer and soon got right up the fence. It just sat there and stared back at me. Then James spotted another one some way further back in the enclosure. Quite what they were doing inside a UN-sponsored fence in a Hertfordshire wood was not clear. It still isn't after some extensive Google searching. There does not appear to be a single mention of them anywhere we can find. Until I publish this of course.
 

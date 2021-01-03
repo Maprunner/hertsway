@@ -9,10 +9,11 @@ tags:
   - Little Wymondley
   - Stagenhoe
   - St Paul's Walden
-  - Mimram
+  - River Mimram
   - James
-  - Lister hospital
+  - Lister Hospital
   - watercress
+  - red kite
 ---
 
 James decided to have a weekend at home whilst that was still an option so this was the first three-person leg. By now the drive to the start was getting noticeably shorter. We only needed to get to Junction 8 on the A1(M) but taking the first rather than the second exit put us on the bypass and we had do two extra miles.

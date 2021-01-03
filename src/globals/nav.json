@@ -13,6 +13,10 @@
       "url": "map/"
     },
     {
+      "label": "Tags",
+      "url": "tags/"
+    },
+    {
       "label": "About",
       "url": "about/"
     }

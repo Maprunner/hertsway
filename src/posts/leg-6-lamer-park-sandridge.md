@@ -15,6 +15,10 @@ tags:
   - River Lea
   - Devil's Dyke
   - parkrun
+  - kestrel
+  - red kite
+  - buzzard
+  - golf course
 ---
 
 After a lot of studying of the weather forecast we decided that Sunday was the better day of the weekend, and that getting out early was the best bet for keeping dry. So we found ourselves at the car park at Gustard Wood well before 9.00 getting ready to set off. The journey so far had been notable as the first time we had stuck to the back roads rather than heading for the A1(M). But it soon became apparent that we might have been a little bit over-enthusiastic, since the predicted early drizzle was still around.

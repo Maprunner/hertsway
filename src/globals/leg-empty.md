@@ -1,6 +1,6 @@
 ---
 title: <title>
-excerpt: ''
+excerpt: 'In which '
 name: <name>
 image: <image>
 date: <date>

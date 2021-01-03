@@ -10,8 +10,10 @@ tags:
   - Codicote
   - Ayot St Lawrence
   - Whitwell
-  - Mimram
+  - River Mimram
   - sugar beet
+  - red kite
+  - buzzard
 ---
 
 After the rapid start with four legs in fourteen days it was time for some rest. The weather was awful on the Wednesday so that was easy to miss. SMOC put on an orienteering event at [Stowe](https://www.smoc.routegadget.co.uk/rg2/#31) on the Sunday so we went there instead and ran round a selection of statues and temples with a backdrop of autumn colours. The best day weatherwise this week looked to be Wednesday so we set off, with rain forecast to arrive by 2.00pm.

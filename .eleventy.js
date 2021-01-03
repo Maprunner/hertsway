@@ -4,6 +4,7 @@ module.exports = (config) => {
   const pluginSafeExternalLinks = require('eleventy-plugin-safe-external-links')
 
   config.addFilter('dateDisplay', require('./filters/date-display.js'))
+  config.addFilter('slugifyTag', require('./filters/slugify-tag.js'))
   config.addFilter('prettifyMinutes', require('./filters/prettify-minutes.js'))
   config.addFilter(
     'prettifyAbbrevMinutes',
@@ -80,6 +81,45 @@ module.exports = (config) => {
         return b.date - a.date
       })
       .slice(0, 6)
+  })
+
+  config.addCollection('tags', function (collectionApi) {
+    let tagsCollection = new Map()
+    let max = 0
+
+    collectionApi.getAll().forEach(function (item) {
+      if ('tags' in item.data) {
+        for (const tag of item.data.tags) {
+          if (tag !== 'post') {
+            let number = (tagsCollection.get(tag) || 0) + 1
+            max = Math.max(max, number)
+            tagsCollection.set(tag, number)
+          }
+        }
+      }
+    })
+
+    const minLog = Math.log(1)
+    const maxLog = Math.log(max)
+
+    const tags = []
+    tagsCollection.forEach((number, tag) => {
+      let factor = (Math.log(number) - minLog) / (maxLog - minLog)
+      let newTag = {
+        tag: tag,
+        number: number,
+        factor: factor,
+        step: Math.ceil(factor * 4) + 1,
+      }
+
+      tags.push(newTag)
+    })
+
+    tags.sort((a, b) => {
+      return a.tag.localeCompare(b.tag, 'en', { ignorePunctuation: true })
+    })
+
+    return tags
   })
 
   config.addShortcode('FixedDP', function (value, dp) {

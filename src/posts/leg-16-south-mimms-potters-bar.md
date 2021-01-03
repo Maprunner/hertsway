@@ -8,9 +8,13 @@ tags:
   - South Mimms
   - Potters Bar
   - North Mymms
+  - Gobions
+  - Folly Arch
   - ECML
   - A1(M)
   - James
+  - red kite
+  - golf course
 ---
 
 There was time for one final leg before Christmas in the convenient weather window on Christmas Eve. It was only just above freezing with a cold northerly wind, but at least the sky was blue and the sun was shining. Unfortunately what it was shining on mostly was mud. Where it wasn't shining on mud it was shining on the standing water on top of the mud. I have described some of the previous legs as muddy. But this was the next level.
