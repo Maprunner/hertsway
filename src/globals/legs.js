@@ -235,4 +235,17 @@ module.exports = {
     title: 'Newgate Street to Bayford',
     omaps: 'None',
   },
+  leg19: {
+    distance: 19.2,
+    snack: 'Mince pies',
+    climb: 211,
+    high: 94,
+    low: 38,
+    from: 'Village sign, Bayford',
+    to: 'Vicarage Lane, Waterford',
+    time: 180,
+    name: 'leg19',
+    title: 'Bayford to Waterford',
+    omaps: 'Panshanger Park East',
+  },
 }
