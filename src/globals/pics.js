@@ -1021,4 +1021,59 @@ module.exports = {
       caption: 'St Albans Abbey not visible in the distance',
     },
   ],
+  leg18: [
+    {
+      src: 'leg18-northaw-mist.jpg',
+      caption: 'Panoramic views over Northaw Great Wood',
+    },
+    {
+      src: 'leg18-cucumber.jpg',
+      caption: 'Cucumber Lane',
+    },
+    {
+      src: 'leg18-poachers.jpg',
+      caption: 'A higher class of villain',
+    },
+    {
+      src: 'leg18-behind-you.jpg',
+      caption: "It's behind you: wallabies hiding",
+    },
+    {
+      src: 'leg18-wallaby.jpg',
+      caption: 'UN-sponsored white wallaby',
+    },
+    {
+      src: 'leg18-essendon-church.jpg',
+      caption: 'St Mary the Virgin Church, Essendon',
+    },
+    {
+      src: 'leg18-redwing.jpg',
+      caption: 'Flock of redwing',
+    },
+    {
+      src: 'leg18-little-berkhamsted.jpg',
+      caption: 'Little Berkhamsted',
+    },
+    {
+      src: 'leg18-little-berkhamsted-church.jpg',
+      caption: "St Andrew's Church, Little Berkhamsted",
+    },
+    {
+      src: 'leg18-tower-in-mist.jpg',
+      caption: "Stratton's Tower emerges from the mist",
+    },
+    {
+      src: 'leg18-stratton-tower.jpg',
+      caption: "Stratton's Tower",
+      portrait: true,
+    },
+    {
+      src: 'leg18-vor.jpg',
+      caption: 'Brookmans Park VOR',
+    },
+    {
+      src: 'leg18-muntjac.jpg',
+      caption: 'Distant muntjac in the mist',
+    },
+  ],
 }
