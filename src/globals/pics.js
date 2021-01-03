@@ -1023,12 +1023,16 @@ module.exports = {
   ],
   leg18: [
     {
+      src: 'leg18-northaw-mist.jpg',
+      caption: 'Panoramic views over Northaw Great Wood',
+    },
+    {
       src: 'leg18-cucumber.jpg',
       caption: 'Cucumber Lane',
     },
     {
       src: 'leg18-poachers.jpg',
-      caption: 'A higher class of criminal',
+      caption: 'A higher class of villain',
     },
     {
       src: 'leg18-behind-you.jpg',
@@ -1039,8 +1043,16 @@ module.exports = {
       caption: 'UN-sponsored white wallaby',
     },
     {
+      src: 'leg18-essendon-church.jpg',
+      caption: 'St Mary the Virgin Church, Essendon',
+    },
+    {
       src: 'leg18-redwing.jpg',
       caption: 'Flock of redwing',
+    },
+    {
+      src: 'leg18-little-berkhamsted.jpg',
+      caption: 'Little Berkhamsted',
     },
     {
       src: 'leg18-little-berkhamsted-church.jpg',

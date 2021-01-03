@@ -30,24 +30,16 @@ Getting back to almost where we had been ten minutes earlier we turned left and 
 
 What they were staring at was a white wallaby. I spent ages taking bad photos from a long distance trying not to disturb it. Eventually I just started to walk closer and soon got right up the fence. It just sat there and stared back at me. Then James spotted another one some way further back in the enclosure. Quite what they were doing inside a UN-sponsored fence in a Hertfordshire wood was not clear. It still isn't after some extensive Google searching. There does not appear to be a single mention of them anywhere we can find. Until I publish this of course.
 
-Continuing into Essendon we got a distant view of St Mary the Virgin Church but turned off down down School Lane before reaching it. Essendon Golf Course was open with people playing and a long queue for hot drinks at a van in the car park. Quite a change from the empty golf courses we had run through during previous varieties of lockdown.
+Continuing into Essendon we got a distant view of St Mary the Virgin Church but turned off down School Lane before reaching it. Essendon Golf Course was open with people playing and a long queue for hot drinks at a van in the car park. Quite a change from the empty golf courses we had run through during previous varieties of lockdown. I stopped to photograph a flock of at least 30 redwings in the next field and Helen ended up talking to another local walker. It turned out that in our excitement about the wallabies we had failed to spot the llamas that were also somewhere in the enclosure.
 
-I stopped to photograph a flock of at least 30 redwings in the next field and Helen ended up talking to another local walker. It turned out that in our excitement about the wallabies we had failed to spot the llamas that were also somewhere in the enclosure.
+We waded through the mud and standing water on the outfield of the cricket pitch just before Little Berkhamsted and then passed St Andrew's Church. [Stratton's Tower](https://www.littleberkhamsted.org.uk/docs/StrattonsTowerNotes.pdf) emerged from the mist in the next field and looked interesting enough for a short detour to get a closer look. It was built in around 1789, but probably not by an admiral so he could see ships in the Thames as one of the stories goes. But it does feature on the sign when you enter the village, where you also discover a date of AD827.
 
-We waded through the mud and standing water on the outfield of the cricket pitch just before Little Berkhamsted and then passed St Andrew's Church. [Stratton's Tower](https://www.littleberkhamsted.org.uk/docs/StrattonsTowerNotes.pdf) emerged from the mist in the next field and looked interesting enough for a short detour to get a closer look. It was built in around 1789, but probably not by an admiral so he could see ships in the Thames as one of the stories goes.
+One more muddy valley crossing and a small section through runnable woodland brought us to the road into Bayford. This led to the village pond and village sign which marked the end of today's section of the Hertfordshire Way. This was another good one in terms of getting back to Royston since the big loop out west and then back east meant we had managed over 12 kilometres on the route but only had five kilometres back to Newgate Street. We were heading south roughly parallel to the railway away to the east nearly all the way back on two convenient paths through mainly fields and wood.
 
-One more muddy valley crossing and a small section through runnable woodland brought us to the road into Bayford. This led to the village pond and village sign which marked the end of today's section of the Hertfordshire Way. Just around the corner was Bayford Moat where Helen had run several Guide camps, although not for at least 25 years.
+Leaving Bayford we passed the wooded Bayford Moat where Helen used to run Guide camps, although not for at least 25 years. Then it was along Stocking Lane which presumably refers to previous local industry. We had to move aside to let the post van past on its long journey to a house in the middle of nowhere. Well, not quite nowhere since the next highlight was the confusingly names Brookmans Park [VOR](https://en.wikipedia.org/wiki/VHF_omnidirectional_range) sitting in a field just off the track. We have already been to the Bovingdon VOR on [Leg 11](https://www.maprunner.co.uk/hertsway/post/leg-11-berkhamsted-common-to-bovingdon/) and to Brookmans Park on [Leg 17](https://www.maprunner.co.uk/hertsway/post/leg-17-potters-bar-to-newgate-street/), but for some reason this navigational aid is seven kilometres from where it claims to be.
 
-Stocking Lane. Move off path to allow post van past.
+There was a brief run along White Stubbs Lane, which is the familiar route to Wormley and will turn up again when we are on the other loop to Hertford, and then the final track led all the way to Bayford. A large fenced area of woodland was full of rubbish but it all appeared to have been neatly sorted. A dark shape in the far corner of a field turned out to be the muntjac that I had been expecting to see ever since we left Royston.
 
-Brookmans Park VOR-DME
+A final large house surrounded by farm buildings, tennis courts and another disused golf course turned out to be [Ponsbourne Park](https://www.ponsbourne.com/). "Nestled amid rolling landscapes deep in the Hertfordshire countryside, the Ponsbourne Park effortlessly mirrors its idyllic surrounds" allegedly. Well, the bit about idyllic surround and rolling landscape is definitely true, but the hotel was closed so we didn't get to check the effortless mirroring.
 
-White Stubbs Lane. Route to Wormley.
-
-Fenced wood full of rubbish.
-
-A dark shape in the far corner of a field turned out to be the muntjac that I had been expecting to see ever since we left Royston.
-
-Ponsbourne Park. Tennis courts.
-
-Final hill up to Newgate Street.
+The road took us up the hill to Newgate Street, past the church and on to the village hall and that was it for 2020. By my calculations we have another twelve legs to go and we should get to Royston before the end of March. We shall see.
