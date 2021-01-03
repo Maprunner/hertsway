@@ -47,15 +47,11 @@ const legsFile = './src/globals/legs.js'
 const lonLatFile = './src/scripts/legsLonLat.js'
 const imageDir = './src/images/' + legName
 
-// avoid recreating an existing leg
-if (fs.existsSync(imageDir)) {
-  console.error('Leg already started')
-  process.exit(1)
-}
-
 try {
-  // create image directory
-  fs.mkdirSync(imageDir)
+  // create image directory if needed
+  if (!fs.existsSync(imageDir)) {
+    fs.mkdirSync(imageDir)
+  }
 
   // read original GPX file
   const olddata = fs.readFileSync(gpxFile, 'utf8')

@@ -1076,14 +1076,4 @@ module.exports = {
       caption: 'Distant muntjac in the mist',
     },
   ],
-  leg19: [
-    {
-      src: 'leg19-floods.jpg',
-      caption: 'Flooded railway tunnel through Waterford Marsh',
-    },
-    {
-      src: 'leg19-heron.jpg',
-      caption: 'Grey heron on a fence at Hertingfordbury',
-    },
-  ],
 }
