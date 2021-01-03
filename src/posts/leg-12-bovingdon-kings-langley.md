@@ -15,6 +15,7 @@ tags:
   - Hemel Hempstead
   - River Gade
   - River Bulbourne
+  - red kite
 ---
 
 After a short drive passing much of what we would later run through, we parked next to the church at Bovingdon. There was a lot of blue sky with light cloud but it had got noticeably colder. We set off through the churchyard again but this time turned left at the well in the High Street and passed Anvil Close and Farriers Close hinting at a previous local industry. There was slight confusion when a parked van blocked the path out of the housing estate, but soon we were into open fields. Extensive greenhouses lay off to the right and a large radar dome appeared in the distance behind them. A first red kite of the day put in an appearance. All pleasant enough but nothing special. And so it proved for the rest of the day

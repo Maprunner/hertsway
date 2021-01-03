@@ -12,9 +12,12 @@ tags:
   - River Gade
   - River Colne
   - Watford
+  - Cassiobury Park
   - Aldenham
   - kingfisher
+  - red kite
   - M1
+  - golf course
 ---
 
 It was an early start since we knew we had a long leg ahead and I needed to be back for a meeting. 3ºC when we left home had crept up to 5ºC as we set out so it was still cold enough for each of us to put an extra layer on. But the sun was shining from a blue sky, at least over Kings Langley, and we were soon running up Egg Farm Lane to reach the wind turbine first spotted n the previous leg.

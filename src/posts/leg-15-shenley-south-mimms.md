@@ -10,6 +10,9 @@ tags:
   - South Mimms
   - Ridge
   - James
+  - St Albans Abbey
+  - red kite
+  - buzzard
 ---
 
 You may have noticed the short break. Two weeks ago I trod on a stone when out for the normal Saturday morning not parkrun with Helen. This hurt quite a bit at the time, but I managed to jog home the last kilometre with a bit of a limp. This gradually got a lot worse, so by Sunday it was all I could do to hop one and a half kilometres round part of the Black course at the Guildford Orienteers event at Puttenham Common. I hardly left the house for the next week, just about managed a short run on the Saturday and Sunday, and then had another week off. But yesterday I got round five kilometres OK with Helen, so we decided to go for a short leg to see how things went.

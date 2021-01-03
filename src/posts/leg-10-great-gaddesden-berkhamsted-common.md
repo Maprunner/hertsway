@@ -7,6 +7,7 @@ date: 2020-11-15
 tags:
   - Great Gaddesden
   - Little Gaddesden
+  - Berkhamsted
   - Ashridge
   - Nettleden
   - Aldbury
@@ -15,6 +16,8 @@ tags:
   - WCML
   - Bridgewater Monument
   - alpaca
+  - red kite
+  - golf course
 ---
 
 In a parallel universe today would have been the third time that Helen had organised the British Schools Orienteering Championships. [Cassiobury Park](https://www.happyherts.routegadget.co.uk/rg2/#294), Watford, was in 1999 and we have four legs to go before we get there. [Wormley Woods](https://www.happyherts.routegadget.co.uk/rg2/#56) was in 2010, and should have been today as well, and that will be another three or four legs later. Before we set off we both had to finish a few rounds of the [WOC99 Orienteering Unlocked](https://orienteeringunlocked.com/world-champs-1999/) event. This has been renamed from Lockdown Orienteering just in time for lockdown to start again. Helen spent quite a long time running virtually round Glen Afric in Catching Features, and I spent slightly less time doing the same, as well as navigating round a maze and trying to work out which blurry photo was the correct boulder in the Photo-O round. The [results system](https://www.maprunner.co.uk/lockdown-results/events/e009) is another Maprunner creation.

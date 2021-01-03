@@ -9,13 +9,13 @@ tags:
   - Great Wymondley
   - Little Wymondley
   - Graveley
-  - church
+  - red kite
   - kestrel
   - Lister Hospital
   - A1(M)
   - ECML
   - yeti
-  - Only connect
+  - Only Connect
 ---
 
 The day started with a two hour work meeting. Four people, four countries (England, the Netherlands, Belgium and Cyprus), three time zones. Such is the modern office environment. But luckily I managed to start it early so we were all set to go by mid-morning.

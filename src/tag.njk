@@ -9,7 +9,7 @@ pagination:
     - post
     - frontposts
 eleventyComputed:
-  title: "{{ tag }}"
+  title: "{{ tag | safe }}"
 permalink: /tags/{{ tag | slugifyTag }}/
 ---
 

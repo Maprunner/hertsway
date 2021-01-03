@@ -8,10 +8,12 @@ tags:
   - M25
   - River Colne
   - Aldenham
+  - Letchmore Heath
   - Shenley
   - River Ver
   - Radlett
-  - St Albans
+  - St Albans Abbey
+  - red kite
 ---
 
 Another early start on a cold but clear day. The trip to Aldenham took a bit longer than expected since Harper Lane was closed for road works at the railway bridge so we had to turn round, and there were three other sets of road works with traffic lights on the road into and out of Radlett. But we got there soon enough to be met by a red kite flying overhead.
