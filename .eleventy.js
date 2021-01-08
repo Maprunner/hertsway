@@ -51,9 +51,9 @@ module.exports = (config) => {
       additional: [
         // Globs of additional images to optimize (won't be resized)
       ],
-      watch: {
-        src: 'images/**/*', // Glob of images that Eleventy should watch for changes to
-      },
+      // watch: {
+      //   src: 'images/**/*', // Glob of images that Eleventy should watch for changes to
+      // },
     },
   })
 

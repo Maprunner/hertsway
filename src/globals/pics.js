@@ -1078,12 +1078,42 @@ module.exports = {
   ],
   leg19: [
     {
-      src: 'leg19-floods.jpg',
-      caption: 'Flooded railway tunnel through Waterford Marsh',
+      src: 'leg19-bayford.jpg',
+      caption: 'Starting out from Bayford',
+      portrait: true,
+    },
+    {
+      src: 'leg19-hertford-church.jpg',
+      caption: "All Saints's Church, Hertford",
+    },
+    {
+      src: 'leg19-parliament-square.jpg',
+      caption: 'Parliament Square, Hertford',
+      portrait: true,
+    },
+    {
+      src: 'leg19-synod.jpg',
+      caption: 'Synod sculpture outside Hertford Theatre',
+    },
+    {
+      src: 'leg19-waterford-marsh.jpg',
+      caption: 'River Beane in Waterford marsh',
+    },
+    {
+      src: 'leg19-waterford-heath.jpg',
+      caption: 'Looking out over Waterford heath',
+    },
+    {
+      src: 'leg19-panshanger.jpg',
+      caption: 'Looking west along the Mimram valley in Panshanger Park',
     },
     {
       src: 'leg19-heron.jpg',
       caption: 'Grey heron on a fence at Hertingfordbury',
+    },
+    {
+      src: 'leg19-hertingfordbury-church.jpg',
+      caption: "St Mary's Church, Hertford",
     },
   ],
 }
