@@ -1097,23 +1097,44 @@ module.exports = {
     },
     {
       src: 'leg19-waterford-marsh.jpg',
-      caption: 'River Beane in Waterford marsh',
+      caption: 'Grey wagtail habitat in Waterford Marsh',
+    },
+    {
+      src: 'leg19-teasels.jpg',
+      caption: 'Teasels on Waterford Heath',
     },
     {
       src: 'leg19-waterford-heath.jpg',
-      caption: 'Looking out over Waterford heath',
+      caption: 'Looking out over Waterford Heath',
     },
     {
+      src: 'leg19-machinery.jpg',
+      caption: 'Flood control on the River Beane',
+    },
+
+    {
       src: 'leg19-panshanger.jpg',
-      caption: 'Looking west along the Mimram valley in Panshanger Park',
+      caption: 'The Mimram valley in Panshanger Park',
     },
     {
       src: 'leg19-heron.jpg',
       caption: 'Grey heron on a fence at Hertingfordbury',
     },
     {
+      src: 'leg19-cheetahs.jpg',
+      caption: 'Exotic wildlife in Hertingfordbury',
+    },
+    {
       src: 'leg19-hertingfordbury-church.jpg',
-      caption: "St Mary's Church, Hertford",
+      caption: "St Mary's Church, Hertingfordbury",
+    },
+    {
+      src: 'leg19-skyline.jpg',
+      caption: 'Skyline towards Bayfordbury',
+    },
+    {
+      src: 'leg19-bayford-church.jpg',
+      caption: "St Mary's Church, Bayford",
     },
   ],
 }
