@@ -1076,4 +1076,65 @@ module.exports = {
       caption: 'Distant muntjac in the mist',
     },
   ],
+  leg19: [
+    {
+      src: 'leg19-bayford.jpg',
+      caption: 'Starting out from Bayford',
+      portrait: true,
+    },
+    {
+      src: 'leg19-hertford-church.jpg',
+      caption: "All Saints's Church, Hertford",
+    },
+    {
+      src: 'leg19-parliament-square.jpg',
+      caption: 'Parliament Square, Hertford',
+      portrait: true,
+    },
+    {
+      src: 'leg19-synod.jpg',
+      caption: 'Synod sculpture outside Hertford Theatre',
+    },
+    {
+      src: 'leg19-waterford-marsh.jpg',
+      caption: 'Grey wagtail habitat in Waterford Marsh',
+    },
+    {
+      src: 'leg19-teasels.jpg',
+      caption: 'Teasels on Waterford Heath',
+    },
+    {
+      src: 'leg19-waterford-heath.jpg',
+      caption: 'Looking out over Waterford Heath',
+    },
+    {
+      src: 'leg19-machinery.jpg',
+      caption: 'Flood control on the River Beane',
+    },
+
+    {
+      src: 'leg19-panshanger.jpg',
+      caption: 'The Mimram valley in Panshanger Park',
+    },
+    {
+      src: 'leg19-heron.jpg',
+      caption: 'Grey heron on a fence at Hertingfordbury',
+    },
+    {
+      src: 'leg19-cheetahs.jpg',
+      caption: 'Exotic wildlife in Hertingfordbury',
+    },
+    {
+      src: 'leg19-hertingfordbury-church.jpg',
+      caption: "St Mary's Church, Hertingfordbury",
+    },
+    {
+      src: 'leg19-skyline.jpg',
+      caption: 'Skyline towards Bayfordbury',
+    },
+    {
+      src: 'leg19-bayford-church.jpg',
+      caption: "St Mary's Church, Bayford",
+    },
+  ],
 }
