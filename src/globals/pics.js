@@ -1137,4 +1137,27 @@ module.exports = {
       caption: "St Mary's Church, Bayford",
     },
   ],
+  leg20: [
+    {
+      src: 'leg20-goffs-oak.jpg',
+      caption: 'Goffs Oak',
+    },
+    {
+      src: 'leg20-coal-post.jpg',
+      caption: 'Coal post in Wormley Wood',
+      portrait: true,
+    },
+    {
+      src: 'leg20-bsoc.jpg',
+      caption: 'British Schools 2010 finish',
+    },
+    {
+      src: 'leg20-helen-bsoc.jpg',
+      caption: 'Helen approaching the British Schools 2010 finish',
+    },
+    {
+      src: 'leg20-viaduct.jpg',
+      caption: 'Cuffley Viaduct',
+    },
+  ],
 }
