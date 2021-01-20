@@ -1143,6 +1143,11 @@ module.exports = {
       caption: 'Goffs Oak',
     },
     {
+      src: 'leg20-bread-and-cheese.jpg',
+      caption: 'Bread and Cheese Lane',
+    },
+
+    {
       src: 'leg20-coal-post.jpg',
       caption: 'Coal post in Wormley Wood',
       portrait: true,
@@ -1154,6 +1159,14 @@ module.exports = {
     {
       src: 'leg20-helen-bsoc.jpg',
       caption: 'Helen approaching the British Schools 2010 finish',
+    },
+    {
+      src: 'leg20-plane.jpg',
+      caption: 'Garden sculpture',
+    },
+    {
+      src: 'leg20-church.jpg',
+      caption: 'St James Church, Goffs Oak',
     },
     {
       src: 'leg20-viaduct.jpg',

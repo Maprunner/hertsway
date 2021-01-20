@@ -255,10 +255,10 @@ module.exports = {
     high: 107,
     low: 43,
     from: 'Cuffley Football Club',
-    to: 'White Stubbs Lane, Wormley',
+    to: 'White Stubbs Lane, Wormley Wood',
     time: 195,
     name: 'leg20',
-    title: 'Cuffley to Wormley',
-    omaps: 'Wormley Woods',
+    title: 'Cuffley to Wormley Wood',
+    omaps: 'Wormley Wood',
   },
 }
