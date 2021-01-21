@@ -3,7 +3,7 @@ title: Leg 19 Bayford to Waterford
 excerpt: 'In which the Hertfordshire Way takes us to Hertford for the first time'
 name: leg19
 image: leg19-floods.jpg
-date: 2021-01-03
+date: 2021-01-02
 tags:
   - Bayford
   - Hertford

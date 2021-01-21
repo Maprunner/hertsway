@@ -1137,4 +1137,60 @@ module.exports = {
       caption: "St Mary's Church, Bayford",
     },
   ],
+  leg20: [
+    {
+      src: 'leg20-viaduct-brook.jpg',
+      caption: 'Northaw Brook running under Cuffley Viaduct',
+    },
+    {
+      src: 'leg20-goffs-oak.jpg',
+      caption: 'Goffs Oak',
+    },
+    {
+      src: 'leg20-bread-and-cheese.jpg',
+      caption: 'Bread and Cheese Lane',
+    },
+
+    {
+      src: 'leg20-coal-post.jpg',
+      caption: 'Coal post in Wormley Wood',
+      portrait: true,
+    },
+    {
+      src: 'leg20-bsoc.jpg',
+      caption: 'British Schools 2010 finish',
+    },
+    {
+      src: 'leg20-helen-bsoc.jpg',
+      caption: 'Helen approaching the British Schools 2010 finish',
+    },
+    {
+      src: 'leg20-essex.jpg',
+      caption: 'Distant views of Essex across the Lea Valley',
+    },
+    {
+      src: 'leg20-paradise.jpg',
+      caption: 'Optimistic road sign',
+    },
+    {
+      src: 'leg20-pine.jpg',
+      caption: 'Pine plantation in Thunderfield Grove',
+    },
+    {
+      src: 'leg20-plane.jpg',
+      caption: 'Garden sculpture',
+    },
+    {
+      src: 'leg20-church.jpg',
+      caption: 'St James Church, Goffs Oak',
+    },
+    {
+      src: 'leg20-greenhouses.jpg',
+      caption: 'Acres of derelict greenhouses',
+    },
+    {
+      src: 'leg20-viaduct.jpg',
+      caption: 'Returning to Cuffley Viaduct',
+    },
+  ],
 }

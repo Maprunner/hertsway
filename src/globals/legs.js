@@ -248,4 +248,17 @@ module.exports = {
     title: 'Bayford to Waterford',
     omaps: 'Panshanger Park East',
   },
+  leg20: {
+    distance: 19.8,
+    snack: 'Cherry Bakewells',
+    climb: 335,
+    high: 107,
+    low: 43,
+    from: 'Cuffley Football Club',
+    to: 'White Stubbs Lane, Wormley Wood',
+    time: 195,
+    name: 'leg20',
+    title: 'Cuffley to Wormley Wood',
+    omaps: 'Wormley Wood',
+  },
 }
