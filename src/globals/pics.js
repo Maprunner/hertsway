@@ -1139,6 +1139,10 @@ module.exports = {
   ],
   leg20: [
     {
+      src: 'leg20-viaduct-brook.jpg',
+      caption: 'Northaw Brook running under Cuffley Viaduct',
+    },
+    {
       src: 'leg20-goffs-oak.jpg',
       caption: 'Goffs Oak',
     },
@@ -1161,6 +1165,18 @@ module.exports = {
       caption: 'Helen approaching the British Schools 2010 finish',
     },
     {
+      src: 'leg20-essex.jpg',
+      caption: 'Distant views of Essex across the Lea Valley',
+    },
+    {
+      src: 'leg20-paradise.jpg',
+      caption: 'Optimistic road sign',
+    },
+    {
+      src: 'leg20-pine.jpg',
+      caption: 'Pine plantation in Thunderfield Grove',
+    },
+    {
       src: 'leg20-plane.jpg',
       caption: 'Garden sculpture',
     },
@@ -1169,8 +1185,12 @@ module.exports = {
       caption: 'St James Church, Goffs Oak',
     },
     {
+      src: 'leg20-greenhouses.jpg',
+      caption: 'Acres of derelict greenhouses',
+    },
+    {
       src: 'leg20-viaduct.jpg',
-      caption: 'Cuffley Viaduct',
+      caption: 'Returning to Cuffley Viaduct',
     },
   ],
 }
