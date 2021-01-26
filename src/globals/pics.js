@@ -37,6 +37,10 @@ module.exports = {
       src: 'leg1-icknield-way.jpg',
       caption: 'Icknield Way sign',
     },
+    {
+      src: 'leg1-rook.jpg',
+      caption: 'Rook',
+    },
   ],
   leg2: [
     {

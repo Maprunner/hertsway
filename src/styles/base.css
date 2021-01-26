@@ -156,17 +156,23 @@ hr {
   @apply text-lg;
 }
 
-.leg-pic {
+.gallery-3x2 {
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #444;
 }
 
-.leg-pic-portrait {
+.gallery-2x3 {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+}
+
+.gallery-2x3 img {
   width: 67%;
 }
 
-.caption {
+figcaption {
   @apply text-center text-base italic text-gray-500;
 }
 

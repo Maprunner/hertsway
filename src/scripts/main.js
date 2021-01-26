@@ -8,6 +8,7 @@ import VectorSource from 'ol/source/Vector'
 import { Circle as CircleStyle, Fill, Stroke, Style } from 'ol/style'
 import { Vector as VectorLayer } from 'ol/layer'
 import legsLonLat from './legsLonLat.js'
+import initPhotoswipe from './photoswipe-dom.js'
 
 // centre for overview map
 const hertsLonLat = [-0.2, 51.85]
@@ -139,3 +140,5 @@ new Map({
     zoom: 10,
   }),
 })
+
+initPhotoswipe('.gallery ul')
