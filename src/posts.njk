@@ -6,8 +6,10 @@ pagination:
   reverse: true
 permalink: "post/"
 ---
-
 {% extends 'page.njk' %}
+
+{% from "macros.njk" import picture %}
+
 {% block body %}
   <h1>All posts</h1>
   <div class="max-w-screen-xl mt-4 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -15,7 +17,8 @@ permalink: "post/"
       <div class="flex flex-col flex-1 px-4 py-4 bg-gray-800 rounded-lg shadow-lg">
         <div class="flex-1">
           <div class="relative pb-5/6">
-            <img class="h-auto w-full object-cover rounded-lg shadow-md" src="../images/{{ post.data.name }}/{{ post.data.image }}" alt="">
+            {# <img class="h-auto w-full object-cover rounded-lg shadow-md" src="../images/{{ post.data.name }}/{{ post.data.image }}" alt=""> #}
+            {{ picture(post.data.image, post.data.title, false, post.data.name) }}
           </div>
           <div class="p-3">
             <h2>

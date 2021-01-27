@@ -1,3 +1,5 @@
+// based on https://www.markllobrera.com/posts/eleventy-building-image-gallery-photoswipe/
+
 import PhotoSwipe from 'photoswipe'
 import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default'
 

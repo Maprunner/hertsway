@@ -126,6 +126,10 @@ module.exports = {
       portrait: true,
     },
     {
+      src: 'leg4-helen-james.jpg',
+      caption: 'Climbing towards Almshoe Bury: spot the Lister',
+    },
+    {
       src: 'leg4-stagenhoe.jpg',
       caption: 'The gates to Stagenhoe',
     },
@@ -1110,6 +1114,10 @@ module.exports = {
     {
       src: 'leg19-waterford-heath.jpg',
       caption: 'Looking out over Waterford Heath',
+    },
+    {
+      src: 'leg19-floods.jpg',
+      caption: 'Flooding under the railway',
     },
     {
       src: 'leg19-machinery.jpg',
