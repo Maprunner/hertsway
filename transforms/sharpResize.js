@@ -16,8 +16,24 @@ const fs = require('fs')
 const sharp = require('sharp')
 const allPics = require('../src/globals/pics.js')
 
+if (leg === 100) {
+  // your code here
+  const inDir = './src/rawimages/'
+  const outDir = './src/images/'
+  inPic = 'pan1-small-original.jpg'
+  outPic = 'pan1-small.jpg'
+  let doResize = composeAsync(
+    sharp(inDir + inPic)
+      .resize(768, 100)
+      .toFile(outDir + outPic)
+      .catch((err) => console.log(err))
+  )
+  doResize()
+  return
+}
+
 if (!allPics[legName]) {
-  console.error('No pictures found for ', legName)
+  console.error('No pictures found for', legName)
   process.exit(1)
 }
 const pics = allPics[legName]

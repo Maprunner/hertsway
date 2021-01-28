@@ -23,7 +23,7 @@
         |
       {% endif %}{{ site.name }}</title>
 
-    <link rel="stylesheet" href="{{ site.baseUrl }}assets/main.bundle.css">
+    <link rel="stylesheet" href="{{ site.baseUrl }}assets/main.bundle.css?v=123">
     {% block head %}{% endblock %}
   </head>
   <body class="flex flex-col min-h-screen">
@@ -32,6 +32,6 @@
       {% block body %}{% endblock %}
       {% include 'footer.njk' %}
     </main>
-    <script src="{{ site.baseUrl }}assets/main.bundle.js"></script>
+    <script src="{{ site.baseUrl }}assets/main.bundle.js?v=123"></script>
   </body>
 </html>

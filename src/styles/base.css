@@ -17,19 +17,19 @@ h6 {
 }
 
 h1 {
-  @apply text-2xl;
+  @apply text-xl md:text-2xl;
 }
 
 h2 {
-  @apply text-xl;
+  @apply text-lg md:text-xl;
 }
 
 h3 {
-  @apply text-lg;
+  @apply text-base md:text-lg;
 }
 
 h4 {
-  @apply text-base;
+  @apply text-sm md:text-base;
 }
 
 a {
@@ -41,7 +41,7 @@ a:hover {
 }
 
 p {
-  @apply text-lg;
+  @apply text-base md:text-lg;
 }
 
 hr {
@@ -102,9 +102,16 @@ hr {
 }
 
 .banner {
-  height: 200px;
-  background-image: url('../images/pan1-1280x200.jpg');
   background-position: center;
+  height: 100px;
+  background-image: url('../images/pan1-small.jpg');
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 200px;
+    background-image: url('../images/pan1.jpg');
+  }
 }
 
 .fullMap {
@@ -132,7 +139,7 @@ hr {
 }
 
 .read-more {
-  @apply bg-teal-600 text-white text-xl font-bold py-2 px-4 rounded;
+  @apply bg-teal-600 text-white text-lg md:text-xl font-bold py-2 px-4 rounded;
   border: 1px solid transparent;
 }
 
@@ -149,11 +156,11 @@ hr {
 }
 
 .stat {
-  @apply text-2xl text-yellow-600;
+  @apply text-xl md:text-2xl text-yellow-600;
 }
 
 .stat-title {
-  @apply text-lg;
+  @apply text-base md:text-lg;
 }
 
 .gallery-3x2 {
@@ -173,7 +180,7 @@ hr {
 }
 
 figcaption {
-  @apply text-center text-base italic text-gray-500;
+  @apply text-center text-sm md:text-base italic text-gray-500;
 }
 
 .ol-control ul {
