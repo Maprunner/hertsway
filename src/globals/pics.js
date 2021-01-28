@@ -1215,10 +1215,6 @@ module.exports = {
       caption: 'Bamboo, eucalyptus and solar panels',
     },
     {
-      src: 'leg21-views-of-essex.jpg',
-      caption: 'Approaching the New River at Broxbourne',
-    },
-    {
       src: 'leg21-mallard',
       caption: 'Mallard and moorhen in the sunshine',
     },
@@ -1242,10 +1238,6 @@ module.exports = {
     {
       src: 'leg21-patio',
       caption: 'Riverside scenery',
-    },
-    {
-      src: 'leg21-lake',
-      caption: "Admiral's Walk Lake",
     },
     {
       src: 'leg21-oak.jpg',
