@@ -37,6 +37,10 @@ module.exports = {
       src: 'leg1-icknield-way.jpg',
       caption: 'Icknield Way sign',
     },
+    {
+      src: 'leg1-rook.jpg',
+      caption: 'Rook',
+    },
   ],
   leg2: [
     {
@@ -120,6 +124,10 @@ module.exports = {
       src: 'leg4-team.jpg',
       caption: 'Helen and James at Little Wymondley',
       portrait: true,
+    },
+    {
+      src: 'leg4-helen-james.jpg',
+      caption: 'Climbing towards Almshoe Bury: spot the Lister',
     },
     {
       src: 'leg4-stagenhoe.jpg',
@@ -1106,6 +1114,10 @@ module.exports = {
     {
       src: 'leg19-waterford-heath.jpg',
       caption: 'Looking out over Waterford Heath',
+    },
+    {
+      src: 'leg19-floods.jpg',
+      caption: 'Flooding under the railway',
     },
     {
       src: 'leg19-machinery.jpg',

@@ -4,6 +4,7 @@
 dist
 # images stored in OneDrive rather than Github
 src/images
+src/rawimages
 
 # Logs
 logs
