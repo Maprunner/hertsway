@@ -39,7 +39,7 @@ module.exports = {
     },
     {
       src: 'leg1-rook.jpg',
-      caption: 'Rook',
+      caption: 'Rook in car park at Therfield Heath',
     },
   ],
   leg2: [
@@ -124,10 +124,6 @@ module.exports = {
       src: 'leg4-team.jpg',
       caption: 'Helen and James at Little Wymondley',
       portrait: true,
-    },
-    {
-      src: 'leg4-helen-james.jpg',
-      caption: 'Climbing towards Almshoe Bury: spot the Lister',
     },
     {
       src: 'leg4-stagenhoe.jpg',
@@ -1116,10 +1112,6 @@ module.exports = {
       caption: 'Looking out over Waterford Heath',
     },
     {
-      src: 'leg19-floods.jpg',
-      caption: 'Flooding under the railway',
-    },
-    {
       src: 'leg19-machinery.jpg',
       caption: 'Flood control on the River Beane',
     },
@@ -1203,6 +1195,57 @@ module.exports = {
     {
       src: 'leg20-viaduct.jpg',
       caption: 'Returning to Cuffley Viaduct',
+    },
+  ],
+  leg21: [
+    {
+      src: 'leg21-approaching-broxbourne.jpg',
+      caption: 'Fields approaching Broxbourne Woods',
+    },
+    {
+      src: 'leg21-spital-brook.jpg',
+      caption: 'Difficult going along Spital Brook',
+    },
+    {
+      src: 'leg21-muddy-ride.jpg',
+      caption: 'Muddy ride in Broxbourne Woods',
+    },
+    {
+      src: 'leg21-solar-panels.jpg',
+      caption: 'Bamboo, eucalyptus and solar panels',
+    },
+    {
+      src: 'leg21-mallard',
+      caption: 'Mallard and moorhen in the sunshine',
+    },
+    {
+      src: 'leg21-broxbourne-church.jpg',
+      caption: 'St Augustine church, Broxbourne',
+      portrait: true,
+    },
+    {
+      src: 'leg21-car-park',
+      caption: 'Empty car park at Broxbourne station',
+    },
+    {
+      src: 'leg21-new-river.jpg',
+      caption: 'Helen by the New River',
+    },
+    {
+      src: 'leg21-gulls.jpg',
+      caption: 'Black-headed gulls',
+    },
+    {
+      src: 'leg21-patio',
+      caption: 'Riverside scenery',
+    },
+    {
+      src: 'leg21-oak.jpg',
+      caption: 'Fallen oak goalpost',
+    },
+    {
+      src: 'leg21-spinosaurus.jpg',
+      caption: 'Spinosaurus in Paradise Wildlife Park',
     },
   ],
 }

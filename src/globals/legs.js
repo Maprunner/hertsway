@@ -261,4 +261,17 @@ module.exports = {
     title: 'Cuffley to Wormley Wood',
     omaps: 'Wormley Wood',
   },
+  leg21: {
+    distance: 18.6,
+    snack: 'Hot cross bun',
+    climb: 186,
+    high: 99,
+    low: 30,
+    from: 'White Stubbs Lane, Wormley Wood',
+    to: 'New River footbridge, Hoddesdon',
+    time: 170,
+    name: 'leg21',
+    title: 'Wormley Wood to Hoddesdon',
+    omaps: 'Broxbourne Woods',
+  },
 }
