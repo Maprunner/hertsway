@@ -274,4 +274,17 @@ module.exports = {
     title: 'Wormley Wood to Hoddesdon',
     omaps: 'Broxbourne Woods',
   },
+  leg22: {
+    distance: 21.4,
+    snack: 'Hot cross buns',
+    climb: 92,
+    high: 70,
+    low: 26,
+    from: 'New River footbridge, Hoddesdon',
+    to: 'St John the Baptist Church, Great Amwell',
+    time: 210,
+    name: 'leg22',
+    title: 'Hoddesdon to Great Amwell',
+    omaps: 'None',
+  },
 }
