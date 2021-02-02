@@ -11,10 +11,14 @@ Built with [11ty](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.
 - Save gpx file in src/data as legx.gpx
 - npm run new <x> <from> <to>
 - Edit post
-- Add picture details to globals/pics.js
-- Add pictures (600x400 jpg) to src/images
 - npm run dev to test
 - copy dist/images to src/images to avoid resizing again
+
+## Pictures
+
+- Add picture details to globals/pics.js
+- Add pictures (3000+ jpg) to src/rawimages
+- npm run resize x creates images for everything in pics.js for leg x
 
 ## Deploying
 
