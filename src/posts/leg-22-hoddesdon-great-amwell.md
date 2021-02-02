@@ -1,6 +1,6 @@
 ---
 title: Leg 22 Hoddesdon to Great Amwell
-excerpt: 'In which we find a black swan and a lot of brown water'
+excerpt: 'In which we find a black swan and a lot of water'
 name: leg22
 image: leg22-black-swan.jpg
 date: 2021-01-29
@@ -20,102 +20,38 @@ tags:
   - A414
 ---
 
-Rail on the way there. Dobbs Weir. Lots of water
+The desire to get another leg done overcame the weather forecast so we set out hoping for the best. This looked like a bad decision as the rain fell as we headed east but there were brighter skies visible so we pressed on in hope. We got to see the delights of the industrial estates around the edge of Hoddesdon, including exotic locations such as the Arnaouti Pitta Bread Bakery, and parked at Dobbs Weir. This gave a first indication of the day's theme, with the canal boats in the River Lee Navigation sitting in brown muddy water and a loud roar as large volumes of water poured over Dobbs Weir itself and under the Fish and Eels bridge.
 
-Essex sign
+The first kilometre took us across the Lea Valley, including a high footbridge across the railway, and then along the path up to the New River and the bridge where we had turned off on the last leg. The New River was also brown and flowing fast. But the birdlife was an instant improvement with two little grebes paddling through the overhanging brambles. Almost immediately we hit the fist complication of the day. The riverside path was fenced off with a notice advising of a diversion up towards the centre of town. We were half-expecting this since there had been a lot of roadworks where we had crossed the New River earlier in the morning. We managed to find a route through a housing estate to save following the main road, and were then treated to a carefully constructed pedestrian route through a major worksite where a new dual carriageway was being put in.
 
-Cross railway
+We were soon back on the path along the New River and made good progress past the rather nice gardens to our left and the slightly less nice railway line and industrial estate to our right. The three chimneys of the [Rye House Power Station](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiYpOGlmcnuAhXQT8AKHYWnAk4QFjACegQIBBAC&url=https%3A%2F%2Fwww.scottishpower.com%2Fuserfiles%2Ffile%2FRyehouseSite2011.pdf&usg=AOvVaw0K59xWi_MqsVaXUxE7lONM) were visible in the distance as they would be for much of the day. Amongst the inevitable Canada geese, mallard, coot and moorhen we found another ringed mute swan: 4DYV turned out to be a local ringed as a cygnet in September 2020 in Stanstead Abbots. We reached Rye House station and dropped down to start running along the River Lee Navigation.
 
-Back to New River
+Very soon we had got out of the houses and were into the start of [Rye Meads Nature Reserve](https://www.rspb.org.uk/reserves-and-events/reserves-a-z/rye-meads/). We passed the impressive Kingfisher hide on the far bank but sadly no kingfisher would turn up today despite us being alongside so much water. Another little grebe made regular appearances on the surface whilst diving and being carried downstream quite fast. The river went under the A414 and we had made it to the Lee Valley Marina at Stanstead Abbots. Just for a change a buzzard flew across the river and into a tree in the rather nice housing estate along the river.
 
-Two little grebe
+We passed a chandlery with a large crane lifting a narrow boat out of the water and by now had reached a row of old cottages just before the bridge at Stanstead Abbots. And then from between two moored boats we saw three swans. Stated like that it doesn't sound too interesting, but the missing detail is that one of them was a black swan. One of its two white friends also had a ring (4EAA) and was another local ringed at Rye Meads in May 2009. Presumably the black swan had escaped from somewhere, but it seemed happy enough there on the river.
 
-Blocked path
+We left the river at the bridge and did a first lap of the road through Stanstead Abbots. This revealed a very wide range of house styles and ages. As we left the village St Andrew's Church stood on a slight slope, just enough to keep it out of the flooded fields down towards the river. It was now time to get in the climb for today as we headed off on a loop around the Easneye estate that took us as high as 70 metres above sea level and a whole 40 metres above the river in the bottom of the valley. It started to drizzle and for ten minutes it looked like we might get properly wet. But luckily it blew over and the day got steadily better from then on.
 
-Route through roadworks
+This section provided a complete change of scenery as we ran through large open fields with the odd hedge and larger clump of trees. I guess this sort of scenery will turn up a lot on the remaining legs in the north east of the county. The snowdrops were just coming out in the stream alongside the path, and two buzzards flew across and perched on a distant tree watching us. A flock of at least 10 yellowhammers flew along the hedge as we approached, just managing to keep ahead of us but with the bright yellow males easily visible. As we turned the corner and started to drop down into the valley of the River Ash I thought I heard a distant croaking that could be a raven. Then I picked out a bright white spot against the dark green of a field. This was a little egret but it flew on ahead as we approached.
 
-Back on New River, Industrial estate. Swan 4DYV
+By now we had got to the farm next to the river. The [Ware, Hadham & Buntingford Railway](https://www.hertsmemories.org.uk/content/herts-history/towns-and-villages/buntingford/the-bunt) used to run down this valley and the water was rushing under the old railway bridge and seemed to be about to flood into the garden of the farm. Two women were walking towards us and in the process of working out how to get four people through the gate whilst staying a suitable distance apart we ended up having a long conversation. One of the women was the farmer from the farm we had now reached. They had both walked the Hertfordshire Way so had some idea of what we were doing. They confirmed that the river was quite high but not as high as it had been recently, and that there were indeed ravens in the woods so I hadn't imagined it.
 
-Rye House station. Drop down to River Lee Navigation.
+We set off again taking the footbridge next to a ford. Two red kites floated over the woods ahead and then I spotted the little egret again. It was in a flooded field next to the river, with a heron and three mallard for company. With some careful positioning I managed to get all five birds in one photo. The path stayed near the river with parkland stretching up to large wooded ridge. An impressive red brick dairy farm stood on the edge of the woods. A very large black bird flew up out of a distant oak tree and into the woods and started a continuous stream of croaks: we had found our raven. Five red kites flew over to keep it company.
 
-Kingfisher hide at Rye Meads
+We followed the old railway further down the valley and into [Amwell Nature Reserve](https://www.hertswildlifetrust.org.uk/nature-reserves/amwell). Nothing of any particular note showed up in any of the lakes and ponds we passed, and there was certainly no sign of the otters or bitterns that live there. We continued on across the River Lee and the railway and climbed back up to the New River. Two islands sat in the middle of the New River and just before them we crossed footbridge and took the steep narrow steps up to St John the Baptist church.
 
-Little grebe
+The small churchyard was full of yew trees and gravestones with snowdrops just coming out, although I never managed to locate the grave of Olympic athlete Harold Abrahams that is there somewhere. Helen sat on a bench to have a snack whilst I searched around. I found the stocks which are the other listed attraction, as well as a small group of people outside the pub who had clearly just been to a funeral.
 
-Under A414
+We headed back towards Stanstead St Margarets along the New River and found a track taking us back across the railway and down to the River Lee again. Two small girls were standing by the level crossing whilst their mother was on the phone arranging to be picked up: one of the girls had lost a wellie on the river and couldn't walk home. Crossing the river on the bridge we had already been over once we did our second lap through the middle of Stanstead Abbots but this time turned right at the far end. Several more distinctive buildings appeared, with lots of maltings converted into offices and houses and then a very nice yellow plastered building with exposed wooden beams which turned out to be the Abbotts House.
 
-Lee Valley Marina Stanstead Abbots
+We turned off the road next to a road sign warning of a steep hill which seemed a little strange. But the short steep ridge that we had seen earlier near Easneye continued around the valley here. The path led under the A414 and into what should have been a pleasant grassy track through woodland next to the River Stort. Today it was a narrow grassy track between areas of swamp. In places the water was flowing across the path quite fast, and there was a 50 metre stretch where Helen was wading through knee-deep. We skirted round a main river channel as opposed to the flooded overflow we had seen so far, and I commented that it looked like it was flowing the wrong way. This turns out to be because we had swung round and were now setting off east up the Stort valley into Essex. A large flooded field was full of gulls and there were views of the spire on St James's church glinting in the sunshine on the ridge behind.
 
-Buzzard
+At the end of the field the water was flowing fast across the road and footbridge. Cars queued up to take it in turns to sprint through the water or turn round and retreat to avoid it. We left them to it and ran down the road to reach Roydon station just in time for the barriers to come down and let us have a short rest next to the Essex county sign. The county boundary runs along the railway and the River Stort (Navigation) around here, so after crossing the railway and bridge we had made it to Essex.
 
-Chandlery and crane.
+A herd of Highland cattle had a series of posh tents in their field, and on the other side was the surprisingly large and busy Roydon Marina Village which was full of boats. We stuck to the towpath and reached Feildes Weir. An awful lot of water was flowing through and we took a short detour to walk out into the middle of the river to check the view. Canal towpath, water rushing through the weir, large bird-filled lake and wooded nature reserve to one side. Industrial estate, power station and three large chimneys on the other side. A place of contrasts if nothing else.
 
-Black swan.
+The lake was Glen Faba which is where the little egret we found in Berkhamsted on [Leg 11](https://www.maprunner.co.uk/hertsway/post/leg-11-berkhamsted-common-to-bovingdon/) had been ringed. There were no egrets today but the muddy path along the bank produced tufted duck, great crested grebe and cormorant in with the inevitable coots, moorhens and mallard. By this stage my watch battery was warning that it was nearly flat. We opted for what should have been the shortest route back but which also turned out to be the muddiest path of the day, and came out next to the car park. There was just time for a tour of Dobbs Weir and the Fish and Eels pub and we were done for the day.
 
-Mute swan 4EAA
+By now we had realised that we were still in Essex and must have missed the county boundary at the start of the leg. There was indeed a sign just after the bridge welcoming us to "Hertfordshire, County of opportunity". Below it we were welcomed to the Borough of Broxbourne "hosting the Canoe Slalom Events for the 2012 Games". These took place at the Lee Valley White Water Centre which has a particular memory for us since the only 2012 Olympics tickets we managed to get were for canoe slalom.
 
-Road through Stanstead Abbots. Wide range of houses.
-
-St Andrew's Church
-
-Climb out of valley into fields. Snowdrops.
-
-Two buzzards
-
-Wide open spaces. This is what later legs will be like.
-
-Drizzle. Yellowhammers in hedge. Think I hear a raven.
-
-Glimpse of little egret.
-
-Farm by River Ash. Flooding.
-
-Meet two walkers. Long discussion. Two red kites.
-
-Cross footbridge. Little egret with heron and mallard in flooded fields.
-
-Parkland along river. Impressive dairy farm on hill. Large black bird flying away and loud croaks of raven. Five red kites flying over. Sky now clear and sun beginning to come out.
-
-Follow old railway line down valley.
-
-Amwell Nature Reserve.
-
-Cross railway. Back to New River. Bridge to St John the Baptist church. Two small islands in river.
-
-Steep climb. Lots of yews. Dark and full churchyard. Snacks. Fail to find grave. Stocks.
-
-Along New River to Stanstead Abbots.
-
-Cross railway Two small girls plus mother. Girl has lost wellie in river and they are waiting to be picked up.
-
-River Lee wing bridge. Back through Stanstead Abbots.
-
-Lots of maltings. Abbots House.
-
-Road sign for steep hill.
-
-Under A414. Flooded woodland. Flooded path. Helen in knee-deep.
-
-Branch of River Stort. Flooded field with gulls. Views of church on hill.
-
-Flooded road with cars queuing up to get through.
-
-Roydon station Essex.
-
-Cross railway after long wait. Cross river. Along to path.
-
-Highland cows.
-
-Roydon Marina Village very full of boats.
-
-Glen Faba where the egret came from.
-
-Feildes Weir. Lots of water. Views of three chimneys.
-
-Tufted duck, great crested grebe, cormorant on lake.
-
-Watch battery nearly flat.
-
-Muddy path back to Dobbs Weir. Fish and Eels pub.
-
-Covid test site at Paradise Wildlife Park on way home.
+We somehow managed to miss a turn in the roadworks on the way home and so decided to take the straight route rather than go via Hertford. This took us back past Paradise Wildlife Park where we discovered a Covid testing site occupying the overflow car park we normally use for orienteering events. Is this the new normal?

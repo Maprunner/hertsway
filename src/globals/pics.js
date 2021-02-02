@@ -1250,8 +1250,16 @@ module.exports = {
   ],
   leg22: [
     {
+      src: 'leg22-railway.jpg',
+      caption: "Crossing the railway by Admiral's Walk Lake",
+    },
+    {
       src: 'leg22-start.jpg',
       caption: 'Muddy brown water in the New River',
+    },
+    {
+      src: 'leg22-rye-house.jpg',
+      caption: 'Rye House station below the New River',
     },
     {
       src: 'leg22-river-lee-navigation.jpg',
@@ -1274,6 +1282,14 @@ module.exports = {
       caption: 'Little egret, heron and mallard in flooded field',
     },
     {
+      src: 'leg22-easneye.jpg',
+      caption: 'Where the raven was in Easneye',
+    },
+    {
+      src: 'leg22-islands.jpg',
+      caption: 'Islands in the New River at Great Amwell',
+    },
+    {
       src: 'leg22-great-amwell-church.jpg',
       caption: 'St John the Baptist church, Great Amwell',
     },
@@ -1286,12 +1302,36 @@ module.exports = {
       caption: 'Knee-deep water in the Stort valley',
     },
     {
+      src: 'leg22-canada-geese.jpg',
+      caption: 'Canada geese escaping the flooding',
+    },
+    {
       src: 'leg22-flooding.jpg',
       caption: 'Water flowing over the road at Roydon',
     },
     {
+      src: 'leg22-highland-cows.jpg',
+      caption: 'Highland cattle',
+    },
+    {
+      src: 'leg22-power-station.jpg',
+      caption: 'Power station chimneys beyond Feildes Weir',
+    },
+    {
       src: 'leg22-flood-relief.jpg',
       caption: 'Flood relief channel at Feildes Weir',
+    },
+    {
+      src: 'leg22-glen-faba.jpg',
+      caption: 'Glen Faba',
+    },
+    {
+      src: 'leg22-fish-and-eels.jpg',
+      caption: 'The Fish and Eels pub',
+    },
+    {
+      src: 'leg22-dobbs-weir.jpg',
+      caption: 'Dobbs Weir',
     },
   ],
 }
