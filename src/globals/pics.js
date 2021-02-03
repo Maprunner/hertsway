@@ -1334,4 +1334,42 @@ module.exports = {
       caption: 'Dobbs Weir',
     },
   ],
+  leg23: [
+    {
+      src: 'leg23-fallen-tree.jpg',
+      caption: 'Newly fallen tree by New River',
+    },
+    {
+      src: 'leg23-spot-the-mermaids.jpg',
+      caption: 'Spot the mermaids',
+    },
+    {
+      src: 'leg23-gazebo-sign.jpg',
+      caption: 'Gazebo information board',
+    },
+    {
+      src: 'leg23-gazebos.jpg',
+      caption: 'Passing the gazebos in Ware',
+    },
+    {
+      src: 'leg23-bengeo-church.jpg',
+      caption: 'Church, Bengeo',
+    },
+    {
+      src: 'leg23-chickens.jpg',
+      caption: 'Thatched chickens',
+    },
+    {
+      src: 'leg23-hertford.jpg',
+      caption: 'The end of the loop - Parliament Square, Hertford',
+    },
+    {
+      src: 'leg23-ice.jpg',
+      caption: 'Ice in the water meadows',
+    },
+    {
+      src: 'leg23-mermaids.jpg',
+      caption: 'Mermaids on an island in the New River',
+    },
+  ],
 }
