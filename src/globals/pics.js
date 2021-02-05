@@ -1353,7 +1353,7 @@ module.exports = {
     },
     {
       src: 'leg23-bengeo-church.jpg',
-      caption: 'Church, Bengeo',
+      caption: "St Leonard's Church, Bengeo",
     },
     {
       src: 'leg23-chickens.jpg',
