@@ -1352,8 +1352,21 @@ module.exports = {
       caption: 'Passing the gazebos in Ware',
     },
     {
+      src: 'leg23-ware-weir.jpg',
+      caption: 'Ware Weir',
+    },
+    {
+      src: 'leg23-ware-watermill.jpg',
+      caption: 'Remains of Ware watermill',
+    },
+    {
       src: 'leg23-bengeo-church.jpg',
       caption: "St Leonard's Church, Bengeo",
+    },
+    {
+      src: 'leg23-spire.jpg',
+      caption: "Wooden spire on St Leonard's Church",
+      portrait: true,
     },
     {
       src: 'leg23-chickens.jpg',
@@ -1364,12 +1377,29 @@ module.exports = {
       caption: 'The end of the loop - Parliament Square, Hertford',
     },
     {
+      src: 'leg23-egyptian-building.jpg',
+      caption: 'The Egyptian Building',
+      portrait: true,
+    },
+    {
+      src: 'leg23-bluecoats.jpg',
+      caption: 'Former site of Bluecoats School',
+    },
+    {
+      src: 'leg23-kings-meads.jpg',
+      caption: "Heading out across King's Meads",
+    },
+    {
       src: 'leg23-ice.jpg',
       caption: 'Ice in the water meadows',
     },
     {
+      src: 'leg23-a10.jpg',
+      caption: 'Approaching the A10 viaduct',
+    },
+    {
       src: 'leg23-mermaids.jpg',
-      caption: 'Mermaids on an island in the New River',
+      caption: 'Mermaidia and Mermaid II on an island in the New River',
     },
   ],
 }
