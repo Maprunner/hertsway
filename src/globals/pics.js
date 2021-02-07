@@ -1334,4 +1334,80 @@ module.exports = {
       caption: 'Dobbs Weir',
     },
   ],
+  leg23: [
+    {
+      src: 'leg23-fallen-tree.jpg',
+      caption: 'Newly fallen tree by New River',
+    },
+    {
+      src: 'leg23-spot-the-mermaids.jpg',
+      caption: 'Spot the mermaids',
+    },
+    {
+      src: 'leg23-gazebo-sign.jpg',
+      caption: 'Gazebo information board',
+    },
+    {
+      src: 'leg23-gazebos.jpg',
+      caption: 'Passing the gazebos in Ware',
+    },
+    {
+      src: 'leg23-ware-weir.jpg',
+      caption: 'Ware Weir',
+    },
+    {
+      src: 'leg23-busy-river.jpg',
+      caption: 'Busy paths along the River Lea',
+    },
+    {
+      src: 'leg23-ware-watermill.jpg',
+      caption: 'Remains of Ware watermill',
+    },
+    {
+      src: 'leg23-bengeo-church.jpg',
+      caption: "St Leonard's Church, Bengeo",
+    },
+    {
+      src: 'leg23-spire.jpg',
+      caption: "Wooden spire on St Leonard's Church",
+      portrait: true,
+    },
+    {
+      src: 'leg23-chickens.jpg',
+      caption: 'Thatched chickens',
+    },
+    {
+      src: 'leg23-hertford.jpg',
+      caption: 'The end of the loop - Parliament Square, Hertford',
+    },
+    {
+      src: 'leg23-egyptian-building.jpg',
+      caption: 'The Egyptian Building',
+      portrait: true,
+    },
+    {
+      src: 'leg23-bluecoats.jpg',
+      caption: 'Former site of Bluecoats School',
+    },
+    {
+      src: 'leg23-kings-meads.jpg',
+      caption: "Heading out across King's Meads",
+    },
+    {
+      src: 'leg23-ice.jpg',
+      caption: 'Ice in the water meadows',
+    },
+    {
+      src: 'leg23-a10.jpg',
+      caption: 'Approaching the A10 viaduct',
+    },
+    {
+      src: 'leg23-murphy.jpg',
+      caption: 'Murphy and his dog',
+    },
+    {
+      src: 'leg23-mermaids.jpg',
+      caption: 'Mermaidia and Mermaid II on an island in the New River',
+    },
+  ],
 }

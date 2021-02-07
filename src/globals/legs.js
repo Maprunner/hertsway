@@ -287,4 +287,17 @@ module.exports = {
     title: 'Hoddesdon to Great Amwell',
     omaps: 'None',
   },
+  leg23: {
+    distance: 15.5,
+    snack: 'Chocolate mini rolls',
+    climb: 37,
+    high: 50,
+    low: 31,
+    from: 'St John the Baptist Church, Great Amwell',
+    to: 'Parliament Square, Hertford',
+    time: 160,
+    name: 'leg23',
+    title: 'Great Amwell to Hertford',
+    omaps: 'None',
+  },
 }
