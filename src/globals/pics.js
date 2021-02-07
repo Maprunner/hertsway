@@ -1356,6 +1356,10 @@ module.exports = {
       caption: 'Ware Weir',
     },
     {
+      src: 'leg23-busy-river.jpg',
+      caption: 'Busy paths along the River Lea',
+    },
+    {
       src: 'leg23-ware-watermill.jpg',
       caption: 'Remains of Ware watermill',
     },
@@ -1396,6 +1400,10 @@ module.exports = {
     {
       src: 'leg23-a10.jpg',
       caption: 'Approaching the A10 viaduct',
+    },
+    {
+      src: 'leg23-murphy.jpg',
+      caption: 'Murphy and his dog',
     },
     {
       src: 'leg23-mermaids.jpg',
