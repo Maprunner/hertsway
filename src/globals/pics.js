@@ -1412,16 +1412,24 @@ module.exports = {
   ],
   leg24: [
     {
+      src: 'leg24-river-beane.jpg',
+      caption: 'Path along the River Beane',
+    },
+    {
       src: 'leg24-stapleford-church.jpg',
       caption: 'St Mary the Virgin, Stapleford',
+    },
+    {
+      src: 'leg24-clusterbolts.jpg',
+      caption: 'Clusterbolts: where it all went wrong',
     },
     {
       src: 'leg24-hare.jpg',
       caption: 'Distant hares',
     },
     {
-      src: 'leg24-clusterbolts.jpg',
-      caption: 'Clusterbolts: where it all went wrong',
+      src: 'leg24-little-egret.jpg',
+      caption: 'Little egret hiding by the River Beane',
     },
     {
       src: 'leg24-sheep.jpg',
@@ -1430,6 +1438,11 @@ module.exports = {
     {
       src: 'leg24-wall.jpg',
       caption: 'Leaving Woodhall Park',
+    },
+    {
+      src: 'leg24-along-the-wall.jpg',
+      caption: 'Along the wall',
+      portrait: true,
     },
     {
       src: 'leg24-water-tower.jpg',
@@ -1458,6 +1471,10 @@ module.exports = {
     {
       src: 'leg24-chapmore-end.jpg',
       caption: 'Chapmore End village sign',
+    },
+    {
+      src: 'leg24-gravel-pits.jpg',
+      caption: 'Sunset over the old gravel pits',
     },
   ],
 }
