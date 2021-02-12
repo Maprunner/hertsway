@@ -1449,7 +1449,7 @@ module.exports = {
     },
     {
       src: 'leg24-icicle.jpg',
-      caption: 'Icicle',
+      caption: 'Icicle photos',
     },
     {
       src: 'leg24-subways.jpg',
