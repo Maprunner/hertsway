@@ -1417,11 +1417,11 @@ module.exports = {
     },
     {
       src: 'leg24-hare.jpg',
-      caption: 'Distant hare',
+      caption: 'Distant hares',
     },
     {
       src: 'leg24-clusterbolts.jpg',
-      caption: 'Clusterbolts',
+      caption: 'Clusterbolts: where it all went wrong',
     },
     {
       src: 'leg24-sheep.jpg',
