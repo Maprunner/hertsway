@@ -301,7 +301,7 @@ module.exports = {
     omaps: 'None',
   },
   leg24: {
-    distance: 20.0,
+    distance: 20,
     snack: 'Chocolate mini rolls',
     climb: 215,
     high: 90,
@@ -311,6 +311,19 @@ module.exports = {
     time: 180,
     name: 'leg24',
     title: 'Waterford to Thundridge',
+    omaps: 'None',
+  },
+  leg25: {
+    distance: 22.6,
+    snack: 'Chocolate slices',
+    climb: 242,
+    high: 93,
+    low: 41,
+    from: 'Ermine Street, Thundridge',
+    to: 'Hadham Mill',
+    time: 210,
+    name: 'leg25',
+    title: 'Thundridge to Hadham Mill',
     omaps: 'None',
   },
 }

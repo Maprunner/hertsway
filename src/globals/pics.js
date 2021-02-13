@@ -1477,4 +1477,58 @@ module.exports = {
       caption: 'Sunshine over the old gravel pits',
     },
   ],
+  leg25: [
+    {
+      src: 'leg25-thundridge-church.jpg',
+      caption: 'church, Thundridge',
+    },
+    {
+      src: 'leg25-old-thundridge-church.jpg',
+      caption: 'Old Thundridge church',
+    },
+    {
+      src: 'leg25-map.jpg',
+      caption: 'Helen struggling to fold the map',
+    },
+    {
+      src: 'leg25-scenery.jpg',
+      caption: 'Scenery',
+    },
+    {
+      src: 'leg25-widford-church.jpg',
+      caption: 'St John the Baptist church, Widford',
+    },
+    {
+      src: 'leg25-widford-sign.jpg',
+      caption: 'Widford village sign',
+    },
+    {
+      src: 'leg25-icicles.jpg',
+      caption: 'Icicles in Widford',
+    },
+    {
+      src: 'leg25-muntjac.jpg',
+      caption: 'Muntjac near Hadham Mill',
+    },
+    {
+      src: 'leg25-formal-garden.jpg',
+      caption: 'Ornamental garden at Barrow Farm',
+    },
+    {
+      src: 'leg25-bridge-in-wood.jpg',
+      caption: 'Bridge across Nimney Bourne',
+    },
+    {
+      src: 'leg25-ford.jpg',
+      caption: 'Barwick Ford',
+    },
+    {
+      src: 'leg25-toll-sign.jpg',
+      caption: 'Plaque on Toll Cottage in Wadesmill',
+    },
+    {
+      src: 'leg25-wadesmill-bridge.jpg',
+      caption: 'Doric columns under Wadesmill bridge',
+    },
+  ],
 }
