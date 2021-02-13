@@ -300,4 +300,17 @@ module.exports = {
     title: 'Great Amwell to Hertford',
     omaps: 'None',
   },
+  leg24: {
+    distance: 20.0,
+    snack: 'Chocolate mini rolls',
+    climb: 215,
+    high: 90,
+    low: 43,
+    from: 'Vicarage Lane, Waterford',
+    to: 'Ermine Street, Thundridge',
+    time: 180,
+    name: 'leg24',
+    title: 'Waterford to Thundridge',
+    omaps: 'None',
+  },
 }

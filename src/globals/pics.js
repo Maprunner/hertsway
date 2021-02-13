@@ -1410,4 +1410,71 @@ module.exports = {
       caption: 'Mermaidia and Mermaid II on an island in the New River',
     },
   ],
+  leg24: [
+    {
+      src: 'leg24-river-beane.jpg',
+      caption: 'Path along the River Beane',
+    },
+    {
+      src: 'leg24-stapleford-church.jpg',
+      caption: 'St Mary the Virgin, Stapleford',
+    },
+    {
+      src: 'leg24-clusterbolts.jpg',
+      caption: 'Clusterbolts: where it all went wrong',
+    },
+    {
+      src: 'leg24-hare.jpg',
+      caption: 'Distant hares',
+    },
+    {
+      src: 'leg24-little-egret.jpg',
+      caption: 'Little egret hiding by the River Beane',
+    },
+    {
+      src: 'leg24-sheep.jpg',
+      caption: 'Sheep in Woodhall Park',
+    },
+    {
+      src: 'leg24-wall.jpg',
+      caption: 'Leaving Woodhall Park',
+    },
+    {
+      src: 'leg24-along-the-wall.jpg',
+      caption: 'Along the wall',
+      portrait: true,
+    },
+    {
+      src: 'leg24-water-tower.jpg',
+      caption: 'Water tower at Tonwell',
+    },
+    {
+      src: 'leg24-deer.jpg',
+      caption: 'Deer prints in the snow and mud',
+    },
+    {
+      src: 'leg24-thundridge.jpg',
+      caption: 'Approaching Thundridge',
+    },
+    {
+      src: 'leg24-golf-course.jpg',
+      caption: 'Water tower across Hanbury Manor Golf Course',
+    },
+    {
+      src: 'leg24-icicle.jpg',
+      caption: 'Icicle photos',
+    },
+    {
+      src: 'leg24-subways.jpg',
+      caption: 'Flooded subways under the A602',
+    },
+    {
+      src: 'leg24-chapmore-end.jpg',
+      caption: 'Chapmore End village sign',
+    },
+    {
+      src: 'leg24-gravel-pits.jpg',
+      caption: 'Sunshine over the old gravel pits',
+    },
+  ],
 }

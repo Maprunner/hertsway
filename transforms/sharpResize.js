@@ -38,7 +38,11 @@ if (!allPics[legName]) {
 }
 const pics = allPics[legName]
 
-const inDir = './src/rawimages/' + legName + '/'
+//const inDir = './src/rawimages/' + legName + '/'
+const inDir =
+  'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/' +
+  legName +
+  '/'
 const outDir = './src/images/' + legName + '/'
 
 if (!fs.existsSync(outDir)) {
