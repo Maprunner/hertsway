@@ -1474,7 +1474,7 @@ module.exports = {
     },
     {
       src: 'leg24-gravel-pits.jpg',
-      caption: 'Sunset over the old gravel pits',
+      caption: 'Sunshine over the old gravel pits',
     },
   ],
 }
