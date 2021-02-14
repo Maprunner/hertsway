@@ -1484,7 +1484,7 @@ module.exports = {
     },
     {
       src: 'leg25-old-thundridge-church.jpg',
-      caption: 'Old Thundridge church',
+      caption: 'Thundridge Old Church of All Hallows and Little Saint Mary',
     },
     {
       src: 'leg25-map.jpg',
