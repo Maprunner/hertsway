@@ -1480,23 +1480,35 @@ module.exports = {
   leg25: [
     {
       src: 'leg25-thundridge-church.jpg',
-      caption: 'church, Thundridge',
+      caption: "St Mary's Church, Thundridge",
     },
     {
       src: 'leg25-old-thundridge-church.jpg',
       caption: 'Thundridge Old Church of All Hallows and Little Saint Mary',
     },
     {
+      src: 'leg25-river-rib.jpg',
+      caption: 'River Rib near Cold Christmas',
+    },
+    {
       src: 'leg25-map.jpg',
       caption: 'Helen struggling to fold the map',
     },
     {
+      src: 'leg25-ash-valley.jpg',
+      caption: 'View down the Ash Valley',
+    },
+    {
       src: 'leg25-scenery.jpg',
-      caption: 'Scenery',
+      caption: 'Fields approaching Widford',
+    },
+    {
+      src: 'leg25-widford.jpg',
+      caption: 'Looking from the River Ash up to Widfordbury',
     },
     {
       src: 'leg25-widford-church.jpg',
-      caption: 'St John the Baptist church, Widford',
+      caption: 'St John the Baptist Church, Widford',
     },
     {
       src: 'leg25-widford-sign.jpg',
@@ -1515,12 +1527,20 @@ module.exports = {
       caption: 'Ornamental garden at Barrow Farm',
     },
     {
+      src: 'leg25-frozen-deer-tracks.jpg',
+      caption: 'Ice, snow and frozen deer tracks',
+    },
+    {
       src: 'leg25-bridge-in-wood.jpg',
-      caption: 'Bridge across Nimney Bourne',
+      caption: 'New bridge across Nimney Bourne',
     },
     {
       src: 'leg25-ford.jpg',
       caption: 'Barwick Ford',
+    },
+    {
+      src: 'leg25-harcamlow.jpg',
+      caption: 'Harcamlow Way sign',
     },
     {
       src: 'leg25-toll-sign.jpg',
