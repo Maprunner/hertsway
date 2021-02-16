@@ -1499,8 +1499,8 @@ module.exports = {
       caption: 'View down the Ash Valley',
     },
     {
-      src: 'leg25-scenery.jpg',
-      caption: 'Fields approaching Widford',
+      src: 'leg25-crooked-spire.jpg',
+      caption: 'Leaning tower of Widford?',
     },
     {
       src: 'leg25-widford.jpg',
@@ -1535,12 +1535,20 @@ module.exports = {
       caption: 'New bridge across Nimney Bourne',
     },
     {
+      src: 'leg25-robin.jpg',
+      caption: 'Friendly robin near Barwick Ford',
+    },
+    {
       src: 'leg25-ford.jpg',
       caption: 'Barwick Ford',
     },
     {
       src: 'leg25-harcamlow.jpg',
       caption: 'Harcamlow Way sign',
+    },
+    {
+      src: 'leg25-a10.jpg',
+      caption: 'Tunnel under the A10',
     },
     {
       src: 'leg25-toll-sign.jpg',
