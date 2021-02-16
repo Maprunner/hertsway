@@ -1477,4 +1477,86 @@ module.exports = {
       caption: 'Sunshine over the old gravel pits',
     },
   ],
+  leg25: [
+    {
+      src: 'leg25-thundridge-church.jpg',
+      caption: "St Mary's Church, Thundridge",
+    },
+    {
+      src: 'leg25-old-thundridge-church.jpg',
+      caption: 'Thundridge Old Church of All Hallows and Little Saint Mary',
+    },
+    {
+      src: 'leg25-river-rib.jpg',
+      caption: 'River Rib near Cold Christmas',
+    },
+    {
+      src: 'leg25-map.jpg',
+      caption: 'Helen struggling to fold the map',
+    },
+    {
+      src: 'leg25-ash-valley.jpg',
+      caption: 'View down the Ash Valley',
+    },
+    {
+      src: 'leg25-crooked-spire.jpg',
+      caption: 'Leaning tower of Widford?',
+    },
+    {
+      src: 'leg25-widford.jpg',
+      caption: 'Looking from the River Ash up to Widfordbury',
+    },
+    {
+      src: 'leg25-widford-church.jpg',
+      caption: 'St John the Baptist Church, Widford',
+    },
+    {
+      src: 'leg25-widford-sign.jpg',
+      caption: 'Widford village sign',
+    },
+    {
+      src: 'leg25-icicles.jpg',
+      caption: 'Icicles in Widford',
+    },
+    {
+      src: 'leg25-muntjac.jpg',
+      caption: 'Muntjac near Hadham Mill',
+    },
+    {
+      src: 'leg25-formal-garden.jpg',
+      caption: 'Ornamental garden at Barrow Farm',
+    },
+    {
+      src: 'leg25-frozen-deer-tracks.jpg',
+      caption: 'Ice, snow and frozen deer tracks',
+    },
+    {
+      src: 'leg25-bridge-in-wood.jpg',
+      caption: 'New bridge across Nimney Bourne',
+    },
+    {
+      src: 'leg25-robin.jpg',
+      caption: 'Friendly robin near Barwick Ford',
+    },
+    {
+      src: 'leg25-ford.jpg',
+      caption: 'Barwick Ford',
+    },
+    {
+      src: 'leg25-harcamlow.jpg',
+      caption: 'Harcamlow Way sign',
+    },
+    {
+      src: 'leg25-a10.jpg',
+      caption: 'Tunnel under the A10',
+    },
+    {
+      src: 'leg25-toll-sign.jpg',
+      caption: 'Plaque on Toll Cottage in Wadesmill',
+    },
+    {
+      src: 'leg25-wadesmill-bridge.jpg',
+      caption: 'Doric columns under Wadesmill bridge',
+    },
+  ],
 }

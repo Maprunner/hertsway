@@ -52,7 +52,8 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
         </span>{{ date | dateDisplay }}</p>
       <p>
         <span class="text-white">Distance:
-        </span>{{ legs[name].distance }}km</p>
+        </span>{% FixedDP legs[name].distance,
+        1 %}km</p>
       <p>
         <span class="text-white">Climb:
         </span>{{ legs[name].climb }}m</p>
