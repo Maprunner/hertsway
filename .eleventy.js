@@ -88,6 +88,13 @@ module.exports = (config) => {
     return tags
   })
 
+  config.addShortcode('RandomBanner', function () {
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#getting_a_random_integer_between_two_values
+    min = 1
+    max = 26
+    return Math.floor(Math.random() * (max - min) + min) //The maximum is exclusive and the minimum is inclusive
+  })
+
   config.addShortcode('FixedDP', function (value, dp) {
     return value.toFixed(dp)
   })

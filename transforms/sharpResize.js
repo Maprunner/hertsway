@@ -9,28 +9,32 @@ if (process.argv.length < 3) {
   process.exit(1)
 }
 
-const leg = parseInt(process.argv[2], 10)
-const legName = 'leg' + leg
-
 const fs = require('fs')
 const sharp = require('sharp')
-const allPics = require('../src/globals/pics.js')
 
-if (leg === 100) {
-  // your code here
-  const inDir = './src/rawimages/'
-  const outDir = './src/images/'
-  inPic = 'pan1-small-original.jpg'
-  outPic = 'pan1-small.jpg'
-  let doResize = composeAsync(
-    sharp(inDir + inPic)
-      .resize(768, 100)
-      .toFile(outDir + outPic)
-      .catch((err) => console.log(err))
-  )
+if (process.argv[2] === 'pan') {
+  const inDir =
+    'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/pan/'
+  const outDir = './src/images/pan/'
+  const allPics = require('../src/globals/panoramas.js')
+  const pics = allPics['pan']
+  let doResize
+  for (p = 0; p < pics.length; p = p + 1) {
+    const name = pics[p].src
+    console.log('Creating ' + inDir + name)
+    doResize = composeAsync(
+      sharp(inDir + name)
+        .toFile(outDir + name)
+        .catch((err) => console.log(err))
+    )
+  }
   doResize()
   return
 }
+
+const allPics = require('../src/globals/pics.js')
+const leg = parseInt(process.argv[2], 10)
+const legName = 'leg' + leg
 
 if (!allPics[legName]) {
   console.error('No pictures found for', legName)
@@ -38,7 +42,6 @@ if (!allPics[legName]) {
 }
 const pics = allPics[legName]
 
-//const inDir = './src/rawimages/' + legName + '/'
 const inDir =
   'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/' +
   legName +
