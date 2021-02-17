@@ -16,7 +16,7 @@ module.exports = {
     distance: 24.3,
     snack: 'Doughnuts',
     climb: 295,
-    high: 1156,
+    high: 115,
     low: 91,
     from: 'Sandon village sign',
     to: 'Holy Trinity Church, Weston',

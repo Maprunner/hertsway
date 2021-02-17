@@ -11,13 +11,15 @@ permalink: "progress/"
         <tr>
           <th rowspan="2">#</th>
           <th rowspan="2">Leg</th>
-          <th colspan="3">Leg</th>
+          <th colspan="5">Leg</th>
           <th colspan="3">Totals</th>
         </tr>
         <tr>
           <th>Length (km)</th>
           <th>Time</th>
           <th>Climb (m)</th>
+          <th>High (m)</th>
+          <th>Low (m)</th>
           <th>Length (km)</th>
           <th>Time</th>
           <th>Climb (m)</th>
@@ -34,6 +36,8 @@ permalink: "progress/"
               1 %}</td>
             <td class="text-center">{{ detail.time | prettifyAbbrevMinutes }}</td>
             <td class="text-center">{{ detail.climb}}</td>
+            <td class="text-center">{{ detail.high}}</td>
+            <td class="text-center">{{ detail.low}}</td>
             <td class="text-center">{{ stats.legTable[loop.index0].totDistance }}</td>
             <td class="text-center">{{ stats.legTable[loop.index0].totTime | prettifyAbbrevMinutes }}</td>
             <td class="text-center">{{ stats.legTable[loop.index0].totClimb }}</td>
