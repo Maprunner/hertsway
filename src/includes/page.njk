@@ -23,15 +23,15 @@
         |
       {% endif %}{{ site.name }}</title>
 
-    <link rel="stylesheet" href="{{ site.baseUrl }}assets/main.bundle.css?v=123">
+    <link rel="stylesheet" href="{{ site.baseUrl }}assets/main.bundle.css?v=124">
     {% block head %}{% endblock %}
   </head>
   <body class="flex flex-col min-h-screen">
+    {% include 'header.njk' %}
     <main class="container mx-auto bg-gray-900 max-w-screen-xl px-8 pb-8 flex-grow">
-      {% include 'header.njk' %}
       {% block body %}{% endblock %}
       {% include 'footer.njk' %}
     </main>
-    <script src="{{ site.baseUrl }}assets/main.bundle.js?v=123"></script>
+    <script src="{{ site.baseUrl }}assets/main.bundle.js?v=124"></script>
   </body>
 </html>

@@ -34,3 +34,53 @@
     <img src="{{ root }}-600.jpg" class="m-auto" alt="{{ caption }}" title="{{ caption }}" loading="lazy"/>
   </picture>
 {% endmacro %}
+
+{# Post summary #}
+{% macro post_summary(url, data, leg) %}
+  <div class="flex flex-col flex-1 px-4 py-4 bg-gray-800 rounded-lg shadow-lg">
+    <div class="flex-1">
+      <div class="relative pb-5/6">
+        {{ picture(data.image, data.title, false, data.name) }}
+      </div>
+      <div class="p-3">
+        <h2>
+          <a class="block" href="{{ url | url }}">{{ data.title }}</a >
+        </h2>
+        {% if data.excerpt %}
+          <p class="italic my-2">{{ data.excerpt }}</p>
+        {% endif %}
+        <p>{% FixedDP leg.distance,
+          1 %}
+          km,
+          {{ leg.climb }}
+          m,
+          {{ leg.time | prettifyMinutes }}</p>
+        <div class="my-2">
+          <p class="my-1">
+            <span class="text-white">From:
+            </span>{{ leg.from }}
+          </p>
+          <p class="my-1">
+            <span class="text-white">To:
+            </span>{{ leg.to }}
+          </p>
+          <p class="my-1">
+            <span class="text-white">Snack:
+            </span>{{ leg.snack }}
+          </p>
+        </div>
+
+        <span class="block my-2 text-base italic">
+          {{ data.date | dateDisplay }}
+        </span>
+      </div>
+    </div>
+    <div>
+      <a href="{{ url | url }}" class="read-more">
+        Read full
+        {{ data.name | formatLegX }}
+        post
+      </a>
+    </div>
+  </div>
+{% endmacro %}

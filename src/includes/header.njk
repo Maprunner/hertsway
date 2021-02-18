@@ -1,4 +1,8 @@
-<header>
-  {% include 'navbar.njk' %}
-  <div class=" banner"></div>
+<header class="bg-gray-900">
+  <div class="container mx-auto max-w-screen-xl px-8 flex-grow">
+    {% include 'navbar.njk' %}
+    <div class="banner">
+      {% Banner page.url %}
+    </div>
+  </div>
 </header>

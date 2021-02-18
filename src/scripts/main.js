@@ -15,7 +15,7 @@ const hertsLonLat = [-0.2, 51.85]
 
 if (DEV_MODE) console.log('Dev mode is currently enabled.')
 
-//Javascript to toggle the menu
+// toggle the menu
 document.getElementById('nav-toggle').onclick = function () {
   document.getElementById('nav-content').classList.toggle('hidden')
 }

@@ -17,6 +17,10 @@
       "url": "tags/"
     },
     {
+      "label": "Banners",
+      "url": "banners/"
+    },
+    {
       "label": "About",
       "url": "about/"
     }
