@@ -1,0 +1,19 @@
+---
+permalink: "banners/"
+---
+{% extends 'page.njk' %}
+{% block body %}
+  <h2>Banner photos</h2>
+  {% for banner in panoramas.panSrc %}
+    {% if loop.index0 > 0 %}
+      <div class="banner my-6">
+        <img class="banner-img" loading="lazy" src="{{ site.baseUrl }}images/pan/{{ panoramas.panSrc[loop.index0] }}" alt="{{ panoramas.panCaption[loop.index0] }}">
+        <div class="banner-overlay hidden sm:block">
+          <div class="text-sm text-white p-1 italic">
+            {{ panoramas.panCaption[loop.index0] }}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endblock %}

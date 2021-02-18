@@ -101,17 +101,19 @@ hr {
   }
 }
 
-#banner {
+.banner {
+  position: relative;
   display: block;
   margin: auto;
   max-width: 100%;
-  max-height: 120px;
+  max-height: 200px;
 }
 
-@media (min-width: 768px) {
-  #banner {
-    max-height: 200px;
-  }
+.banner-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .fullMap {

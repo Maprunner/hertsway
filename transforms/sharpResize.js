@@ -17,10 +17,10 @@ if (process.argv[2] === 'pan') {
     'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/pan/'
   const outDir = './src/images/pan/'
   const allPics = require('../src/globals/panoramas.js')
-  const pics = allPics['pan']
+  const pics = allPics.panSrc
   let doResize
   for (p = 0; p < pics.length; p = p + 1) {
-    const name = pics[p].src
+    const name = pics[p]
     console.log('Creating ' + inDir + name)
     doResize = composeAsync(
       sharp(inDir + name)

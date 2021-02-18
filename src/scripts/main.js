@@ -20,8 +20,6 @@ document.getElementById('nav-toggle').onclick = function () {
   document.getElementById('nav-content').classList.toggle('hidden')
 }
 
-// document.getElementById('banner-img').src = '/hertsway/images/pan/pan-2.jpg'
-
 var style = {
   Point: new Style({
     image: new CircleStyle({

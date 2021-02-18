@@ -1,5 +1,6 @@
 module.exports = (config) => {
   const siteSettings = require('./src/globals/site.json')
+  const panoramas = require('./src/globals/panoramas.js')
   const pluginRss = require('@11ty/eleventy-plugin-rss')
   const pluginSafeExternalLinks = require('eleventy-plugin-safe-external-links')
 
@@ -88,11 +89,31 @@ module.exports = (config) => {
     return tags
   })
 
-  config.addShortcode('RandomBanner', function () {
+  config.addShortcode('Banner', function (url) {
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#getting_a_random_integer_between_two_values
-    min = 1
-    max = 26
-    return Math.floor(Math.random() * (max - min) + min) //The maximum is exclusive and the minimum is inclusive
+    // min = 0 max = panCount  The maximum is exclusive and the minimum is inclusive
+    // Math.floor(Math.random() * (max - min) + min)
+    let rand
+    if (url === '/') {
+      rand = 0
+    } else {
+      // url looks like /post/leg-1-royston-to-sandon/
+      const idx = url.indexOf('/post/leg-')
+      if (idx > -1) {
+        const bits = (rand = url.replace('/post/leg-', '').split('-'))
+        rand = parseInt(bits[0], 10)
+      } else {
+        rand = Math.floor(Math.random() * panoramas.panCount)
+      }
+    }
+    console.log(rand, url)
+    return `
+    <img id="banner-img" src="${siteSettings.baseUrl}images/pan/${panoramas.panSrc[rand]}" alt="${panoramas.panCaption[rand]}">
+    <div class="banner-overlay hidden sm:block">
+      <div class="text-sm text-white p-1 italic">
+        ${panoramas.panCaption[rand]}
+      </div>
+    </div>`
   })
 
   config.addShortcode('FixedDP', function (value, dp) {
