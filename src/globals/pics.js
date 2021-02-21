@@ -1559,4 +1559,66 @@ module.exports = {
       caption: 'Doric columns under Wadesmill bridge',
     },
   ],
+  leg26: [
+    {
+      src: 'leg26-mill-wood.jpg',
+      caption: 'Mill Wood',
+    },
+    {
+      src: 'leg26-ford.jpg',
+      caption: 'River running down the road',
+    },
+    {
+      src: 'leg26-church.jpg',
+      caption: "St Andrew's church, Much Hadham",
+    },
+    {
+      src: 'leg26-bees.jpg',
+      caption: 'Bees in the church roof',
+    },
+    {
+      src: 'leg26-cross.jpg',
+      caption: 'Henry Wilson Arts and Crafts cross',
+    },
+    {
+      src: 'leg26-king-and-queen.jpg',
+      caption: 'Henry Moore king and queen',
+    },
+    {
+      src: 'leg26-high-street.jpg',
+      caption: 'Much Hadham High Street',
+    },
+    {
+      src: 'leg26-perry-green.jpg',
+      caption: 'Fields near Perry Green',
+    },
+    {
+      src: 'leg26-large-reclining-figure.jpg',
+      caption: 'Large Reclining Figure',
+    },
+    {
+      src: 'leg26-statue.jpg',
+      caption: 'Double Oval',
+    },
+    {
+      src: 'leg26-shadows.jpg',
+      caption: 'Running shadows',
+    },
+    {
+      src: 'leg26-golf-course.jpg',
+      caption: 'Passing Much Hadham Golf Course',
+    },
+    {
+      src: 'leg26-winter-aconite.jpg',
+      caption: 'Winter aconite near Bury Green',
+    },
+    {
+      src: 'leg26-church-distant.jpg',
+      caption: "St Andrew's church, Much Hadham",
+    },
+    {
+      src: 'leg26-half-timbered.jpg',
+      caption: 'Half-timbered house in Much Hadham',
+    },
+  ],
 }

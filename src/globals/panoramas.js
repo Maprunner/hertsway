@@ -107,6 +107,10 @@ const pans = [
     caption: 'Leg 25 Widford',
   },
   {
+    src: 'pan-39.jpg',
+    caption: "Leg 26 St Andrew's Church, Much Hadham",
+  },
+  {
     src: 'pan-26.jpg',
     caption: 'Leg 1 Therfield Heath',
   },
@@ -121,10 +125,6 @@ const pans = [
   {
     src: 'pan-15.jpg',
     caption: 'Leg 10 Little Gaddesden',
-  },
-  {
-    src: 'pan-16.jpg',
-    caption: 'Leg 10 Aldbury and Ashridge',
   },
   {
     src: 'pan-17.jpg',
