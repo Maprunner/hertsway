@@ -1561,8 +1561,12 @@ module.exports = {
   ],
   leg26: [
     {
+      src: 'leg26-setting-out.jpg',
+      caption: 'Early enthusiasm in Mill Wood',
+    },
+    {
       src: 'leg26-mill-wood.jpg',
-      caption: 'Mill Wood',
+      caption: 'Possible overenthusiasm',
     },
     {
       src: 'leg26-ford.jpg',
@@ -1585,6 +1589,14 @@ module.exports = {
       caption: 'Henry Moore king and queen',
     },
     {
+      src: 'leg26-queen.jpg',
+      caption: "Queen's head",
+    },
+    {
+      src: 'leg26-king.jpg',
+      caption: "King's head",
+    },
+    {
       src: 'leg26-high-street.jpg',
       caption: 'Much Hadham High Street',
     },
@@ -1601,12 +1613,16 @@ module.exports = {
       caption: 'Double Oval',
     },
     {
+      src: 'leg26-shelter.jpg',
+      caption: 'Large figure in a shelter',
+    },
+    {
       src: 'leg26-shadows.jpg',
       caption: 'Running shadows',
     },
     {
-      src: 'leg26-golf-course.jpg',
-      caption: 'Passing Much Hadham Golf Course',
+      src: 'leg26-mistletoe.jpg',
+      caption: 'Mistletoe near Green Tye',
     },
     {
       src: 'leg26-winter-aconite.jpg',
@@ -1619,6 +1635,10 @@ module.exports = {
     {
       src: 'leg26-half-timbered.jpg',
       caption: 'Half-timbered house in Much Hadham',
+    },
+    {
+      src: 'leg26-moor-place.jpg',
+      caption: 'Moor Place and more mistletoe',
     },
   ],
 }
