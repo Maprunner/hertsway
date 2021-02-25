@@ -1565,10 +1565,6 @@ module.exports = {
       caption: 'Early enthusiasm in Mill Wood',
     },
     {
-      src: 'leg26-mill-wood.jpg',
-      caption: 'Possible overenthusiasm',
-    },
-    {
       src: 'leg26-ford.jpg',
       caption: 'River running down the road',
     },
@@ -1593,12 +1589,12 @@ module.exports = {
       caption: "Queen's head",
     },
     {
-      src: 'leg26-king.jpg',
-      caption: "King's head",
-    },
-    {
       src: 'leg26-high-street.jpg',
       caption: 'Much Hadham High Street',
+    },
+    {
+      src: 'leg26-forge.jpg',
+      caption: 'Much Hadham Forge',
     },
     {
       src: 'leg26-perry-green.jpg',
@@ -1626,7 +1622,7 @@ module.exports = {
     },
     {
       src: 'leg26-winter-aconite.jpg',
-      caption: 'Winter aconite near Bury Green',
+      caption: 'Winter aconite and snowdrops near Bury Green',
     },
     {
       src: 'leg26-church-distant.jpg',
