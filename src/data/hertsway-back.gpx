@@ -12,14 +12,137 @@ http://www.topografix.com/GPX/1/1/gpx.xsd">
     <link href="http://www.ocad.com">
       <text>OCAD AG</text>
     </link>
-    <time>2021-02-13T16:50:04</time>
-    <bounds maxlat="52.04463844" maxlon="0.18176027" minlat="51.66110930" minlon="-0.63030042"/>
+    <time>2021-02-20T17:22:34</time>
+    <bounds maxlat="52.04618987" maxlon="0.12382923" minlat="51.66110930" minlon="-0.63030042"/>
   </metadata>
 
   <trk>
     <name>trk1</name>
     <cmt>Lake shore line</cmt>
     <trkseg>
+      <trkpt lat="51.86752833" lon="0.10856285" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86823557" lon="0.10766727" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86979818" lon="0.10707765" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.87022754" lon="0.10546542" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86953557" lon="0.10408101" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86955203" lon="0.10345738" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86826478" lon="0.10281660" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86592107" lon="0.09960425" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86391689" lon="0.09852208" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86555792" lon="0.09324502" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86505493" lon="0.09219353" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86532022" lon="0.09134006" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86372832" lon="0.08928415" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86231876" lon="0.08918751" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86160890" lon="0.08881925" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86163729" lon="0.08568341" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86262559" lon="0.08332507" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86265346" lon="0.08020365" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.86067536" lon="0.07983601" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.85937929" lon="0.07746684" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.85869873" lon="0.07563369" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.85857770" lon="0.07303984" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.85226975" lon="0.07143335" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.85169657" lon="0.06927386" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.84864762" lon="0.06547920" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.84783380" lon="0.06323100" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.84472834" lon="0.06332496" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.84365255" lon="0.06560426" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.84293363" lon="0.06523593" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.84257175" lon="0.06428201" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.84184873" lon="0.06234523" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83975333" lon="0.06095425" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83951403" lon="0.05874555" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83788494" lon="0.05809785" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83769866" lon="0.05972587" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83609860" lon="0.06141761" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83577277" lon="0.06287636" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83548955" lon="0.06442511" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83539173" lon="0.06645102" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83480814" lon="0.06641134" >
+        <name>trk1</name>
+      </trkpt>
+      <trkpt lat="51.83250317" lon="0.06547071" >
+        <name>trk1</name>
+      </trkpt>
       <trkpt lat="51.83211644" lon="0.06512505" >
         <name>trk1</name>
       </trkpt>

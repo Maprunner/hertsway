@@ -326,4 +326,17 @@ module.exports = {
     title: 'Thundridge to Hadham Mill',
     omaps: 'None',
   },
+  leg26: {
+    distance: 20.6,
+    snack: 'Chocolate mini rolls',
+    climb: 183,
+    high: 92,
+    low: 48,
+    from: 'Hadham Mill',
+    to: 'Bury Green',
+    time: 185,
+    name: 'leg26',
+    title: 'Hadham Mill to Bury Green',
+    omaps: 'None',
+  },
 }
