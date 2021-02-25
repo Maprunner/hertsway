@@ -24,7 +24,10 @@ module.exports = (config) => {
   })
 
   config.addPassthroughCopy({ public: './' })
-  config.addPassthroughCopy('src/images')
+  config.addPassthroughCopy({
+    '../../../Users/simon/OneDrive/Pictures/Pictures/hertsway/images/':
+      'images',
+  })
   config.addPassthroughCopy('src/data')
   config.addPassthroughCopy({ 'src/styles/default-skin.*': 'assets' })
 

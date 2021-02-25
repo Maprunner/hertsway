@@ -15,7 +15,8 @@ const sharp = require('sharp')
 if (process.argv[2] === 'pan') {
   const inDir =
     'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/pan/'
-  const outDir = './src/images/pan/'
+  const outDir =
+    'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/images/pan/'
   const allPics = require('../src/globals/panoramas.js')
   const pics = allPics.panSrc
   let doResize
@@ -46,7 +47,8 @@ const inDir =
   'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/' +
   legName +
   '/'
-const outDir = './src/images/' + legName + '/'
+const outDir =
+  'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/images/' + legName + '/'
 
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir)
