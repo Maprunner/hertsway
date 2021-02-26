@@ -109,7 +109,6 @@ module.exports = (config) => {
         rand = Math.floor(Math.random() * panoramas.panCount)
       }
     }
-    console.log(rand, url)
     return `
     <img id="banner-img" src="${siteSettings.baseUrl}images/pan/${panoramas.panSrc[rand]}" alt="${panoramas.panCaption[rand]}">
     <div class="banner-overlay hidden sm:block">
