@@ -42,19 +42,20 @@ const to = process.argv[4]
 const legName = 'leg' + leg
 
 const gpxFile = './src/data/' + legName + '.gpx'
-const pngFile = './src/images/' + legName + '/' + legName + '.png'
 const legsFile = './src/globals/legs.js'
 const lonLatFile = './src/scripts/legsLonLat.js'
-const imageDir = './src/images/' + legName
+const rawImageDir = site.imageBase + 'rawimages/' + legName
+const imageDir = site.imageBase + 'images/' + legName
+const pngFile = rawImageDir + legName + '.png'
 
 // avoid recreating an existing leg
-if (fs.existsSync(imageDir)) {
+if (fs.existsSync(rawImageDir)) {
   console.error('Leg already started')
   process.exit(1)
 }
 
 try {
-  // create image directory
+  fs.mkdirSync(rawImageDir)
   fs.mkdirSync(imageDir)
 
   // read original GPX file
@@ -112,9 +113,9 @@ try {
     './src/posts/leg-' +
     leg +
     '-' +
-    from.toLowerCase() +
+    from.toLowerCase().replace(' ', '-') +
     '-' +
-    to.toLowerCase() +
+    to.toLowerCase().replace(' ', '-') +
     '.md'
   if (!fs.existsSync(postFile)) {
     let newPost = fs.readFileSync('./src/globals/leg-empty.md', 'utf8')
