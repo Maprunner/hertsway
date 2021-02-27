@@ -45,7 +45,7 @@ const legName = 'leg' + leg
 const gpxFile = './src/data/' + legName + '.gpx'
 const legsFile = './src/globals/legs.js'
 const lonLatFile = './src/scripts/legsLonLat.js'
-const rawImageDir = site.imageBase + 'rawimages/' + legName
+const rawImageDir = site.imageBase + 'rawimages/' + legName + '/'
 const imageDir = site.imageBase + 'images/' + legName
 const pngFile = rawImageDir + legName + '.png'
 
@@ -99,15 +99,21 @@ try {
     legs[legName].from = legs['leg' + (leg - 1)].to
   }
 
-  // save updated legs.js
-  fs.writeFileSync(legsFile, 'module.exports = ' + JSON.stringify(legs))
+  // save updated legs.js with indentation of two spaces
+  fs.writeFileSync(
+    legsFile,
+    'module.exports = ' + JSON.stringify(legs, null, 2)
+  )
 
-  // save updated legsLonLat.js
   const lonLat = []
   lonLat.push(parseFloat(lon.toFixed(2)))
   lonLat.push(parseFloat(lat.toFixed(2)))
   legsLonLat[leg - 1] = lonLat
-  fs.writeFileSync(lonLatFile, 'module.exports = ' + JSON.stringify(legsLonLat))
+  // save updated legsLonLat.js with indentation of two spaces
+  fs.writeFileSync(
+    lonLatFile,
+    'module.exports = ' + JSON.stringify(legsLonLat, null, 2)
+  )
 
   // create new post if needed
   const postFile =
