@@ -1637,4 +1637,34 @@ module.exports = {
       caption: 'Moor Place and more mistletoe',
     },
   ],
+  leg27: [
+    {
+      src: 'leg27-little-hadham-sign.jpg',
+      caption: 'Little Hadham village sign',
+    },
+    {
+      src: 'leg27-tesco.jpg',
+      caption: 'Tesco in Bishops Stortford',
+    },
+    {
+      src: 'leg27-flood.jpg',
+      caption: 'Helen decides to turn back',
+    },
+    {
+      src: 'leg27-little-hadham-church.jpg',
+      caption: "St Cecilia's church, Little Hadham",
+    },
+    {
+      src: 'leg27-snacks.jpg',
+      caption: 'Snack time on Patmore Heath',
+    },
+    {
+      src: 'leg27-patmore-heath.jpg',
+      caption: 'Patmore Heath',
+    },
+    {
+      src: 'leg27-albury-church.jpg',
+      caption: "St Mary's church, Little Hadham",
+    },
+  ],
 }

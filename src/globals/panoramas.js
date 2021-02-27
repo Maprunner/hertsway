@@ -111,6 +111,10 @@ const pans = [
     caption: "Leg 26 St Andrew's Church, Much Hadham",
   },
   {
+    src: 'pan-40.jpg',
+    caption: 'Leg 27 Albury',
+  },
+  {
     src: 'pan-26.jpg',
     caption: 'Leg 1 Therfield Heath',
   },
