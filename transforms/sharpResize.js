@@ -3,6 +3,8 @@ const applyAsync = (acc, val) => acc.then(val)
 const composeAsync = (...funcs) => (x) =>
   funcs.reduce(applyAsync, Promise.resolve(x))
 
+const site = require('../src/globals/site.json')
+
 // arguments: leg number
 if (process.argv.length < 3) {
   console.error('Missing leg number argument')
@@ -13,9 +15,8 @@ const fs = require('fs')
 const sharp = require('sharp')
 
 if (process.argv[2] === 'pan') {
-  const inDir =
-    'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/pan/'
-  const outDir = './src/images/pan/'
+  const inDir = site.imageBase + 'rawimages/pan/'
+  const outDir = site.imageBase + 'images/pan/'
   const allPics = require('../src/globals/panoramas.js')
   const pics = allPics.panSrc
   let doResize
@@ -42,11 +43,8 @@ if (!allPics[legName]) {
 }
 const pics = allPics[legName]
 
-const inDir =
-  'C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/rawimages/' +
-  legName +
-  '/'
-const outDir = './src/images/' + legName + '/'
+const inDir = site.imageBase + 'rawimages/' + legName + '/'
+const outDir = site.imageBase + '/images/' + legName + '/'
 
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir)

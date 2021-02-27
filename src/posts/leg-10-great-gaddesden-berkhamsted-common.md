@@ -1,6 +1,6 @@
 ---
 title: Leg 10 Great Gaddesden to Berkhamsted Common
-excerpt: 'In which we see a lot of trees and a monument that rises above them'
+excerpt: 'In which we run through a proper forest and a find a monument rising above it'
 name: leg10
 image: leg10-monument-closeup.jpg
 date: 2020-11-15

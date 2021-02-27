@@ -7,6 +7,7 @@ let legs = require('../src/globals/legs.js')
 let legsLonLat = require('../src/scripts/legsLonLat.js')
 const svg2img = require('node-svg2img')
 const heightProfile = require('./heightProfile')
+const site = require('../src/globals/site.json')
 
 const emptyLegData = {
   distance: 0,
@@ -42,19 +43,20 @@ const to = process.argv[4]
 const legName = 'leg' + leg
 
 const gpxFile = './src/data/' + legName + '.gpx'
-const pngFile = './src/images/' + legName + '/' + legName + '.png'
 const legsFile = './src/globals/legs.js'
 const lonLatFile = './src/scripts/legsLonLat.js'
-const imageDir = './src/images/' + legName
+const rawImageDir = site.imageBase + 'rawimages/' + legName + '/'
+const imageDir = site.imageBase + 'images/' + legName
+const pngFile = rawImageDir + legName + '.png'
 
 // avoid recreating an existing leg
-if (fs.existsSync(imageDir)) {
+if (fs.existsSync(rawImageDir)) {
   console.error('Leg already started')
   process.exit(1)
 }
 
 try {
-  // create image directory
+  fs.mkdirSync(rawImageDir)
   fs.mkdirSync(imageDir)
 
   // read original GPX file
@@ -97,24 +99,30 @@ try {
     legs[legName].from = legs['leg' + (leg - 1)].to
   }
 
-  // save updated legs.js
-  fs.writeFileSync(legsFile, 'module.exports = ' + JSON.stringify(legs))
+  // save updated legs.js with indentation of two spaces
+  fs.writeFileSync(
+    legsFile,
+    'module.exports = ' + JSON.stringify(legs, null, 2)
+  )
 
-  // save updated legsLonLat.js
   const lonLat = []
   lonLat.push(parseFloat(lon.toFixed(2)))
   lonLat.push(parseFloat(lat.toFixed(2)))
   legsLonLat[leg - 1] = lonLat
-  fs.writeFileSync(lonLatFile, 'module.exports = ' + JSON.stringify(legsLonLat))
+  // save updated legsLonLat.js with indentation of two spaces
+  fs.writeFileSync(
+    lonLatFile,
+    'module.exports = ' + JSON.stringify(legsLonLat, null, 2)
+  )
 
   // create new post if needed
   const postFile =
     './src/posts/leg-' +
     leg +
     '-' +
-    from.toLowerCase() +
+    from.toLowerCase().replace(' ', '-') +
     '-' +
-    to.toLowerCase() +
+    to.toLowerCase().replace(' ', '-') +
     '.md'
   if (!fs.existsSync(postFile)) {
     let newPost = fs.readFileSync('./src/globals/leg-empty.md', 'utf8')

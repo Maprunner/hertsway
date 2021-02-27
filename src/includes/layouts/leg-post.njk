@@ -30,20 +30,20 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
       {%- set nextPost = collections['post'] | getNextCollectionItem(page) %}
       {%- if nextPost %}
         <p class="uppercase text-xs mt-6">Next</p>
-        <p class="font-bold mb-2">
+        <h2 class="font-bold mb-2">
           <a href="{{ nextPost.url | url }}">
-            <h2>{{ nextPost.data.title }}</h2>
+            {{ nextPost.data.title }}
           </a>
-        </p>
+        </h2>
       {% endif %}
       {%- set previousPost = collections['post'] | getPreviousCollectionItem(page) %}
       {%- if previousPost %}
         <p class="uppercase text-xs mt-6">Previous</p>
-        <p class="font-bold">
+        <h2 class="font-bold">
           <a href="{{ previousPost.url | url }}">
-            <h2>{{ previousPost.data.title }}</h2>
+            {{ previousPost.data.title }}
           </a>
-        </p>
+        </h2>
       {% endif %}
     </div>
     <div class="w-full md:w-3/12 order-first md:order-last bg-gray-800 p-4 mb-4">
@@ -86,7 +86,7 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
       </div>
       {% LegMap name %}
       <div class="rounded-lg shadow-lg my-4">
-        <img src="../../images/{{ name }}/{{ name }}.png"/>
+        <img src="../../images/{{ name }}/{{ name }}.png" alt="Leg profile"/>
       </div>
       {% if tags %}
         <div class="m-2">
@@ -100,20 +100,20 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
       {%- set nextPost = collections['post'] | getNextCollectionItem(page) %}
       {%- if nextPost %}
         <p class="uppercase text-xs mt-6">Next</p>
-        <p class="font-bold mb-2">
+        <h2 class="font-bold mb-2">
           <a href="{{ nextPost.url | url }}">
-            <h2>{{ nextPost.data.title }}</h2>
+            {{ nextPost.data.title }}
           </a>
-        </p>
+        </h2>
       {% endif %}
       {%- set previousPost = collections['post'] | getPreviousCollectionItem(page) %}
       {%- if previousPost %}
         <p class="uppercase text-xs mt-6">Previous</p>
-        <p class="font-bold">
+        <h2 class="font-bold">
           <a href="{{ previousPost.url | url }}">
-            <h2>{{ previousPost.data.title }}</h2>
+            {{ previousPost.data.title }}
           </a>
-        </p>
+        </h2>
       {% endif %}
     </div>
   </div>

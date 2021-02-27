@@ -24,7 +24,10 @@ module.exports = (config) => {
   })
 
   config.addPassthroughCopy({ public: './' })
-  config.addPassthroughCopy('src/images')
+  config.addPassthroughCopy({
+    '../../../Users/simon/OneDrive/Pictures/Pictures/hertsway/images/':
+      'images',
+  })
   config.addPassthroughCopy('src/data')
   config.addPassthroughCopy({ 'src/styles/default-skin.*': 'assets' })
 
@@ -106,7 +109,6 @@ module.exports = (config) => {
         rand = Math.floor(Math.random() * panoramas.panCount)
       }
     }
-    console.log(rand, url)
     return `
     <img id="banner-img" src="${siteSettings.baseUrl}images/pan/${panoramas.panSrc[rand]}" alt="${panoramas.panCaption[rand]}">
     <div class="banner-overlay hidden sm:block">

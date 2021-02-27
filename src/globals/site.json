@@ -4,6 +4,7 @@
   "url": "https://www.maprunner.co.uk",
   "devUrl": "http://localhost:8080",
   "baseUrl": "/hertsway/",
+  "imageBase": "C:/Users/simon/OneDrive/Pictures/Pictures/hertsway/",
   "author": {
     "name": "Simon Errington"
   }

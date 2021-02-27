@@ -12,13 +12,13 @@ Built with [11ty](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.
 - npm run new <x> <from> <to>
 - Edit post
 - npm run dev to test
-- copy dist/images to src/images to avoid resizing again
 
 ## Pictures
 
 - Add picture details to globals/pics.js
-- Add pictures (3000+ jpg) to src/rawimages
+- Add pictures (3000+ jpg) to OneDrive hertsway/rawimages
 - npm run resize x creates images for everything in pics.js for leg x
+- npm run resize pan creates images for everything in panoramas.js for banners
 
 ## Deploying
 
