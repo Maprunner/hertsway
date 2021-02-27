@@ -3,6 +3,8 @@ const applyAsync = (acc, val) => acc.then(val)
 const composeAsync = (...funcs) => (x) =>
   funcs.reduce(applyAsync, Promise.resolve(x))
 
+const site = require('../src/globals/site.json')
+
 // arguments: leg number
 if (process.argv.length < 3) {
   console.error('Missing leg number argument')

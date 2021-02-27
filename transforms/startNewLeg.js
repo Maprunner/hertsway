@@ -7,6 +7,7 @@ let legs = require('../src/globals/legs.js')
 let legsLonLat = require('../src/scripts/legsLonLat.js')
 const svg2img = require('node-svg2img')
 const heightProfile = require('./heightProfile')
+const site = require('../src/globals/site.json')
 
 const emptyLegData = {
   distance: 0,
