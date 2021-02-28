@@ -1664,7 +1664,7 @@ module.exports = {
     },
     {
       src: 'leg27-albury-church.jpg',
-      caption: "St Mary's church, Little Hadham",
+      caption: "St Mary's church, Albury",
     },
   ],
 }
