@@ -1637,4 +1637,70 @@ module.exports = {
       caption: 'Moor Place and more mistletoe',
     },
   ],
+  leg27: [
+    {
+      src: 'leg27-little-hadham-sign.jpg',
+      caption: 'Little Hadham village sign',
+    },
+    {
+      src: 'leg27-polo.jpg',
+      caption: 'Silver Leys Polo Club',
+    },
+    {
+      src: 'leg27-fertiliser.jpg',
+      caption: 'Fertliser stocks',
+    },
+    {
+      src: 'leg27-tesco.jpg',
+      caption: 'Tesco in Bishops Stortford',
+    },
+    {
+      src: 'leg27-flood.jpg',
+      caption: 'Helen decides to turn back',
+    },
+    {
+      src: 'leg27-thicket.jpg',
+      caption: 'Avoiding the flooding',
+    },
+    {
+      src: 'leg27-willow.jpg',
+      caption: 'Willow harvesting',
+    },
+    {
+      src: 'leg27-stone-house-farm.jpg',
+      caption: 'Stone House Farm',
+    },
+    {
+      src: 'leg27-little-hadham-church.jpg',
+      caption: "St Cecilia's church, Little Hadham",
+    },
+    {
+      src: 'leg27-bypass.jpg',
+      caption: 'Little Hadham by-pass under construction',
+    },
+    {
+      src: 'leg27-fields.jpg',
+      caption: 'Heading north from Upwick Green',
+    },
+    {
+      src: 'leg27-snacks.jpg',
+      caption: 'Snack time on Patmore Heath',
+    },
+    {
+      src: 'leg27-sausages.jpg',
+      caption: 'Thatched dog stealing sausages',
+    },
+    {
+      src: 'leg27-patmore-heath.jpg',
+      caption: 'Patmore Heath',
+    },
+    {
+      src: 'leg27-albury',
+      caption: 'Albury acoss the Ash valley',
+    },
+    {
+      src: 'leg27-albury-church.jpg',
+      caption: "St Mary's church, Albury",
+    },
+  ],
 }
