@@ -112,7 +112,7 @@ const pans = [
   },
   {
     src: 'pan-41.jpg',
-    caption: 'Leg 27 Buzzard',
+    caption: 'Leg 27 Buzzard near Upwick Green',
   },
   {
     src: 'pan-26.jpg',

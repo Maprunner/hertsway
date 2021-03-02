@@ -1643,6 +1643,10 @@ module.exports = {
       caption: 'Little Hadham village sign',
     },
     {
+      src: 'leg27-polo.jpg',
+      caption: 'Silver Leys Polo Club',
+    },
+    {
       src: 'leg27-fertiliser.jpg',
       caption: 'Fertliser stocks',
     },
@@ -1661,6 +1665,10 @@ module.exports = {
     {
       src: 'leg27-willow.jpg',
       caption: 'Willow harvesting',
+    },
+    {
+      src: 'leg27-stone-house-farm.jpg',
+      caption: 'Stone House Farm',
     },
     {
       src: 'leg27-little-hadham-church.jpg',
