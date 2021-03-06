@@ -9,21 +9,20 @@ Built with [11ty](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.
 ## Adding a new leg
 
 - Save gpx file in src/data as legx.gpx
-- npm run new <x> <from> <to>
-- Edit post
-- npm run dev to test
+- npm run new x from to
+- add picture details to globals/pics.js
+- edit post
 
 ## Pictures
 
-- Add picture details to globals/pics.js
-- Add pictures (3000+ jpg) to OneDrive hertsway/rawimages
+- add pictures to OneDrive hertsway/rawimages
 - npm run resize x creates images for everything in pics.js for leg x
 - npm run resize pan creates images for everything in panoramas.js for banners
 
 ## Deploying
 
 - npm run build
-- Sync dist to www.maprunner.co.uk/hertsway
+- sync dist to www.maprunner.co.uk/hertsway
 
 ## Credits
 
