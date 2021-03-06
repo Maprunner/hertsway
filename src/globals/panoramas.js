@@ -115,6 +115,10 @@ const pans = [
     caption: 'Leg 27 Buzzard near Upwick Green',
   },
   {
+    src: 'pan-42.jpg',
+    caption: 'Leg 28 Fallow deer near Little Hormead',
+  },
+  {
     src: 'pan-26.jpg',
     caption: 'Leg 1 Therfield Heath',
   },

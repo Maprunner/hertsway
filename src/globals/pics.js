@@ -1703,4 +1703,70 @@ module.exports = {
       caption: "St Mary's church, Albury",
     },
   ],
+  leg28: [
+    {
+      src: 'leg28-catherine-wheel.jpg',
+      caption: 'The Catherine Wheel in Gravesend',
+    },
+    {
+      src: 'leg28-transformer.jpg',
+      caption: 'Stocking Pelham Transformer Substation',
+    },
+    {
+      src: 'leg28-deer.jpg',
+      caption: 'Fallow deer watching us',
+    },
+    {
+      src: 'leg28-little-hormead-church.jpg',
+      caption: "St Mary's church, Little Hormead",
+    },
+    {
+      src: 'leg28-bridge-sign.jpg',
+      caption: 'Beware of ponderous carriages on the bridge',
+    },
+    {
+      src: 'leg28-hare-street.jpg',
+      caption: 'Hare Street',
+    },
+    {
+      src: 'leg28-red-kites.jpg',
+      caption: 'Four of the eleven red kites in the field',
+    },
+    {
+      src: 'leg28-pig.jpg',
+      caption: 'Pig in Great Hormead',
+    },
+    {
+      src: 'leg28-great-hormead-church.jpg',
+      caption: 'St Nicholas church, Great Hormead',
+    },
+    {
+      src: 'leg28-muntjac.jpg',
+      caption: 'Muntjac',
+    },
+    {
+      src: 'leg28-ruined-farm.jpg',
+      caption: 'Abandoned farm equipment',
+    },
+    {
+      src: 'leg28-puddingstone.jpg',
+      caption: 'Puddingstone',
+    },
+    {
+      src: 'leg28-violets-start.jpg',
+      caption: 'Shallow section of Violets Lane',
+    },
+    {
+      src: 'leg28-violets-deep.jpg',
+      caption: 'Deep section of Violets Lane',
+    },
+    {
+      src: 'leg28-furneaux-pelham.jpg',
+      caption: 'Furneux Pelham village sign',
+    },
+    {
+      src: 'leg28-great-hormead-church.jpg',
+      caption: 'St Mary the Virgin church, Furneux Pelham',
+    },
+  ],
 }
