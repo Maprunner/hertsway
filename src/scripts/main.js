@@ -141,4 +141,4 @@ new Map({
   }),
 })
 
-initPhotoswipe('.gallery ul')
+initPhotoswipe('.gallery')

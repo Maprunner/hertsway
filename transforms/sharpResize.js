@@ -35,7 +35,12 @@ if (process.argv[2] === 'pan') {
 
 const allPics = require('../src/globals/pics.js')
 const leg = parseInt(process.argv[2], 10)
-const legName = 'leg' + leg
+let legName
+if (isNaN(leg)) {
+  legName = process.argv[2]
+} else {
+  legName = 'leg' + leg
+}
 
 if (!allPics[legName]) {
   console.error('No pictures found for', legName)
@@ -87,10 +92,12 @@ for (p = 0; p < pics.length; p = p + 1) {
 }
 
 // copy across route profile
-doResize = composeAsync(
-  sharp(inDir + legName + '.png')
-    .toFile(outDir + legName + '.png')
-    .catch((err) => console.log(err))
-)
+if (!isNaN(leg)) {
+  doResize = composeAsync(
+    sharp(inDir + legName + '.png')
+      .toFile(outDir + legName + '.png')
+      .catch((err) => console.log(err))
+  )
+}
 
 const result = doResize()
