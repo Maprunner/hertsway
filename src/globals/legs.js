@@ -354,7 +354,7 @@ module.exports = {
   },
   leg28: {
     distance: 20.8,
-    snack: 'Mince pies',
+    snack: 'Chocolate mini rolls',
     climb: 220,
     high: 130,
     low: 84,

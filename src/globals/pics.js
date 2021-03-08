@@ -1856,7 +1856,7 @@ module.exports = {
     },
     {
       src: 'leg28-pig.jpg',
-      caption: 'Pig in Great Hormead',
+      caption: 'Pig at Great Hormead Bury',
     },
     {
       src: 'leg28-great-hormead-church.jpg',
@@ -1864,7 +1864,7 @@ module.exports = {
     },
     {
       src: 'leg28-muntjac.jpg',
-      caption: 'Muntjac',
+      caption: 'Muntjac watching us',
     },
     {
       src: 'leg28-ruined-farm.jpg',
