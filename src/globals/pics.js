@@ -1,4 +1,126 @@
 module.exports = {
+  wv: [
+    {
+      src: 'leg8-chicken',
+      caption: 'Leg 8 Cockerel',
+    },
+    {
+      src: 'leg9-owl',
+      caption: 'Leg 9 Owl',
+    },
+    {
+      src: 'leg10-heron',
+      caption: 'Leg 10 Heron',
+    },
+    {
+      src: 'leg11-canal-boat',
+      caption: 'Leg 11 Canal boat',
+    },
+    {
+      src: 'leg11-shepherd',
+      caption: 'Leg 11 Shepherd',
+    },
+    {
+      src: 'leg18-spurs',
+      caption: 'Leg 18 Tottenham Hotspur',
+    },
+    {
+      src: 'leg18-rider',
+      caption: 'Leg 18 Horse and rider',
+    },
+    {
+      src: 'leg18-fox',
+      caption: 'Leg 18 Fox',
+    },
+    {
+      src: 'leg19-horse-rider',
+      caption: 'Leg 19 Horse and rider',
+    },
+    {
+      src: 'leg19-cow',
+      caption: 'Leg 19 Cow',
+    },
+    {
+      src: 'leg21-horse',
+      caption: 'Leg 19 Horse',
+    },
+    {
+      src: 'leg23-cockerel',
+      caption: 'Leg 19 Cockerel',
+    },
+    {
+      src: 'leg24-horse',
+      caption: 'Leg 24 Horse',
+    },
+    {
+      src: 'leg24-duck.jpg',
+      caption: 'Leg 24 Duck',
+    },
+    {
+      src: 'leg24-pheasant',
+      caption: 'Leg 24 Pheasant',
+    },
+    {
+      src: 'leg25-jump',
+      caption: 'Leg 25 Steeplechase',
+    },
+    {
+      src: 'leg25-shooting',
+      caption: 'Leg 25 Shooting',
+    },
+    {
+      src: 'leg25-farrier',
+      caption: 'Leg 25 Farrier',
+    },
+    {
+      src: 'leg25-chicken',
+      caption: 'Leg 25 Chicken',
+    },
+    {
+      src: 'leg25-horse',
+      caption: 'Leg 25 Horse',
+    },
+    {
+      src: 'leg26-horse',
+      caption: 'Leg 26 Horse',
+    },
+    {
+      src: 'leg26-dog',
+      caption: 'Leg 26 Dog',
+    },
+    {
+      src: 'leg26-horse-rider',
+      caption: 'Leg 26 Horse and rider',
+    },
+    {
+      src: 'leg27-horse',
+      caption: 'Leg 27 Horse',
+    },
+    {
+      src: 'leg27-horse2',
+      caption: 'Leg 27 Horse',
+    },
+    {
+      src: 'leg27-witch',
+      caption: 'Leg 27 Witch',
+    },
+    {
+      src: 'leg28-alpaca.jpg',
+      caption: 'Leg 28 Alpaca',
+    },
+    {
+      src: 'leg28-cockerel',
+      caption: 'Leg 28 Cockerel',
+    },
+    {
+      src: 'leg28-cyclist',
+      caption: 'Leg 28 Cyclist',
+    },
+    {
+      src: 'leg28-cockerel2',
+      caption: 'Leg 28 Cockerel',
+    },
+  ],
   leg1: [
     {
       src: 'leg1-royston.jpg',
