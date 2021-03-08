@@ -1,0 +1,14 @@
+---
+permalink: "weather-vanes/"
+---
+{% extends 'page.njk' %}
+{% from "macros.njk" import figure %}
+{% block body %}
+  <h2>Weather Vanes</h2>
+  <div class="mt-4 mx-auto grid grid-flow-row grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 gallery">
+    {% for pic in pics["wv"] %}
+      {{ figure(pic.src, pic.caption, pic.portrait, "wv", loop.index0) }}
+    {% endfor %}
+  </div>
+  {% include 'photoswipe.njk' %}
+{% endblock %}

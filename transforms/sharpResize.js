@@ -19,23 +19,35 @@ if (process.argv[2] === 'pan') {
   const outDir = site.imageBase + 'images/pan/'
   const allPics = require('../src/globals/panoramas.js')
   const pics = allPics.panSrc
-  let doResize
+  let doResize = false
   for (p = 0; p < pics.length; p = p + 1) {
     const name = pics[p]
-    console.log('Creating ' + inDir + name)
-    doResize = composeAsync(
-      sharp(inDir + name)
-        .toFile(outDir + name)
-        .catch((err) => console.log(err))
-    )
+    // don't recreate if already exists: avoids uploading unchanged files when site is updated
+    if (!fs.existsSync(outDir + name)) {
+      console.log('Creating ' + inDir + name)
+      doResize = composeAsync(
+        sharp(inDir + name)
+          .toFile(outDir + name)
+          .catch((err) => console.log(err))
+      )
+    }
   }
-  doResize()
+  if (doResize) {
+    doResize()
+  } else {
+    console.log('No new banners to create')
+  }
   return
 }
 
 const allPics = require('../src/globals/pics.js')
 const leg = parseInt(process.argv[2], 10)
-const legName = 'leg' + leg
+let legName
+if (isNaN(leg)) {
+  legName = process.argv[2]
+} else {
+  legName = 'leg' + leg
+}
 
 if (!allPics[legName]) {
   console.error('No pictures found for', legName)
@@ -44,7 +56,7 @@ if (!allPics[legName]) {
 const pics = allPics[legName]
 
 const inDir = site.imageBase + 'rawimages/' + legName + '/'
-const outDir = site.imageBase + '/images/' + legName + '/'
+const outDir = site.imageBase + 'images/' + legName + '/'
 
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir)
@@ -53,7 +65,7 @@ if (!fs.existsSync(outDir)) {
 // defined for landscape: adjusted to portrait later if needed
 const width = [370, 600, 1200]
 const height = [247, 400, 800]
-let doResize
+let doResize = false
 
 for (p = 0; p < pics.length; p = p + 1) {
   const name = pics[p].src.replace('.jpg', '')
@@ -61,36 +73,47 @@ for (p = 0; p < pics.length; p = p + 1) {
   for (let i = 0; i < width.length; i = i + 1) {
     const w = portrait ? height[i] : width[i]
     const h = portrait ? width[i] : height[i]
-    console.log(
+    if (fs.existsSync(outDir + name + '-' + w + '.jpg')) {
+      //console.log(outDir + name + '-' + w + '.jpg already exists')
+      continue
+    } else {
       'Creating ' + name + '-' + w + '.jpg from ' + inDir + name + '.jpg'
-    )
-    doResize = composeAsync(
-      sharp(inDir + name + '.jpg')
-        .resize(w, h, { withoutEnlargement: true })
-        .toFile(outDir + name + '-' + w + '.jpg')
-        .catch((err) => console.log(err))
-    )
-    // don't need the 1200 webp since photoswipe only uses jpg
-    if (!(w === 1200 || h === 1200)) {
-      console.log(
-        'Creating ' + name + '-' + w + '.webpfrom' + inDir + name + '.jpg'
-      )
       doResize = composeAsync(
         sharp(inDir + name + '.jpg')
-          .webp()
           .resize(w, h, { withoutEnlargement: true })
-          .toFile(outDir + name + '-' + w + '.webp')
+          .toFile(outDir + name + '-' + w + '.jpg')
           .catch((err) => console.log(err))
       )
+      // don't need the 1200 webp since photoswipe only uses jpg
+      if (!(w === 1200 || h === 1200)) {
+        console.log(
+          'Creating ' + name + '-' + w + '.webpfrom' + inDir + name + '.jpg'
+        )
+        doResize = composeAsync(
+          sharp(inDir + name + '.jpg')
+            .webp()
+            .resize(w, h, { withoutEnlargement: true })
+            .toFile(outDir + name + '-' + w + '.webp')
+            .catch((err) => console.log(err))
+        )
+      }
     }
   }
 }
 
 // copy across route profile
-doResize = composeAsync(
-  sharp(inDir + legName + '.png')
-    .toFile(outDir + legName + '.png')
-    .catch((err) => console.log(err))
-)
+if (!isNaN(leg)) {
+  if (!fs.existsSync(outDir + legName + '.png')) {
+    doResize = composeAsync(
+      sharp(inDir + legName + '.png')
+        .toFile(outDir + legName + '.png')
+        .catch((err) => console.log(err))
+    )
+  }
+}
 
-const result = doResize()
+if (doResize) {
+  doResize()
+} else {
+  console.log('No new pictures to create')
+}

@@ -102,27 +102,8 @@ export default (gallerySelector) => {
       return
     }
 
-    // find index of clicked item by looping through all child nodes
-    // alternatively, you may define index via data- attribute
-    var clickedGallery = clickedListItem.parentNode.parentNode, // we need to make our way back to the top of the ul > li > figure chain
-      childNodes = clickedListItem.parentNode.parentNode.querySelectorAll(
-        'figure'
-      ),
-      numChildNodes = childNodes.length,
-      nodeIndex = 0,
-      index
-
-    for (var i = 0; i < numChildNodes; i++) {
-      if (childNodes[i].nodeType !== 1) {
-        continue
-      }
-
-      if (childNodes[i] === clickedListItem) {
-        index = nodeIndex
-        break
-      }
-      nodeIndex++
-    }
+    const clickedGallery = document.querySelector(gallerySelector)
+    const index = parseInt(clickedListItem.dataset.index, 10)
 
     if (index >= 0) {
       // open PhotoSwipe if valid index found
@@ -284,7 +265,6 @@ export default (gallerySelector) => {
     galleryElements[i].onclick = onThumbnailsClick
   }
 
-  // Parse URL and open gallery if it contains #&pid=3&gid=1
   var hashData = photoswipeParseHash()
   if (hashData.pid && hashData.gid) {
     openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true)

@@ -21,6 +21,10 @@
       "url": "banners/"
     },
     {
+      "label": "Vanes",
+      "url": "weather-vanes/"
+    },
+    {
       "label": "About",
       "url": "about/"
     }
