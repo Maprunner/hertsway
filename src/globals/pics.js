@@ -46,7 +46,7 @@ module.exports = {
     },
     {
       src: 'leg23-cockerel',
-      caption: 'Leg 19 Cockerel',
+      caption: 'Leg 23 Cockerel',
     },
     {
       src: 'leg24-horse',
@@ -85,6 +85,10 @@ module.exports = {
       caption: 'Leg 26 Horse',
     },
     {
+      src: 'leg26-fish',
+      caption: 'Leg 26 Fish',
+    },
+    {
       src: 'leg26-dog',
       caption: 'Leg 26 Dog',
     },
@@ -105,8 +109,16 @@ module.exports = {
       caption: 'Leg 27 Witch',
     },
     {
+      src: 'leg28-owl.jpg',
+      caption: 'Leg 28 Owl',
+    },
+    {
       src: 'leg28-alpaca.jpg',
       caption: 'Leg 28 Alpaca',
+    },
+    {
+      src: 'leg28-tractor.jpg',
+      caption: 'Leg 28 Tractor',
     },
     {
       src: 'leg28-cockerel',
@@ -1831,12 +1843,20 @@ module.exports = {
       caption: 'The Catherine Wheel in Gravesend',
     },
     {
+      src: 'leg28-fields.jpg',
+      caption: 'Leaving Gravesend',
+    },
+    {
       src: 'leg28-transformer.jpg',
-      caption: 'Stocking Pelham Transformer Substation',
+      caption: 'Stocking Pelham Electricity Transformer Station',
     },
     {
       src: 'leg28-deer.jpg',
       caption: 'Fallow deer watching us',
+    },
+    {
+      src: 'leg28-95-deer.jpg',
+      caption: 'The whole herd',
     },
     {
       src: 'leg28-little-hormead-church.jpg',
@@ -1879,6 +1899,10 @@ module.exports = {
       caption: 'Shallow section of Violets Lane',
     },
     {
+      src: 'leg28-zion.jpg',
+      caption: 'Team exploring Zion Narrows',
+    },
+    {
       src: 'leg28-violets-deep.jpg',
       caption: 'Deep section of Violets Lane',
     },
@@ -1887,8 +1911,12 @@ module.exports = {
       caption: 'Furneux Pelham village sign',
     },
     {
-      src: 'leg28-great-hormead-church.jpg',
+      src: 'leg28-furneaux-pelham-church.jpg',
       caption: 'St Mary the Virgin church, Furneux Pelham',
+    },
+    {
+      src: 'leg28-time-flies.jpg',
+      caption: 'Clock on the church',
     },
   ],
 }
