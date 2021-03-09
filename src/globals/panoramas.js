@@ -19,11 +19,11 @@ const pans = [
     caption: 'Leg 3 Chesfield',
   },
   {
-    src: 'pan-28.jpg',
-    caption: 'Leg 4 Almshoe Bury',
+    src: 'pan-45.jpg',
+    caption: 'Leg 4 Nine Wells Watercress Beds',
   },
   {
-    src: 'pan-2.jpg',
+    src: 'pan-46.jpg',
     caption: 'Leg 5 Kimpton',
   },
   {
@@ -31,8 +31,8 @@ const pans = [
     caption: "Leg 6 Devil's Dyke, Wheathampstead",
   },
   {
-    src: 'pan-11.jpg',
-    caption: 'Leg 7 St Albans',
+    src: 'pan-43.jpg',
+    caption: 'Leg 7 St Albans Abbey',
   },
   {
     src: 'pan-30.jpg',
@@ -43,8 +43,8 @@ const pans = [
     caption: 'Leg 9 Jockey End',
   },
   {
-    src: 'pan-16.jpg',
-    caption: 'Leg 10 Aldbury and Ashridge',
+    src: 'pan-44.jpg',
+    caption: 'Leg 10 Ashridge College',
   },
   {
     src: 'pan-19.jpg',
@@ -67,8 +67,8 @@ const pans = [
     caption: 'Leg 15 Catharine Bourne near South Mimms',
   },
   {
-    src: 'pan-8.jpg',
-    caption: 'Leg 16 Gobions Wood',
+    src: 'pan-47.jpg',
+    caption: 'Leg 16 Mimshall Brook near Potters Bar',
   },
   {
     src: 'pan-32.jpg',
@@ -123,8 +123,20 @@ const pans = [
     caption: 'Leg 1 Therfield Heath',
   },
   {
+    src: 'pan-28.jpg',
+    caption: 'Leg 4 Almshoe Bury',
+  },
+  {
+    src: 'pan-2.jpg',
+    caption: 'Leg 5 Fields near Kimpton',
+  },
+  {
     src: 'pan-10.jpg',
     caption: 'Leg 6 Heartwood Forest',
+  },
+  {
+    src: 'pan-11.jpg',
+    caption: 'Leg 7 St Albans',
   },
   {
     src: 'pan-13.jpg',
@@ -137,6 +149,10 @@ const pans = [
   {
     src: 'pan-17.jpg',
     caption: 'Leg 10 Great Gaddesden',
+  },
+  {
+    src: 'pan-16.jpg',
+    caption: 'Leg 10 Aldbury and Ashridge',
   },
   {
     src: 'pan-18.jpg',
@@ -157,6 +173,10 @@ const pans = [
   {
     src: 'pan-25.jpg',
     caption: 'Leg 13 Munden Estate',
+  },
+  {
+    src: 'pan-8.jpg',
+    caption: 'Leg 16 Gobions Wood',
   },
   {
     src: 'pan-35.jpg',
