@@ -352,4 +352,17 @@ module.exports = {
     title: 'Bury Green to Patmore Heath',
     omaps: 'None',
   },
+  leg28: {
+    distance: 20.8,
+    snack: 'Chocolate mini rolls',
+    climb: 220,
+    high: 130,
+    low: 84,
+    from: 'Patmore Heath car park',
+    to: 'The Old Cesspit, Great Hormead',
+    time: 205,
+    name: 'leg28',
+    title: 'Patmore Heath to Great Hormead',
+    omaps: 'None',
+  },
 }

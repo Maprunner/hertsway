@@ -46,7 +46,7 @@ module.exports = {
     },
     {
       src: 'leg23-cockerel',
-      caption: 'Leg 19 Cockerel',
+      caption: 'Leg 23 Cockerel',
     },
     {
       src: 'leg24-horse',
@@ -85,6 +85,10 @@ module.exports = {
       caption: 'Leg 26 Horse',
     },
     {
+      src: 'leg26-fish',
+      caption: 'Leg 26 Fish',
+    },
+    {
       src: 'leg26-dog',
       caption: 'Leg 26 Dog',
     },
@@ -105,8 +109,16 @@ module.exports = {
       caption: 'Leg 27 Witch',
     },
     {
+      src: 'leg28-owl.jpg',
+      caption: 'Leg 28 Owl',
+    },
+    {
       src: 'leg28-alpaca.jpg',
       caption: 'Leg 28 Alpaca',
+    },
+    {
+      src: 'leg28-tractor.jpg',
+      caption: 'Leg 28 Tractor',
     },
     {
       src: 'leg28-cockerel',
@@ -1823,6 +1835,88 @@ module.exports = {
     {
       src: 'leg27-albury-church.jpg',
       caption: "St Mary's church, Albury",
+    },
+  ],
+  leg28: [
+    {
+      src: 'leg28-catherine-wheel.jpg',
+      caption: 'The Catherine Wheel in Gravesend',
+    },
+    {
+      src: 'leg28-fields.jpg',
+      caption: 'Leaving Gravesend',
+    },
+    {
+      src: 'leg28-transformer.jpg',
+      caption: 'Stocking Pelham Electricity Transformer Station',
+    },
+    {
+      src: 'leg28-deer.jpg',
+      caption: 'Fallow deer watching us',
+    },
+    {
+      src: 'leg28-95-deer.jpg',
+      caption: 'The whole herd',
+    },
+    {
+      src: 'leg28-little-hormead-church.jpg',
+      caption: "St Mary's church, Little Hormead",
+    },
+    {
+      src: 'leg28-bridge-sign.jpg',
+      caption: 'Beware of ponderous carriages on the bridge',
+    },
+    {
+      src: 'leg28-hare-street.jpg',
+      caption: 'Hare Street',
+    },
+    {
+      src: 'leg28-red-kites.jpg',
+      caption: 'Four of the eleven red kites in the field',
+    },
+    {
+      src: 'leg28-pig.jpg',
+      caption: 'Pig at Great Hormead Bury',
+    },
+    {
+      src: 'leg28-great-hormead-church.jpg',
+      caption: 'St Nicholas church, Great Hormead',
+    },
+    {
+      src: 'leg28-muntjac.jpg',
+      caption: 'Muntjac watching us',
+    },
+    {
+      src: 'leg28-ruined-farm.jpg',
+      caption: 'Abandoned farm equipment',
+    },
+    {
+      src: 'leg28-puddingstone.jpg',
+      caption: 'Puddingstone',
+    },
+    {
+      src: 'leg28-violets-start.jpg',
+      caption: 'Shallow section of Violets Lane',
+    },
+    {
+      src: 'leg28-zion.jpg',
+      caption: 'Team exploring Zion Narrows',
+    },
+    {
+      src: 'leg28-violets-deep.jpg',
+      caption: 'Deep section of Violets Lane',
+    },
+    {
+      src: 'leg28-furneaux-pelham.jpg',
+      caption: 'Furneux Pelham village sign',
+    },
+    {
+      src: 'leg28-furneaux-pelham-church.jpg',
+      caption: 'St Mary the Virgin church, Furneux Pelham',
+    },
+    {
+      src: 'leg28-time-flies.jpg',
+      caption: 'Clock on the church',
     },
   ],
 }
