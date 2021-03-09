@@ -160,7 +160,7 @@ module.exports = {
       caption: 'Climbing up to Therfield',
     },
     {
-      src: 'leg1-sandon.jpg',
+      src: 'leg1-sandon-church.jpg',
       caption: 'Church and village sign at Sandon',
     },
     {
@@ -216,11 +216,11 @@ module.exports = {
   ],
   leg3: [
     {
-      src: 'leg3-Chesfield.jpg',
+      src: 'leg3-chesfield-church.jpg',
       caption: 'Ruined church at Chesfield',
     },
     {
-      src: 'leg3-graveley.jpg',
+      src: 'leg3-graveley-church.jpg',
       caption: 'Church at Graveley',
     },
     {
@@ -268,7 +268,7 @@ module.exports = {
       caption: 'Stag on the gates at Stagenhoe',
     },
     {
-      src: 'leg4-st-pauls-walden.jpg',
+      src: 'leg4-st-pauls-walden-church.jpg',
       caption: "Church at St Paul's Walden",
     },
     {
@@ -337,7 +337,7 @@ module.exports = {
       caption: 'Approaching New St Lawrence church in Ayot St Lawrence',
     },
     {
-      src: 'leg5-new-church-back.jpg',
+      src: 'leg5-new-church.jpg',
       caption: 'The other side of New St Lawrence church',
     },
     {
@@ -345,7 +345,7 @@ module.exports = {
       caption: 'Lamer Park Farm sign: no llamas in sight',
     },
     {
-      src: 'leg5-kimpton.jpg',
+      src: 'leg5-kimpton-church.jpg',
       caption: 'Church in Kimpton',
     },
     {
@@ -441,7 +441,7 @@ module.exports = {
       portrait: true,
     },
     {
-      src: 'leg7-st-mary.jpg',
+      src: 'leg7-st-mary-church.jpg',
       caption: 'Church of St Mary at Childwickbury',
     },
     {
@@ -462,7 +462,7 @@ module.exports = {
       caption: 'View from the snack stop',
     },
     {
-      src: 'leg7-st-michaels.jpg',
+      src: 'leg7-st-michaels-church.jpg',
       caption: "St Michael's Church",
       portrait: true,
     },
@@ -483,7 +483,7 @@ module.exports = {
       caption: 'St Albans Abbey',
     },
     {
-      src: 'leg7-abbey-big.jpg',
+      src: 'leg7-abbey-big-church.jpg',
       caption: 'All 65m of the nave of St Albans Abbey',
     },
     {
@@ -526,7 +526,7 @@ module.exports = {
       caption: 'River Ver at Redbournbury',
     },
     {
-      src: 'leg8-st-marys.jpg',
+      src: 'leg8-st-marys-church.jpg',
       caption: 'Church of St Mary at Redbourn',
     },
     {
@@ -544,7 +544,7 @@ module.exports = {
       portrait: true,
     },
     {
-      src: 'leg8-st-leonards.jpg',
+      src: 'leg8-st-leonards-church.jpg',
       caption: "St Leonard's Church at Flamstead",
     },
     {
@@ -622,8 +622,8 @@ module.exports = {
       caption: 'Sheep in the turnip field',
     },
     {
-      src: 'leg9-john-the-baptist.jpg',
-      caption: 'St John the Baptist Church,Great Gaddesden',
+      src: 'leg9-john-the-baptist-church.jpg',
+      caption: 'St John the Baptist Church, Great Gaddesden',
     },
     {
       src: 'leg9-gargoyle.jpg',
@@ -688,7 +688,7 @@ module.exports = {
       portrait: true,
     },
     {
-      src: 'leg10-aldbury-church-tower.jpg',
+      src: 'leg10-aldbury-church.jpg',
       caption: 'Aldbury Church tower',
       portrait: true,
     },
@@ -960,7 +960,7 @@ module.exports = {
       caption: 'Approaching Shenley Park',
     },
     {
-      src: 'leg14-chapel.jpg',
+      src: 'leg14-chapel-church.jpg',
       caption: 'Shenley Chapel',
     },
     {
@@ -1107,7 +1107,7 @@ module.exports = {
       caption: 'Puddles',
     },
     {
-      src: 'leg17-northaw.jpg',
+      src: 'leg17-northaw-church.jpg',
       caption: 'St Thomas a Becket Church, Northaw in the fog',
     },
     {
