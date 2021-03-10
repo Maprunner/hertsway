@@ -100,13 +100,17 @@ module.exports = (config) => {
     if (url === '/') {
       rand = 0
     } else {
-      // url looks like /post/leg-1-royston-to-sandon/
-      const idx = url.indexOf('/post/leg-')
-      if (idx > -1) {
-        const bits = (rand = url.replace('/post/leg-', '').split('-'))
-        rand = parseInt(bits[0], 10)
+      if (url === '/churches/') {
+        rand = 26
       } else {
-        rand = Math.floor(Math.random() * panoramas.panCount)
+        // url looks like /post/leg-1-royston-to-sandon/
+        const idx = url.indexOf('/post/leg-')
+        if (idx > -1) {
+          const bits = (rand = url.replace('/post/leg-', '').split('-'))
+          rand = parseInt(bits[0], 10)
+        } else {
+          rand = Math.floor(Math.random() * panoramas.panCount)
+        }
       }
     }
     return `

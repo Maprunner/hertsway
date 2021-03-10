@@ -133,6 +133,44 @@ module.exports = {
       caption: 'Leg 28 Cockerel',
     },
   ],
+  // extra church photos: any leg photo that ends "-church.jpg" gets added automatically
+  ch: [
+    {
+      src: 'leg1-sandon-church.jpg',
+      caption: 'All Saints church, Sandon',
+      leg: 'leg1',
+    },
+    {
+      src: 'leg5-kimpton-church.jpg',
+      caption: 'Church of St Peter and St Paul, Kimpton',
+      leg: 'leg5',
+    },
+    {
+      src: 'leg7-st-michaels-church.jpg',
+      caption: "St Michael's church, St Albans",
+      leg: 'leg7',
+    },
+    {
+      src: 'leg7-abbey-church.jpg',
+      caption: 'St Albans Abbey',
+      leg: 'leg7',
+    },
+    {
+      src: 'leg10-aldbury-church.jpg',
+      caption: 'St John the Baptist church, Aldbury',
+      leg: 'leg10',
+    },
+    {
+      src: 'leg19-waterford-church.jpg',
+      caption: 'St Michael & All Angels church, Waterford',
+      leg: 'leg19',
+    },
+    {
+      src: 'leg21-broxbourne-church.jpg',
+      caption: 'St Augustine church, Broxbourne',
+      leg: 'leg21',
+    },
+  ],
   leg1: [
     {
       src: 'leg1-royston.jpg',
@@ -160,7 +198,7 @@ module.exports = {
       caption: 'Climbing up to Therfield',
     },
     {
-      src: 'leg1-sandon-church.jpg',
+      src: 'leg1-sandon.jpg',
       caption: 'Church and village sign at Sandon',
     },
     {
@@ -196,13 +234,17 @@ module.exports = {
       caption: "Jack O'Legs grave at Weston church",
     },
     {
+      src: 'leg2-clothall-church.jpg',
+      caption: "St Mary's church, Clothall",
+    },
+    {
       src: 'leg2-scenery.jpg',
       caption: 'Looking back towards Clothall',
       portrait: true,
     },
     {
       src: 'leg2-wallington-church.jpg',
-      caption: 'Church of St Mary at Wallington',
+      caption: "St Mary's church, Wallington",
     },
     {
       src: 'leg2-weather-vane.jpg',
@@ -217,11 +259,11 @@ module.exports = {
   leg3: [
     {
       src: 'leg3-chesfield-church.jpg',
-      caption: 'Ruined church at Chesfield',
+      caption: 'Ruined church of St Etheldreda, Chesfield',
     },
     {
       src: 'leg3-graveley-church.jpg',
-      caption: 'Church at Graveley',
+      caption: "St Mary's church, Graveley",
     },
     {
       src: 'leg3-a1(m).jpg',
@@ -233,7 +275,7 @@ module.exports = {
     },
     {
       src: 'leg3-great-wymondley.jpg',
-      caption: 'Church at Great Wymondley',
+      caption: 'Curch of St Mary the Virgin, Great Wymondley',
       portrait: true,
     },
     {
@@ -246,7 +288,7 @@ module.exports = {
     },
     {
       src: 'leg3-little-wymondley-church.jpg',
-      caption: 'Church at Little Wymondley',
+      caption: "St Mary's church, Little Wymondley",
     },
     {
       src: 'leg3-gothic-house.jpg',
@@ -269,7 +311,7 @@ module.exports = {
     },
     {
       src: 'leg4-st-pauls-walden-church.jpg',
-      caption: "Church at St Paul's Walden",
+      caption: "All Saints church, St Paul's Walden",
     },
     {
       src: 'leg4-queen-mother-memorial.jpg',
@@ -280,6 +322,10 @@ module.exports = {
       src: 'leg4-stained-glass.jpg',
       caption: "Stained glass at St Paul's Walden",
       portrait: true,
+    },
+    {
+      src: 'leg4-avenue.jpg',
+      caption: 'Tree-lined avenue at The Bury',
     },
     {
       src: 'leg4-mimram.jpg',
@@ -329,24 +375,24 @@ module.exports = {
       caption: 'Holly berries',
     },
     {
-      src: 'leg5-old-church.jpg',
+      src: 'leg5-old-church-ruin.jpg',
       caption: 'Old St Lawrence church in Ayot St Lawrence',
     },
     {
       src: 'leg5-new-st-lawrence.jpg',
-      caption: 'Approaching New St Lawrence church in Ayot St Lawrence',
+      caption: 'Approaching New St Lawrence church',
     },
     {
       src: 'leg5-new-church.jpg',
-      caption: 'The other side of New St Lawrence church',
+      caption: 'New St Lawrence church, Ayot St Lawrence',
     },
     {
       src: 'leg5-lamer-park.jpg',
       caption: 'Lamer Park Farm sign: no llamas in sight',
     },
     {
-      src: 'leg5-kimpton-church.jpg',
-      caption: 'Church in Kimpton',
+      src: 'leg5-kimpton-church-distant.jpg',
+      caption: 'Church of St Peter and St Paul, Kimpton',
     },
     {
       src: 'leg5-water-tower.jpg',
@@ -378,7 +424,7 @@ module.exports = {
     },
     {
       src: 'leg6-sandridge-church.jpg',
-      caption: "St Leonard's Church, Sandridge",
+      caption: "St Leonard's church, Sandridge",
     },
     {
       src: 'leg6-green-man.jpg',
@@ -415,7 +461,7 @@ module.exports = {
     },
     {
       src: 'leg6-wheathampstead-church.jpg',
-      caption: "St Helen's Church at Wheathampstead",
+      caption: "St Helen's church, Wheathampstead",
     },
     {
       src: 'leg6-stones.jpg',
@@ -442,7 +488,7 @@ module.exports = {
     },
     {
       src: 'leg7-st-mary-church.jpg',
-      caption: 'Church of St Mary at Childwickbury',
+      caption: 'Church of St Mary, Childwickbury',
     },
     {
       src: 'leg7-spire.jpg',
@@ -462,7 +508,7 @@ module.exports = {
       caption: 'View from the snack stop',
     },
     {
-      src: 'leg7-st-michaels-church.jpg',
+      src: 'leg7-church-st-michaels.jpg',
       caption: "St Michael's Church",
       portrait: true,
     },
@@ -483,7 +529,7 @@ module.exports = {
       caption: 'St Albans Abbey',
     },
     {
-      src: 'leg7-abbey-big-church.jpg',
+      src: 'leg7-abbey-big.jpg',
       caption: 'All 65m of the nave of St Albans Abbey',
     },
     {
@@ -527,7 +573,7 @@ module.exports = {
     },
     {
       src: 'leg8-st-marys-church.jpg',
-      caption: 'Church of St Mary at Redbourn',
+      caption: 'Church of St Mary, Redbourn',
     },
     {
       src: 'leg8-redbourn-spire.jpg',
@@ -545,7 +591,7 @@ module.exports = {
     },
     {
       src: 'leg8-st-leonards-church.jpg',
-      caption: "St Leonard's Church at Flamstead",
+      caption: "St Leonard's church, Flamstead",
     },
     {
       src: 'leg8-weathercock.jpg',
@@ -623,7 +669,7 @@ module.exports = {
     },
     {
       src: 'leg9-john-the-baptist-church.jpg',
-      caption: 'St John the Baptist Church, Great Gaddesden',
+      caption: 'St John the Baptist church, Great Gaddesden',
     },
     {
       src: 'leg9-gargoyle.jpg',
@@ -688,7 +734,7 @@ module.exports = {
       portrait: true,
     },
     {
-      src: 'leg10-aldbury-church.jpg',
+      src: 'leg10-aldbury-church-tower.jpg',
       caption: 'Aldbury Church tower',
       portrait: true,
     },
@@ -783,7 +829,7 @@ module.exports = {
     },
     {
       src: 'leg11-bovingdon-church.jpg',
-      caption: 'St Lawrence Church at Bovingdon',
+      caption: 'Church of St Lawrence, Bovingdon',
     },
     {
       src: 'leg11-puddingstone.jpg',
@@ -914,7 +960,7 @@ module.exports = {
     },
     {
       src: 'leg13-aldenham-church.jpg',
-      caption: 'St John the Baptist Church, Aldenham',
+      caption: 'St John the Baptist church, Aldenham',
     },
     {
       src: 'leg13-kingfisher1.jpg',
@@ -1015,7 +1061,7 @@ module.exports = {
     },
     {
       src: 'leg15-south-mimms-church.jpg',
-      caption: 'St Giles Church at South Mimms',
+      caption: 'St Giles church, South Mimms',
     },
     {
       src: 'leg15-lichen.jpg',
@@ -1023,7 +1069,7 @@ module.exports = {
     },
     {
       src: 'leg15-ridge-church.jpg',
-      caption: 'St Margarets Church at South Mimms',
+      caption: "St Margaret's church, South Mimms",
     },
     {
       src: 'leg15-mud.jpg',
@@ -1086,7 +1132,7 @@ module.exports = {
     },
     {
       src: 'leg16-north-mymms-church.jpg',
-      caption: "St Mary's Church, North Mymms",
+      caption: "St Mary's church, North Mymms",
     },
     {
       src: 'leg16-churchyard.jpg',
@@ -1128,7 +1174,7 @@ module.exports = {
     },
     {
       src: 'leg17-newgate-street-church.jpg',
-      caption: "St Mary's Church, Newgate Street",
+      caption: "St Mary's church, Newgate Street",
     },
     {
       src: 'leg17-fog.jpg',
@@ -1182,7 +1228,7 @@ module.exports = {
     },
     {
       src: 'leg18-essendon-church.jpg',
-      caption: 'St Mary the Virgin Church, Essendon',
+      caption: 'St Mary the Virgin church, Essendon',
     },
     {
       src: 'leg18-redwing.jpg',
@@ -1194,7 +1240,7 @@ module.exports = {
     },
     {
       src: 'leg18-little-berkhamsted-church.jpg',
-      caption: "St Andrew's Church, Little Berkhamsted",
+      caption: "St Andrew's church, Little Berkhamsted",
     },
     {
       src: 'leg18-tower-in-mist.jpg',
@@ -1222,7 +1268,7 @@ module.exports = {
     },
     {
       src: 'leg19-hertford-church.jpg',
-      caption: "All Saints's Church, Hertford",
+      caption: "All Saints's church, Hertford",
     },
     {
       src: 'leg19-parliament-square.jpg',
@@ -1249,7 +1295,6 @@ module.exports = {
       src: 'leg19-machinery.jpg',
       caption: 'Flood control on the River Beane',
     },
-
     {
       src: 'leg19-panshanger.jpg',
       caption: 'The Mimram valley in Panshanger Park',
@@ -1264,7 +1309,7 @@ module.exports = {
     },
     {
       src: 'leg19-hertingfordbury-church.jpg',
-      caption: "St Mary's Church, Hertingfordbury",
+      caption: "St Mary's church, Hertingfordbury",
     },
     {
       src: 'leg19-skyline.jpg',
@@ -1272,7 +1317,7 @@ module.exports = {
     },
     {
       src: 'leg19-bayford-church.jpg',
-      caption: "St Mary's Church, Bayford",
+      caption: "St Mary's church, Bayford",
     },
   ],
   leg20: [
@@ -1320,7 +1365,7 @@ module.exports = {
     },
     {
       src: 'leg20-church.jpg',
-      caption: 'St James Church, Goffs Oak',
+      caption: 'Curch of St James, Goffs Oak',
     },
     {
       src: 'leg20-greenhouses.jpg',
@@ -1353,7 +1398,7 @@ module.exports = {
       caption: 'Mallard and moorhen in the sunshine',
     },
     {
-      src: 'leg21-broxbourne-church.jpg',
+      src: 'leg21-church-broxbourne.jpg',
       caption: 'St Augustine church, Broxbourne',
       portrait: true,
     },
@@ -1499,7 +1544,7 @@ module.exports = {
     },
     {
       src: 'leg23-bengeo-church.jpg',
-      caption: "St Leonard's Church, Bengeo",
+      caption: "St Leonard's church, Bengeo",
     },
     {
       src: 'leg23-spire.jpg',
@@ -1551,7 +1596,7 @@ module.exports = {
     },
     {
       src: 'leg24-stapleford-church.jpg',
-      caption: 'St Mary the Virgin, Stapleford',
+      caption: 'St Mary the Virgin church, Stapleford',
     },
     {
       src: 'leg24-clusterbolts.jpg',
@@ -1614,11 +1659,11 @@ module.exports = {
   leg25: [
     {
       src: 'leg25-thundridge-church.jpg',
-      caption: "St Mary's Church, Thundridge",
+      caption: "St Mary's church, Thundridge",
     },
     {
       src: 'leg25-old-thundridge-church.jpg',
-      caption: 'Thundridge Old Church of All Hallows and Little Saint Mary',
+      caption: 'Old Church of All Hallows and Little Saint Mary, Thundridge',
     },
     {
       src: 'leg25-river-rib.jpg',
@@ -1642,7 +1687,7 @@ module.exports = {
     },
     {
       src: 'leg25-widford-church.jpg',
-      caption: 'St John the Baptist Church, Widford',
+      caption: 'St John the Baptist church, Widford',
     },
     {
       src: 'leg25-widford-sign.jpg',
