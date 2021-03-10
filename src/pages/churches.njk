@@ -1,0 +1,14 @@
+---
+permalink: "churches/"
+---
+{% extends 'page.njk' %}
+{% from "macros.njk" import figure %}
+{% block body %}
+  <h2>Churches</h2>
+  <div class="mt-4 mx-auto grid grid-flow-row grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 gallery">
+    {% for pic in churches.churches %}
+      {{ figure(pic.src, pic.leg | formatLegX + " " + pic.caption, pic.portrait, pic.idx, loop.index0) }}
+    {% endfor %}
+  </div>
+  {% include 'photoswipe.njk' %}
+{% endblock %}

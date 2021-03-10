@@ -21,6 +21,10 @@
       "url": "banners/"
     },
     {
+      "label": "Churches",
+      "url": "churches/"
+    },
+    {
       "label": "Vanes",
       "url": "weather-vanes/"
     },
