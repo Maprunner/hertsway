@@ -26,5 +26,6 @@ churches.sort(function (a, b) {
 })
 
 module.exports = {
-  churches,
+  churches: churches,
+  count: churches.length,
 }
