@@ -215,6 +215,11 @@ module.exports = {
       caption: 'St Augustine church, Broxbourne',
       leg: 'leg21',
     },
+    {
+      src: 'leg22-stanstead-church.jpg',
+      caption: "St James' church, Stanstead Abbotts",
+      leg: 'leg22',
+    },
   ],
   leg1: [
     {

@@ -17,6 +17,7 @@ tags:
   - Violets Lane
   - River Ash
   - River Quin
+  - puddingstone
 ---
 
 Today was slightly delayed since it turns out that I am now old enough (56 and over) to book a Covid vaccine. Finding my NHS number was problematic for a while but eventually I managed to get an NHS website to text it to me. After that it was easy to book a first vaccine at a pharmacy near St Albans station in two weeks and even a second one in May. After that we set off for Patmore Heath. Three red kites floated over a distant woodland as we got changed. We'd see a lot more later.

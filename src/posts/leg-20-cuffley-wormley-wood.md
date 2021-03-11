@@ -11,6 +11,7 @@ tags:
   - red kite
   - kestrel
   - buzzard
+  - fox
   - coal post
 ---
 

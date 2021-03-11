@@ -21,6 +21,7 @@ tags:
   - M1
   - puddingstone
   - golf course
+  - Chiltern Way
 ---
 
 Today should have been the Hertfordshire Orienteering Club Saturday Series event at Stanborough Park but the second lockdown ended that. This had allowed us to pick the better weather forecast and set out on Saturday rather than Sunday. The short trip to Verulamium was made only slightly longer by having to go via a friend's house to deliver some rhubarb crowns that Helen had dug up from the allotment, but we still ended up parking at St Michael's just before 9.00. The church clock striking nine is the signal to start the parkrun here, and three or four people did just that, rather than the three or four hundred that turn up in normal times. We set off in the opposite direction with slightly more than five kilometres ahead of us.
