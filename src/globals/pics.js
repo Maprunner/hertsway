@@ -325,7 +325,7 @@ module.exports = {
     },
     {
       src: 'leg3-great-wymondley.jpg',
-      caption: 'Curch of St Mary the Virgin, Great Wymondley',
+      caption: 'Church of St Mary the Virgin, Great Wymondley',
       portrait: true,
     },
     {
@@ -1415,7 +1415,7 @@ module.exports = {
     },
     {
       src: 'leg20-church.jpg',
-      caption: 'Curch of St James, Goffs Oak',
+      caption: 'Church of St James, Goffs Oak',
     },
     {
       src: 'leg20-greenhouses.jpg',
