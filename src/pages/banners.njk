@@ -6,11 +6,22 @@ permalink: "banners/"
   <h2>Banner photos</h2>
   {% for banner in panoramas.panSrc %}
     {% if loop.index0 > 0 %}
+      {% set caption = panoramas.panCaption[loop.index0] %}
+      {% set jpg = [
+        site.baseUrl,
+        "images/pan/",
+        panoramas.panSrc[loop.index0]
+      ] | join %}
+      {% set webp = jpg | replace(".jpg", ".webp") %}
       <div class="banner my-6">
-        <img class="banner-img" loading="lazy" src="{{ site.baseUrl }}images/pan/{{ panoramas.panSrc[loop.index0] }}" alt="{{ panoramas.panCaption[loop.index0] }}">
+        <picture>
+          <source srcset="{{ webp }}" type="image/webp">
+          <source srcset="{{ jpg }}" type="image/jpeg">
+          <img class="banner-img" src="{{ jpg }}" alt="{{ caption }}" title="{{ caption }}" loading="lazy"/>
+        </picture>
         <div class="banner-overlay hidden sm:block">
           <div class="text-sm text-white p-1 italic">
-            {{ panoramas.panCaption[loop.index0] }}
+            {{ caption }}
           </div>
         </div>
       </div>
