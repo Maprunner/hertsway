@@ -13,10 +13,13 @@ tags:
   - River Beane
   - River Lea
   - River Mimram
+  - River Ver
   - parkrun
   - red kite
   - grey wagtail
   - cheetah
+  - muntjac
+  - Stratton's Tower
 ---
 
 We'd already seen three buzzards, a red kite and a muntjac by the time we got to Bayford which seemed like a good start for the first leg of the year. We did a quick lap of the village before finally deciding to park at the church.

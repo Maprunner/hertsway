@@ -15,6 +15,8 @@ tags:
   - Albury
   - Little Hadham
   - River Ash
+  - Harcamlow Way
+  - Chiltern Way
 ---
 
 Today was another day of bright sunshine and blue skies, although the overnight frost was still visible on grass shaded from the sun. We parked in the carefully researched lay-by in Hadham Ford. A sign on the Nag's Head opposite us gave a date of 1595. Just along from the pub was a water pump "erected by subscription April 1880" and a distinctive wooden village sign "erected 2000 AD", although for some reason this was for Little Hadham.

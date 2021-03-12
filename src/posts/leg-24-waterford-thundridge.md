@@ -8,6 +8,7 @@ tags:
   - Waterford
   - Thundridge
   - red kite
+  - hare
   - little egret
   - Stapleford
   - Wadesmill

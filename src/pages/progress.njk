@@ -11,6 +11,7 @@ permalink: "progress/"
         <tr>
           <th rowspan="2">#</th>
           <th rowspan="2">Leg</th>
+          <th rowspan="2">Profile</th>
           <th colspan="5">Leg</th>
           <th colspan="3">Totals</th>
         </tr>
@@ -32,6 +33,7 @@ permalink: "progress/"
             <td>
               <a href="{% LegLink leg, detail.title %}">{{ detail.title }}</a>
             </td>
+            <td class="td-profile"><img src="../images/{{ detail.name }}/{{ detail.name }}.png" alt="Leg {{ loop.index }} profile" loading="lazy"/></td>
             <td class="text-center">{% FixedDP detail.distance,
               1 %}</td>
             <td class="text-center">{{ detail.time | prettifyAbbrevMinutes }}</td>

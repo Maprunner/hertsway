@@ -101,6 +101,10 @@ hr {
   }
 }
 
+.td-profile {
+  width: 200px;
+}
+
 .banner {
   position: relative;
   display: block;

@@ -1,14 +1,20 @@
 ---
 permalink: "churches/"
+title: "Churches on the Hertfordshire Way"
+excerpt: 'Some of the churches we ran past'
 ---
 {% extends 'page.njk' %}
 {% from "macros.njk" import figure %}
 {% block body %}
   <h2>Churches</h2>
-  <div class="mt-4 mx-auto grid grid-flow-row grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 gallery">
-    {% for pic in churches.churches %}
-      {{ figure(pic.src, pic.leg | formatLegX + " " + pic.caption, pic.portrait, pic.idx, loop.index0) }}
-    {% endfor %}
-  </div>
-  {% include 'photoswipe.njk' %}
-{% endblock %}
+  <p>You soon discover there are a lot of churches in Hertfordshire:
+    <a href="https://hertfordshirechurches.wordpress.com/">695 by one count</a>. Below are photos of
+    {{ churches.count }}
+    that we ran past.
+    <div class="mt-4 mx-auto grid grid-flow-row grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 gallery">
+      {% for pic in churches.churches %}
+        {{ figure(pic.src, pic.leg | formatLegX + " " + pic.caption, pic.portrait, pic.idx, loop.index0) }}
+      {% endfor %}
+    </div>
+    {% include 'photoswipe.njk' %}
+  {% endblock %}

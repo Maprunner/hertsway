@@ -22,12 +22,21 @@ if (process.argv[2] === 'pan') {
   let doResize = false
   for (p = 0; p < pics.length; p = p + 1) {
     const name = pics[p]
+    const webp = name.replace('.jpg', '.webp')
     // don't recreate if already exists: avoids uploading unchanged files when site is updated
     if (!fs.existsSync(outDir + name)) {
       console.log('Creating ' + inDir + name)
       doResize = composeAsync(
         sharp(inDir + name)
           .toFile(outDir + name)
+          .catch((err) => console.log(err))
+      )
+    }
+    if (!fs.existsSync(outDir + webp)) {
+      doResize = composeAsync(
+        sharp(inDir + name)
+          .webp()
+          .toFile(outDir + webp)
           .catch((err) => console.log(err))
       )
     }

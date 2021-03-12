@@ -9,11 +9,14 @@ tags:
   - Great Gaddesden
   - Markyate
   - River Gade
+  - River Ver
   - red kite
   - buzzard
   - Beechwood School
   - coyote
+  - fox
   - alpaca
+  - Chiltern Way
 ---
 
 After a short trip up the M1 we were quickly parking next to Flamstead church ready to set off. The church had changed since we were there four days earlier and was now fenced off behind metal mesh fencing and had acquired two portaloos and quite a lot of signage indicating that repairs were about to start and that lottery money was involved.
@@ -26,7 +29,7 @@ Skylarks sang as we splashed through the mud and we were soon passing the allotm
 
 We ran around the edge of a lot of fields, past a lot of sheep and horses and several groups of walkers, and had soon ticked off a ring-necked parakeet (strangely absent from the leg around St Albans where we are normally overrun by them) as well as three alpacas behind a hedge that Helen wasn't quite tall enough to see over. The path then led past the front of [Beechwood Park school](https://www.beechwoodpark.com/). You can tell this is a long way from anywhere by the number of cars parked around it. There was certainly no prospect of getting there by any other means unless you happen to be running from Flamstead. The impressive main building lies in [parkland laid out by Capability Brown](https://www.parksandgardens.org/places/beechwood) in the middle of the 18th Century. We skirted round the edge of the extensive playing fields that he didn't know he was designing and passed an orienteering control on the fence. The school is one of the main contenders in the Hertfordshire Orienteering Club Youth League, should that ever happen again.
 
-On the way up to Jockey End we discussed what wildlife we had seen so far and what we could expect in future. Helen's suggestion of badger seemed unlikely even if we had seen a sett already, but I thought a fox should be possible. We skirted the edge of Jockey End and turned off through yet more allotments and a sign proclaiming "Jim's Orchard". And at that point we found a fox, or at least a stuffed one,, along with a whole menagerie of other soft toys and assorted other things decorating a small fenced garden at the end of the allotments. Skeleton in a bath tub, Wile E Coyote riding a bicycle chasing a chicken and with Zippy in a basket, garden gnomes, Mickey Mouse telephone, HSBC bank sign, plastic heron, wind vane with a tawny owl, all that and more were spread around and looking a little battered having obviously been there and exposed to the elements for some time.
+On the way up to Jockey End we discussed what wildlife we had seen so far and what we could expect in future. Helen's suggestion of badger seemed unlikely even if we had seen a sett already, but I thought a fox should be possible. We skirted the edge of Jockey End and turned off through yet more allotments and a sign proclaiming "Jim's Orchard". And at that point we found a fox, or at least a stuffed one, along with a whole menagerie of other soft toys and assorted other things decorating a small fenced garden at the end of the allotments. Skeleton in a bath tub, Wile E Coyote riding a bicycle chasing a chicken and with Zippy in a basket, garden gnomes, Mickey Mouse telephone, HSBC bank sign, plastic heron, wind vane with a tawny owl, all that and more were spread around and looking a little battered having obviously been there and exposed to the elements for some time.
 
 The next field was neatly split in two and was full of sheep and turnips. An electric fence separated the muddy part of the field with a few turnips scattered around, from the sheep in amongst the green leaves of growing turnips and the purple and white turnips themselves most of which appeared to have been nibbled by sheep already. A large flock of starlings flew around as the sheep chased them, along with various other birds including two pied wagtails.
 

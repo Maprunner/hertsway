@@ -136,9 +136,34 @@ module.exports = {
   // extra church photos: any leg photo that ends "-church.jpg" gets added automatically
   ch: [
     {
+      src: 'leg1-therfield-church.jpg',
+      caption: "St Mary's church, Therfield",
+      leg: 'leg1',
+    },
+    {
+      src: 'leg1-kelshall-church.jpg',
+      caption: "St Faith's church, Kelshall",
+      leg: 'leg1',
+    },
+    {
       src: 'leg1-sandon-church.jpg',
       caption: 'All Saints church, Sandon',
       leg: 'leg1',
+    },
+    {
+      src: 'leg2-weston-church.jpg',
+      caption: 'Holy Trinity church, Weston',
+      leg: 'leg2',
+    },
+    {
+      src: 'leg3-great-wymondley-church',
+      caption: 'Church of St Mary the Virgin, Great Wymondley',
+      leg: 'leg3',
+    },
+    {
+      src: 'leg5-ayot-old-church',
+      caption: 'Old St Lawrence church, Ayot St Lawrence',
+      leg: 'leg5',
     },
     {
       src: 'leg5-kimpton-church.jpg',
@@ -156,9 +181,29 @@ module.exports = {
       leg: 'leg7',
     },
     {
+      src: 'leg10-nettleden-church.jpg',
+      caption: "St Lawrence's church, Nettleden",
+      leg: 'leg10',
+    },
+    {
       src: 'leg10-aldbury-church.jpg',
       caption: 'St John the Baptist church, Aldbury',
       leg: 'leg10',
+    },
+    {
+      src: 'leg12-boxmoor-church.jpg',
+      caption: 'St John the Evangelist church, Boxmoor',
+      leg: 'leg12',
+    },
+    {
+      src: 'leg13-watford-church.jpg',
+      caption: "St John's church, Watford",
+      leg: 'leg13',
+    },
+    {
+      src: 'leg15-shenley-church.jpg',
+      caption: "St Martin's church, Shenley",
+      leg: 'leg15',
     },
     {
       src: 'leg19-waterford-church.jpg',
@@ -169,6 +214,11 @@ module.exports = {
       src: 'leg21-broxbourne-church.jpg',
       caption: 'St Augustine church, Broxbourne',
       leg: 'leg21',
+    },
+    {
+      src: 'leg22-stanstead-church.jpg',
+      caption: "St James' church, Stanstead Abbotts",
+      leg: 'leg22',
     },
   ],
   leg1: [
@@ -216,8 +266,8 @@ module.exports = {
   ],
   leg2: [
     {
-      src: 'leg2-hedgerow.jpg',
-      caption: 'Rose hip hedgerow',
+      src: 'leg2-wallington-church.jpg',
+      caption: "St Mary's church, Wallington",
     },
     {
       src: 'leg2-black-bryony.jpg',
@@ -230,30 +280,30 @@ module.exports = {
       portrait: true,
     },
     {
+      src: 'leg2-beech.jpg',
+      caption: 'Autumn beech leaves',
+    },
+    {
+      src: 'leg2-clothall-church.jpg',
+      caption: 'Church of St Mary the Virgin, Clothall',
+    },
+    {
       src: 'leg2-helen-weston.jpg',
       caption: "Jack O'Legs grave at Weston church",
     },
     {
-      src: 'leg2-clothall-church.jpg',
-      caption: "St Mary's church, Clothall",
+      src: 'leg2-weather-vane.jpg',
+      caption: 'Golden cockerel weather vane on the church at Weston',
+      portrait: true,
+    },
+    {
+      src: 'leg2-hedgerow.jpg',
+      caption: 'Rose hip hedgerow',
     },
     {
       src: 'leg2-scenery.jpg',
       caption: 'Looking back towards Clothall',
       portrait: true,
-    },
-    {
-      src: 'leg2-wallington-church.jpg',
-      caption: "St Mary's church, Wallington",
-    },
-    {
-      src: 'leg2-weather-vane.jpg',
-      caption: 'Golden cockerel weather vane on the church at Wallington',
-      portrait: true,
-    },
-    {
-      src: 'leg2-beech.jpg',
-      caption: 'Autumn beech leaves',
     },
   ],
   leg3: [
@@ -275,7 +325,7 @@ module.exports = {
     },
     {
       src: 'leg3-great-wymondley.jpg',
-      caption: 'Curch of St Mary the Virgin, Great Wymondley',
+      caption: 'Church of St Mary the Virgin, Great Wymondley',
       portrait: true,
     },
     {
@@ -1069,7 +1119,7 @@ module.exports = {
     },
     {
       src: 'leg15-ridge-church.jpg',
-      caption: "St Margaret's church, South Mimms",
+      caption: "St Margaret's church, Ridge",
     },
     {
       src: 'leg15-mud.jpg',
@@ -1365,7 +1415,7 @@ module.exports = {
     },
     {
       src: 'leg20-church.jpg',
-      caption: 'Curch of St James, Goffs Oak',
+      caption: 'Church of St James, Goffs Oak',
     },
     {
       src: 'leg20-greenhouses.jpg',

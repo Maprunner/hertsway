@@ -113,11 +113,18 @@ module.exports = (config) => {
         }
       }
     }
+    const jpg = panoramas.panSrc[rand]
+    const webp = jpg.replace('.jpg', '.webp')
+    const caption = panoramas.panCaption[rand]
     return `
-    <img id="banner-img" src="${siteSettings.baseUrl}images/pan/${panoramas.panSrc[rand]}" alt="${panoramas.panCaption[rand]}">
+    <picture>
+      <source srcset="${siteSettings.baseUrl}images/pan/${webp}" type="image/webp">
+      <source srcset="${siteSettings.baseUrl}images/pan/${jpg}" type="image/jpeg">
+      <img src="${siteSettings.baseUrl}images/pan/${jpg}" alt="${caption}" title="${caption}"/>
+    </picture>
     <div class="banner-overlay hidden sm:block">
       <div class="text-sm text-white p-1 italic">
-        ${panoramas.panCaption[rand]}
+        ${caption}
       </div>
     </div>`
   })

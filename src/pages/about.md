@@ -9,6 +9,7 @@ permalink: 'about/'
 - [LDWA Hertfordshire Way](https://ldwa.org.uk/ldp/members/show_path.php?path_name=Hertfordshire+Way)
 - [Friends of the Hertfordshire Way](https://www.fhw.org.uk/)
 - [Hertfordshire churches](https://hertfordshirechurches.weebly.com/visiting-hertfordshire-churches.html)
+- [Photos of Hertfordshire churches](https://hertfordshirechurches.wordpress.com/)
 - [North Mymms History Project](https://www.northmymmshistory.uk/)
 
 ## Technology

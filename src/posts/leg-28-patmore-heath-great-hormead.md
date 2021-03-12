@@ -17,6 +17,7 @@ tags:
   - Violets Lane
   - River Ash
   - River Quin
+  - puddingstone
 ---
 
 Today was slightly delayed since it turns out that I am now old enough (56 and over) to book a Covid vaccine. Finding my NHS number was problematic for a while but eventually I managed to get an NHS website to text it to me. After that it was easy to book a first vaccine at a pharmacy near St Albans station in two weeks and even a second one in May. After that we set off for Patmore Heath. Three red kites floated over a distant woodland as we got changed. We'd see a lot more later.
@@ -53,4 +54,4 @@ Once the road had dried out we came to the old brewery, now nicely converted to 
 
 Leaving the village through a small wood we followed a ditch along the edge of fields. A flock of sheep decided we might have food and jogged over to meet us. A quick double back on a road and we did the final crossing of the River Ash for the day before climbing up through a muddy ploughed field back to Patmore Heath and the car. As we drove out down the single track lane back to the road we were confronted by a large car coming the other way. This was obviously a local since they drove at speed up onto the bank leaving us just enough space to squeeze past with two wheels up the bank on our side.
 
-A much more interesting day than I had been expecting with good views, good wildlife and the added and completely unexpected bonus of Violets Lane. And I can now declare that we have completed out antepenultimate leg, so there are only two more to go.
+A much more interesting day than I had been expecting with good views, good wildlife and the added and completely unexpected bonus of Violets Lane. And I can now declare that we have completed our antepenultimate leg, so there are only two more to go.
