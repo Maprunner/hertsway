@@ -1,0 +1,9 @@
+---
+layout: false
+permalink: 'sitemap.txt'
+---
+{%- for item in collections.all -%}
+  {% if not item.data.ignore %}
+    {{ site.url }}{{ item.url | url | replace('.html', '') }}
+  {% endif %}
+{%- endfor -%}
