@@ -2,7 +2,7 @@
 title: Leg 17 Potters Bar to Newgate Street
 excerpt: 'In which fog hides the views or at least we think it did'
 name: leg17
-image: leg17-northaw.jpg
+image: leg17-northaw-church.jpg
 date: 2020-12-28
 tags:
   - Brookmans Park

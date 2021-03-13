@@ -8,11 +8,16 @@
 {% else %}
   {% set ldimage = [site.url, "/images/hway-sign.jpg" | url] | join %}
 {% endif %}
+{% if title %}
+  {% set headline = title %}
+{% else %}
+  {% set headline = site.name %}
+{% endif %}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "{{ title }}",
+    "headline": "{{ headline }}",
     "image": ["{{ ldimage }}"],
     "datePublished": "{{ date }}",
     "dateModified": "{{ date }}"

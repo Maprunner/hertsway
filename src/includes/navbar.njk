@@ -16,7 +16,7 @@
     <ul class="list-reset lg:flex justify-end flex-1 items-end">
       {% for item in nav.main %}
         <li>
-          <a class="inline-block pl-4" href="{{ item.url | url }}">{{ item.label }}</a>
+          <a class="inline-block pl-4" href="{{ [site.baseUrl, item.url | url] | join }}">{{ item.label }}</a>
         </li>
       {% endfor %}
     </ul>
