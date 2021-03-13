@@ -1,4 +1,4 @@
-<nav class="flex items-center justify-between flex-wrap bg-grey-darkest py-2 fixed w-full z-10 sticky">
+<nav class="flex items-center justify-between flex-wrap bg-grey-darkest py-2 w-full z-10 sticky">
   <div class="flex items-center flex-no-shrink text-white mr-6">
     <a class="text-yellow-600 no-underline hover:text-white hover:no-underline" href="{{ '/' | url }}">
       <span class="text-sm md:text-xl">There and Back on the Hertfordshire Way</span>
@@ -12,11 +12,11 @@
     </button>
   </div>
 
-  <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+  <div class="w-full flex-grow lg:items-center lg:w-auto hidden lg:flex  pt-6 lg:pt-0" id="nav-content">
     <ul class="list-reset lg:flex justify-end flex-1 items-end">
       {% for item in nav.main %}
         <li>
-          <a class="inline-block pl-4" href="{{ site.baseUrl  }}{{ item.url }}">{{ item.label }}</a>
+          <a class="inline-block pl-4" href="{{ item.url | url }}">{{ item.label }}</a>
         </li>
       {% endfor %}
     </ul>

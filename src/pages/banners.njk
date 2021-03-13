@@ -8,8 +8,7 @@ permalink: "banners/"
     {% if loop.index0 > 0 %}
       {% set caption = panoramas.panCaption[loop.index0] %}
       {% set jpg = [
-        site.baseUrl,
-        "images/pan/",
+        "/images/pan/" | url,
         panoramas.panSrc[loop.index0]
       ] | join %}
       {% set webp = jpg | replace(".jpg", ".webp") %}
