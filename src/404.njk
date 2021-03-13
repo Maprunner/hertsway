@@ -1,6 +1,7 @@
 ---
 title: '404 – Page Not Found'
 permalink: /404.html
+ignore: true
 ---
 
 {% extends 'page.njk' %}
@@ -8,5 +9,5 @@ permalink: /404.html
 {% block body %}
   <h1 class="mb-2">{{ title }}</h1>
   <p class="mb-2">The page you've requested can't be found.</p>
-  <a href="{{ site.baseUrl }}">Go back to the homepage.</a>
+  <a href="{{ '/' | url }}">Go back to the homepage.</a>
 {% endblock %}
