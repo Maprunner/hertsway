@@ -7,6 +7,7 @@ module.exports = {
       './src/**/*.md',
     ],
   },
+  darkMode: 'class',
   theme: {
     colors: {
       transparent: 'transparent',

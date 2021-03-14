@@ -21,7 +21,7 @@ const LIGHT = 'light'
 const COLOR_SCHEME_CHANGED = 'colorSchemeChanged'
 
 toggleEl.addEventListener('click', () => {
-  const bodyEl = document.querySelector('body')
+  const bodyEl = document.querySelector('html')
   const isDark = bodyEl.classList.toggle('dark')
   const mode = isDark ? DARK : LIGHT
   sessionStorage.setItem('hertsway-color-scheme', mode)
@@ -29,11 +29,9 @@ toggleEl.addEventListener('click', () => {
   if (isDark) {
     toggleEl.src = toggleEl.src.replace(DARK, LIGHT)
     toggleEl.alt = toggleEl.alt.replace(DARK, LIGHT)
-    // toggle class
   } else {
     toggleEl.src = toggleEl.src.replace(LIGHT, DARK)
     toggleEl.alt = toggleEl.alt.replace(LIGHT, DARK)
-    // toggle class
   }
 
   toggleEl.dispatchEvent(

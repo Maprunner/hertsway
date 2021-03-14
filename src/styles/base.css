@@ -3,8 +3,9 @@
 
 html,
 body {
-  @apply antialiased text-gray-500 bg-gray-900;
+  @apply antialiased bg-gray-300 text-gray-500 dark:bg-gray-900;
   font-family: 'Open Sans', sans-serif;
+  transition: background-color 500ms ease-in-out 0s;
 }
 
 h1,
