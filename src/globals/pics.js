@@ -132,6 +132,18 @@ module.exports = {
       src: 'leg28-cockerel2',
       caption: 'Leg 28 Cockerel',
     },
+    {
+      src: 'leg29-bull',
+      caption: 'Leg 29 Bull',
+    },
+    {
+      src: 'leg29-shooting',
+      caption: 'Leg 29 Shooting',
+    },
+    {
+      src: 'leg29-horse',
+      caption: 'Leg 29 Horse',
+    },
   ],
   // extra church photos: any leg photo that ends "-church.jpg" gets added automatically
   ch: [
@@ -219,6 +231,16 @@ module.exports = {
       src: 'leg22-stanstead-church.jpg',
       caption: "St James' church, Stanstead Abbotts",
       leg: 'leg22',
+    },
+    {
+      src: 'leg29-anstey-chapel-church.jpg',
+      caption: 'Anstey Chapel',
+      leg: 'leg29',
+    },
+    {
+      src: 'leg29-buckland-church.jpg',
+      caption: "St Andrew's church, Buckland",
+      leg: 'leg29',
     },
   ],
   leg1: [
@@ -2012,6 +2034,56 @@ module.exports = {
     {
       src: 'leg28-time-flies.jpg',
       caption: 'Clock on the church',
+    },
+  ],
+  leg29: [
+    {
+      src: 'leg29-pylons.jpg',
+      caption: 'Pylons',
+    },
+    {
+      src: 'leg29-anstey-church.jpg',
+      caption: "St George's church, Anstey",
+    },
+    {
+      src: 'leg29-anstey.jpg',
+      caption: 'Anstey Hall and church',
+    },
+    {
+      src: 'leg29-vor.jpg',
+      caption: 'VOR at Nuthampstead airfield',
+    },
+    {
+      src: 'leg29-bomber-memorial.jpg',
+      caption: 'Bomber memorial, Nuthampstead',
+    },
+    {
+      src: 'leg29-barkway-church.jpg',
+      caption: 'St Mary Magdalene church, Barkway',
+    },
+    {
+      src: 'leg29-bales.jpg',
+      caption: 'Hay bales',
+    },
+    {
+      src: 'leg29-hares.jpg',
+      caption: 'Hares',
+    },
+    {
+      src: 'leg29-deer.jpg',
+      caption: 'Fallow deer',
+    },
+    {
+      src: 'leg29-wyddial-hall.jpg',
+      caption: 'Wyddial Hall',
+    },
+    {
+      src: 'leg29-wyddial-church.jpg',
+      caption: 'St Giles church, Wyddial',
+    },
+    {
+      src: 'leg29-meridian.jpg',
+      caption: 'Greenwich Meridian marker in Wyddial',
     },
   ],
 }

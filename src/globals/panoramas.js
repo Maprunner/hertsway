@@ -119,6 +119,10 @@ const pans = [
     caption: 'Leg 28 Fallow deer near Little Hormead',
   },
   {
+    src: 'pan-48.jpg',
+    caption: 'Leg 29 Nuthampstead airfield',
+  },
+  {
     src: 'pan-26.jpg',
     caption: 'Leg 1 Therfield Heath',
   },
