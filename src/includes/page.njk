@@ -36,7 +36,7 @@
     </head>
     <body class="flex flex-col min-h-screen">
       {% include 'header.njk' %}
-      <main class="container mx-auto bg-gray-900 max-w-screen-xl px-8 pb-8 flex-grow"> {% block body %}{% endblock %}
+      <main class="container mx-auto bg-gray-300 dark:bg-gray-900 max-w-screen-xl px-8 pb-8 flex-grow"> {% block body %}{% endblock %}
         {% include 'footer.njk' %}
       </main>
       <script src="{{ '/assets/main.bundle.js?v=127' | url }}"></script>

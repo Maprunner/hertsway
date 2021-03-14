@@ -19,12 +19,13 @@ const toggleEl = document.querySelector('#color-scheme-toggle')
 const DARK = 'dark'
 const LIGHT = 'light'
 const COLOR_SCHEME_CHANGED = 'colorSchemeChanged'
+const LOCAL_STORAGE_DARK_LIGHT = 'color-scheme'
 
 toggleEl.addEventListener('click', () => {
   const bodyEl = document.querySelector('html')
   const isDark = bodyEl.classList.toggle('dark')
   const mode = isDark ? DARK : LIGHT
-  sessionStorage.setItem('hertsway-color-scheme', mode)
+  localStorage.setItem(LOCAL_STORAGE_DARK_LIGHT, mode)
 
   if (isDark) {
     toggleEl.src = toggleEl.src.replace(DARK, LIGHT)
@@ -42,7 +43,7 @@ toggleEl.addEventListener('click', () => {
 const isSystemDarkMode =
   matchMedia && matchMedia('(prefers-color-scheme: dark)').matches
 
-let mode = sessionStorage.getItem('hertsway-color-scheme')
+let mode = localStorage.getItem(LOCAL_STORAGE_DARK_LIGHT)
 
 if (!mode && isSystemDarkMode) {
   mode = DARK
@@ -50,7 +51,8 @@ if (!mode && isSystemDarkMode) {
   mode = mode || LIGHT
 }
 
-if (mode === DARK) {
+// default is DARK so switch if needed when loading
+if (mode === LIGHT) {
   document.querySelector('#color-scheme-toggle').click()
 }
 
