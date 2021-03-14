@@ -4,14 +4,12 @@
       <span class="text-sm md:text-xl">There and Back on the Hertfordshire Way</span>
     </a>
   </div>
-
   <div class="block lg:hidden">
     <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-grey border-grey-dark hover:text-white hover:border-white">
       <svg class="fill-current h-3 w-3" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
     </button>
   </div>
-
   <div class="w-full flex-grow lg:items-center lg:w-auto hidden lg:flex  pt-6 lg:pt-0" id="nav-content">
     <ul class="list-reset lg:flex justify-end flex-1 items-end">
       {% for item in nav.main %}
@@ -19,6 +17,9 @@
           <a class="inline-block pl-4" href="{{ [site.baseUrl, item.url | url] | join }}">{{ item.label }}</a>
         </li>
       {% endfor %}
+      <li class="pl-4">
+        <img id="color-scheme-toggle" width=" 24px" src=" {{ '/images/light.svg' | url }} " alt=" toggle light mode"></li>
+      </li>
     </ul>
   </div>
 </nav>

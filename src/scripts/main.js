@@ -15,6 +15,47 @@ const hertsLonLat = [-0.2, 51.85]
 
 if (DEV_MODE) console.log('Dev mode is currently enabled.')
 
+const toggleEl = document.querySelector('#color-scheme-toggle')
+const DARK = 'dark'
+const LIGHT = 'light'
+const COLOR_SCHEME_CHANGED = 'colorSchemeChanged'
+
+toggleEl.addEventListener('click', () => {
+  const bodyEl = document.querySelector('body')
+  const isDark = bodyEl.classList.toggle('dark')
+  const mode = isDark ? DARK : LIGHT
+  sessionStorage.setItem('hertsway-color-scheme', mode)
+
+  if (isDark) {
+    toggleEl.src = toggleEl.src.replace(DARK, LIGHT)
+    toggleEl.alt = toggleEl.alt.replace(DARK, LIGHT)
+    // toggle class
+  } else {
+    toggleEl.src = toggleEl.src.replace(LIGHT, DARK)
+    toggleEl.alt = toggleEl.alt.replace(LIGHT, DARK)
+    // toggle class
+  }
+
+  toggleEl.dispatchEvent(
+    new CustomEvent(COLOR_SCHEME_CHANGED, { detail: mode })
+  )
+})
+
+const isSystemDarkMode =
+  matchMedia && matchMedia('(prefers-color-scheme: dark)').matches
+
+let mode = sessionStorage.getItem('hertsway-color-scheme')
+
+if (!mode && isSystemDarkMode) {
+  mode = DARK
+} else {
+  mode = mode || LIGHT
+}
+
+if (mode === DARK) {
+  document.querySelector('#color-scheme-toggle').click()
+}
+
 // toggle the menu
 document.getElementById('nav-toggle').onclick = function () {
   document.getElementById('nav-content').classList.toggle('hidden')
