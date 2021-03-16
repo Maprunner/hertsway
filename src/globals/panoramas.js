@@ -120,7 +120,7 @@ const pans = [
   },
   {
     src: 'pan-48.jpg',
-    caption: 'Leg 29 Nuthampstead airfield',
+    caption: 'Leg 29 Nuthampstead airfield and VOR',
   },
   {
     src: 'pan-26.jpg',
