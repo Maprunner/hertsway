@@ -1,11 +1,15 @@
 /* Font (see https://fonts.google.com) */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
+:root {
+  --light-bg-color: ;
+}
+
 html,
 body {
-  @apply antialiased bg-gray-300 text-gray-500 dark:bg-gray-900;
+  @apply antialiased bg-gray-100 text-gray-900 dark:text-gray-500 dark:bg-gray-900;
   font-family: 'Open Sans', sans-serif;
-  transition: background-color 500ms ease-in-out 0s;
+  /* transition: background-color 200ms ease-in-out 0s; */
 }
 
 h1,
@@ -89,10 +93,10 @@ hr {
     @apply table-auto shadow-lg;
   }
   thead {
-    @apply bg-gray-800;
+    @apply bg-gray-300 dark:bg-gray-800;
   }
   tbody tr:nth-child(even) {
-    @apply bg-gray-800 bg-opacity-50;
+    @apply bg-gray-300 dark:bg-gray-800 bg-opacity-50;
   }
   th {
     @apply px-2 py-2 border-2 border-gray-700;
@@ -118,7 +122,6 @@ hr {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .fullMap {
@@ -187,7 +190,7 @@ hr {
 }
 
 figcaption {
-  @apply text-center text-sm md:text-base italic text-gray-500;
+  @apply text-center text-sm md:text-base italic text-gray-900 dark:text-gray-500;
 }
 
 .ol-control ul {
