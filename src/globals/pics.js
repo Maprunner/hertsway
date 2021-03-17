@@ -2058,8 +2058,20 @@ module.exports = {
       caption: 'Bomber memorial, Nuthampstead',
     },
     {
+      src: 'leg29-woodman.jpg',
+      caption: 'The Woodman Inn',
+    },
+    {
+      src: 'leg29-barkway.jpg',
+      caption: 'Barkway village sign',
+    },
+    {
       src: 'leg29-barkway-church.jpg',
       caption: 'St Mary Magdalene church, Barkway',
+    },
+    {
+      src: 'leg29-solar-panels.jpg',
+      caption: 'Solar panels with pheasant',
     },
     {
       src: 'leg29-bales.jpg',
@@ -2071,7 +2083,15 @@ module.exports = {
     },
     {
       src: 'leg29-deer.jpg',
+      caption: 'The whole herd: over 100 fallow deer',
+    },
+    {
+      src: 'leg29-deer-closeup.jpg',
       caption: 'Fallow deer',
+    },
+    {
+      src: 'leg29-moat.jpg',
+      caption: 'Moat at Wyddial Hall',
     },
     {
       src: 'leg29-wyddial-hall.jpg',
