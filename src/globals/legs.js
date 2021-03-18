@@ -365,4 +365,17 @@ module.exports = {
     title: 'Patmore Heath to Great Hormead',
     omaps: 'None',
   },
+  leg29: {
+    distance: 22.0,
+    snack: 'Apple and blackcurrant pies',
+    climb: 231,
+    high: 143,
+    low: 89,
+    from: 'The Old Cesspit, Great Hormead',
+    to: 'St Mary Magdalene church, Barkway',
+    time: 205,
+    name: 'leg29',
+    title: 'Great Hormead to Barkway',
+    omaps: 'None',
+  },
 }
