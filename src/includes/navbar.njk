@@ -6,8 +6,9 @@
   </div>
   <div class="block lg:hidden">
     <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-grey border-grey-dark hover:text-white hover:border-white">
-      <svg class="fill-current h-3 w-3" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      <svg class="h-3 w-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
+        <title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
     </button>
   </div>
   <div class="w-full flex-grow lg:items-center lg:w-auto hidden lg:flex  pt-6 lg:pt-0" id="nav-content">
@@ -18,7 +19,7 @@
         </li>
       {% endfor %}
       <li class="pl-4">
-        <img id="color-scheme-toggle" width=" 24px" src=" {{ '/images/light.svg' | url }} " alt=" toggle light mode"></li>
+        <img id="color-scheme-toggle" width=" 24px" src="{{ '/images/light.svg' | url }}" alt="toggle light mode"></li>
       </li>
     </ul>
   </div>

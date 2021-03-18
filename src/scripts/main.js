@@ -18,7 +18,6 @@ if (DEV_MODE) console.log('Dev mode is currently enabled.')
 const toggleEl = document.querySelector('#color-scheme-toggle')
 const DARK = 'dark'
 const LIGHT = 'light'
-const COLOR_SCHEME_CHANGED = 'colorSchemeChanged'
 const LOCAL_STORAGE_DARK_LIGHT = 'color-scheme'
 
 toggleEl.addEventListener('click', () => {
@@ -34,24 +33,25 @@ toggleEl.addEventListener('click', () => {
     toggleEl.src = toggleEl.src.replace(LIGHT, DARK)
     toggleEl.alt = toggleEl.alt.replace(LIGHT, DARK)
   }
-
-  toggleEl.dispatchEvent(
-    new CustomEvent(COLOR_SCHEME_CHANGED, { detail: mode })
-  )
 })
 
 const isSystemDarkMode =
   matchMedia && matchMedia('(prefers-color-scheme: dark)').matches
 
+// start with local storage value
 let mode = localStorage.getItem(LOCAL_STORAGE_DARK_LIGHT)
 
-if (!mode && isSystemDarkMode) {
-  mode = DARK
-} else {
-  mode = mode || LIGHT
+// if not set check preference
+if (!mode) {
+  if (isSystemDarkMode) {
+    mode = DARK
+  }
 }
 
-// default is DARK so switch if needed when loading
+// default to DARK if no other setting
+mode = mode || DARK
+
+// default is DARK in <html> page.njk template so switch if needed when loading
 if (mode === LIGHT) {
   document.querySelector('#color-scheme-toggle').click()
 }

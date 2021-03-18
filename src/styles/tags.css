@@ -28,7 +28,7 @@
   justify-content: space-evenly;
 
   a {
-    @apply bg-gray-900 text-teal-600 no-underline;
+    @apply text-white no-underline;
     display: inline-block;
     margin: 0.2em 0.3em;
     padding: 0.1em 0.3em;
@@ -36,20 +36,25 @@
     border-radius: 0.5em;
   }
   a:hover {
-    @apply bg-transparent underline text-white;
-  }
-  a.tag2 {
-    @apply bg-gray-900 bg-opacity-50;
+    animation: tag-hover 500ms both;
   }
 
-  a.tag3 {
+  a.tag1 {
+    @apply bg-gray-900;
+  }
+
+  a.tag2 {
     @apply bg-gray-800;
   }
 
+  a.tag3 {
+    @apply bg-gray-700;
+  }
+
   a.tag4 {
-    @apply bg-gray-800 bg-opacity-50;
+    @apply bg-gray-600;
   }
   a.tag5 {
-    @apply bg-gray-700;
+    @apply bg-gray-500;
   }
 }

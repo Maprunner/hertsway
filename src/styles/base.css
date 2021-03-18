@@ -42,7 +42,13 @@ a {
 }
 
 a:hover {
-  @apply underline text-gray-200;
+  @apply underline text-gray-900 dark:text-gray-200;
+}
+
+nav {
+  a:hover {
+    @apply underline text-gray-200;
+  }
 }
 
 p {
@@ -119,9 +125,14 @@ hr {
 }
 
 .banner-overlay {
+  @apply hidden sm:block pr-2 md:pr-4;
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.banner-text {
+  @apply text-sm text-white p-1 italic;
 }
 
 .fullMap {
@@ -159,6 +170,10 @@ hr {
     background-color: transparent;
     color: #fff;
   }
+}
+
+.label {
+  @apply text-yellow-600;
 }
 
 .read-more:hover {
