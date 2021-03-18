@@ -183,6 +183,11 @@ module.exports = {
       leg: 'leg5',
     },
     {
+      src: 'leg6-gustard-wood-church.jpg',
+      caption: "St Peter's church, Gustard Wood",
+      leg: 'leg6',
+    },
+    {
       src: 'leg7-st-michaels-church.jpg',
       caption: "St Michael's church, St Albans",
       leg: 'leg7',
