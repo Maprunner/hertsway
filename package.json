@@ -4,13 +4,15 @@
   "license": "MIT",
   "scripts": {
     "build": "cross-env NODE_ENV=production npm-run-all clean -p build:*",
-    "dbgbuild:11ty": "set DEBUG=Eleventy* & eleventy --quiet",
+    "debug:build": "set DEBUG=Eleventy* & npm run build",
     "build:11ty": "eleventy --quiet",
     "build:rollup": "rollup -c",
     "clean": "rimraf dist",
-    "dev": "npm-run-all clean build:* -p dev:*",
+    "dev": "cross-env NODE_ENV=development npm-run-all clean build:* -p dev:*",
+    "debug:dev": "set DEBUG=Eleventy* & npm run dev",
     "dev:11ty": "eleventy --serve",
     "dev:rollup": "rollup -c -w",
+    "benchmark": "set DEBUG=Eleventy:Benchmark* & npm run dev",
     "new": "node ./transforms/startNewLeg.js",
     "resize": "node ./transforms/sharpResize.js"
   },
