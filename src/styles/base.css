@@ -95,21 +95,23 @@ hr {
 }
 
 .progress-table {
-  table {
-    @apply table-auto shadow-lg;
-  }
-  thead {
-    @apply bg-gray-300 dark:bg-gray-800;
-  }
-  tbody tr:nth-child(even) {
-    @apply bg-gray-300 dark:bg-gray-800 bg-opacity-50;
-  }
-  th {
-    @apply px-2 py-2 border-2 border-gray-700;
-  }
-  td {
-    @apply px-2 py-2 border-2 border-gray-700;
-  }
+  /* Tailwinds generates ".progress-table .dark" instead of ".dark .progress-table" if you put the following lines inside progress-table*/
+}
+
+table {
+  @apply table-auto shadow-lg;
+}
+thead {
+  @apply bg-gray-300 dark:bg-gray-800;
+}
+tbody tr:nth-child(even) {
+  @apply bg-gray-300 dark:bg-gray-800;
+}
+th {
+  @apply px-2 py-2 border-2 border-gray-700;
+}
+td {
+  @apply px-2 py-2 border-2 border-gray-700;
 }
 
 .td-profile {
@@ -160,18 +162,17 @@ hr {
 }
 
 .read-more {
-  @apply bg-teal-600 text-white text-lg md:text-xl font-bold py-2 px-4 rounded;
-  border: 1px solid transparent;
+  @apply bg-teal-600 text-white text-lg md:text-xl font-bold py-2 px-4 rounded border-2 border-solid border-transparent;
 }
 
 .read-more:hover {
+  color: white;
   animation: read-more 400ms both;
 }
 
 @keyframes read-more {
   100% {
-    color: black;
-    border: 1px solid #fff;
+    @apply border-white underline;
   }
 }
 
