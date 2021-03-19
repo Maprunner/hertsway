@@ -164,20 +164,19 @@ hr {
   border: 1px solid transparent;
 }
 
+.read-more:hover {
+  animation: read-more 400ms both;
+}
+
 @keyframes read-more {
   100% {
+    color: black;
     border: 1px solid #fff;
-    background-color: transparent;
-    color: #fff;
   }
 }
 
 .label {
   @apply text-yellow-600;
-}
-
-.read-more:hover {
-  animation: tag-hover 500ms both;
 }
 
 .stat {

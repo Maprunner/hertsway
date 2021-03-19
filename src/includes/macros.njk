@@ -35,7 +35,7 @@
                 {% endmacro %}
                 {# Post summary #}
                 {% macro post_summary(url, data, leg) %}
-                  <div class="flex flex-col px-4 py-4 bg-gray-300 dark:bg-gray-800 rounded-lg shadow-lg">
+                  <div class="flex flex-col px-4 pt-4 pb-8 bg-gray-300 dark:bg-gray-800 rounded-lg shadow-lg">
                     <div class="flex-1">
                       <div class="relative pb-5/6">
                         {{ picture(data.image, data.title, false, data.name) }}
@@ -55,17 +55,17 @@
                           {{ leg.time | prettifyMinutes }}</p>
                         <div class="my-2">
                           <p class="my-1">
-                            <span class="text-gray-900 dark:text-white">From:
+                            <span class="label">From:
                             </span>
                             {{ leg.from }}
                           </p>
                           <p class="my-1">
-                            <span class="text-gray-900 dark:text-white">To:
+                            <span class="label">To:
                             </span>
                             {{ leg.to }}
                           </p>
                           <p class="my-1">
-                            <span class="text-gray-900 dark:text-white">Snack:
+                            <span class="label">Snack:
                             </span>
                             {{ leg.snack }}
                           </p>

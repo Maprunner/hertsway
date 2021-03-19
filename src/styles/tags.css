@@ -1,8 +1,9 @@
 @keyframes tag-hover {
   100% {
-    border: 1px solid #fff;
+    @apply text-gray-900 border-white dark:text-white dark:border-gray-900;
+    border: 1px solid;
     background-color: transparent;
-    color: #fff;
+    text-decoration: underline;
   }
 }
 
@@ -29,6 +30,7 @@
 
   a {
     @apply text-white no-underline;
+    border: 1px solid transparent;
     display: inline-block;
     margin: 0.2em 0.3em;
     padding: 0.1em 0.3em;
