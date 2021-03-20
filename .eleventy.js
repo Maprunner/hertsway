@@ -122,8 +122,8 @@ module.exports = (config) => {
       <source srcset="${siteSettings.baseUrl}images/pan/${jpg}" type="image/jpeg">
       <img src="${siteSettings.baseUrl}images/pan/${jpg}" alt="${caption}" title="${caption}"/>
     </picture>
-    <div class="banner-overlay hidden sm:block">
-      <div class="text-sm text-white p-1 italic">
+    <div class="banner-overlay">
+      <div class="banner-text">
         ${caption}
       </div>
     </div>`

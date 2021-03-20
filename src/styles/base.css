@@ -1,10 +1,15 @@
 /* Font (see https://fonts.google.com) */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
+:root {
+  --light-bg-color: ;
+}
+
 html,
 body {
-  @apply antialiased text-gray-500 bg-gray-900;
+  @apply antialiased bg-gray-100 text-gray-900 dark:text-gray-500 dark:bg-gray-900;
   font-family: 'Open Sans', sans-serif;
+  /* transition: background-color 200ms ease-in-out 0s; */
 }
 
 h1,
@@ -37,7 +42,13 @@ a {
 }
 
 a:hover {
-  @apply underline text-gray-200;
+  @apply underline text-gray-900 dark:text-gray-200;
+}
+
+nav {
+  a:hover {
+    @apply underline text-gray-200;
+  }
 }
 
 p {
@@ -84,21 +95,23 @@ hr {
 }
 
 .progress-table {
-  table {
-    @apply table-auto shadow-lg;
-  }
-  thead {
-    @apply bg-gray-800;
-  }
-  tbody tr:nth-child(even) {
-    @apply bg-gray-800 bg-opacity-50;
-  }
-  th {
-    @apply px-2 py-2 border-2 border-gray-700;
-  }
-  td {
-    @apply px-2 py-2 border-2 border-gray-700;
-  }
+  /* Tailwinds generates ".progress-table .dark" instead of ".dark .progress-table" if you put the following lines inside progress-table*/
+}
+
+table {
+  @apply table-auto shadow-lg;
+}
+thead {
+  @apply bg-gray-300 dark:bg-gray-800;
+}
+tbody tr:nth-child(even) {
+  @apply bg-gray-300 dark:bg-gray-800;
+}
+th {
+  @apply px-2 py-2 border-2 border-gray-700;
+}
+td {
+  @apply px-2 py-2 border-2 border-gray-700;
 }
 
 .td-profile {
@@ -114,10 +127,14 @@ hr {
 }
 
 .banner-overlay {
+  @apply hidden sm:block pr-2 md:pr-4;
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner-text {
+  @apply text-sm text-white p-1 italic;
 }
 
 .fullMap {
@@ -145,20 +162,22 @@ hr {
 }
 
 .read-more {
-  @apply bg-teal-600 text-white text-lg md:text-xl font-bold py-2 px-4 rounded;
-  border: 1px solid transparent;
+  @apply bg-teal-600 text-white text-lg md:text-xl font-bold py-2 px-4 rounded border-2 border-solid border-transparent;
+}
+
+.read-more:hover {
+  color: white;
+  animation: read-more 400ms both;
 }
 
 @keyframes read-more {
   100% {
-    border: 1px solid #fff;
-    background-color: transparent;
-    color: #fff;
+    @apply border-white underline;
   }
 }
 
-.read-more:hover {
-  animation: tag-hover 500ms both;
+.label {
+  @apply text-yellow-600;
 }
 
 .stat {
@@ -186,7 +205,7 @@ hr {
 }
 
 figcaption {
-  @apply text-center text-sm md:text-base italic text-gray-500;
+  @apply text-center text-sm md:text-base italic text-gray-900 dark:text-gray-500;
 }
 
 .ol-control ul {

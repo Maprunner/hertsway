@@ -4,7 +4,7 @@
 const minDist = 10
 const fs = require('fs')
 let legs = require('../src/globals/legs.js')
-let legsLonLat = require('../src/scripts/legsLonLat.js')
+let legsLonLat = require('../src/data/legsLonLat.js')
 const svg2img = require('node-svg2img')
 const heightProfile = require('./heightProfile')
 const site = require('../src/globals/site.json')
@@ -44,7 +44,7 @@ const legName = 'leg' + leg
 
 const gpxFile = './src/data/' + legName + '.gpx'
 const legsFile = './src/globals/legs.js'
-const lonLatFile = './src/scripts/legsLonLat.js'
+const lonLatFile = './src/data/nLat.js'
 const rawImageDir = site.imageBase + 'rawimages/' + legName + '/'
 const imageDir = site.imageBase + 'images/' + legName
 const pngFile = rawImageDir + legName + '.png'
@@ -108,7 +108,7 @@ try {
   const lonLat = []
   lonLat.push(parseFloat(lon.toFixed(2)))
   lonLat.push(parseFloat(lat.toFixed(2)))
-  legsLonLat[leg - 1] = lonLat
+  nLat[leg - 1] = lonLat
   // save updated legsLonLat.js with indentation of two spaces
   fs.writeFileSync(
     lonLatFile,

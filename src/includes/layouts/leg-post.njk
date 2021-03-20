@@ -42,41 +42,41 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
         </h2>
       {% endif %}
     </div>
-    <div class="w-full md:w-3/12 order-first md:order-last bg-gray-800 px-4 mb-4">
+    <div class="w-full md:w-3/12 order-first md:order-last bg-gray-300 dark:bg-gray-800 px-4 mb-4">
       <p>
-        <span class="text-white">Date:
+        <span class="label">Date:
         </span>{{ date | dateDisplay }}</p>
       <p>
-        <span class="text-white">Distance:
+        <span class="label">Distance:
         </span>{% FixedDP legs[name].distance,
         1 %}km</p>
       <p>
-        <span class="text-white">Climb:
+        <span class="label">Climb:
         </span>{{ legs[name].climb }}m</p>
       <p>
-        <span class="text-white">High:
+        <span class="label">High:
         </span>{{ legs[name].high }}m</p>
       <p>
-        <span class="text-white">Low:
+        <span class="label">Low:
         </span>{{ legs[name].low }}m</p>
       <p>
-        <span class="text-white">Time:
+        <span class="label">Time:
         </span>{{ legs[name].time | prettifyMinutes }}</p>
       <div class="my-2">
         <p class="my-1">
-          <span class="text-white">From:
+          <span class="label">From:
           </span>{{ legs[name].from }}
         </p>
         <p class="my-1">
-          <span class="text-white">To:
+          <span class="label">To:
           </span>{{ legs[name].to }}
         </p>
         <p class="my-1">
-          <span class="text-white">Snack:
+          <span class="label">Snack:
           </span>{{ legs[name].snack }}
         </p>
         <p class="my-1">
-          <span class="text-white">Orienteering maps:
+          <span class="label">Orienteering maps:
           </span>{{ legs[name].omaps }}
         </p>
       </div>
