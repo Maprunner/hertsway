@@ -1,18 +1,16 @@
-@keyframes tag-hover {
-  100% {
-    border: 1px solid #fff;
-    background-color: transparent;
-    color: #fff;
-  }
-}
-
 .tag {
-  @apply inline-block px-2 py-1 mr-2 mb-2 text-sm font-bold rounded lowercase text-white bg-teal-600;
-  border: 1px solid transparent;
+  @apply inline-block px-2 py-1 mr-2 mb-2 text-sm font-bold rounded lowercase text-white bg-teal-600 border-2 border-solid border-transparent;
 }
 
 .tag:hover {
-  animation: tag-hover 500ms both;
+  color: white;
+  animation: tag-hover 400ms both;
+}
+
+@keyframes tag-hover {
+  100% {
+    @apply border-white bg-teal-600 underline;
+  }
 }
 
 .tag:before {
@@ -20,36 +18,32 @@
 }
 
 .tagscloud {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
+  @apply mt-2 p-0 flex flex-wrap items-center justify-evenly list-none bg-gray-300 dark:bg-gray-800 rounded-lg shadow-lg;
 
   a {
-    @apply bg-gray-900 text-teal-600 no-underline;
-    display: inline-block;
-    margin: 0.2em 0.3em;
-    padding: 0.1em 0.3em;
-    white-space: nowrap;
-    border-radius: 0.5em;
+    @apply text-white no-underline border-2 border-solid border-transparent rounded-lg inline-block m-1 p-1 whitespace-nowrap;
   }
   a:hover {
-    @apply bg-transparent underline text-white;
+    animation: tag-hover 500ms both;
   }
+
+  a.tag1 {
+    @apply bg-green-900;
+  }
+
   a.tag2 {
-    @apply bg-gray-900 bg-opacity-50;
+    @apply bg-green-800;
   }
 
   a.tag3 {
-    @apply bg-gray-800;
+    @apply bg-green-700;
   }
 
   a.tag4 {
-    @apply bg-gray-800 bg-opacity-50;
+    @apply bg-green-600;
   }
+
   a.tag5 {
-    @apply bg-gray-700;
+    @apply bg-green-500;
   }
 }
