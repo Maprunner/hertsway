@@ -2,43 +2,43 @@
 <html class="dark" lang="en">
   <head>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-          <meta name="title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}">
-            <meta name="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
-              {% if image %}
-                {% set ogimage = ["/images/", name, "/", image] | join | url | replace(".jpg", "-1200.jpg") %}
-              {% else %}
-                {% set ogimage = "/images/hway-sign.jpg" | url %}
-              {% endif %}
-              <meta property="og:type" content="website"/>
-              <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}">
-                <meta property="og:description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
-                  <meta property="og:image" content="{{ [site.url, ogimage] | join }}">
-                    <meta property="og:url" content="{{ [site.url, page.url | url] | join }}">
-                      <meta name="twitter:card" content="summary_large_image">
-                        <meta property="og:site_name" content="{{ site.name }}">
-                          <meta name="twitter:image:alt" content="Scenery on the Hertfordshire Way">
-                            <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}">
-                              <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | url }}">
-                                <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | url }}">
-                                  <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
-                                    <meta name="msapplication-TileColor" content="#da532c">
-                                      <meta name="theme-color" content="#ffffff">
-                                        <title>
-                                          {% if title %}
-                                            {{ title }}
-                                            |
-                                          {% endif %}
-                                          {{ site.name }}
-                                        </title>
-                                        <link rel="stylesheet" href="{{ '/assets/main.bundle.css?v=127' | url }}"> {% block head %}{% endblock %}
-                                          </head>
-                                          <body class="flex flex-col min-h-screen">
-                                            {% include 'header.njk' %}
-                                            <main class="container mx-auto bg-gray-100 dark:bg-gray-900 max-w-screen-xl px-2 md:px-4 pb-8 flex-grow"> {% block body %}{% endblock %}
-                                              {% include 'footer.njk' %}
-                                            </main>
-                                            <script src="{{ '/assets/main.bundle.js?v=127' | url }}"></script>
-                                          </body>
-                                        </html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}">
+    <meta name="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
+    {% if image %}
+      {% set ogimage = ["/images/", name, "/", image] | join | url | replace(".jpg", "-1200.jpg") %}
+    {% else %}
+      {% set ogimage = "/images/hway-sign.jpg" | url %}
+    {% endif %}
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="og:description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{{ [site.url, ogimage] | join }}">
+    <meta property="og:url" content="{{ [site.url, page.url | url] | join }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta name="twitter:image:alt" content="Scenery on the Hertfordshire Way">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>
+      {% if title %}
+        {{ title }}
+        |
+      {% endif %}
+      {{ site.name }}
+    </title>
+    <link rel="stylesheet" href="{{ ['/assets/main.bundle.css', site.cacheRev] | join | url }}"> {% block head %}{% endblock %}
+    </head>
+    <body class="flex flex-col min-h-screen">
+      {% include 'header.njk' %}
+      <main class="container mx-auto bg-gray-100 dark:bg-gray-900 max-w-screen-xl px-2 md:px-4 pb-8 flex-grow"> {% block body %}{% endblock %}
+        {% include 'footer.njk' %}
+      </main>
+      <script src="{{ ['/assets/main.bundle.js', site.cacheRev] | join | url }}"></script>
+    </body>
+  </html>
