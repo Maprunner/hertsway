@@ -5,7 +5,10 @@ name: 'leg1'
 date: 2020-10-07
 tags:
   - Royston
+  - Roy stone
+  - Therfield Heath
   - Therfield
+  - Sandon
   - Icknield Way
   - kestrel
   - red kite
