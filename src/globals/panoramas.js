@@ -123,6 +123,10 @@ const pans = [
     caption: 'Leg 29 Nuthampstead airfield and VOR',
   },
   {
+    src: 'pan-50.jpg',
+    caption: 'Leg 30 Finish at the Roy Stone',
+  },
+  {
     src: 'pan-26.jpg',
     caption: 'Leg 1 Therfield Heath',
   },
@@ -197,6 +201,10 @@ const pans = [
   {
     src: 'pan-40.jpg',
     caption: 'Leg 27 Albury',
+  },
+  {
+    src: 'pan-49.jpg',
+    caption: 'Leg 30 Heading towards Barkway',
   },
 ]
 
