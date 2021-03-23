@@ -17,6 +17,7 @@ tags:
   - River Rib
   - River Ash
   - Harcamlow Way
+  - Ermine Street
 ---
 
 Nearly a week after the snow arrived and it was still lying on the ground in some places. It has been well below freezing for several nights which is enough to have frozen most of the mud and standing water. The forecast is for temperatures to stay below zero all day with strong easterly winds. So a day to wrap up warm (hat and two pairs of gloves to start with) and get on with it.

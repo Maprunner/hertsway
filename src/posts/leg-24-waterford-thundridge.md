@@ -15,6 +15,7 @@ tags:
   - River Rib
   - River Beane
   - golf course
+  - Ermine Street
 ---
 
 Helen spent the morning volunteering at a vaccine centre in St Albans so this ended up as an afternoon leg. There was still a light covering of snow from the weekend and the forecast didn't expect it to get above freezing, but there was quite a lot of blue sky and sunshine so we decided it was worth a go. Arriving at Waterford we drove past the big the area of laurel between the road and the river that we had run past on Leg 19 and speculated why anyone would plant it like that.
