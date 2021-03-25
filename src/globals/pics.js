@@ -146,11 +146,11 @@ module.exports = {
     },
     {
       src: 'leg30-arrow',
-      caption: 'Leg 29 Arrow',
+      caption: 'Leg 30 Arrow',
     },
     {
       src: 'leg30-yacht',
-      caption: 'Leg 29 Yacht',
+      caption: 'Leg 30 Yacht',
     },
   ],
   // extra church photos: any leg photo that ends "-church.jpg" gets added automatically
@@ -2132,11 +2132,15 @@ module.exports = {
   leg30: [
     {
       src: 'leg30-towards-barkway.jpg',
-      caption: 'Heading towards Barkway',
+      caption: 'Leaving Royston towards the Barkway radio mast',
     },
     {
       src: 'leg30-horses.jpg',
       caption: 'Newsells Park stud',
+    },
+    {
+      src: 'leg30-horse.jpg',
+      caption: 'Horse at Newsells Park stud',
     },
     {
       src: 'leg30-obelisk.jpg',
@@ -2145,6 +2149,14 @@ module.exports = {
     {
       src: 'leg30-milepost.jpg',
       caption: 'Milepost in Barkway',
+    },
+    {
+      src: 'leg30-Barkway-house.jpg',
+      caption: "Helen's favourite house in Barkway",
+    },
+    {
+      src: 'leg30-cart-wash.jpg',
+      caption: 'Drive-through cart wash next to Barkway church',
     },
     {
       src: 'leg30-dunnock.jpg',
@@ -2168,7 +2180,7 @@ module.exports = {
     },
     {
       src: 'leg30-skateboard.jpg',
-      caption: 'Motorised skateboard',
+      caption: 'Motorised unicycle',
     },
     {
       src: 'leg30-final-hill.jpg',
@@ -2180,11 +2192,11 @@ module.exports = {
     },
     {
       src: 'leg30-cave.jpg',
-      caption: 'Royston cave',
+      caption: 'Royston cave shop',
     },
     {
       src: 'leg30-done2.jpg',
-      caption: 'Roy Stone, Royston',
+      caption: 'Back at the Roy Stone, Royston',
     },
     {
       src: 'leg30-team2.jpg',
