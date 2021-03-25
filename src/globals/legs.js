@@ -366,7 +366,7 @@ module.exports = {
     omaps: 'None',
   },
   leg29: {
-    distance: 22.0,
+    distance: 22,
     snack: 'Apple and blackcurrant pies',
     climb: 231,
     high: 143,
@@ -377,5 +377,18 @@ module.exports = {
     name: 'leg29',
     title: 'Great Hormead to Barkway',
     omaps: 'None',
+  },
+  leg30: {
+    distance: 20.3,
+    snack: 'Angel cake slice',
+    climb: 339,
+    high: 160,
+    low: 62,
+    from: 'St Mary Magdalene church, Barkway',
+    to: 'Roy Stone, Royston',
+    time: 205,
+    name: 'leg30',
+    title: 'Barkway to Royston',
+    omaps: 'Therfield Heath, Royston',
   },
 }

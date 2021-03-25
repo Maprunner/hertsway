@@ -44,7 +44,7 @@ const legName = 'leg' + leg
 
 const gpxFile = './src/data/' + legName + '.gpx'
 const legsFile = './src/globals/legs.js'
-const lonLatFile = './src/data/nLat.js'
+const lonLatFile = './src/data/legsLonLat.js'
 const rawImageDir = site.imageBase + 'rawimages/' + legName + '/'
 const imageDir = site.imageBase + 'images/' + legName
 const pngFile = rawImageDir + legName + '.png'
@@ -108,7 +108,7 @@ try {
   const lonLat = []
   lonLat.push(parseFloat(lon.toFixed(2)))
   lonLat.push(parseFloat(lat.toFixed(2)))
-  nLat[leg - 1] = lonLat
+  lonLat[leg - 1] = lonLat
   // save updated legsLonLat.js with indentation of two spaces
   fs.writeFileSync(
     lonLatFile,

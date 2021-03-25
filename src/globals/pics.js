@@ -144,6 +144,14 @@ module.exports = {
       src: 'leg29-horse',
       caption: 'Leg 29 Horse',
     },
+    {
+      src: 'leg30-arrow',
+      caption: 'Leg 30 Arrow',
+    },
+    {
+      src: 'leg30-yacht',
+      caption: 'Leg 30 Yacht',
+    },
   ],
   // extra church photos: any leg photo that ends "-church.jpg" gets added automatically
   ch: [
@@ -181,6 +189,11 @@ module.exports = {
       src: 'leg5-kimpton-church.jpg',
       caption: 'Church of St Peter and St Paul, Kimpton',
       leg: 'leg5',
+    },
+    {
+      src: 'leg6-gustard-wood-church.jpg',
+      caption: "St Peter's church, Gustard Wood",
+      leg: 'leg6',
     },
     {
       src: 'leg7-st-michaels-church.jpg',
@@ -241,6 +254,16 @@ module.exports = {
       src: 'leg29-buckland-church.jpg',
       caption: "St Andrew's church, Buckland",
       leg: 'leg29',
+    },
+    {
+      src: 'leg30-barkway-chapel-church.jpg',
+      caption: 'Barkway Chapel',
+      leg: 'leg30',
+    },
+    {
+      src: 'leg30-great-chishill-church.jpg',
+      caption: "St Swithin's church, Great Chishill",
+      leg: 'leg30',
     },
   ],
   leg1: [
@@ -2104,6 +2127,80 @@ module.exports = {
     {
       src: 'leg29-meridian.jpg',
       caption: 'Greenwich Meridian marker in Wyddial',
+    },
+  ],
+  leg30: [
+    {
+      src: 'leg30-towards-barkway.jpg',
+      caption: 'Leaving Royston towards the Barkway radio mast',
+    },
+    {
+      src: 'leg30-horses.jpg',
+      caption: 'Newsells Park stud',
+    },
+    {
+      src: 'leg30-horse.jpg',
+      caption: 'Horse at Newsells Park stud',
+    },
+    {
+      src: 'leg30-obelisk.jpg',
+      caption: 'Obelisk in Newsells Park',
+    },
+    {
+      src: 'leg30-milepost.jpg',
+      caption: 'Milepost in Barkway',
+    },
+    {
+      src: 'leg30-Barkway-house.jpg',
+      caption: "Helen's favourite house in Barkway",
+    },
+    {
+      src: 'leg30-cart-wash.jpg',
+      caption: 'Drive-through cart wash next to Barkway church',
+    },
+    {
+      src: 'leg30-dunnock.jpg',
+      caption: 'Dunnock singing in a hedge',
+    },
+    {
+      src: 'leg30-there-back.jpg',
+      caption: 'Hertfordshire Way markers',
+    },
+    {
+      src: 'leg30-approaching-reed.jpg',
+      caption: 'Approaching Reed church',
+    },
+    {
+      src: 'leg30-reed-church.jpg',
+      caption: "St Mary's church, Reed",
+    },
+    {
+      src: 'leg30-farm-buildings.jpg',
+      caption: 'Heading north towards Royston',
+    },
+    {
+      src: 'leg30-skateboard.jpg',
+      caption: 'Motorised unicycle',
+    },
+    {
+      src: 'leg30-final-hill.jpg',
+      caption: 'Running up the final hill',
+    },
+    {
+      src: 'leg30-royston-church.jpg',
+      caption: 'St John the Baptist church, Royston',
+    },
+    {
+      src: 'leg30-cave.jpg',
+      caption: 'Royston cave shop',
+    },
+    {
+      src: 'leg30-done2.jpg',
+      caption: 'Back at the Roy Stone, Royston',
+    },
+    {
+      src: 'leg30-team2.jpg',
+      caption: 'Team Maprunner at the Roy Stone, Royston',
     },
   ],
 }

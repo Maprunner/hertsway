@@ -15,6 +15,7 @@ tags:
   - fox
   - Stratton's Tower
   - River Lea
+  - Ermine Street
 ---
 
 This needed to be a quick leg since Helen had to be back by one o'clock for a meeting. Things started badly with internet problems meaning I struggled to send some work emails so we were already late when we left home. There was then another delay whilst we scraped ice off the car. And then we discovered a police van blocking the road at Tylers Causeway.
