@@ -1363,7 +1363,7 @@ module.exports = {
     },
     {
       src: 'leg19-hertford-church.jpg',
-      caption: "All Saints's church, Hertford",
+      caption: "All Saints' church, Hertford",
     },
     {
       src: 'leg19-parliament-square.jpg',
