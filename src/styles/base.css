@@ -38,7 +38,7 @@ h4 {
 }
 
 a {
-  @apply font-bold text-teal-600;
+  @apply font-bold text-teal-800 dark:text-teal-500;
 }
 
 a:hover {
@@ -162,11 +162,10 @@ td {
 }
 
 .read-more {
-  @apply bg-teal-600 text-white text-lg md:text-xl font-bold py-2 px-4 rounded border-2 border-solid border-transparent;
+  @apply bg-teal-500 text-lg md:text-xl font-bold py-2 px-4 rounded border-2 border-solid border-transparent;
 }
 
 .read-more:hover {
-  color: white;
   animation: read-more 400ms both;
 }
 

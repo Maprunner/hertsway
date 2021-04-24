@@ -1,5 +1,5 @@
 .tag {
-  @apply inline-block px-2 py-1 mr-2 mb-2 text-sm font-bold rounded lowercase text-white bg-teal-600 border-2 border-solid border-transparent;
+  @apply inline-block px-2 py-1 mr-2 mb-2 text-sm font-bold rounded lowercase text-white bg-teal-500 border-2 border-solid border-transparent;
 }
 
 .tag:hover {
@@ -9,7 +9,7 @@
 
 @keyframes tag-hover {
   100% {
-    @apply border-white bg-teal-600 underline;
+    @apply border-white bg-teal-500 underline;
   }
 }
 

@@ -1,7 +1,7 @@
 <nav class="flex items-center justify-between flex-wrap py-2 w-full z-10 sticky">
   <div class="flex items-center flex-no-shrink text-white mr-6">
-    <a class="text-yellow-600 no-underline hover:text-white hover:no-underline" href="{{ '/' | url }}">
-      <span class="text-sm md:text-xl">There and Back on the Hertfordshire Way</span>
+    <a class="text-yellow-600 dark:text-yellow-600 no-underline hover:text-white hover:no-underline" href="{{ '/' | url }}">
+      <span class="text-sm md:text-base lg:text-lg xl:text-xl">There and Back on the Hertfordshire Way</span>
     </a>
   </div>
   <div class="block lg:hidden">
@@ -15,7 +15,7 @@
     <ul class="list-reset lg:flex justify-end flex-1 items-end">
       {% for item in nav.main %}
         <li>
-          <a class="inline-block pl-4" href="{{ [site.baseUrl, item.url | url] | join }}">{{ item.label }}</a>
+          <a class="inline-block pl-4 text-teal-500 dark:text-teal-500" href="{{ [site.baseUrl, item.url | url] | join }}">{{ item.label }}</a>
         </li>
       {% endfor %}
       <li class="pl-4">

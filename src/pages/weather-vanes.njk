@@ -1,11 +1,15 @@
--- -permalink : "weather-vanes/"
+---
+permalink : "weather-vanes/"
 title : "Weather-vanes on the Hertfordshire Way"
 excerpt : 'Some of the weather-vanes we ran past'
--- - {% extends 'page.njk' %}
-{% from "macros.njk" import figure %}
-{% block body %} < h2 > Weather - vanes < /h2>
+---
+{% extends 'page.njk' %}
+{% from "macros/figure.njk" import figure %}
+{% block body %}
+  <h2>Weather Vanes</h2>
   <div class="mt-4 mx-auto grid grid-flow-row grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 gallery">
     {% for pic in pics["wv"] %}
       {{ figure(pic.src, pic.caption, pic.portrait, "wv", loop.index0) }}
     {% endfor %}
-  </div > {% include 'photoswipe.njk' %}{% endblock %}
+  </div > {% include 'photoswipe.njk' %}
+{% endblock %}
