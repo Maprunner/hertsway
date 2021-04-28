@@ -14,7 +14,8 @@
     "dev:rollup": "rollup -c -w",
     "benchmark": "set DEBUG=Eleventy:Benchmark* & npm run dev",
     "new": "node ./transforms/startNewLeg.js",
-    "resize": "node ./transforms/sharpResize.js"
+    "resize": "node ./transforms/sharpResize.js",
+    "profiles": "node ./transforms/profiles.js"
   },
   "dependencies": {},
   "devDependencies": {
