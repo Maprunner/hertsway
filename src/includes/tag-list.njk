@@ -12,7 +12,7 @@
         {% for tag in tag.data.tags %}
           {% if tag !== "tag" %}
             {% if tag !== "post" %}
-              <a class="tag" href="{{ ['/tags/', tag | slugifyTag] | join | url }}">{{ tag }}</a>
+              <a href="{{ ['/tags/', tag | slugifyTag] | join | url }}"><span class="tag">{{ tag }}</tag></a>
             {% endif %}
           {% endif %}
         {% endfor %}

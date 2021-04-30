@@ -1,0 +1,20 @@
+{# Used for post pictures so they can be used in Photoswipe lightbox #}
+{% macro figure(src, caption, portrait, leg, index) %}
+  {% set root = ["/images/", leg, "/", src] | join | url | replace(".jpg", "") %}
+  {% set sizes = "(min-width: 768px) 368px, 100vw" %}
+  <figure class="{% if portrait %}gallery-2x3{% else %}gallery-3x2{% endif %}" data-index="{{ index }}">
+    <a href="{{ root }}.jpg" data-size="{% if portrait %}gallery-2x3{% else %}gallery-3x2{% endif %}">
+      <picture>
+        {% if portrait %}
+          <source srcset="{{ root }}-247.webp 370w, {{ root }}-400.webp 600w" sizes="{{ sizes }}" type="image/webp">
+            <source srcset="{{ root }}-247.jpg 370w, {{ root }}-400.jpg 600w" sizes="{{ sizes }}" type="image/jpeg">
+            {% else %}
+              <source srcset="{{ root }}-370.webp 370w, {{ root }}-600.webp 600w" sizes="{{ sizes }}" type="image/webp">
+                <source srcset="{{ root }}-370.jpg 370w, {{ root }}-600.jpg 600w" sizes="{{ sizes }}" type="image/jpeg">
+                {% endif %}
+                <img src="{{ root }}-600.jpg" class="m-auto" alt="{{ caption }}" title="{{ caption }}" loading="lazy"/>
+              </picture>
+            </a>
+            <figcaption>{{ caption }}</figcaption>
+          </figure>
+        {% endmacro %}

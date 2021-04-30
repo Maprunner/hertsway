@@ -120,7 +120,7 @@ module.exports = (config) => {
     <picture>
       <source srcset="${siteSettings.baseUrl}images/pan/${webp}" type="image/webp">
       <source srcset="${siteSettings.baseUrl}images/pan/${jpg}" type="image/jpeg">
-      <img src="${siteSettings.baseUrl}images/pan/${jpg}" alt="${caption}" title="${caption}"/>
+      <img src="${siteSettings.baseUrl}images/pan/${jpg}" alt="${caption}" title="${caption}" width="1280" height="200"/>
     </picture>
     <div class="banner-overlay">
       <div class="banner-text">

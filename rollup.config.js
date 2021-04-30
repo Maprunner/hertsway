@@ -18,7 +18,8 @@ export default {
   },
   plugins: [
     replace({
-      DEV_MODE: dev,
+      values: { DEV_MODE: dev },
+      preventAssignment: true,
     }),
     svg(),
     postcss({

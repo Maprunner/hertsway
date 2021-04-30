@@ -1,0 +1,16 @@
+{# Used in post summary pictures #}
+{% macro picture(src, caption, portrait, leg) %}
+  {% set root = ["/images/", leg, "/", src] | join | url | replace(".jpg", "") %}
+  {% set sizes = "(min-width: 768px) 368px, 100vw" %}
+  <picture>
+    {% if portrait %}
+      <source srcset="{{ root }}-247.webp 370w, {{ root }}-400.webp 600w" sizes="{{ sizes }}" type="image/webp">
+        <source srcset="{{ root }}-247.jpg 370w, {{ root }}-400.jpg 600w" sizes="{{ sizes }}" type="image/jpeg">
+        {% else %}
+          <source srcset="{{ root }}-370.webp 370w, {{ root }}-600.webp 600w" sizes="{{ sizes }}" type="image/webp">
+            <source srcset="{{ root }}-370.jpg 370w, {{ root }}-600.jpg 600w" sizes="{{ sizes }}" type="image/jpeg">
+            {% endif %}
+            <img src="{{ root }}-600.jpg" class="m-auto" alt="{{ caption }}" title="{{ caption }}" width="600" height="400" loading="lazy"/>
+          </picture>
+        {% endmacro %}
+        

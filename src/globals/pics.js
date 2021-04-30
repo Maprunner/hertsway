@@ -246,6 +246,11 @@ module.exports = {
       leg: 'leg22',
     },
     {
+      src: 'leg25-wareside-church.jpg',
+      caption: 'Holy Trinity church, Wareside',
+      leg: 'leg25',
+    },
+    {
       src: 'leg29-anstey-chapel-church.jpg',
       caption: 'Anstey Chapel',
       leg: 'leg29',
@@ -1363,7 +1368,7 @@ module.exports = {
     },
     {
       src: 'leg19-hertford-church.jpg',
-      caption: "All Saints's church, Hertford",
+      caption: "All Saints' church, Hertford",
     },
     {
       src: 'leg19-parliament-square.jpg',
