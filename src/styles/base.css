@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-bold leading-tight mt-3 text-yellow-600;
+  @apply font-bold leading-tight mt-3 text-mygray-333 dark:text-yellow-600;
 }
 
 h1 {
@@ -176,11 +176,11 @@ td {
 }
 
 .label {
-  @apply text-yellow-600;
+  @apply font-bold text-mygray-333 dark:text-yellow-600;
 }
 
 .stat {
-  @apply text-xl md:text-2xl text-yellow-600;
+  @apply text-xl md:text-2xl text-mygray-333 dark:text-yellow-600;
 }
 
 .stat-title {
