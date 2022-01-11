@@ -3,5 +3,5 @@
 	Header set X-Frame-Options "SAMEORIGIN"
 	Header set X-Content-Type-Options "nosniff"
   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
-  Header set Content-Security-Policy "default-src 'self'; font-src https:; style-src https:;"
+  Header set Content-Security-Policy "default-src 'self'; font-src https:; style-src https:; img-src 'self' https://*.tile.openstreetmap.org"
 </IfModule>
