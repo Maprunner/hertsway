@@ -3,12 +3,13 @@ import replace from '@rollup/plugin-replace'
 import svg from 'rollup-plugin-svg'
 import cjs from '@rollup/plugin-commonjs'
 import node from '@rollup/plugin-node-resolve'
-import { terser } from 'rollup-plugin-terser'
+import terser from '@rollup/plugin-terser'
 import path from 'path'
 
 const dev = process.env.NODE_ENV !== 'production'
 
 export default {
+  strictDeprecations: true,
   input: 'src/scripts/main.js',
   output: {
     sourcemap: false,
