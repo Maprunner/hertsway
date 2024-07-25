@@ -21,7 +21,7 @@
     "resize": "node ./transforms/sharpResize.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0-alpha.17",
     "@11ty/eleventy-plugin-rss": "^1.0.5",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
