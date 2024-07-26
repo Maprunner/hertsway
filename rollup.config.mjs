@@ -12,7 +12,7 @@ export default {
   strictDeprecations: true,
   input: 'src/scripts/main.js',
   output: {
-    sourcemap: false,
+    sourcemap: true,
     format: 'iife',
     name: 'main',
     file: 'dist/assets/main.bundle.js',
