@@ -29,7 +29,6 @@ module.exports = (config) => {
       'images',
   })
   config.addPassthroughCopy('src/data')
-  config.addPassthroughCopy({ 'src/styles/default-skin.*': 'assets' })
 
   config.setBrowserSyncConfig({
     files: ['dist/**/*'],

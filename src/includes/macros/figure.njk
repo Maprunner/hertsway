@@ -2,8 +2,9 @@
 {% macro figure(src, caption, portrait, leg, index) %}
   {% set root = ["/images/", leg, "/", src] | join | url | replace(".jpg", "") %}
   {% set sizes = "(min-width: 768px) 368px, 100vw" %}
-  <figure class="{% if portrait %}gallery-2x3{% else %}gallery-3x2{% endif %}" data-index="{{ index }}">
-    <a href="{{ root }}.jpg" data-size="{% if portrait %}gallery-2x3{% else %}gallery-3x2{% endif %}">
+  <figure class="{% if portrait %}gallery-2x3{% else %}gallery-3x2{% endif %}">
+    <a href="{{ root }}.jpg" data-pswp-height="{% if portrait %}1200{% else %}800{% endif %}" data-pswp-width="{% if portrait %}800{% else %}1200{% endif %}"
+     data-size="{% if portrait %}gallery-2x3{% else %}gallery-3x2{% endif %}" data-pswp-src="{{ root }}-{% if portrait %}800{% else %}1200{% endif %}.jpg"  target="_blank">
       <picture>
         {% if portrait %}
           <source srcset="{{ root }}-247.webp 370w, {{ root }}-400.webp 600w" sizes="{{ sizes }}" type="image/webp">

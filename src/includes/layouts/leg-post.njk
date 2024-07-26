@@ -13,7 +13,7 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
   {% endif %}
   <div class="flex flex-wrap">
     <div class="w-full md:w-4/12 order-last md:order-first pr-4 pb-4">
-      <div class="gallery">
+      <div class="gallery" id="hertsway-gallery">
         {% for pic in pics[name] %}
           {{ figure(pic.src, pic.caption, pic.portrait, name, loop.index0) }}
         {% endfor %}
@@ -113,6 +113,5 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
       {% endif %}
     </div>
   </div>
-  {% include 'photoswipe.njk' %}
   {% include 'structured-data.njk' %}
 {% endblock %}

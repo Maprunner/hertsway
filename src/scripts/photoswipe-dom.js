@@ -1,7 +1,7 @@
 // based on https://www.markllobrera.com/posts/eleventy-building-image-gallery-photoswipe/
 
+import PhotoSwipeLightbox from 'photoswipe'
 import PhotoSwipe from 'photoswipe'
-import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default'
 
 export default (gallerySelector) => {
   const imageSizes = {
@@ -33,31 +33,27 @@ export default (gallerySelector) => {
 
   // parse slide data (url, title, size ...) from DOM elements
   // (children of gallerySelector)
-  var parseThumbnailElements = function (el) {
-    var thumbElements = el.querySelectorAll('figure'),
-      numNodes = thumbElements.length,
-      items = [],
-      figureEl,
-      linkEl,
-      size,
-      item
+  const parseThumbnailElements = function (el) {
+    const thumbElements = el.querySelectorAll('figure')
+    const numNodes = thumbElements.length
+    const items = []
 
-    for (var i = 0; i < numNodes; i++) {
-      figureEl = thumbElements[i] // <figure> element
+    for (let i = 0; i < numNodes; i++) {
+      const figureEl = thumbElements[i]
 
       // include only element nodes
       if (figureEl.nodeType !== 1) {
         continue
       }
 
-      linkEl = figureEl.children[0] // <a> element
+      const linkEl = figureEl.children[0] // <a> element
 
       //   size = linkEl.getAttribute('data-size').split('x');
-      let sizeId = linkEl.getAttribute('data-size')
-      size = imageSizes[sizeId]
+      const sizeId = linkEl.getAttribute('data-size')
+      const size = imageSizes[sizeId]
 
       // create slide object
-      item = {
+      let item = {
         src: linkEl.getAttribute('href'),
         orig_src: linkEl.getAttribute('href'),
         small: size.small,
@@ -82,19 +78,19 @@ export default (gallerySelector) => {
   }
 
   // find nearest parent element
-  var closest = function closest(el, fn) {
+  const closest = function closest(el, fn) {
     return el && (fn(el) ? el : closest(el.parentNode, fn))
   }
 
-  // triggers when user clicks on thumbnail
-  var onThumbnailsClick = function (e) {
+  // triggers when user clicks on Gallery
+  const onGalleryClick = function (e) {
     e = e || window.event
     e.preventDefault ? e.preventDefault() : (e.returnValue = false)
 
-    var eTarget = e.target || e.srcElement
+    const eTarget = e.target || e.srcElement
 
     // find root element of slide
-    var clickedListItem = closest(eTarget, function (el) {
+    const clickedListItem = closest(eTarget, function (el) {
       return el.tagName && el.tagName.toUpperCase() === 'FIGURE'
     })
 
@@ -113,20 +109,20 @@ export default (gallerySelector) => {
   }
 
   // parse picture index and gallery index from URL (#&pid=1&gid=2)
-  var photoswipeParseHash = function () {
-    var hash = window.location.hash.substring(1),
-      params = {}
+  const photoswipeParseHash = function () {
+    const hash = window.location.hash.substring(1)
+    let params = {}
 
     if (hash.length < 5) {
       return params
     }
 
-    var vars = hash.split('&')
-    for (var i = 0; i < vars.length; i++) {
+    const vars = hash.split('&')
+    for (let i = 0; i < vars.length; i++) {
       if (!vars[i]) {
         continue
       }
-      var pair = vars[i].split('=')
+      const pair = vars[i].split('=')
       if (pair.length < 2) {
         continue
       }
@@ -140,29 +136,27 @@ export default (gallerySelector) => {
     return params
   }
 
-  var openPhotoSwipe = function (
+  const openPhotoSwipe = function (
     index,
     galleryElement,
     disableAnimation,
     fromURL
   ) {
-    var pswpElement = document.querySelectorAll('.pswp')[0],
-      gallery,
-      options,
-      items
-    items = parseThumbnailElements(galleryElement)
+    const items = parseThumbnailElements(galleryElement)
 
     // define options (if needed)
-    options = {
+    let options = {
       // define gallery index (for URL)
       galleryUID: galleryElement.getAttribute('data-pswp-uid'),
 
+      // dataSource: items,
+
       getThumbBoundsFn: function (index) {
         // See Options -> getThumbBoundsFn section of documentation for more info
-        var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
-          pageYScroll =
-            window.pageYOffset || document.documentElement.scrollTop,
-          rect = thumbnail.getBoundingClientRect()
+        const thumbnail = items[index].el.getElementsByTagName('img')[0]
+        const pageYScroll =
+          window.pageYOffset || document.documentElement.scrollTop
+        const rect = thumbnail.getBoundingClientRect()
 
         return { x: rect.left, y: rect.top + pageYScroll, w: rect.width }
       },
@@ -173,7 +167,7 @@ export default (gallerySelector) => {
       if (options.galleryPIDs) {
         // parse real index when custom PIDs are used
         // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
-        for (var j = 0; j < items.length; j++) {
+        for (let j = 0; j < items.length; j++) {
           if (items[j].pid == index) {
             options.index = j
             break
@@ -196,26 +190,26 @@ export default (gallerySelector) => {
       options.showAnimationDuration = 0
     }
 
-    // Pass data to PhotoSwipe and initialize it
-    gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options)
+    let lightbox = new PhotoSwipeLightbox({
+      gallery: '#leg-gallery',
+      children: 'figure',
+      pswpModule: () => import('photoswipe'),
+    })
 
-    // responsive images
-    // create variable that will store real size of viewport
-    var realViewportWidth,
-      imageSize = 'small',
-      firstResize = true,
-      imageSrcWillChange
+    let imageSize = 'small'
+    let firstResize = true
+    let imageSrcWillChange = false
 
-    // beforeResize event fires each time size of gallery viewport updates
-    gallery.listen('beforeResize', function () {
-      // gallery.viewportSize.x - width of PhotoSwipe viewport
-      // gallery.viewportSize.y - height of PhotoSwipe viewport
+    // beforeResize event fires each time size of lightbox viewport updates
+    lightbox.on('contentResize', function () {
+      // lightbox.viewportSize.x - width of PhotoSwipe viewport
+      // lightbox.viewportSize.y - height of PhotoSwipe viewport
       // window.devicePixelRatio - ratio between physical pixels and device independent pixels (Number)
       //                          1 (regular display), 2 (@2x, retina) ...
 
       // calculate real pixels when size changes
-      // realViewportWidth = gallery.viewportSize.x * window.devicePixelRatio;
-      realViewportWidth = gallery.viewportSize.x
+      // realViewportWidth = lightbox.viewportSize.x * window.devicePixelRatio;
+      const realViewportWidth = lightbox.viewportSize.x
 
       // Code below is needed if you want image to switch dynamically on window.resize
 
@@ -236,7 +230,7 @@ export default (gallerySelector) => {
       if (imageSrcWillChange && !firstResize) {
         // invalidateCurrItems sets a flag on slides that are in DOM,
         // which will force update of content (image) on window.resize.
-        gallery.invalidateCurrItems()
+        lightbox.invalidateCurrItems()
       }
 
       if (firstResize) {
@@ -247,26 +241,30 @@ export default (gallerySelector) => {
     })
 
     // gettingData event fires each time PhotoSwipe retrieves image source & size
-    gallery.listen('gettingData', function (index, item) {
+    lightbox.listen('gettingData', function (index, item) {
       // Set image source & size based on real viewport width
       item.src = item.orig_src.replace('.jpg', '') + item[imageSize].suffix
       item.w = item[imageSize].width
       item.h = item[imageSize].height
     })
 
-    gallery.init()
+    lightbox.init()
   }
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#leg-gallery',
+    children: 'figure',
+    pswpModule: PhotoSwipe,
+  })
 
+  lightbox.init()
   // loop through all gallery elements and bind events
-  var galleryElements = document.querySelectorAll(gallerySelector)
-
-  for (var i = 0, l = galleryElements.length; i < l; i++) {
-    galleryElements[i].setAttribute('data-pswp-uid', i + 1)
-    galleryElements[i].onclick = onThumbnailsClick
-  }
-
-  var hashData = photoswipeParseHash()
-  if (hashData.pid && hashData.gid) {
-    openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true)
-  }
+  // let galleryElements = document.querySelectorAll(gallerySelector)
+  // for (let i = 0; i < galleryElements.length; i++) {
+  //   galleryElements[i].setAttribute('data-pswp-uid', i + 1)
+  //   galleryElements[i].onclick = onGalleryClick
+  // }
+  // const hashData = photoswipeParseHash()
+  // if (hashData.pid && hashData.gid) {
+  //   openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true)
+  // }
 }
