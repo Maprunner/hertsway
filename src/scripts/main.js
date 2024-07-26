@@ -1,7 +1,8 @@
 import '../styles/tailwind.css'
 import initDarkMode from './dark-mode.js'
-import initPhotoswipe from './photoswipe-dom.js'
 import initMaps from './maps.js'
+import PhotoSwipeLightbox from 'photoswipe/lightbox'
+import PhotoSwipe from 'photoswipe'
 
 if (DEV_MODE) console.log('Dev mode is currently enabled.')
 
@@ -20,5 +21,11 @@ if (
 }
 
 if (document.getElementsByClassName('gallery')) {
-  initPhotoswipe('.gallery')
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '.gallery',
+    children: 'a',
+    pswpModule: PhotoSwipe,
+  })
+
+  lightbox.init()
 }

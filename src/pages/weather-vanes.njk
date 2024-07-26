@@ -11,5 +11,4 @@ excerpt : 'Some of the weather-vanes we ran past'
     {% for pic in pics["wv"] %}
       {{ figure(pic.src, pic.caption, pic.portrait, "wv", loop.index0) }}
     {% endfor %}
-  </div > {% include 'photoswipe.njk' %}
 {% endblock %}

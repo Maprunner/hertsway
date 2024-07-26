@@ -3,8 +3,7 @@
 @import './base.css';
 @import './tags.css';
 @import './ol.css';
-@import './photoswipe.css';
-@import './skin.css';
+@import 'photoswipe/dist/photoswipe.css';
 /* purgecss end ignore */
 
 @import 'tailwindcss/components';

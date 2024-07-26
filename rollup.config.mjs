@@ -2,16 +2,17 @@ import postcss from 'rollup-plugin-postcss'
 import replace from '@rollup/plugin-replace'
 import svg from 'rollup-plugin-svg'
 import cjs from '@rollup/plugin-commonjs'
-import node from '@rollup/plugin-node-resolve'
-import { terser } from 'rollup-plugin-terser'
+import nodeResolve from '@rollup/plugin-node-resolve'
+import terser from '@rollup/plugin-terser'
 import path from 'path'
 
 const dev = process.env.NODE_ENV !== 'production'
 
 export default {
+  strictDeprecations: true,
   input: 'src/scripts/main.js',
   output: {
-    sourcemap: false,
+    sourcemap: true,
     format: 'iife',
     name: 'main',
     file: 'dist/assets/main.bundle.js',
@@ -26,7 +27,7 @@ export default {
       extract: path.resolve('dist/assets/main.bundle.css'),
       minimize: !dev,
     }),
-    node(),
+    nodeResolve(),
     cjs(),
     !dev && terser(),
   ],
